@@ -10862,5 +10862,768 @@
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/699df049fa43c40307ef6c62\" target=\"_blank\">CS115</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Science 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a72d3013e1b07a8b4f465e\" target=\"_blank\">CS135</a> <!-- -->-<!-- --> <!-- -->Designing Functional Programs<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b2682e77863038b87fd91c\" target=\"_blank\">CS145</a> <!-- -->-<!-- --> <!-- -->Designing Functional Programs (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a72ceb88df55191cb0f155\" target=\"_blank\">CS116</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Science 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a72d68943da42afcbaa6a8\" target=\"_blank\">CS136</a> <!-- -->-<!-- --> <!-- -->Elementary Algorithm Design and Data Abstraction<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b2689c7786302cf67fd926\" target=\"_blank\">CS146</a> <!-- -->-<!-- --> <!-- -->Elementary Algorithm Design and Data Abstraction (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b90528f81cd8a84113167d\" target=\"_blank\">MATH106</a> <!-- -->-<!-- --> <!-- -->Applied Linear Algebra 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66eda9af415235a3711518c9\" target=\"_blank\">MATH136</a> <!-- -->-<!-- --> <!-- -->Linear Algebra 1 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b5329e98f0445a65101f57\" target=\"_blank\">MATH146</a> <!-- -->-<!-- --> <!-- -->Linear Algebra 1 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-E\"><div data-test=\"ruleView-E-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aeedf7306256e3f136b2ce\" target=\"_blank\">MATH127</a> <!-- -->-<!-- --> <!-- -->Calculus 1 for the Sciences<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65e8b6e47a5405231a8101d2\" target=\"_blank\">MATH137</a> <!-- -->-<!-- --> <!-- -->Calculus 1 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b5331a778630cb4a7fe872\" target=\"_blank\">MATH147</a> <!-- -->-<!-- --> <!-- -->Calculus 1 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-F\"><div data-test=\"ruleView-F-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b90f567786309ebe7ffd33\" target=\"_blank\">MATH128</a> <!-- -->-<!-- --> <!-- -->Calculus 2 for the Sciences<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65e8b7c8187f5ef72d91ec88\" target=\"_blank\">MATH138</a> <!-- -->-<!-- --> <!-- -->Calculus 2 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b53402026ebaf97ebb4437\" target=\"_blank\">MATH148</a> <!-- -->-<!-- --> <!-- -->Calculus 2 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66ed9d777a6d1f397daa9fe0\" target=\"_blank\">MATH135</a> <!-- -->-<!-- --> <!-- -->Algebra for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b532596cd5890a50e8ef1e\" target=\"_blank\">MATH145</a> <!-- -->-<!-- --> <!-- -->Algebra (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-G\"><div data-test=\"ruleView-G-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a1cef467f4be7000853ebb\" target=\"_blank\">MATH207</a> <!-- -->-<!-- --> <!-- -->Calculus 3 (Non-Specialist Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b03b5e731ab599652771\" target=\"_blank\">MATH229</a> <!-- -->-<!-- --> <!-- -->Introduction to Combinatorics (Non-Specialist Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1d0fc4bac9e1d8e75eeec\" target=\"_blank\">MATH237</a> <!-- -->-<!-- --> <!-- -->Calculus 3 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b08d5e731ab5996528f7\" target=\"_blank\">MATH239</a> <!-- -->-<!-- --> <!-- -->Introduction to Combinatorics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b91c1cfd7afea4850875c8\" target=\"_blank\">MATH247</a> <!-- -->-<!-- --> <!-- -->Calculus 3 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b0e24aaaf35263032bc9\" target=\"_blank\">MATH249</a> <!-- -->-<!-- --> <!-- -->Introduction to Combinatorics (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-H\"><div data-test=\"ruleView-H-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b916b698f0440fc91034d5\" target=\"_blank\">MATH225</a> <!-- -->-<!-- --> <!-- -->Applied Linear Algebra 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c03f4dada07b11655c16c7\" target=\"_blank\">MATH235</a> <!-- -->-<!-- --> <!-- -->Linear Algebra 2 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b534eb6cd589b0c4e8ef32\" target=\"_blank\">MATH245</a> <!-- -->-<!-- --> <!-- -->Linear Algebra 2 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-I\"><div data-test=\"ruleView-I-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b9b48f6cd5894d44e909a8\" target=\"_blank\">STAT220</a> <!-- -->-<!-- --> <!-- -->Probability (Non-Specialist Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c040fbada07b11655c1ccc\" target=\"_blank\">STAT230</a> <!-- -->-<!-- --> <!-- -->Probability<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c041a718f0b18a708c8dd4\" target=\"_blank\">STAT240</a> <!-- -->-<!-- --> <!-- -->Probability (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-J\"><div data-test=\"ruleView-J-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b9b4b37786303e288001f6\" target=\"_blank\">STAT221</a> <!-- -->-<!-- --> <!-- -->Statistics (Non-Specialist Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c0415a94f876d639f3f4f3\" target=\"_blank\">STAT231</a> <!-- -->-<!-- --> <!-- -->Statistics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b7b93d23cba7435647b6d2\" target=\"_blank\">STAT241</a> <!-- -->-<!-- --> <!-- -->Statistics (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-K\"><div data-test=\"ruleView-K-result\"><div>Complete 10 additional math courses at the 300- or 400-level from the following subject codes: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT</div></div></li></ul></li></ul></div><div></div></div></section></div>"
+  },
+  "ryHykRAi3": {
+    "id": "ryHykRAi3",
+    "name": "Actuarial Science (Joint Honours)",
+    "faculty": "Faculty of Mathematics",
+    "code": "JH-Actuarial Science",
+    "isMinor": false,
+    "isSpecialization": false,
+    "isMathFaculty": true,
+    "requirements": [
+      {
+        "text": "Complete all the following: ACTSC231 - Introductory Financial Mathematics (0.50)ACTSC232 - Life Contingencies 1 (0.50)ACTSC331 - Life Contingencies 2 (0.50)ACTSC363 - Casualty and Health Insurance Mathematics 1 (0.50)ACTSC372 - Investment Science and Corporate Finance (0.50)ACTSC431 - Casualty and Health Insurance Mathematics 2 (0.50)ACTSC446 - Mathematics of Financial Markets (0.50)AFM101 - Introduction to Financial Accounting (0.50)ENGL378 - Professional Communications in Statistics and Actuarial Science (0.50)MTHEL131 - Introduction to Actuarial Practice (0.50)STAT330 - Mathematical Statistics (0.50)STAT333 - Stochastic Processes 1 (0.50)",
+        "type": "AND",
+        "children": [
+          {
+            "text": "Complete all the following: ACTSC231 - Introductory Financial Mathematics (0.50)ACTSC232 - Life Contingencies 1 (0.50)ACTSC331 - Life Contingencies 2 (0.50)ACTSC363 - Casualty and Health Insurance Mathematics 1 (0.50)ACTSC372 - Investment Science and Corporate Finance (0.50)ACTSC431 - Casualty and Health Insurance Mathematics 2 (0.50)ACTSC446 - Mathematics of Financial Markets (0.50)AFM101 - Introduction to Financial Accounting (0.50)ENGL378 - Professional Communications in Statistics and Actuarial Science (0.50)MTHEL131 - Introduction to Actuarial Practice (0.50)STAT330 - Mathematical Statistics (0.50)STAT333 - Stochastic Processes 1 (0.50)",
+            "type": "AND",
+            "children": [
+              {
+                "text": "ACTSC231 - Introductory Financial Mathematics (0.50)",
+                "type": "COURSE",
+                "code": "ACTSC231"
+              },
+              {
+                "text": "ACTSC232 - Life Contingencies 1 (0.50)",
+                "type": "COURSE",
+                "code": "ACTSC232"
+              },
+              {
+                "text": "ACTSC331 - Life Contingencies 2 (0.50)",
+                "type": "COURSE",
+                "code": "ACTSC331"
+              },
+              {
+                "text": "ACTSC363 - Casualty and Health Insurance Mathematics 1 (0.50)",
+                "type": "COURSE",
+                "code": "ACTSC363"
+              },
+              {
+                "text": "ACTSC372 - Investment Science and Corporate Finance (0.50)",
+                "type": "COURSE",
+                "code": "ACTSC372"
+              },
+              {
+                "text": "ACTSC431 - Casualty and Health Insurance Mathematics 2 (0.50)",
+                "type": "COURSE",
+                "code": "ACTSC431"
+              },
+              {
+                "text": "ACTSC446 - Mathematics of Financial Markets (0.50)",
+                "type": "COURSE",
+                "code": "ACTSC446"
+              },
+              {
+                "text": "AFM101 - Introduction to Financial Accounting (0.50)",
+                "type": "COURSE",
+                "code": "AFM101"
+              },
+              {
+                "text": "ENGL378 - Professional Communications in Statistics and Actuarial Science (0.50)",
+                "type": "COURSE",
+                "code": "ENGL378"
+              },
+              {
+                "text": "MTHEL131 - Introduction to Actuarial Practice (0.50)",
+                "type": "COURSE",
+                "code": "MTHEL131"
+              },
+              {
+                "text": "STAT330 - Mathematical Statistics (0.50)",
+                "type": "COURSE",
+                "code": "STAT330"
+              },
+              {
+                "text": "STAT333 - Stochastic Processes 1 (0.50)",
+                "type": "COURSE",
+                "code": "STAT333"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: MATH237 - Calculus 3 for Honours Mathematics (0.50)MATH247 - Calculus 3 (Advanced Level) (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "MATH237 - Calculus 3 for Honours Mathematics (0.50)",
+                "type": "COURSE",
+                "code": "MATH237"
+              },
+              {
+                "text": "MATH247 - Calculus 3 (Advanced Level) (0.50)",
+                "type": "COURSE",
+                "code": "MATH247"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 additional ACTSC course at the 400-level",
+            "type": "ADDITIONAL",
+            "n": 1,
+            "subjects": [
+              "ACTSC"
+            ]
+          }
+        ]
+      }
+    ],
+    "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/689a26296e46caaa6b3f73c3\" target=\"_blank\">ACTSC231</a> <!-- -->-<!-- --> <!-- -->Introductory Financial Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/666114b34e23809e429858ef\" target=\"_blank\">ACTSC232</a> <!-- -->-<!-- --> <!-- -->Life Contingencies 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65afea7823cba75c33478d33\" target=\"_blank\">ACTSC331</a> <!-- -->-<!-- --> <!-- -->Life Contingencies 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a7202a405ebfa9d2a9fb9f\" target=\"_blank\">ACTSC363</a> <!-- -->-<!-- --> <!-- -->Casualty and Health Insurance Mathematics 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b079415a8cf714cf8a3079\" target=\"_blank\">ACTSC372</a> <!-- -->-<!-- --> <!-- -->Investment Science and Corporate Finance<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68a493496e46caaa6b4dec33\" target=\"_blank\">ACTSC431</a> <!-- -->-<!-- --> <!-- -->Casualty and Health Insurance Mathematics 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/663e826e2ed76b5513d8903d\" target=\"_blank\">ACTSC446</a> <!-- -->-<!-- --> <!-- -->Mathematics of Financial Markets<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a5e4b575fb814e1cfad9fa\" target=\"_blank\">AFM101</a> <!-- -->-<!-- --> <!-- -->Introduction to Financial Accounting<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa70d413e1b07a8b5af87e\" target=\"_blank\">ENGL378</a> <!-- -->-<!-- --> <!-- -->Professional Communications in Statistics and Actuarial Science<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b94b2eec4e645218e247c8\" target=\"_blank\">MTHEL131</a> <!-- -->-<!-- --> <!-- -->Introduction to Actuarial Practice<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c041e6ba9989b9dc2ac0da\" target=\"_blank\">STAT330</a> <!-- -->-<!-- --> <!-- -->Mathematical Statistics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b9b61eec4e641e8de24ab7\" target=\"_blank\">STAT333</a> <!-- -->-<!-- --> <!-- -->Stochastic Processes 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a1d0fc4bac9e1d8e75eeec\" target=\"_blank\">MATH237</a> <!-- -->-<!-- --> <!-- -->Calculus 3 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b91c1cfd7afea4850875c8\" target=\"_blank\">MATH247</a> <!-- -->-<!-- --> <!-- -->Calculus 3 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\"><div>Complete 1 additional ACTSC course at the 400-level</div></div></li></ul></li></ul></div><div></div></div></section></div>"
+  },
+  "SJgSyJC0s2": {
+    "id": "SJgSyJC0s2",
+    "name": "Applied Mathematics (Joint Honours)",
+    "faculty": "Faculty of Mathematics",
+    "code": "JH-Applied Mathematics",
+    "isMinor": false,
+    "isSpecialization": false,
+    "isMathFaculty": true,
+    "requirements": [
+      {
+        "text": "Complete all the following: AMATH231 - Calculus 4 (0.50)AMATH353 - Partial Differential Equations 1 (0.50)",
+        "type": "AND",
+        "children": [
+          {
+            "text": "Complete all the following: AMATH231 - Calculus 4 (0.50)AMATH353 - Partial Differential Equations 1 (0.50)",
+            "type": "AND",
+            "children": [
+              {
+                "text": "AMATH231 - Calculus 4 (0.50)",
+                "type": "COURSE",
+                "code": "AMATH231"
+              },
+              {
+                "text": "AMATH353 - Partial Differential Equations 1 (0.50)",
+                "type": "COURSE",
+                "code": "AMATH353"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: AMATH242 - Introduction to Computational Mathematics (0.50)CS371 - Introduction to Computational Mathematics (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "AMATH242 - Introduction to Computational Mathematics (0.50)",
+                "type": "COURSE",
+                "code": "AMATH242"
+              },
+              {
+                "text": "CS371 - Introduction to Computational Mathematics (0.50)",
+                "type": "COURSE",
+                "code": "CS371"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: AMATH250 - Introduction to Differential Equations (0.50)AMATH251 - Introduction to Differential Equations (Advanced Level) (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "AMATH250 - Introduction to Differential Equations (0.50)",
+                "type": "COURSE",
+                "code": "AMATH250"
+              },
+              {
+                "text": "AMATH251 - Introduction to Differential Equations (Advanced Level) (0.50)",
+                "type": "COURSE",
+                "code": "AMATH251"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: AMATH331 - Applied Real Analysis (0.50)AMATH332 - Applied Complex Analysis (0.50)PMATH331 - Applied Real Analysis (0.50)PMATH332 - Applied Complex Analysis (0.50)PMATH333 - Introduction to Real Analysis (0.50)PMATH351 - Real Analysis (0.50)PMATH352 - Complex Analysis (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "AMATH331 - Applied Real Analysis (0.50)",
+                "type": "COURSE",
+                "code": "AMATH331"
+              },
+              {
+                "text": "AMATH332 - Applied Complex Analysis (0.50)",
+                "type": "COURSE",
+                "code": "AMATH332"
+              },
+              {
+                "text": "PMATH331 - Applied Real Analysis (0.50)",
+                "type": "COURSE",
+                "code": "PMATH331"
+              },
+              {
+                "text": "PMATH332 - Applied Complex Analysis (0.50)",
+                "type": "COURSE",
+                "code": "PMATH332"
+              },
+              {
+                "text": "PMATH333 - Introduction to Real Analysis (0.50)",
+                "type": "COURSE",
+                "code": "PMATH333"
+              },
+              {
+                "text": "PMATH351 - Real Analysis (0.50)",
+                "type": "COURSE",
+                "code": "PMATH351"
+              },
+              {
+                "text": "PMATH352 - Complex Analysis (0.50)",
+                "type": "COURSE",
+                "code": "PMATH352"
+              }
+            ]
+          },
+          {
+            "text": "Complete 3 of the following: AMATH442 - Computational Methods for Partial Differential Equations (0.50)AMATH445 - Scientific Machine Learning (0.50)AMATH446 - Introduction to Mathematics of Deep Learning (0.50)AMATH449 - Neural Networks (0.50)AMATH451 - Introduction to Dynamical Systems (0.50)AMATH453 - Partial Differential Equations 2 (0.50)AMATH455 - Control Theory (0.50)AMATH456 - Calculus of Variations (0.50)AMATH462 - Introduction to Mathematics of Climate Modelling (0.50)AMATH463 - Fluid Mechanics (0.50)AMATH473 - Quantum Theory (0.50)AMATH474 - Advanced Quantum Theory: Quantum Information and Foundations (0.50)AMATH475 - Introduction to General Relativity (0.50)AMATH477 - Stochastic Processes for Applied Mathematics (0.50)AMATH490 - Topics in Applied Mathematics (0.50)AMATH495 - Reading Course (0.50)AMATH499 - Research Project (0.50)CS479 - Neural Networks (0.50)",
+            "type": "N_OF",
+            "n": 3,
+            "children": [
+              {
+                "text": "AMATH442 - Computational Methods for Partial Differential Equations (0.50)",
+                "type": "COURSE",
+                "code": "AMATH442"
+              },
+              {
+                "text": "AMATH445 - Scientific Machine Learning (0.50)",
+                "type": "COURSE",
+                "code": "AMATH445"
+              },
+              {
+                "text": "AMATH446 - Introduction to Mathematics of Deep Learning (0.50)",
+                "type": "COURSE",
+                "code": "AMATH446"
+              },
+              {
+                "text": "AMATH449 - Neural Networks (0.50)",
+                "type": "COURSE",
+                "code": "AMATH449"
+              },
+              {
+                "text": "AMATH451 - Introduction to Dynamical Systems (0.50)",
+                "type": "COURSE",
+                "code": "AMATH451"
+              },
+              {
+                "text": "AMATH453 - Partial Differential Equations 2 (0.50)",
+                "type": "COURSE",
+                "code": "AMATH453"
+              },
+              {
+                "text": "AMATH455 - Control Theory (0.50)",
+                "type": "COURSE",
+                "code": "AMATH455"
+              },
+              {
+                "text": "AMATH456 - Calculus of Variations (0.50)",
+                "type": "COURSE",
+                "code": "AMATH456"
+              },
+              {
+                "text": "AMATH462 - Introduction to Mathematics of Climate Modelling (0.50)",
+                "type": "COURSE",
+                "code": "AMATH462"
+              },
+              {
+                "text": "AMATH463 - Fluid Mechanics (0.50)",
+                "type": "COURSE",
+                "code": "AMATH463"
+              },
+              {
+                "text": "AMATH473 - Quantum Theory (0.50)",
+                "type": "COURSE",
+                "code": "AMATH473"
+              },
+              {
+                "text": "AMATH474 - Advanced Quantum Theory: Quantum Information and Foundations (0.50)",
+                "type": "COURSE",
+                "code": "AMATH474"
+              },
+              {
+                "text": "AMATH475 - Introduction to General Relativity (0.50)",
+                "type": "COURSE",
+                "code": "AMATH475"
+              },
+              {
+                "text": "AMATH477 - Stochastic Processes for Applied Mathematics (0.50)",
+                "type": "COURSE",
+                "code": "AMATH477"
+              },
+              {
+                "text": "AMATH490 - Topics in Applied Mathematics (0.50)",
+                "type": "COURSE",
+                "code": "AMATH490"
+              },
+              {
+                "text": "AMATH495 - Reading Course (0.50)",
+                "type": "COURSE",
+                "code": "AMATH495"
+              },
+              {
+                "text": "AMATH499 - Research Project (0.50)",
+                "type": "COURSE",
+                "code": "AMATH499"
+              },
+              {
+                "text": "CS479 - Neural Networks (0.50)",
+                "type": "COURSE",
+                "code": "CS479"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: MATH237 - Calculus 3 for Honours Mathematics (0.50)MATH247 - Calculus 3 (Advanced Level) (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "MATH237 - Calculus 3 for Honours Mathematics (0.50)",
+                "type": "COURSE",
+                "code": "MATH237"
+              },
+              {
+                "text": "MATH247 - Calculus 3 (Advanced Level) (0.50)",
+                "type": "COURSE",
+                "code": "MATH247"
+              }
+            ]
+          },
+          {
+            "text": "Subject concentration: Complete 4 additional courses, all from any one (and only one) of the following subject codes: AE, BIOL, BME/SYDE, CHE, CHEM, CIVE, EARTH, ECE, ECON, ENVE, GEOE, GEOG, ME/MTE, MNS, MSE, NE, PHYS.",
+            "type": "ADDITIONAL",
+            "n": 4,
+            "subjects": [
+              "AE",
+              "BIOL",
+              "BME/SYDE",
+              "CHE",
+              "CHEM",
+              "CIVE",
+              "EARTH",
+              "ECE",
+              "ECON",
+              "ENVE",
+              "GEOE",
+              "GEOG",
+              "ME/MTE",
+              "MNS",
+              "MSE",
+              "NE",
+              "PHYS"
+            ]
+          }
+        ]
+      }
+    ],
+    "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/68e7c9401695566fc984963b\" target=\"_blank\">AMATH231</a> <!-- -->-<!-- --> <!-- -->Calculus 4<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b07da75c94792c00e5410e\" target=\"_blank\">AMATH353</a> <!-- -->-<!-- --> <!-- -->Partial Differential Equations 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/68d196a3a4000185ddedbdf8\" target=\"_blank\">AMATH242</a> <!-- -->-<!-- --> <!-- -->Introduction to Computational Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c324b5e6d0b0217c410a24\" target=\"_blank\">CS371</a> <!-- -->-<!-- --> <!-- -->Introduction to Computational Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-G\"><div data-test=\"ruleView-G-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/666f7d4278d936567b01075a\" target=\"_blank\">AMATH250</a> <!-- -->-<!-- --> <!-- -->Introduction to Differential Equations<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/666f23cc3f468b61527e2896\" target=\"_blank\">AMATH251</a> <!-- -->-<!-- --> <!-- -->Introduction to Differential Equations (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-H.1\"><div data-test=\"ruleView-H.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66db19e79ec8f90591e82e50\" target=\"_blank\">AMATH271</a> <!-- -->-<!-- --> <!-- -->Introduction to Theoretical Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-H.2\"><div data-test=\"ruleView-H.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66db1a5ef999f238d8c2e9f4\" target=\"_blank\">AMATH333</a> <!-- -->-<!-- --> <!-- -->Calculus on Manifolds for Applied Mathematics and Physics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b8b764e0fe12fc173b87\" target=\"_blank\">AMATH343</a> <!-- -->-<!-- --> <!-- -->Discrete Models in Applied Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/6673984645444fd69c6535e0\" target=\"_blank\">AMATH345</a> <!-- -->-<!-- --> <!-- -->Data-Driven Mathematical Models<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483a7cb1ad924812db57d1\" target=\"_blank\">AMATH361</a> <!-- -->-<!-- --> <!-- -->Continuum Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/690e1f764cc2b663d1dca29b\" target=\"_blank\">AMATH362</a> <!-- -->-<!-- --> <!-- -->Mathematics of Climate Change<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/664ec490559f03378a6634f8\" target=\"_blank\">AMATH373</a> <!-- -->-<!-- --> <!-- -->Quantum Theory 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/698b7312e6bb8b01a6c10156\" target=\"_blank\">AMATH382</a> <!-- -->-<!-- --> <!-- -->Computational Modelling of Cellular Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b81593edfeadc62b3406b2\" target=\"_blank\">AMATH383</a> <!-- -->-<!-- --> <!-- -->Introduction to Mathematical Biology<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b816007786307c6c7ff7ae\" target=\"_blank\">AMATH390</a> <!-- -->-<!-- --> <!-- -->Mathematics and Music<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/698b7468dc568b37c36359e2\" target=\"_blank\">AMATH391</a> <!-- -->-<!-- --> <!-- -->Data Analysis with Fourier and Wavelet Methods<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65e8b996b40640f21ade8734\" target=\"_blank\">PMATH343</a> <!-- -->-<!-- --> <!-- -->Introduction to the Mathematics of Quantum Information<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cfaa90d88c924a0f17edc8\" target=\"_blank\">AMATH331</a> <!-- -->-<!-- --> <!-- -->Applied Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cfab89187f5e4b019154e7\" target=\"_blank\">AMATH332</a> <!-- -->-<!-- --> <!-- -->Applied Complex Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cfab30f34cd444aa7a2ba3\" target=\"_blank\">PMATH331</a> <!-- -->-<!-- --> <!-- -->Applied Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cfabaccaf2eb5f563d97d3\" target=\"_blank\">PMATH332</a> <!-- -->-<!-- --> <!-- -->Applied Complex Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c040b70e3dbaf2af35a7f5\" target=\"_blank\">PMATH333</a> <!-- -->-<!-- --> <!-- -->Introduction to Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65e8ba10b40640d7cede873a\" target=\"_blank\">PMATH351</a> <!-- -->-<!-- --> <!-- -->Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66f6c9a2bfb0192c577b2cd8\" target=\"_blank\">PMATH352</a> <!-- -->-<!-- --> <!-- -->Complex Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-I\"><div data-test=\"ruleView-I-result\">Complete <span>3</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b07e8dfd7afe1c5308470c\" target=\"_blank\">AMATH442</a> <!-- -->-<!-- --> <!-- -->Computational Methods for Partial Differential Equations<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cfa76b6632c67a3c35b24f\" target=\"_blank\">AMATH445</a> <!-- -->-<!-- --> <!-- -->Scientific Machine Learning<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/681ce41cf6bbb4e4e3e4f8d7\" target=\"_blank\">AMATH446</a> <!-- -->-<!-- --> <!-- -->Introduction to Mathematics of Deep Learning<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66fef900bcf5cc4ef17491a4\" target=\"_blank\">AMATH449</a> <!-- -->-<!-- --> <!-- -->Neural Networks<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68b8c6e6f4a095c899f13b14\" target=\"_blank\">AMATH451</a> <!-- -->-<!-- --> <!-- -->Introduction to Dynamical Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/666f28af3f468b710b7e28ae\" target=\"_blank\">AMATH453</a> <!-- -->-<!-- --> <!-- -->Partial Differential Equations 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/666f281e31fa49756e5de3a2\" target=\"_blank\">AMATH455</a> <!-- -->-<!-- --> <!-- -->Control Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b07f6e23cba75742479084\" target=\"_blank\">AMATH456</a> <!-- -->-<!-- --> <!-- -->Calculus of Variations<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/6840bfc373439a0095810197\" target=\"_blank\">AMATH462</a> <!-- -->-<!-- --> <!-- -->Introduction to Mathematics of Climate Modelling<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483aa373439a009589b5b7\" target=\"_blank\">AMATH463</a> <!-- -->-<!-- --> <!-- -->Fluid Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68a6711c0ff040cf3d657be1\" target=\"_blank\">AMATH473</a> <!-- -->-<!-- --> <!-- -->Quantum Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/664ec97be94a1328709773f8\" target=\"_blank\">AMATH474</a> <!-- -->-<!-- --> <!-- -->Advanced Quantum Theory: Quantum Information and Foundations<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1aabc21074e042aa9bbb9\" target=\"_blank\">AMATH475</a> <!-- -->-<!-- --> <!-- -->Introduction to General Relativity<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b816c7fd7afe5079086fd5\" target=\"_blank\">AMATH477</a> <!-- -->-<!-- --> <!-- -->Stochastic Processes for Applied Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69bc4bbad1671bb2819b484a\" target=\"_blank\">AMATH490</a> <!-- -->-<!-- --> <!-- -->Topics in Applied Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b8b7497396555ba31469\" target=\"_blank\">AMATH495</a> <!-- -->-<!-- --> <!-- -->Reading Course<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/67d84b3e5d31977c88f46dcf\" target=\"_blank\">AMATH499</a> <!-- -->-<!-- --> <!-- -->Research Project<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66f18bcf88e1c8753b9107d3\" target=\"_blank\">CS479</a> <!-- -->-<!-- --> <!-- -->Neural Networks<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a1d0fc4bac9e1d8e75eeec\" target=\"_blank\">MATH237</a> <!-- -->-<!-- --> <!-- -->Calculus 3 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b91c1cfd7afea4850875c8\" target=\"_blank\">MATH247</a> <!-- -->-<!-- --> <!-- -->Calculus 3 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-F\"><div data-test=\"ruleView-F-result\"><div>Subject concentration: Complete 4 additional courses, all from any one (and only one) of the following subject codes: AE, BIOL, BME/SYDE, CHE, CHEM, CIVE, EARTH, ECE, ECON, ENVE, GEOE, GEOG, ME/MTE, MNS, MSE, NE, PHYS.</div></div></li></ul></li></ul></div><div></div></div></section></div>"
+  },
+  "HJmwyyA0o2": {
+    "id": "HJmwyyA0o2",
+    "name": "Combinatorics and Optimization (Joint Honours)",
+    "faculty": "Faculty of Mathematics",
+    "code": "JH-Combinatorics & Optimization",
+    "isMinor": false,
+    "isSpecialization": false,
+    "isMathFaculty": true,
+    "requirements": [
+      {
+        "text": "Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)",
+        "type": "OR",
+        "children": [
+          {
+            "text": "Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "CO250 - Introduction to Optimization (0.50)",
+                "type": "COURSE",
+                "code": "CO250"
+              },
+              {
+                "text": "CO255 - Introduction to Optimization (Advanced Level) (0.50)",
+                "type": "COURSE",
+                "code": "CO255"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: MATH239 - Introduction to Combinatorics (0.50)MATH249 - Introduction to Combinatorics (Advanced Level) (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "MATH239 - Introduction to Combinatorics (0.50)",
+                "type": "COURSE",
+                "code": "MATH239"
+              },
+              {
+                "text": "MATH249 - Introduction to Combinatorics (Advanced Level) (0.50)",
+                "type": "COURSE",
+                "code": "MATH249"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: PMATH336 - Introduction to Group Theory with Applications (0.50)PMATH347 - Groups and Rings (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "PMATH336 - Introduction to Group Theory with Applications (0.50)",
+                "type": "COURSE",
+                "code": "PMATH336"
+              },
+              {
+                "text": "PMATH347 - Groups and Rings (0.50)",
+                "type": "COURSE",
+                "code": "PMATH347"
+              }
+            ]
+          },
+          {
+            "text": "Complete 4 of the following: CO330 - Combinatorial Enumeration (0.50)CO331 - Coding Theory (0.50)CO342 - Introduction to Graph Theory (0.50)CO351 - Network Flow Theory (0.50)CO353 - Computational Discrete Optimization (0.50)CO367 - Nonlinear Optimization (0.50)CO430 - Algebraic Enumeration (0.50)CO431 - Symmetric Functions (0.50)CO432 - Information Theory and Applications (0.50)CO434 - Combinatorial Designs (0.50)CO439 - Topics in Combinatorics (0.50)CO440 - Topics in Graph Theory (0.50)CO442 - Graph Theory (0.50)CO444 - Algebraic Graph Theory (0.50)CO446 - Matroid Theory (0.50)CO450 - Combinatorial Optimization (0.50)CO452 - Integer Programming (0.50)CO454 - Scheduling (0.50)CO456 - Introduction to Game Theory (0.50)CO459 - Topics in Optimization (0.50)CO463 - Convex Optimization and Analysis (0.50)CO466 - Continuous Optimization (0.50)CO471 - Semidefinite Optimization (0.50)CO481 - Introduction to Quantum Information Processing (0.50)CO485 - The Mathematics of Public-Key Cryptography (0.50)CO486 - Topics in Quantum Information (0.50)CO487 - Applied Cryptography (0.50)CS467 - Introduction to Quantum Information Processing (0.50)PHYS467 - Introduction to Quantum Information Processing (0.50)",
+            "type": "N_OF",
+            "n": 4,
+            "children": [
+              {
+                "text": "CO330 - Combinatorial Enumeration (0.50)",
+                "type": "COURSE",
+                "code": "CO330"
+              },
+              {
+                "text": "CO331 - Coding Theory (0.50)",
+                "type": "COURSE",
+                "code": "CO331"
+              },
+              {
+                "text": "CO342 - Introduction to Graph Theory (0.50)",
+                "type": "COURSE",
+                "code": "CO342"
+              },
+              {
+                "text": "CO351 - Network Flow Theory (0.50)",
+                "type": "COURSE",
+                "code": "CO351"
+              },
+              {
+                "text": "CO353 - Computational Discrete Optimization (0.50)",
+                "type": "COURSE",
+                "code": "CO353"
+              },
+              {
+                "text": "CO367 - Nonlinear Optimization (0.50)",
+                "type": "COURSE",
+                "code": "CO367"
+              },
+              {
+                "text": "CO430 - Algebraic Enumeration (0.50)",
+                "type": "COURSE",
+                "code": "CO430"
+              },
+              {
+                "text": "CO431 - Symmetric Functions (0.50)",
+                "type": "COURSE",
+                "code": "CO431"
+              },
+              {
+                "text": "CO432 - Information Theory and Applications (0.50)",
+                "type": "COURSE",
+                "code": "CO432"
+              },
+              {
+                "text": "CO434 - Combinatorial Designs (0.50)",
+                "type": "COURSE",
+                "code": "CO434"
+              },
+              {
+                "text": "CO439 - Topics in Combinatorics (0.50)",
+                "type": "COURSE",
+                "code": "CO439"
+              },
+              {
+                "text": "CO440 - Topics in Graph Theory (0.50)",
+                "type": "COURSE",
+                "code": "CO440"
+              },
+              {
+                "text": "CO442 - Graph Theory (0.50)",
+                "type": "COURSE",
+                "code": "CO442"
+              },
+              {
+                "text": "CO444 - Algebraic Graph Theory (0.50)",
+                "type": "COURSE",
+                "code": "CO444"
+              },
+              {
+                "text": "CO446 - Matroid Theory (0.50)",
+                "type": "COURSE",
+                "code": "CO446"
+              },
+              {
+                "text": "CO450 - Combinatorial Optimization (0.50)",
+                "type": "COURSE",
+                "code": "CO450"
+              },
+              {
+                "text": "CO452 - Integer Programming (0.50)",
+                "type": "COURSE",
+                "code": "CO452"
+              },
+              {
+                "text": "CO454 - Scheduling (0.50)",
+                "type": "COURSE",
+                "code": "CO454"
+              },
+              {
+                "text": "CO456 - Introduction to Game Theory (0.50)",
+                "type": "COURSE",
+                "code": "CO456"
+              },
+              {
+                "text": "CO459 - Topics in Optimization (0.50)",
+                "type": "COURSE",
+                "code": "CO459"
+              },
+              {
+                "text": "CO463 - Convex Optimization and Analysis (0.50)",
+                "type": "COURSE",
+                "code": "CO463"
+              },
+              {
+                "text": "CO466 - Continuous Optimization (0.50)",
+                "type": "COURSE",
+                "code": "CO466"
+              },
+              {
+                "text": "CO471 - Semidefinite Optimization (0.50)",
+                "type": "COURSE",
+                "code": "CO471"
+              },
+              {
+                "text": "CO481 - Introduction to Quantum Information Processing (0.50)",
+                "type": "COURSE",
+                "code": "CO481"
+              },
+              {
+                "text": "CO485 - The Mathematics of Public-Key Cryptography (0.50)",
+                "type": "COURSE",
+                "code": "CO485"
+              },
+              {
+                "text": "CO486 - Topics in Quantum Information (0.50)",
+                "type": "COURSE",
+                "code": "CO486"
+              },
+              {
+                "text": "CO487 - Applied Cryptography (0.50)",
+                "type": "COURSE",
+                "code": "CO487"
+              },
+              {
+                "text": "CS467 - Introduction to Quantum Information Processing (0.50)",
+                "type": "COURSE",
+                "code": "CS467"
+              },
+              {
+                "text": "PHYS467 - Introduction to Quantum Information Processing (0.50)",
+                "type": "COURSE",
+                "code": "PHYS467"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b85d5123cba71d2b47bab9\" target=\"_blank\">CO250</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b1a15e731ab599652f0d\" target=\"_blank\">CO255</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a1b08d5e731ab5996528f7\" target=\"_blank\">MATH239</a> <!-- -->-<!-- --> <!-- -->Introduction to Combinatorics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b0e24aaaf35263032bc9\" target=\"_blank\">MATH249</a> <!-- -->-<!-- --> <!-- -->Introduction to Combinatorics (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cfb122b406406144dde905\" target=\"_blank\">PMATH336</a> <!-- -->-<!-- --> <!-- -->Introduction to Group Theory with Applications<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b9945d7577764076c994\" target=\"_blank\">PMATH347</a> <!-- -->-<!-- --> <!-- -->Groups and Rings<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\">Complete <span>4</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b85dbd026eba5974bb558d\" target=\"_blank\">CO330</a> <!-- -->-<!-- --> <!-- -->Combinatorial Enumeration<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b85de7edfead8a25340899\" target=\"_blank\">CO331</a> <!-- -->-<!-- --> <!-- -->Coding Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b85e0e026ebae722bb5591\" target=\"_blank\">CO342</a> <!-- -->-<!-- --> <!-- -->Introduction to Graph Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b28867f4be700084cc1e\" target=\"_blank\">CO351</a> <!-- -->-<!-- --> <!-- -->Network Flow Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b2b067f4be700084cde6\" target=\"_blank\">CO353</a> <!-- -->-<!-- --> <!-- -->Computational Discrete Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b30567f4be700084d121\" target=\"_blank\">CO367</a> <!-- -->-<!-- --> <!-- -->Nonlinear Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b8be1731ad164c2ccbd9\" target=\"_blank\">CO430</a> <!-- -->-<!-- --> <!-- -->Algebraic Enumeration<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5ba1aec4d1ae3c26b547b\" target=\"_blank\">CO431</a> <!-- -->-<!-- --> <!-- -->Symmetric Functions<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65f895478fa4dfe1291df741\" target=\"_blank\">CO432</a> <!-- -->-<!-- --> <!-- -->Information Theory and Applications<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b8be9e76cc06f7848ef4\" target=\"_blank\">CO434</a> <!-- -->-<!-- --> <!-- -->Combinatorial Designs<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b8be64e0fe821b173b9b\" target=\"_blank\">CO439</a> <!-- -->-<!-- --> <!-- -->Topics in Combinatorics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b8be0f5f450be0430b1e\" target=\"_blank\">CO440</a> <!-- -->-<!-- --> <!-- -->Topics in Graph Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/67041ea24b2b672939276282\" target=\"_blank\">CO442</a> <!-- -->-<!-- --> <!-- -->Graph Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b8be69e9ee28532ae49c\" target=\"_blank\">CO444</a> <!-- -->-<!-- --> <!-- -->Algebraic Graph Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b85fa2edfeadb6dc3408a4\" target=\"_blank\">CO446</a> <!-- -->-<!-- --> <!-- -->Matroid Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b85fd3026eba34d4bb55a1\" target=\"_blank\">CO450</a> <!-- -->-<!-- --> <!-- -->Combinatorial Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b8be84500d8e89c8cfed\" target=\"_blank\">CO452</a> <!-- -->-<!-- --> <!-- -->Integer Programming<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b44975fb814e1cd4cdbf\" target=\"_blank\">CO454</a> <!-- -->-<!-- --> <!-- -->Scheduling<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b44db637489f2a2bc5e5\" target=\"_blank\">CO456</a> <!-- -->-<!-- --> <!-- -->Introduction to Game Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b9401731ad17342cccf1\" target=\"_blank\">CO459</a> <!-- -->-<!-- --> <!-- -->Topics in Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68e5612ea1af800cb159865a\" target=\"_blank\">CO463</a> <!-- -->-<!-- --> <!-- -->Convex Optimization and Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68d2e01880cf583962374da4\" target=\"_blank\">CO466</a> <!-- -->-<!-- --> <!-- -->Continuous Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68e563fb756789a40a441674\" target=\"_blank\">CO471</a> <!-- -->-<!-- --> <!-- -->Semidefinite Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5bcd39e76cc133784920f\" target=\"_blank\">CO481</a> <!-- -->-<!-- --> <!-- -->Introduction to Quantum Information Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cfadaaf34cd41e2c7a2bb7\" target=\"_blank\">CO485</a> <!-- -->-<!-- --> <!-- -->The Mathematics of Public-Key Cryptography<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65f8967e69f31d9298dd6280\" target=\"_blank\">CO486</a> <!-- -->-<!-- --> <!-- -->Topics in Quantum Information<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b860f023cba74d8c47badd\" target=\"_blank\">CO487</a> <!-- -->-<!-- --> <!-- -->Applied Cryptography<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5bcd3af75ce31a5abb0da\" target=\"_blank\">CS467</a> <!-- -->-<!-- --> <!-- -->Introduction to Quantum Information Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5bcd31731ad0c3b2cd01e\" target=\"_blank\">PHYS467</a> <!-- -->-<!-- --> <!-- -->Introduction to Quantum Information Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-E.1\"><div data-test=\"ruleView-E.1-result\"><div>Complete 3 courses from the following choices:</div></div></li><li data-test=\"ruleView-E.2\"><div data-test=\"ruleView-E.2-result\">Choose any of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6627d327126715c17eef80fc\" target=\"_blank\">CS341</a> <!-- -->-<!-- --> <!-- -->Algorithms<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66269a307be6223e98efb346\" target=\"_blank\">CS466</a> <!-- -->-<!-- --> <!-- -->Algorithm Design and Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b27838fd7afe251508519c\" target=\"_blank\">CS487</a> <!-- -->-<!-- --> <!-- -->Introduction to Symbolic Computation<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-E.3\"><div data-test=\"ruleView-E.3-result\">Complete no more than <span>1</span> from the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cfaa90d88c924a0f17edc8\" target=\"_blank\">AMATH331</a> <!-- -->-<!-- --> <!-- -->Applied Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cfab30f34cd444aa7a2ba3\" target=\"_blank\">PMATH331</a> <!-- -->-<!-- --> <!-- -->Applied Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c040b70e3dbaf2af35a7f5\" target=\"_blank\">PMATH333</a> <!-- -->-<!-- --> <!-- -->Introduction to Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65e8ba10b40640d7cede873a\" target=\"_blank\">PMATH351</a> <!-- -->-<!-- --> <!-- -->Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-E.7\"><div data-test=\"ruleView-E.7-result\">Complete no more than <span>1</span> from the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cfab89187f5e4b019154e7\" target=\"_blank\">AMATH332</a> <!-- -->-<!-- --> <!-- -->Applied Complex Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cfabaccaf2eb5f563d97d3\" target=\"_blank\">PMATH332</a> <!-- -->-<!-- --> <!-- -->Applied Complex Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66f6c9a2bfb0192c577b2cd8\" target=\"_blank\">PMATH352</a> <!-- -->-<!-- --> <!-- -->Complex Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-E.8\"><div data-test=\"ruleView-E.8-result\">Complete no more than <span>1</span> from the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6626a754a48ab9f4b8222ecb\" target=\"_blank\">CS360</a> <!-- -->-<!-- --> <!-- -->Introduction to the Theory of Computing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/6627d0487be622a0ceefb8af\" target=\"_blank\">CS365</a> <!-- -->-<!-- --> <!-- -->Models of Computation<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-E.4\"><div data-test=\"ruleView-E.4-result\">Complete no more than <span>1</span> from the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a1d0fc4bac9e1d8e75eeec\" target=\"_blank\">MATH237</a> <!-- -->-<!-- --> <!-- -->Calculus 3 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b91c1cfd7afea4850875c8\" target=\"_blank\">MATH247</a> <!-- -->-<!-- --> <!-- -->Calculus 3 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-E.5\"><div data-test=\"ruleView-E.5-result\">Complete no more than <span>1</span> from the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cfb0df187f5e10c6915503\" target=\"_blank\">PMATH334</a> <!-- -->-<!-- --> <!-- -->Introduction to Rings and Fields with Applications<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b9945d7577099576c998\" target=\"_blank\">PMATH348</a> <!-- -->-<!-- --> <!-- -->Fields and Galois Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-E.6\"><div data-test=\"ruleView-E.6-result\">Complete no more than <span>1</span> from the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b6aa6c5f44049c07f28985\" target=\"_blank\">PMATH340</a> <!-- -->-<!-- --> <!-- -->Elementary Number Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65775e8ae0c67a280e74ad3f\" target=\"_blank\">PMATH440</a> <!-- -->-<!-- --> <!-- -->Analytic Number Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b8eb9e76cc2ebc848f79\" target=\"_blank\">PMATH441</a> <!-- -->-<!-- --> <!-- -->Algebraic Number Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div></ul></li></ul></div><div></div></div></section></div>"
+  },
+  "S1fxe1ACi2": {
+    "id": "S1fxe1ACi2",
+    "name": "Pure Mathematics (Joint Honours)",
+    "faculty": "Faculty of Mathematics",
+    "code": "JH-Pure Mathematics",
+    "isMinor": false,
+    "isSpecialization": false,
+    "isMathFaculty": true,
+    "requirements": [
+      {
+        "text": "Complete 1 of the following: AMATH331 - Applied Real Analysis (0.50)PMATH331 - Applied Real Analysis (0.50)PMATH333 - Introduction to Real Analysis (0.50)PMATH351 - Real Analysis (0.50)",
+        "type": "OR",
+        "children": [
+          {
+            "text": "Complete 1 of the following: AMATH331 - Applied Real Analysis (0.50)PMATH331 - Applied Real Analysis (0.50)PMATH333 - Introduction to Real Analysis (0.50)PMATH351 - Real Analysis (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "AMATH331 - Applied Real Analysis (0.50)",
+                "type": "COURSE",
+                "code": "AMATH331"
+              },
+              {
+                "text": "PMATH331 - Applied Real Analysis (0.50)",
+                "type": "COURSE",
+                "code": "PMATH331"
+              },
+              {
+                "text": "PMATH333 - Introduction to Real Analysis (0.50)",
+                "type": "COURSE",
+                "code": "PMATH333"
+              },
+              {
+                "text": "PMATH351 - Real Analysis (0.50)",
+                "type": "COURSE",
+                "code": "PMATH351"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: AMATH332 - Applied Complex Analysis (0.50)PMATH332 - Applied Complex Analysis (0.50)PMATH352 - Complex Analysis (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "AMATH332 - Applied Complex Analysis (0.50)",
+                "type": "COURSE",
+                "code": "AMATH332"
+              },
+              {
+                "text": "PMATH332 - Applied Complex Analysis (0.50)",
+                "type": "COURSE",
+                "code": "PMATH332"
+              },
+              {
+                "text": "PMATH352 - Complex Analysis (0.50)",
+                "type": "COURSE",
+                "code": "PMATH352"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: MATH237 - Calculus 3 for Honours Mathematics (0.50)MATH247 - Calculus 3 (Advanced Level) (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "MATH237 - Calculus 3 for Honours Mathematics (0.50)",
+                "type": "COURSE",
+                "code": "MATH237"
+              },
+              {
+                "text": "MATH247 - Calculus 3 (Advanced Level) (0.50)",
+                "type": "COURSE",
+                "code": "MATH247"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: PMATH334 - Introduction to Rings and Fields with Applications (0.50)PMATH348 - Fields and Galois Theory (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "PMATH334 - Introduction to Rings and Fields with Applications (0.50)",
+                "type": "COURSE",
+                "code": "PMATH334"
+              },
+              {
+                "text": "PMATH348 - Fields and Galois Theory (0.50)",
+                "type": "COURSE",
+                "code": "PMATH348"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: PMATH336 - Introduction to Group Theory with Applications (0.50)PMATH347 - Groups and Rings (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "PMATH336 - Introduction to Group Theory with Applications (0.50)",
+                "type": "COURSE",
+                "code": "PMATH336"
+              },
+              {
+                "text": "PMATH347 - Groups and Rings (0.50)",
+                "type": "COURSE",
+                "code": "PMATH347"
+              }
+            ]
+          },
+          {
+            "text": "Complete 3 additional PMATH courses.",
+            "type": "ADDITIONAL",
+            "n": 3,
+            "subjects": [
+              "PMATH"
+            ]
+          }
+        ]
+      }
+    ],
+    "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cfaa90d88c924a0f17edc8\" target=\"_blank\">AMATH331</a> <!-- -->-<!-- --> <!-- -->Applied Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cfab30f34cd444aa7a2ba3\" target=\"_blank\">PMATH331</a> <!-- -->-<!-- --> <!-- -->Applied Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c040b70e3dbaf2af35a7f5\" target=\"_blank\">PMATH333</a> <!-- -->-<!-- --> <!-- -->Introduction to Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65e8ba10b40640d7cede873a\" target=\"_blank\">PMATH351</a> <!-- -->-<!-- --> <!-- -->Real Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cfab89187f5e4b019154e7\" target=\"_blank\">AMATH332</a> <!-- -->-<!-- --> <!-- -->Applied Complex Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cfabaccaf2eb5f563d97d3\" target=\"_blank\">PMATH332</a> <!-- -->-<!-- --> <!-- -->Applied Complex Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66f6c9a2bfb0192c577b2cd8\" target=\"_blank\">PMATH352</a> <!-- -->-<!-- --> <!-- -->Complex Analysis<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a1d0fc4bac9e1d8e75eeec\" target=\"_blank\">MATH237</a> <!-- -->-<!-- --> <!-- -->Calculus 3 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b91c1cfd7afea4850875c8\" target=\"_blank\">MATH247</a> <!-- -->-<!-- --> <!-- -->Calculus 3 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cfb0df187f5e10c6915503\" target=\"_blank\">PMATH334</a> <!-- -->-<!-- --> <!-- -->Introduction to Rings and Fields with Applications<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b9945d7577099576c998\" target=\"_blank\">PMATH348</a> <!-- -->-<!-- --> <!-- -->Fields and Galois Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-F\"><div data-test=\"ruleView-F-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cfb122b406406144dde905\" target=\"_blank\">PMATH336</a> <!-- -->-<!-- --> <!-- -->Introduction to Group Theory with Applications<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b9945d7577764076c994\" target=\"_blank\">PMATH347</a> <!-- -->-<!-- --> <!-- -->Groups and Rings<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-E.1\"><div data-test=\"ruleView-E.1-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a1b08d5e731ab5996528f7\" target=\"_blank\">MATH239</a> <!-- -->-<!-- --> <!-- -->Introduction to Combinatorics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b0e24aaaf35263032bc9\" target=\"_blank\">MATH249</a> <!-- -->-<!-- --> <!-- -->Introduction to Combinatorics (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-E.2\"><div data-test=\"ruleView-E.2-result\"><div>Complete 1 additional PMATH course.</div></div></li></ul></li></div><li data-test=\"ruleView-E\"><div data-test=\"ruleView-E-result\"><div>Complete 3 additional PMATH courses.</div></div></li></ul></li></ul></div><div></div></div></section></div>"
+  },
+  "BybggJARoh": {
+    "id": "BybggJARoh",
+    "name": "Statistics (Joint Honours)",
+    "faculty": "Faculty of Mathematics",
+    "code": "JH-Statistics",
+    "isMinor": false,
+    "isSpecialization": false,
+    "isMathFaculty": true,
+    "requirements": [
+      {
+        "text": "Complete all the following: ENGL378 - Professional Communications in Statistics and Actuarial Science (0.50)STAT330 - Mathematical Statistics (0.50)STAT331 - Applied Linear Models (0.50)STAT333 - Stochastic Processes 1 (0.50)",
+        "type": "AND",
+        "children": [
+          {
+            "text": "Complete all the following: ENGL378 - Professional Communications in Statistics and Actuarial Science (0.50)STAT330 - Mathematical Statistics (0.50)STAT331 - Applied Linear Models (0.50)STAT333 - Stochastic Processes 1 (0.50)",
+            "type": "AND",
+            "children": [
+              {
+                "text": "ENGL378 - Professional Communications in Statistics and Actuarial Science (0.50)",
+                "type": "COURSE",
+                "code": "ENGL378"
+              },
+              {
+                "text": "STAT330 - Mathematical Statistics (0.50)",
+                "type": "COURSE",
+                "code": "STAT330"
+              },
+              {
+                "text": "STAT331 - Applied Linear Models (0.50)",
+                "type": "COURSE",
+                "code": "STAT331"
+              },
+              {
+                "text": "STAT333 - Stochastic Processes 1 (0.50)",
+                "type": "COURSE",
+                "code": "STAT333"
+              }
+            ]
+          },
+          {
+            "text": "Complete 1 of the following: MATH237 - Calculus 3 for Honours Mathematics (0.50)MATH247 - Calculus 3 (Advanced Level) (0.50)",
+            "type": "OR",
+            "children": [
+              {
+                "text": "MATH237 - Calculus 3 for Honours Mathematics (0.50)",
+                "type": "COURSE",
+                "code": "MATH237"
+              },
+              {
+                "text": "MATH247 - Calculus 3 (Advanced Level) (0.50)",
+                "type": "COURSE",
+                "code": "MATH247"
+              }
+            ]
+          },
+          {
+            "text": "Complete 2 STAT courses at the 400-level",
+            "type": "COURSE"
+          },
+          {
+            "text": "Complete 1 additional STAT course at the 300- or 400-level",
+            "type": "ADDITIONAL",
+            "n": 1,
+            "subjects": [
+              "STAT"
+            ]
+          }
+        ]
+      }
+    ],
+    "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa70d413e1b07a8b5af87e\" target=\"_blank\">ENGL378</a> <!-- -->-<!-- --> <!-- -->Professional Communications in Statistics and Actuarial Science<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c041e6ba9989b9dc2ac0da\" target=\"_blank\">STAT330</a> <!-- -->-<!-- --> <!-- -->Mathematical Statistics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c0423c3ff99cd867aefa16\" target=\"_blank\">STAT331</a> <!-- -->-<!-- --> <!-- -->Applied Linear Models<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b9b61eec4e641e8de24ab7\" target=\"_blank\">STAT333</a> <!-- -->-<!-- --> <!-- -->Stochastic Processes 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a1d0fc4bac9e1d8e75eeec\" target=\"_blank\">MATH237</a> <!-- -->-<!-- --> <!-- -->Calculus 3 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b91c1cfd7afea4850875c8\" target=\"_blank\">MATH247</a> <!-- -->-<!-- --> <!-- -->Calculus 3 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\"><div>Complete 2 STAT courses at the 400-level</div></div></li><li data-test=\"ruleView-E\"><div data-test=\"ruleView-E-result\"><div>Complete 1 additional STAT course at the 300- or 400-level</div></div></li></ul></li></ul></div><div></div></div></section></div>"
   }
 }
