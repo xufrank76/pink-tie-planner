@@ -3,35 +3,30 @@
 import type { PageId } from './Sidebar';
 import { useApp } from '@/src/context/AppContext';
 import rawPrograms from '@/src/data/requirements-filtered.json';
-import { satisfies, type ReqNode } from '@/src/lib/requirementEvaluator';
+import { nodeProgress, type ReqNode } from '@/src/lib/requirementEvaluator';
+import { getCurrentTerm } from '@/src/lib/termUtils';
+import { getStudyLabel } from '@/src/data/coopSequences';
 
 const programs = rawPrograms as Record<string, { name: string; requirements: ReqNode[] }>;
 
 const SANS = 'var(--font-dm-sans, "DM Sans", sans-serif)';
 const MONO = 'var(--font-dm-mono, "DM Mono", monospace)';
 
-const CURRENT_TERM = 'W26';
+const CURRENT_TERM = getCurrentTerm();
 
-const CORE_BMATH_CODES = new Set([
-  'CS115','CS135','CS145','CS116','CS136','CS136L','CS146','CS246',
-  'MATH106','MATH135','MATH136','MATH146',
-  'MATH127','MATH137','MATH147',
-  'MATH128','MATH138','MATH148',
-  'MATH235','MATH245','MATH237','MATH247','MATH239','MATH249',
-  'STAT230','STAT240','CO250','CO255',
-  'COMMST100','COMMST223','ENGL109',
+const MATH_FACULTY_SUBJECTS = new Set([
+  'ACTSC','AMATH','CO','CS','MATBUS','MATH','PMATH','STAT',
 ]);
 
+// 0-credit administrative courses that shouldn't count as electives
+const ZERO_CREDIT_COURSES = new Set(['MTHEL99']);
 
-const MINOR_CODES = new Set([
-  'CS115','CS135','CS145','CS116','CS136','CS136L','CS146',
-  'CS246','CS341','CS370',
-]);
-
-const ELECTIVE_CODES = new Set([
-  'ECON101','ECON102','CLAS104',
-  'COMMST223','ENGL109','PHIL145',
-]);
+function isNonMathElective(code: string): boolean {
+  if (code.startsWith('PD')) return false;
+  if (ZERO_CREDIT_COURSES.has(code)) return false;
+  const subject = code.match(/^([A-Z]+)/)?.[1] ?? '';
+  return !MATH_FACULTY_SUBJECTS.has(subject);
+}
 
 function ProgressRow({ name, current, max }: { name: string; current: number; max: number }) {
   const pct = Math.min(100, Math.round((current / max) * 100));
@@ -78,18 +73,64 @@ export default function Dashboard({ onNavigate }: { onNavigate: (id: PageId) => 
 
   const count = (set: Set<string>) => completedCourses.filter(c => set.has(c)).length;
 
+  function sumProgress(nodes: ReqNode[]) {
+    let done = 0, total = 0;
+    for (const n of nodes) {
+      if (n.type === 'ADDITIONAL') { total += n.n ?? 1; }
+      else { const p = nodeProgress(n, completedSet); done += p.done; total += p.total; }
+    }
+    return { done, total: total || 1 };
+  }
+
   const progEntry = program.id ? programs[program.id] : null;
-  const roots     = progEntry?.requirements ?? [];
-  const topNodes: ReqNode[] = roots.length === 1 && roots[0].children ? roots[0].children : roots;
-  const evaluatable = topNodes.filter(n => n.type !== 'ADDITIONAL');
-  const majorDone  = evaluatable.filter(n => satisfies(n, completedSet)).length;
-  const majorTotal = evaluatable.length || 1;
+  const isMathStudies = progEntry?.name.includes('Mathematical Studies') ?? false;
+  const coreEntry = programs[isMathStudies ? 'core-bmath-mathstudies' : 'core-bmath'];
+  const coreNodes: ReqNode[] = coreEntry?.requirements[0]?.children ?? [];
+  const { done: coreDone, total: coreTotal } = sumProgress(coreNodes);
+  function entryProgress(id: string) {
+    const entry = programs[id];
+    if (!entry) return null;
+    const roots = entry.requirements;
+    const nodes: ReqNode[] = roots.length === 1 && roots[0].children ? roots[0].children : roots;
+    return sumProgress(nodes);
+  }
+
+  const majorCandidates = [
+    ...(program.id ? [{ id: program.id, name: program.major }] : []),
+    ...(program.doubleMajorId ? [{ id: program.doubleMajorId, name: program.doubleMajor! }] : []),
+    ...program.extras.filter(e => e.type === 'major' || e.type === 'joint').map(e => ({ id: e.id, name: e.name })),
+  ];
+  const multiMajor = majorCandidates.length > 1;
+  const majorRows = majorCandidates
+    .map(({ id, name }) => {
+      const p = entryProgress(id);
+      if (!p) return null;
+      return { name: multiMajor ? name : 'Major', current: p.done, max: p.total };
+    })
+    .filter((r): r is { name: string; current: number; max: number } => r !== null);
+
+  const minorEntry = program.minorId ? programs[program.minorId] : null;
+  const minorProgress = minorEntry ? entryProgress(program.minorId!) : null;
+
+  const specRows = program.extras
+    .filter(e => e.type === 'specialization')
+    .map(e => {
+      const p = entryProgress(e.id);
+      if (!p) return null;
+      return { name: e.name, current: p.done, max: p.total };
+    })
+    .filter((r): r is { name: string; current: number; max: number } => r !== null);
+
+  const pdDone = completedCourses.filter(c => c.startsWith('PD')).length;
+  const isCoop = program.coopStream !== null && program.coopStream !== 'none';
 
   const PROGRESS_ROWS = [
-    { name: 'Core BMath', current: Math.min(count(CORE_BMATH_CODES), 16), max: 16 },
-    { name: 'Major',      current: majorDone,                              max: majorTotal },
-    { name: 'Minor',      current: Math.min(count(MINOR_CODES),        8), max: 8  },
-    { name: 'Electives',  current: Math.min(count(ELECTIVE_CODES),    10), max: 10 },
+    ...(progEntry ? [{ name: 'Core BMath', current: coreDone, max: coreTotal }] : []),
+    ...majorRows,
+    ...(minorProgress ? [{ name: 'Minor', current: minorProgress.done, max: minorProgress.total }] : []),
+    ...specRows,
+    { name: 'Electives', current: Math.min(completedCourses.filter(isNonMathElective).length, 10), max: 10 },
+    ...(isCoop ? [{ name: 'PD courses', current: Math.min(pdDone, 5), max: 5 }] : []),
   ];
 
   return (
@@ -110,7 +151,7 @@ export default function Dashboard({ onNavigate }: { onNavigate: (id: PageId) => 
             {totalDone > 0 ? `${Math.round((totalDone / 40) * 100)}%` : '0%'}
           </div>
           <div style={{ fontFamily: MONO, fontSize: '15px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.04em', marginTop: '6px' }}>
-            DEGREE DONE
+            DEGREE DONE: {totalDone}/40
           </div>
         </div>
       </div>
@@ -124,7 +165,7 @@ export default function Dashboard({ onNavigate }: { onNavigate: (id: PageId) => 
       <div style={{ marginTop: '24px' }}>
         <div style={{ marginBottom: '10px' }}>
           <span style={{ fontFamily: MONO, fontSize: '15px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-            THIS SEMESTER - W26
+            THIS SEMESTER - {CURRENT_TERM}{(() => { const sl = program.coopStream && program.startTerm ? getStudyLabel(CURRENT_TERM, program.startTerm, program.coopStream) : null; return sl ? ` (${sl})` : ''; })()}
           </span>
         </div>
         <div style={{ background: '#d9d9d9', borderRadius: '20px', padding: '20px 16px', position: 'relative', minHeight: '90px', display: 'flex', alignItems: 'center' }}>

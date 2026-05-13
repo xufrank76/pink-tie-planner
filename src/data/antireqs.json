@@ -1,0 +1,4400 @@
+{
+  "ACSTC445": [
+    "ACTSC845"
+  ],
+  "ACTSC127": [
+    "CFM101",
+    "AFM121",
+    "AFM127"
+  ],
+  "ACTSC221": [
+    "ACTSC231",
+    "CIVE292"
+  ],
+  "ACTSC231": [
+    "ACTSC221"
+  ],
+  "ACTSC232": [
+    "ACTSC331"
+  ],
+  "ACTSC291": [
+    "AFM273",
+    "ACTSC372",
+    "ECON371",
+    "AFM272",
+    "MATBUS371",
+    "BUS393W",
+    "BUS283W"
+  ],
+  "ACTSC331": [
+    "ACTSC232"
+  ],
+  "ACTSC363": [
+    "ACTSC431"
+  ],
+  "ACTSC371": [
+    "MATBUS371",
+    "BUS283W"
+  ],
+  "ACTSC372": [
+    "AFM272",
+    "ACTSC291",
+    "AFM273",
+    "AFM275",
+    "AFM372",
+    "ACTSC391",
+    "BUS393W",
+    "ECON371",
+    "MATBUS371",
+    "AFM274"
+  ],
+  "ACTSC391": [
+    "AFM274",
+    "AFM372",
+    "ACTSC372",
+    "ECON371",
+    "AFM275",
+    "MATBUS371",
+    "BUS393W",
+    "BUS283W"
+  ],
+  "ACTSC431": [
+    "ACTSC363"
+  ],
+  "ACTSC445": [
+    "AFM422",
+    "MATBUS472",
+    "BUS433W",
+    "BUS439W"
+  ],
+  "ACTSC446": [
+    "AFM322",
+    "BUS423W",
+    "ECON372",
+    "MATBUS470",
+    "ACTSC846"
+  ],
+  "ACTSC471": [
+    "AFM373",
+    "AFM476",
+    "BUS463W"
+  ],
+  "ACTSC845": [
+    "ACSTC445"
+  ],
+  "ACTSC846": [
+    "ACTSC446"
+  ],
+  "AE121": [
+    "CS135"
+  ],
+  "AE224": [
+    "MSE251"
+  ],
+  "AE392": [
+    "MSE261"
+  ],
+  "AFM101": [
+    "AFM123",
+    "ARBUS102",
+    "AFM191",
+    "BUS127W",
+    "MSCI262",
+    "BUS237W"
+  ],
+  "AFM102": [
+    "AFM182",
+    "AFM123",
+    "ARBUS102",
+    "BUS247W",
+    "MSCI262"
+  ],
+  "AFM113": [
+    "AMATH350",
+    "MATH128",
+    "STAT211"
+  ],
+  "AFM121": [
+    "AFM127",
+    "ACTSC127",
+    "CFM101",
+    "COMM101"
+  ],
+  "AFM123": [
+    "AFM101",
+    "BUS127W",
+    "MSCI262",
+    "ARBUS102",
+    "AFM102",
+    "AFM182",
+    "AFM191"
+  ],
+  "AFM127": [
+    "CFM101",
+    "AFM121",
+    "ACTSC127"
+  ],
+  "AFM131": [
+    "AFM132",
+    "BUS111W",
+    "ARBUS101"
+  ],
+  "AFM132": [
+    "AFM131",
+    "BUS111W",
+    "ARBUS101"
+  ],
+  "AFM182": [
+    "AFM102",
+    "AFM123",
+    "ARBUS102",
+    "BUS247W",
+    "MSCI262"
+  ],
+  "AFM191": [
+    "AFM101",
+    "AFM123",
+    "ARBUS102",
+    "BUS127W",
+    "MSCI262"
+  ],
+  "AFM204": [
+    "AFM205"
+  ],
+  "AFM205": [
+    "AFM204"
+  ],
+  "AFM211": [
+    "AFM212"
+  ],
+  "AFM212": [
+    "AFM211"
+  ],
+  "AFM231": [
+    "AFM335",
+    "MTHEL100",
+    "COMM231",
+    "BUS231W",
+    "CIVE491",
+    "GENE411",
+    "ME401",
+    "LS283"
+  ],
+  "AFM241": [
+    "CS330",
+    "BUS476W",
+    "BUS415W"
+  ],
+  "AFM244": [
+    "AFM415"
+  ],
+  "AFM271": [
+    "BUS393W",
+    "BUS283W",
+    "BUS223W",
+    "ECON371"
+  ],
+  "AFM272": [
+    "AFM273",
+    "ACTSC372",
+    "ECON371",
+    "ACTSC291",
+    "MATBUS371",
+    "BUS393W",
+    "BUS283W"
+  ],
+  "AFM273": [
+    "AFM272",
+    "ACTSC291",
+    "ECON371",
+    "ACTSC372",
+    "MATBUS371"
+  ],
+  "AFM274": [
+    "ACTSC372",
+    "AFM275",
+    "AFM372",
+    "ACTSC391",
+    "ECON371"
+  ],
+  "AFM275": [
+    "AFM274",
+    "AFM372",
+    "ACTSC372",
+    "ECON371",
+    "ACTSC391",
+    "MATBUS371",
+    "BUS393W",
+    "BUS283W",
+    "BUS223W"
+  ],
+  "AFM276": [
+    "AFM492"
+  ],
+  "AFM280": [
+    "MSCI211",
+    "PSYCH238",
+    "AFM480",
+    "MSE211"
+  ],
+  "AFM285": [
+    "ENBUS102",
+    "SFM101"
+  ],
+  "AFM291": [
+    "BUS387W",
+    "COMM321"
+  ],
+  "AFM311": [
+    "AFM431",
+    "PHIL215",
+    "ARBUS202"
+  ],
+  "AFM322": [
+    "ACTSC446",
+    "ECON372",
+    "MATBUS470",
+    "STAT446",
+    "BUS423W"
+  ],
+  "AFM323": [
+    "ECON321",
+    "STAT321",
+    "STAT331",
+    "STAT371",
+    "STAT373",
+    "STAT374"
+  ],
+  "AFM324": [
+    "AFM416",
+    "LEC002"
+  ],
+  "AFM333": [
+    "BUS471W"
+  ],
+  "AFM335": [
+    "AFM231",
+    "LS283",
+    "MTHEL100",
+    "COMM231",
+    "ENVS201",
+    "BUS231W",
+    "ME401",
+    "GENE411",
+    "CIVE491"
+  ],
+  "AFM341": [
+    "CS432"
+  ],
+  "AFM345": [
+    "AFM415",
+    "LEC042"
+  ],
+  "AFM351": [
+    "AFM451",
+    "BUS477W"
+  ],
+  "AFM361": [
+    "BUS357W",
+    "COMM433"
+  ],
+  "AFM372": [
+    "AFM275",
+    "ACTSC391",
+    "ACTSC372",
+    "MATBUS371",
+    "AFM274",
+    "BUS393W",
+    "BUS283W"
+  ],
+  "AFM373": [
+    "AFM476",
+    "ACTSC471"
+  ],
+  "AFM377": [
+    "AFM416"
+  ],
+  "AFM382": [
+    "AFM481"
+  ],
+  "AFM391": [
+    "BUS397W"
+  ],
+  "AFM401": [
+    "BUS457W",
+    "BUS427W"
+  ],
+  "AFM415": [
+    "AFM345",
+    "AFM244"
+  ],
+  "AFM416": [
+    "AFM377",
+    "AFM324"
+  ],
+  "AFM417": [
+    "AFM470"
+  ],
+  "AFM422": [
+    "ACTSC445",
+    "MATBUS472"
+  ],
+  "AFM424": [
+    "BUS473W"
+  ],
+  "AFM425": [
+    "MATBUS471",
+    "BUS449W"
+  ],
+  "AFM431": [
+    "AFM311",
+    "BUS461QW"
+  ],
+  "AFM433": [
+    "ENBUS302"
+  ],
+  "AFM443": [
+    "COMM432"
+  ],
+  "AFM451": [
+    "AFM351"
+  ],
+  "AFM461": [
+    "BUS466W"
+  ],
+  "AFM470": [
+    "AFM417"
+  ],
+  "AFM472": [
+    "BUS473W"
+  ],
+  "AFM473": [
+    "BUS463W"
+  ],
+  "AFM476": [
+    "AFM373",
+    "ACTSC471",
+    "BUS463W"
+  ],
+  "AFM480": [
+    "AFM280",
+    "MSE211",
+    "PSYCH238"
+  ],
+  "AFM481": [
+    "AFM382",
+    "BUS467W"
+  ],
+  "AFM491": [
+    "BUS487W"
+  ],
+  "AFM492": [
+    "AFM276",
+    "BUS417W",
+    "COMM421"
+  ],
+  "AMATH231": [
+    "MATH207",
+    "ECE206",
+    "MATH217",
+    "MATH212",
+    "MATH227"
+  ],
+  "AMATH242": [
+    "CS371",
+    "CS370",
+    "CS335"
+  ],
+  "AMATH250": [
+    "AMATH251",
+    "MATH218",
+    "MATH228",
+    "MATH213"
+  ],
+  "AMATH251": [
+    "AMATH250",
+    "MATH218"
+  ],
+  "AMATH261": [
+    "PHYS263"
+  ],
+  "AMATH271": [
+    "PHYS263"
+  ],
+  "AMATH331": [
+    "PMATH333",
+    "PMATH351"
+  ],
+  "AMATH332": [
+    "PHYS365",
+    "PMATH352"
+  ],
+  "AMATH342": [
+    "ECE204"
+  ],
+  "AMATH350": [
+    "AMATH353",
+    "MATH211",
+    "AFM113"
+  ],
+  "AMATH353": [
+    "AMATH350",
+    "PHYS364"
+  ],
+  "AMATH373": [
+    "PHYS334"
+  ],
+  "AMATH442": [
+    "AMATH642"
+  ],
+  "AMATH445": [
+    "AMATH645"
+  ],
+  "AMATH446": [
+    "AMATH646"
+  ],
+  "AMATH449": [
+    "CS479",
+    "CS679"
+  ],
+  "AMATH451": [
+    "AMATH651"
+  ],
+  "AMATH453": [
+    "AMATH653"
+  ],
+  "AMATH455": [
+    "AMATH655"
+  ],
+  "AMATH456": [
+    "AMATH656"
+  ],
+  "AMATH462": [
+    "AMATH662"
+  ],
+  "AMATH463": [
+    "AMATH663"
+  ],
+  "AMATH473": [
+    "AMATH673"
+  ],
+  "AMATH474": [
+    "AMATH674"
+  ],
+  "AMATH475": [
+    "AMATH675"
+  ],
+  "AMATH477": [
+    "AMATH677"
+  ],
+  "AMATH642": [
+    "AMATH442",
+    "AMATH741"
+  ],
+  "AMATH645": [
+    "AMATH445"
+  ],
+  "AMATH646": [
+    "AMATH446"
+  ],
+  "AMATH651": [
+    "AMATH451"
+  ],
+  "AMATH653": [
+    "AMATH453"
+  ],
+  "AMATH655": [
+    "AMATH455"
+  ],
+  "AMATH656": [
+    "AMATH456"
+  ],
+  "AMATH662": [
+    "AMATH462"
+  ],
+  "AMATH663": [
+    "AMATH463"
+  ],
+  "AMATH673": [
+    "AMATH473"
+  ],
+  "AMATH674": [
+    "AMATH474"
+  ],
+  "AMATH675": [
+    "AMATH475"
+  ],
+  "AMATH677": [
+    "AMATH477"
+  ],
+  "AMATH741": [
+    "AMATH642"
+  ],
+  "ARBUS101": [
+    "AFM132",
+    "BUS111W",
+    "AFM131"
+  ],
+  "ARBUS102": [
+    "AFM101",
+    "BUS127W",
+    "MSCI262",
+    "AFM123",
+    "AFM102",
+    "AFM182",
+    "AFM191"
+  ],
+  "ARBUS200": [
+    "MGMT220",
+    "ECON220",
+    "ARBUS200",
+    "ENBUS203",
+    "BUS461RW",
+    "BUS311W"
+  ],
+  "ARBUS202": [
+    "PHIL215",
+    "AFM311"
+  ],
+  "ARBUS302": [
+    "BUS352W",
+    "MGMT344",
+    "ARBUS302",
+    "ENBUS211",
+    "GBDA304",
+    "MGMT244",
+    "ECON344",
+    "BUS252W"
+  ],
+  "ARBUS303": [
+    "BUS352W",
+    "ECON345",
+    "ARBUS303",
+    "ENBUS211",
+    "GBDA304",
+    "MGMT345"
+  ],
+  "ARTS280": [
+    "LS280",
+    "PSYCH292"
+  ],
+  "ARTS390": [
+    "ENGL367"
+  ],
+  "BE605": [
+    "MSE651"
+  ],
+  "BET450": [
+    "MSE411"
+  ],
+  "BIOL120": [
+    "BIOL220"
+  ],
+  "BIOL130": [
+    "HLTH103"
+  ],
+  "BIOL130L": [
+    "BIOL230"
+  ],
+  "BIOL150": [
+    "BIOL251"
+  ],
+  "BIOL201": [
+    "BIOL301"
+  ],
+  "BIOL220": [
+    "BIOL120"
+  ],
+  "BIOL230": [
+    "BIOL130L"
+  ],
+  "BIOL235": [
+    "BIOL309"
+  ],
+  "BIOL251": [
+    "BIOL150"
+  ],
+  "BIOL266": [
+    "BIOL366"
+  ],
+  "BIOL273L": [
+    "BIOL373L"
+  ],
+  "BIOL301": [
+    "BIOL201"
+  ],
+  "BIOL303": [
+    "BIOL403"
+  ],
+  "BIOL309": [
+    "BIOL235"
+  ],
+  "BIOL352": [
+    "BIOL456"
+  ],
+  "BIOL361": [
+    "PSYCH391",
+    "STAT332"
+  ],
+  "BIOL366": [
+    "BIOL266"
+  ],
+  "BIOL373L": [
+    "BIOL273L"
+  ],
+  "BIOL377": [
+    "BIOL476"
+  ],
+  "BIOL403": [
+    "BIOL303"
+  ],
+  "BIOL456": [
+    "BIOL352"
+  ],
+  "BIOL461": [
+    "STAT430"
+  ],
+  "BIOL462": [
+    "GEOG405"
+  ],
+  "BIOL476": [
+    "BIOL377"
+  ],
+  "BIOL631": [
+    "GEOG616",
+    "PLAN616"
+  ],
+  "BME121": [
+    "CS105",
+    "CS115",
+    "CS135",
+    "CS114",
+    "CS106",
+    "MSE121"
+  ],
+  "BME122": [
+    "CS231",
+    "CS234",
+    "CS240",
+    "MSE240"
+  ],
+  "BME213": [
+    "MSE251"
+  ],
+  "BME292": [
+    "CS230",
+    "CS251E",
+    "CS251"
+  ],
+  "BME364": [
+    "MSE261"
+  ],
+  "BME411": [
+    "MSE331"
+  ],
+  "BME603": [
+    "ECE609"
+  ],
+  "BUS111W": [
+    "AFM131",
+    "ARBUS101",
+    "AFM132"
+  ],
+  "BUS121W": [
+    "COMM102"
+  ],
+  "BUS127W": [
+    "AFM101",
+    "AFM123",
+    "AFM191",
+    "ARBUS102"
+  ],
+  "BUS205W": [
+    "ECON255W"
+  ],
+  "BUS208W": [
+    "COMMST100"
+  ],
+  "BUS223W": [
+    "AFM271",
+    "AFM275",
+    "BUS283W",
+    "BUS393W"
+  ],
+  "BUS227W": [
+    "BUS237W"
+  ],
+  "BUS228W": [
+    "BUS288W",
+    "MSCI211",
+    "PSYCH238",
+    "BUS398W"
+  ],
+  "BUS229W": [
+    "BUS352W",
+    "ECON344",
+    "INTTS302",
+    "BUS252W"
+  ],
+  "BUS231W": [
+    "AFM231",
+    "LS283",
+    "CIVE491",
+    "ENVS201",
+    "GENE411",
+    "ME401",
+    "MTHEL100",
+    "COMM231",
+    "AFM335"
+  ],
+  "BUS237W": [
+    "AFM101",
+    "BUS227W",
+    "MSCI262"
+  ],
+  "BUS247W": [
+    "AFM102",
+    "MSCI262",
+    "AFM182"
+  ],
+  "BUS252W": [
+    "BUS229W",
+    "MGMT344",
+    "ARBUS302",
+    "MGMT244"
+  ],
+  "BUS255W": [
+    "ECON205W"
+  ],
+  "BUS275W": [
+    "CO227",
+    "MSCI331"
+  ],
+  "BUS283W": [
+    "ACTSC291",
+    "AFM272",
+    "ACTSC371",
+    "AFM275",
+    "AFM372",
+    "ACTSC391",
+    "AFM271",
+    "BUS223W",
+    "ECON371",
+    "MATBUS371",
+    "COMM101"
+  ],
+  "BUS285W": [
+    "BUS385W",
+    "BUS395W"
+  ],
+  "BUS288W": [
+    "BUS228W",
+    "MSE211",
+    "PSYCH238"
+  ],
+  "BUS311W": [
+    "BUS440W",
+    "MGMT220",
+    "ECON220",
+    "ARBUS200"
+  ],
+  "BUS321W": [
+    "BUS461W"
+  ],
+  "BUS352W": [
+    "BUS229W",
+    "MGMT344",
+    "ARBUS302",
+    "MGMT244",
+    "ARBUS303"
+  ],
+  "BUS353W": [
+    "MTHEL305A"
+  ],
+  "BUS354W": [
+    "HRM200",
+    "PSYCH339"
+  ],
+  "BUS357W": [
+    "AFM361",
+    "COMM433"
+  ],
+  "BUS375W": [
+    "BUS385W",
+    "BUS395W"
+  ],
+  "BUS385W": [
+    "BUS285W",
+    "MSCI432",
+    "BUS375W"
+  ],
+  "BUS387W": [
+    "AFM291",
+    "COMM321"
+  ],
+  "BUS393W": [
+    "ACTSC372",
+    "AFM271",
+    "ACTSC291",
+    "AFM272",
+    "AFM275",
+    "AFM372",
+    "ACTSC391",
+    "BUS223W"
+  ],
+  "BUS395W": [
+    "BUS285W",
+    "MSCI432",
+    "BUS375W"
+  ],
+  "BUS397W": [
+    "AFM391",
+    "COMM321"
+  ],
+  "BUS398W": [
+    "BUS228W",
+    "MSE211",
+    "PSYCH238"
+  ],
+  "BUS408W": [
+    "PSYCH339"
+  ],
+  "BUS414W": [
+    "HRM305"
+  ],
+  "BUS415W": [
+    "AFM241",
+    "BUS486W",
+    "CS330",
+    "CS480",
+    "MSCI444",
+    "CS490",
+    "BUS476W"
+  ],
+  "BUS417W": [
+    "AFM492",
+    "COMM421"
+  ],
+  "BUS423W": [
+    "STAT446",
+    "AFM322",
+    "ECON372",
+    "ACTSC446",
+    "MATBUS470"
+  ],
+  "BUS427W": [
+    "AFM401",
+    "BUS457W",
+    "BUS487W"
+  ],
+  "BUS432W": [
+    "PSYCH438"
+  ],
+  "BUS433W": [
+    "MATBUS472",
+    "ACTSC445"
+  ],
+  "BUS435W": [
+    "MSE434"
+  ],
+  "BUS439W": [
+    "ACTSC445"
+  ],
+  "BUS440W": [
+    "BUS311W",
+    "MTHEL400",
+    "COMM400"
+  ],
+  "BUS442W": [
+    "BUS492W"
+  ],
+  "BUS443W": [
+    "ECON332"
+  ],
+  "BUS448W": [
+    "HRM303"
+  ],
+  "BUS449W": [
+    "MATBUS471",
+    "AFM425"
+  ],
+  "BUS456W": [
+    "BUS486W"
+  ],
+  "BUS457W": [
+    "AFM401",
+    "BUS427W"
+  ],
+  "BUS461QW": [
+    "AFM431",
+    "PHIL215"
+  ],
+  "BUS461RW": [
+    "ECON220",
+    "ARBUS200"
+  ],
+  "BUS461W": [
+    "BUS321W"
+  ],
+  "BUS463W": [
+    "AFM473",
+    "ACTSC471",
+    "AFM476"
+  ],
+  "BUS464W": [
+    "HRM307"
+  ],
+  "BUS466W": [
+    "AFM461"
+  ],
+  "BUS467W": [
+    "AFM481"
+  ],
+  "BUS471W": [
+    "AFM333"
+  ],
+  "BUS473W": [
+    "AFM472",
+    "AFM424"
+  ],
+  "BUS474W": [
+    "PSYCH340"
+  ],
+  "BUS476W": [
+    "AFM241",
+    "BUS415W",
+    "CS330",
+    "CS480",
+    "MSCI441"
+  ],
+  "BUS477W": [
+    "AFM351"
+  ],
+  "BUS486W": [
+    "BUS415W",
+    "CS330",
+    "CS490",
+    "BUS456W"
+  ],
+  "BUS487W": [
+    "AFM491",
+    "BUS427W"
+  ],
+  "BUS492W": [
+    "BUS442W"
+  ],
+  "CFM101": [
+    "ACTSC127",
+    "AFM127",
+    "AFM121",
+    "COMM101"
+  ],
+  "CHE120": [
+    "CS114"
+  ],
+  "CHE121": [
+    "CS105",
+    "CS115",
+    "CS106",
+    "CS370"
+  ],
+  "CHE220": [
+    "MSE251"
+  ],
+  "CHE521": [
+    "MSE331"
+  ],
+  "CHEM120": [
+    "ECE109"
+  ],
+  "CHEM254": [
+    "ECE403",
+    "PHYS358"
+  ],
+  "CHEM356": [
+    "PHYS234",
+    "PHYS233"
+  ],
+  "CIVE121": [
+    "CS105",
+    "CS115",
+    "CS135",
+    "CS114",
+    "CS106",
+    "CS370",
+    "ECE150"
+  ],
+  "CIVE221": [
+    "MATH217"
+  ],
+  "CIVE222": [
+    "MATH218"
+  ],
+  "CIVE224": [
+    "MSE251"
+  ],
+  "CIVE292": [
+    "ACTSC221"
+  ],
+  "CIVE332": [
+    "MSE331"
+  ],
+  "CIVE392": [
+    "MSE261"
+  ],
+  "CIVE491": [
+    "AFM335",
+    "AFM231",
+    "BUS231W",
+    "LS283",
+    "COMM231"
+  ],
+  "CM339": [
+    "CS341",
+    "PMATH339"
+  ],
+  "CM461": [
+    "STAT840"
+  ],
+  "CM462": [
+    "STAT842"
+  ],
+  "CM463": [
+    "STAT841"
+  ],
+  "CM464": [
+    "STAT844"
+  ],
+  "CO220": [
+    "MATH229",
+    "MATH239",
+    "MATH249"
+  ],
+  "CO227": [
+    "CO250",
+    "CO255",
+    "BUS275W"
+  ],
+  "CO250": [
+    "CO227",
+    "MSE331"
+  ],
+  "CO255": [
+    "CO227"
+  ],
+  "CO327": [
+    "CO370",
+    "MSE332"
+  ],
+  "CO339": [
+    "CS341",
+    "SE240"
+  ],
+  "CO370": [
+    "CO327",
+    "CO372"
+  ],
+  "CO372": [
+    "CO370"
+  ],
+  "CO454": [
+    "MSE555"
+  ],
+  "CO487": [
+    "ECE409"
+  ],
+  "COMM101": [
+    "AFM121",
+    "CFM101",
+    "BUS283W"
+  ],
+  "COMM102": [
+    "BUS121W"
+  ],
+  "COMM103": [
+    "ECON101",
+    "ECON100"
+  ],
+  "COMM231": [
+    "AFM231",
+    "LS283",
+    "ECE290",
+    "BUS231W",
+    "CIVE491",
+    "ENVS201",
+    "GENE411",
+    "ME401",
+    "MTHEL100",
+    "AFM335"
+  ],
+  "COMM321": [
+    "AFM291",
+    "BUS387W",
+    "BUS397W"
+  ],
+  "COMM400": [
+    "BUS440W",
+    "MTHEL400"
+  ],
+  "COMM421": [
+    "AFM492",
+    "BUS417W"
+  ],
+  "COMM432": [
+    "AFM443"
+  ],
+  "COMM433": [
+    "AFM361",
+    "BUS357W"
+  ],
+  "COMMST100": [
+    "BUS208W"
+  ],
+  "COMMST111": [
+    "COMMST204"
+  ],
+  "COMMST191": [
+    "GENE199"
+  ],
+  "COMMST192": [
+    "GENE191"
+  ],
+  "COMMST193": [
+    "SCCOM100"
+  ],
+  "COMMST204": [
+    "COMMST111"
+  ],
+  "COMMST235": [
+    "SOC225"
+  ],
+  "CS105": [
+    "BME121",
+    "CS115",
+    "CHE121",
+    "CIVE121",
+    "ECE150",
+    "MTE121",
+    "GENE121",
+    "NE111",
+    "MSE121",
+    "PHYS236",
+    "SYDE121"
+  ],
+  "CS106": [
+    "BME121",
+    "CS115",
+    "CHE121",
+    "CIVE121",
+    "ECE150",
+    "MTE121",
+    "GENE121",
+    "NE111",
+    "MSE121",
+    "SYDE121"
+  ],
+  "CS114": [
+    "CS116",
+    "BME121",
+    "CHE120",
+    "CIVE121",
+    "ECE150",
+    "GENE121",
+    "MTE121",
+    "ME101",
+    "MSE121",
+    "NE111",
+    "PHYS236",
+    "SYDE121"
+  ],
+  "CS115": [
+    "BME121",
+    "CS135",
+    "CHE121",
+    "CIVE121",
+    "ECE150",
+    "GENE121",
+    "MTE121",
+    "ME101",
+    "NE111",
+    "MSE121",
+    "PHYS139",
+    "SYDE121",
+    "CS105",
+    "CS106",
+    "CS145"
+  ],
+  "CS116": [
+    "CS114",
+    "PHYS236",
+    "MSE240",
+    "NE111",
+    "CS146"
+  ],
+  "CS135": [
+    "AE121",
+    "BME121",
+    "CS115",
+    "CIVE121",
+    "ECE150",
+    "ME101",
+    "MSE121",
+    "PHYS236",
+    "SYDE121"
+  ],
+  "CS136": [
+    "CS137",
+    "PHYS239"
+  ],
+  "CS137": [
+    "CS136"
+  ],
+  "CS145": [
+    "CS115"
+  ],
+  "CS146": [
+    "CS116"
+  ],
+  "CS230": [
+    "BME292",
+    "CS241",
+    "SYDE192",
+    "CS241E"
+  ],
+  "CS231": [
+    "BME122",
+    "CS341",
+    "ECE250",
+    "MSE240",
+    "MTE140",
+    "SYDE223"
+  ],
+  "CS234": [
+    "BME122",
+    "CS240",
+    "ECE250",
+    "MSE240",
+    "MTE140",
+    "SYDE223",
+    "CS240E"
+  ],
+  "CS240": [
+    "BME122",
+    "CS234",
+    "CS240E",
+    "ECE250",
+    "MTE140",
+    "SYDE223",
+    "MSE240"
+  ],
+  "CS240E": [
+    "CS234",
+    "CS240",
+    "ECE250"
+  ],
+  "CS241": [
+    "CS230",
+    "CS241E",
+    "ECE351"
+  ],
+  "CS241E": [
+    "CS230",
+    "ECE351",
+    "CS241"
+  ],
+  "CS245": [
+    "CS245E",
+    "PMATH330",
+    "ECE208",
+    "SE212"
+  ],
+  "CS245E": [
+    "CS245",
+    "ECE208",
+    "PMATH330",
+    "SE212"
+  ],
+  "CS246": [
+    "CS246E",
+    "CS247",
+    "MSE342",
+    "SYDE322"
+  ],
+  "CS246E": [
+    "CS246",
+    "SYDE322"
+  ],
+  "CS247": [
+    "CS246",
+    "MSE342",
+    "SYDE322"
+  ],
+  "CS251": [
+    "BME292",
+    "CS251E",
+    "ECE222",
+    "ME262",
+    "MTE262",
+    "SYDE192"
+  ],
+  "CS251E": [
+    "BME292",
+    "CS251",
+    "ECE222",
+    "ME262",
+    "MTE262",
+    "SYDE192"
+  ],
+  "CS330": [
+    "AFM241",
+    "BUS415W",
+    "CS480",
+    "MSCI441",
+    "BUS476W",
+    "BUS486W"
+  ],
+  "CS335": [
+    "AMATH242",
+    "CS371",
+    "CS370",
+    "MTE204"
+  ],
+  "CS338": [
+    "CS348",
+    "MSCI346",
+    "MSE245"
+  ],
+  "CS339": [
+    "CS341",
+    "SE240"
+  ],
+  "CS341": [
+    "CS231",
+    "ECE406",
+    "CM339",
+    "CO339",
+    "CS339",
+    "PMATH339"
+  ],
+  "CS343": [
+    "ECE252"
+  ],
+  "CS348": [
+    "CS338",
+    "ECE356",
+    "MSCI346"
+  ],
+  "CS350": [
+    "ECE254",
+    "MTE241",
+    "SE350",
+    "ECE350"
+  ],
+  "CS360": [
+    "CS365"
+  ],
+  "CS365": [
+    "CS360"
+  ],
+  "CS370": [
+    "AMATH242",
+    "CS371",
+    "CHE121",
+    "CIVE121",
+    "CS335",
+    "ECE204",
+    "MTE204"
+  ],
+  "CS371": [
+    "AMATH242",
+    "CS370",
+    "CS335"
+  ],
+  "CS372": [
+    "CS675"
+  ],
+  "CS430": [
+    "CS446",
+    "ECE452",
+    "SE464"
+  ],
+  "CS431": [
+    "CS451"
+  ],
+  "CS432": [
+    "AFM341"
+  ],
+  "CS436": [
+    "CS454",
+    "ECE454",
+    "CS456"
+  ],
+  "CS445": [
+    "SE463",
+    "ECE651"
+  ],
+  "CS446": [
+    "CS430",
+    "SE464",
+    "ECE452",
+    "ECE651"
+  ],
+  "CS447": [
+    "SE465",
+    "ECE653"
+  ],
+  "CS449": [
+    "SYDE348",
+    "MSE343"
+  ],
+  "CS450": [
+    "ECE320",
+    "ECE429",
+    "ECE621"
+  ],
+  "CS451": [
+    "CS431"
+  ],
+  "CS453": [
+    "CS489"
+  ],
+  "CS454": [
+    "CS436",
+    "ECE454"
+  ],
+  "CS456": [
+    "CS436",
+    "ECE358",
+    "ECE416",
+    "CS755"
+  ],
+  "CS458": [
+    "ECE409"
+  ],
+  "CS459": [
+    "CS489"
+  ],
+  "CS479": [
+    "AMATH449",
+    "CS679",
+    "ECE657D"
+  ],
+  "CS480": [
+    "MSCI446",
+    "CS330",
+    "BUS476W",
+    "BUS415W",
+    "ECE657"
+  ],
+  "CS486": [
+    "SYDE522",
+    "ECE657A",
+    "ECE457B"
+  ],
+  "CS489": [
+    "CS453",
+    "CS459"
+  ],
+  "CS490": [
+    "BUS415W",
+    "BUS486W"
+  ],
+  "CS645": [
+    "ECE651",
+    "HLTH615"
+  ],
+  "CS646": [
+    "ECE651"
+  ],
+  "CS649": [
+    "SYDE348",
+    "MSE630"
+  ],
+  "CS650": [
+    "ECE621"
+  ],
+  "CS654": [
+    "CS755"
+  ],
+  "CS656": [
+    "CS755"
+  ],
+  "CS664": [
+    "CS764"
+  ],
+  "CS675": [
+    "CS372"
+  ],
+  "CS679": [
+    "AMATH449",
+    "CS479",
+    "CS779",
+    "ECE657D"
+  ],
+  "CS680": [
+    "ECE657",
+    "MSE623"
+  ],
+  "CS684": [
+    "CS784"
+  ],
+  "CS685": [
+    "CS785"
+  ],
+  "CS686": [
+    "ECE657A"
+  ],
+  "CS698Q": [
+    "CS787"
+  ],
+  "CS741": [
+    "CS748O"
+  ],
+  "CS747": [
+    "CS842"
+  ],
+  "CS748O": [
+    "CS741"
+  ],
+  "CS755": [
+    "CS456",
+    "CS654",
+    "CS656"
+  ],
+  "CS760K": [
+    "CS762"
+  ],
+  "CS760M": [
+    "CS763"
+  ],
+  "CS762": [
+    "CS760K"
+  ],
+  "CS763": [
+    "CS760M"
+  ],
+  "CS764": [
+    "CS664"
+  ],
+  "CS770G": [
+    "CS775"
+  ],
+  "CS775": [
+    "CS770G"
+  ],
+  "CS779": [
+    "CS679"
+  ],
+  "CS784": [
+    "CS684"
+  ],
+  "CS785": [
+    "CS685"
+  ],
+  "CS786": [
+    "CS786P"
+  ],
+  "CS786P": [
+    "CS786"
+  ],
+  "CS787": [
+    "CS698Q"
+  ],
+  "CS842": [
+    "CS747"
+  ],
+  "DAC301": [
+    "ENGL304"
+  ],
+  "DRAMA386": [
+    "ENGL362"
+  ],
+  "DRAMA387": [
+    "ENGL363"
+  ],
+  "ECE100A": [
+    "ECE190"
+  ],
+  "ECE103": [
+    "ECE108"
+  ],
+  "ECE105": [
+    "PHYS121"
+  ],
+  "ECE106": [
+    "NE241",
+    "PHYS112"
+  ],
+  "ECE108": [
+    "ECE103",
+    "MATH229"
+  ],
+  "ECE109": [
+    "CHEM120"
+  ],
+  "ECE140": [
+    "GEOE123",
+    "GENE123",
+    "ME123",
+    "MTE120",
+    "NE140"
+  ],
+  "ECE150": [
+    "CIVE121",
+    "MTE121",
+    "GENE121",
+    "NE113",
+    "SYDE121",
+    "CS105",
+    "CS115",
+    "CS135",
+    "CS114",
+    "CS106",
+    "MSE121"
+  ],
+  "ECE190": [
+    "ECE100A"
+  ],
+  "ECE203": [
+    "ECE306",
+    "MSE251"
+  ],
+  "ECE204": [
+    "AMATH342",
+    "CS370",
+    "ECE204A",
+    "MTE204"
+  ],
+  "ECE204A": [
+    "ECE204"
+  ],
+  "ECE205": [
+    "MATH211",
+    "MATH218",
+    "MATH213"
+  ],
+  "ECE206": [
+    "AMATH231",
+    "MATH217",
+    "MATH227",
+    "MATH237"
+  ],
+  "ECE208": [
+    "CS245",
+    "SE212",
+    "CS245E"
+  ],
+  "ECE222": [
+    "CS251E",
+    "CS251"
+  ],
+  "ECE224": [
+    "MTE325"
+  ],
+  "ECE231": [
+    "NE242"
+  ],
+  "ECE242": [
+    "ECE340"
+  ],
+  "ECE250": [
+    "CS234",
+    "SE240",
+    "CS231",
+    "CS240E",
+    "CS240",
+    "MSE240"
+  ],
+  "ECE252": [
+    "CS343",
+    "SE350"
+  ],
+  "ECE254": [
+    "CS350"
+  ],
+  "ECE260": [
+    "ECE261",
+    "ME269",
+    "MTE320"
+  ],
+  "ECE261": [
+    "ECE260"
+  ],
+  "ECE290": [
+    "PD22",
+    "COMM231"
+  ],
+  "ECE306": [
+    "ECE316",
+    "ECE203"
+  ],
+  "ECE307": [
+    "STAT330",
+    "MSE253"
+  ],
+  "ECE313": [
+    "ECE413"
+  ],
+  "ECE316": [
+    "ECE306"
+  ],
+  "ECE320": [
+    "ECE429",
+    "CS450",
+    "ECE621"
+  ],
+  "ECE327": [
+    "ECE627"
+  ],
+  "ECE340": [
+    "ECE242",
+    "NE344"
+  ],
+  "ECE350": [
+    "CS350",
+    "SE350"
+  ],
+  "ECE351": [
+    "CS241E",
+    "CS241"
+  ],
+  "ECE355": [
+    "ECE651"
+  ],
+  "ECE356": [
+    "CS348"
+  ],
+  "ECE358": [
+    "CS456"
+  ],
+  "ECE360": [
+    "ECE361"
+  ],
+  "ECE361": [
+    "ECE360"
+  ],
+  "ECE373": [
+    "ECE473"
+  ],
+  "ECE380": [
+    "ME360",
+    "MTE360",
+    "SE380",
+    "SYDE352"
+  ],
+  "ECE390": [
+    "MSE261"
+  ],
+  "ECE403": [
+    "CHEM254",
+    "MTE309",
+    "ME250",
+    "PHYS358",
+    "SYDE381"
+  ],
+  "ECE404": [
+    "PHYS226",
+    "PHYS256"
+  ],
+  "ECE405": [
+    "PHYS234",
+    "PHYS233"
+  ],
+  "ECE405A": [
+    "PHYS468"
+  ],
+  "ECE405B": [
+    "PHYS468",
+    "ECE676B"
+  ],
+  "ECE405C": [
+    "PHYS468",
+    "ECE676C"
+  ],
+  "ECE405D": [
+    "PHYS468",
+    "ECE676D"
+  ],
+  "ECE406": [
+    "CS341",
+    "SYDE423",
+    "ECE606"
+  ],
+  "ECE407": [
+    "ECE752"
+  ],
+  "ECE409": [
+    "CO487",
+    "CS458"
+  ],
+  "ECE413": [
+    "ECE313"
+  ],
+  "ECE414": [
+    "ECE614"
+  ],
+  "ECE416": [
+    "CS456"
+  ],
+  "ECE417": [
+    "SYDE575",
+    "ECE613"
+  ],
+  "ECE423": [
+    "SYDE524"
+  ],
+  "ECE429": [
+    "CS450",
+    "ECE621",
+    "ECE320"
+  ],
+  "ECE433": [
+    "NE343"
+  ],
+  "ECE444": [
+    "MTE421"
+  ],
+  "ECE451": [
+    "SE463",
+    "ECE651"
+  ],
+  "ECE452": [
+    "CS430",
+    "SE464",
+    "CS446",
+    "ECE651"
+  ],
+  "ECE453": [
+    "SE465",
+    "ECE653"
+  ],
+  "ECE454": [
+    "CS454",
+    "CS436",
+    "ECE751"
+  ],
+  "ECE457B": [
+    "CS486",
+    "SYDE552"
+  ],
+  "ECE457C": [
+    "ECE493"
+  ],
+  "ECE457D": [
+    "ECE657D"
+  ],
+  "ECE463": [
+    "MTE420",
+    "ECE663"
+  ],
+  "ECE473": [
+    "ECE373"
+  ],
+  "ECE474": [
+    "ECE774"
+  ],
+  "ECE481": [
+    "ECE484"
+  ],
+  "ECE484": [
+    "ECE481",
+    "MTE484"
+  ],
+  "ECE486": [
+    "ME547",
+    "ECE687"
+  ],
+  "ECE487": [
+    "ECE787"
+  ],
+  "ECE493": [
+    "ECE787",
+    "ECE457C",
+    "ECE752",
+    "ECE657D",
+    "ECE659"
+  ],
+  "ECE602": [
+    "ECE700"
+  ],
+  "ECE606": [
+    "ECE406",
+    "SYDE423",
+    "ECE750"
+  ],
+  "ECE609": [
+    "BME603"
+  ],
+  "ECE613": [
+    "ECE417",
+    "ECE710"
+  ],
+  "ECE614": [
+    "ECE414"
+  ],
+  "ECE621": [
+    "CS450",
+    "CS650",
+    "ECE320",
+    "ECE429"
+  ],
+  "ECE627": [
+    "ECE327"
+  ],
+  "ECE633": [
+    "ECE730"
+  ],
+  "ECE634": [
+    "NE479",
+    "NE472",
+    "ECE730"
+  ],
+  "ECE635": [
+    "ECE730",
+    "NE353"
+  ],
+  "ECE638": [
+    "ECE730"
+  ],
+  "ECE649": [
+    "ECE699",
+    "ECE740"
+  ],
+  "ECE651": [
+    "ECE355",
+    "ECE451",
+    "CS445",
+    "CS645",
+    "SE463",
+    "ECE452",
+    "CS446",
+    "CS646",
+    "SE464"
+  ],
+  "ECE653": [
+    "CS447",
+    "ECE453",
+    "SE465"
+  ],
+  "ECE654": [
+    "ECE750"
+  ],
+  "ECE655": [
+    "ECE750"
+  ],
+  "ECE656": [
+    "ECE750"
+  ],
+  "ECE657": [
+    "CS480",
+    "CS680",
+    "MSE623"
+  ],
+  "ECE657A": [
+    "CS486",
+    "CS686",
+    "MSE623"
+  ],
+  "ECE657D": [
+    "CS479",
+    "CS679",
+    "ECE457D",
+    "ECE493",
+    "MSE546",
+    "STAT940",
+    "SYDE577"
+  ],
+  "ECE658": [
+    "ECE750"
+  ],
+  "ECE659": [
+    "ECE493",
+    "ECE750"
+  ],
+  "ECE660": [
+    "ECE760"
+  ],
+  "ECE661": [
+    "ECE765",
+    "ECE761"
+  ],
+  "ECE663": [
+    "ECE463"
+  ],
+  "ECE664": [
+    "ECE762"
+  ],
+  "ECE666": [
+    "ECE760"
+  ],
+  "ECE667": [
+    "ECE763"
+  ],
+  "ECE676": [
+    "ECE770"
+  ],
+  "ECE676B": [
+    "ECE405B"
+  ],
+  "ECE676C": [
+    "ECE405C",
+    "ECE730"
+  ],
+  "ECE676D": [
+    "ECE405D",
+    "ECE730"
+  ],
+  "ECE676E": [
+    "ECE676E",
+    "PHYS762",
+    "QIC862"
+  ],
+  "ECE677": [
+    "ECE770"
+  ],
+  "ECE687": [
+    "ECE486",
+    "ECE780"
+  ],
+  "ECE699": [
+    "ECE649"
+  ],
+  "ECE699A": [
+    "ECE700"
+  ],
+  "ECE700": [
+    "ECE602",
+    "ECE699A"
+  ],
+  "ECE710": [
+    "ECE613"
+  ],
+  "ECE720": [
+    "ECE722"
+  ],
+  "ECE722": [
+    "ECE720"
+  ],
+  "ECE730": [
+    "ECE638",
+    "ECE634",
+    "ECE633",
+    "ECE733",
+    "ECE732",
+    "ECE676C",
+    "ECE635",
+    "ECE676D"
+  ],
+  "ECE732": [
+    "ECE730"
+  ],
+  "ECE733": [
+    "ECE730"
+  ],
+  "ECE740": [
+    "ECE649"
+  ],
+  "ECE750": [
+    "ECE654",
+    "ECE656",
+    "ECE757A",
+    "ECE787",
+    "ECE752",
+    "ECE658",
+    "ECE606",
+    "ECE655",
+    "ECE659",
+    "ECE751"
+  ],
+  "ECE751": [
+    "ECE454",
+    "ECE750"
+  ],
+  "ECE752": [
+    "ECE407",
+    "ECE493",
+    "ECE750"
+  ],
+  "ECE757A": [
+    "ECE750"
+  ],
+  "ECE760": [
+    "ECE666",
+    "ECE768",
+    "ECE660"
+  ],
+  "ECE761": [
+    "ECE661"
+  ],
+  "ECE762": [
+    "ECE664"
+  ],
+  "ECE763": [
+    "ECE667"
+  ],
+  "ECE765": [
+    "ECE661"
+  ],
+  "ECE768": [
+    "ECE760"
+  ],
+  "ECE770": [
+    "ECE677",
+    "ECE676",
+    "ECE774"
+  ],
+  "ECE774": [
+    "ECE474",
+    "ECE770"
+  ],
+  "ECE780": [
+    "STAT902",
+    "ECE782",
+    "ECE687",
+    "ECE789",
+    "ECE783"
+  ],
+  "ECE782": [
+    "ECE780"
+  ],
+  "ECE783": [
+    "ECE780"
+  ],
+  "ECE787": [
+    "ECE487",
+    "ECE493",
+    "ECE750"
+  ],
+  "ECE789": [
+    "ECE780"
+  ],
+  "ECON100": [
+    "ECON101",
+    "COMM103"
+  ],
+  "ECON101": [
+    "ECON100",
+    "COMM103",
+    "ECON120W",
+    "MSE263"
+  ],
+  "ECON102": [
+    "ECON140W"
+  ],
+  "ECON120W": [
+    "ECON101"
+  ],
+  "ECON140W": [
+    "ECON102"
+  ],
+  "ECON201": [
+    "ECON260W"
+  ],
+  "ECON202": [
+    "ECON250W"
+  ],
+  "ECON205W": [
+    "BUS255W"
+  ],
+  "ECON220": [
+    "MGMT220",
+    "ARBUS200",
+    "BUS461RW",
+    "BUS311W"
+  ],
+  "ECON221": [
+    "LS280",
+    "MSE251",
+    "PSYCH292"
+  ],
+  "ECON250W": [
+    "ECON202"
+  ],
+  "ECON255W": [
+    "BUS205W"
+  ],
+  "ECON260W": [
+    "ECON201"
+  ],
+  "ECON321": [
+    "AFM323"
+  ],
+  "ECON332": [
+    "BUS443W"
+  ],
+  "ECON344": [
+    "ARBUS302",
+    "BUS229W",
+    "MGMT244"
+  ],
+  "ECON345": [
+    "ARBUS303",
+    "MGMT345"
+  ],
+  "ECON357": [
+    "ECON457"
+  ],
+  "ECON371": [
+    "AFM271",
+    "AFM274",
+    "ACTSC372",
+    "ACTSC391",
+    "ACTSC291",
+    "MATBUS371",
+    "AFM275",
+    "AFM272",
+    "AFM273",
+    "BUS283W"
+  ],
+  "ECON372": [
+    "ACTSC446",
+    "MATBUS470",
+    "AFM322",
+    "BUS423W"
+  ],
+  "ECON421": [
+    "STAT331"
+  ],
+  "ECON437": [
+    "ECON483"
+  ],
+  "ECON457": [
+    "ECON357"
+  ],
+  "ECON458": [
+    "ECON484"
+  ],
+  "ECON467": [
+    "ECON483"
+  ],
+  "ECON483": [
+    "ECON437",
+    "ECON467"
+  ],
+  "ECON484": [
+    "ECON458"
+  ],
+  "ECON604": [
+    "ECON704"
+  ],
+  "ECON625": [
+    "ECON673"
+  ],
+  "ECON641": [
+    "ECON741"
+  ],
+  "ECON642": [
+    "ECON742"
+  ],
+  "ECON651": [
+    "ECON751"
+  ],
+  "ECON657": [
+    "ECON757"
+  ],
+  "ECON658": [
+    "ECON673"
+  ],
+  "ECON673": [
+    "ECON625",
+    "ECON658"
+  ],
+  "ECON704": [
+    "ECON604"
+  ],
+  "ECON741": [
+    "ECON641"
+  ],
+  "ECON742": [
+    "ECON642"
+  ],
+  "ECON751": [
+    "ECON651"
+  ],
+  "ECON757": [
+    "ECON657"
+  ],
+  "ENBUS102": [
+    "AFM285"
+  ],
+  "ENBUS203": [
+    "ARBUS200",
+    "MGMT220"
+  ],
+  "ENBUS211": [
+    "ARBUS302",
+    "ARBUS303",
+    "MGMT244"
+  ],
+  "ENBUS302": [
+    "AFM433"
+  ],
+  "ENGL191": [
+    "GENE199"
+  ],
+  "ENGL192": [
+    "GENE191"
+  ],
+  "ENGL193": [
+    "SCCOM100"
+  ],
+  "ENGL203": [
+    "GBDA101"
+  ],
+  "ENGL204": [
+    "GBDA201"
+  ],
+  "ENGL208E": [
+    "WS208E"
+  ],
+  "ENGL251": [
+    "ENGL251A",
+    "ENGL251B"
+  ],
+  "ENGL251A": [
+    "ENGL251"
+  ],
+  "ENGL251B": [
+    "ENGL251"
+  ],
+  "ENGL304": [
+    "DAC301"
+  ],
+  "ENGL309A": [
+    "ENGL309B"
+  ],
+  "ENGL309B": [
+    "ENGL309A"
+  ],
+  "ENGL362": [
+    "DRAMA386"
+  ],
+  "ENGL363": [
+    "DRAMA387"
+  ],
+  "ENGL367": [
+    "ARTS390"
+  ],
+  "ENGL410": [
+    "WS410F"
+  ],
+  "ENVE221": [
+    "MATH217"
+  ],
+  "ENVE223": [
+    "MATH218"
+  ],
+  "ENVE224": [
+    "MSE251"
+  ],
+  "ENVE320": [
+    "MSE331"
+  ],
+  "ENVE392": [
+    "MSE261"
+  ],
+  "ENVS201": [
+    "AFM335",
+    "BUS231W",
+    "COMM231"
+  ],
+  "ENVS278": [
+    "LS280",
+    "PSYCH292"
+  ],
+  "FINE338": [
+    "PHIL331"
+  ],
+  "GBDA101": [
+    "ENGL203"
+  ],
+  "GBDA201": [
+    "ENGL204"
+  ],
+  "GBDA304": [
+    "ARBUS302",
+    "ARBUS303",
+    "MGMT244"
+  ],
+  "GENE121": [
+    "MTE121",
+    "CS105",
+    "CS115",
+    "CS114",
+    "CS106",
+    "ECE150",
+    "MSE121"
+  ],
+  "GENE123": [
+    "ECE140"
+  ],
+  "GENE191": [
+    "ENGL192",
+    "COMMST192"
+  ],
+  "GENE199": [
+    "ENGL191",
+    "COMMST191"
+  ],
+  "GENE411": [
+    "AFM335",
+    "AFM231",
+    "BUS231W",
+    "LS283",
+    "COMM231"
+  ],
+  "GEOE123": [
+    "ECE140"
+  ],
+  "GEOE392": [
+    "MSE261"
+  ],
+  "GEOG405": [
+    "BIOL462"
+  ],
+  "GEOG616": [
+    "PLAN616",
+    "BIOL631"
+  ],
+  "GERON320": [
+    "HLTH320",
+    "HLTH220"
+  ],
+  "GSJ280": [
+    "HLTH280",
+    "HLTH380"
+  ],
+  "HLTH103": [
+    "BIOL130"
+  ],
+  "HLTH204": [
+    "PSYCH292"
+  ],
+  "HLTH217": [
+    "KIN217"
+  ],
+  "HLTH220": [
+    "HLTH320",
+    "GERON320"
+  ],
+  "HLTH230": [
+    "HLTH330"
+  ],
+  "HLTH280": [
+    "GSJ280",
+    "HLTH380"
+  ],
+  "HLTH301": [
+    "HLTH305"
+  ],
+  "HLTH305": [
+    "HLTH301"
+  ],
+  "HLTH320": [
+    "GERON320",
+    "HLTH220"
+  ],
+  "HLTH330": [
+    "HLTH230"
+  ],
+  "HLTH333": [
+    "STAT337",
+    "PSYCH291"
+  ],
+  "HLTH335": [
+    "STAT316",
+    "REC371"
+  ],
+  "HLTH380": [
+    "HLTH280",
+    "GSJ280"
+  ],
+  "HLTH400": [
+    "HLTH642"
+  ],
+  "HLTH403": [
+    "HLTH643"
+  ],
+  "HLTH451": [
+    "HLTH626"
+  ],
+  "HLTH454": [
+    "HLTH629"
+  ],
+  "HLTH471": [
+    "HLTH671"
+  ],
+  "HLTH605A": [
+    "HLTH605B"
+  ],
+  "HLTH605B": [
+    "HLTH605A"
+  ],
+  "HLTH606A": [
+    "HLTH606B"
+  ],
+  "HLTH606B": [
+    "HSG606",
+    "HLTH606A"
+  ],
+  "HLTH611": [
+    "HLTH654"
+  ],
+  "HLTH615": [
+    "CS645"
+  ],
+  "HLTH616": [
+    "HSG652"
+  ],
+  "HLTH626": [
+    "HLTH451"
+  ],
+  "HLTH629": [
+    "HLTH454"
+  ],
+  "HLTH642": [
+    "HLTH400"
+  ],
+  "HLTH643": [
+    "HLTH403"
+  ],
+  "HLTH654": [
+    "PHS611",
+    "HLTH611"
+  ],
+  "HLTH671": [
+    "HLTH471"
+  ],
+  "HRM200": [
+    "BUS354W"
+  ],
+  "HRM303": [
+    "BUS448W"
+  ],
+  "HRM305": [
+    "BUS414W"
+  ],
+  "HRM307": [
+    "BUS464W"
+  ],
+  "HSG606": [
+    "HLTH606B"
+  ],
+  "HSG652": [
+    "HLTH616"
+  ],
+  "INTTS302": [
+    "BUS229W"
+  ],
+  "KIN217": [
+    "HLTH217"
+  ],
+  "KIN222": [
+    "LS280",
+    "PSYCH292"
+  ],
+  "KIN232": [
+    "PSYCH291"
+  ],
+  "KIN330": [
+    "LS221"
+  ],
+  "LEC001": [
+    "LS329",
+    "LS213"
+  ],
+  "LEC002": [
+    "AFM324"
+  ],
+  "LEC041": [
+    "LS213"
+  ],
+  "LEC042": [
+    "AFM345"
+  ],
+  "LS102": [
+    "LS202"
+  ],
+  "LS201": [
+    "WS206"
+  ],
+  "LS202": [
+    "LS102"
+  ],
+  "LS203": [
+    "LS213"
+  ],
+  "LS213": [
+    "LS203",
+    "LEC001",
+    "LEC041",
+    "LEC001",
+    "SOC230",
+    "LEC001"
+  ],
+  "LS221": [
+    "SDS251R",
+    "KIN330",
+    "PSYCH291",
+    "REC270",
+    "SOC321",
+    "LS321",
+    "SRF220",
+    "SWREN251R"
+  ],
+  "LS280": [
+    "ARTS280",
+    "ECON221",
+    "ENVS278",
+    "KIN222",
+    "PSCI314",
+    "PSYCH292",
+    "REC371",
+    "SDS250R"
+  ],
+  "LS283": [
+    "AFM335",
+    "MTHEL100",
+    "COMM231",
+    "BUS231W",
+    "CIVE491",
+    "GENE411",
+    "ME401",
+    "AFM231"
+  ],
+  "LS306": [
+    "SOC226"
+  ],
+  "LS315": [
+    "LS330"
+  ],
+  "LS319": [
+    "PSYCH439",
+    "PACS323"
+  ],
+  "LS321": [
+    "SOC321",
+    "LS221"
+  ],
+  "LS322": [
+    "SDS351R"
+  ],
+  "LS329": [
+    "LS330",
+    "LEC001",
+    "SOC330",
+    "LEC001"
+  ],
+  "LS330": [
+    "LS364",
+    "LS329",
+    "LS348",
+    "LS315"
+  ],
+  "LS342": [
+    "PSCI375"
+  ],
+  "LS348": [
+    "LS330"
+  ],
+  "LS364": [
+    "PSCI390",
+    "LS330"
+  ],
+  "LS404": [
+    "LS496",
+    "LS496"
+  ],
+  "LS409": [
+    "LS496",
+    "SOC430"
+  ],
+  "LS410": [
+    "LS496"
+  ],
+  "LS426": [
+    "LS496",
+    "SOC430",
+    "LS496",
+    "SOC430",
+    "LS496",
+    "SOC430"
+  ],
+  "LS435": [
+    "LS496",
+    "SEM041",
+    "SOC430",
+    "SEM041"
+  ],
+  "LS496": [
+    "LS404",
+    "LS410",
+    "LS409",
+    "LS435",
+    "LS426"
+  ],
+  "MATBUS371": [
+    "AFM272",
+    "ACTSC291",
+    "AFM273",
+    "AFM275",
+    "AFM372",
+    "ACTSC391",
+    "BUS283W",
+    "ECON371",
+    "ACTSC371",
+    "ACTSC372"
+  ],
+  "MATBUS470": [
+    "STAT446",
+    "AFM322",
+    "BUS423W",
+    "ECON372",
+    "ACTSC446"
+  ],
+  "MATBUS471": [
+    "AFM425",
+    "BUS449W"
+  ],
+  "MATBUS472": [
+    "ACTSC445",
+    "AFM422",
+    "BUS433W"
+  ],
+  "MATH103": [
+    "MATH106",
+    "NE112"
+  ],
+  "MATH104": [
+    "MATH127"
+  ],
+  "MATH106": [
+    "MATH114",
+    "NE112",
+    "MATH136",
+    "MATH215",
+    "MATH103",
+    "MATH115",
+    "MATH146"
+  ],
+  "MATH109": [
+    "MATH124",
+    "MATH127"
+  ],
+  "MATH114": [
+    "MATH106",
+    "NE112"
+  ],
+  "MATH115": [
+    "MATH106",
+    "NE112"
+  ],
+  "MATH116": [
+    "MATH117",
+    "MATH147",
+    "MATH137"
+  ],
+  "MATH117": [
+    "MATH116"
+  ],
+  "MATH118": [
+    "MATH119",
+    "MATH138",
+    "MATH128",
+    "MATH148"
+  ],
+  "MATH119": [
+    "MATH118"
+  ],
+  "MATH124": [
+    "MATH109"
+  ],
+  "MATH127": [
+    "MATH109",
+    "MATH104"
+  ],
+  "MATH128": [
+    "MATH118",
+    "AFM113"
+  ],
+  "MATH135": [
+    "MATH145"
+  ],
+  "MATH136": [
+    "MATH106",
+    "NE112",
+    "PHYS249"
+  ],
+  "MATH137": [
+    "MATH116"
+  ],
+  "MATH138": [
+    "MATH118"
+  ],
+  "MATH145": [
+    "MATH135"
+  ],
+  "MATH146": [
+    "MATH106",
+    "NE112"
+  ],
+  "MATH147": [
+    "MATH116"
+  ],
+  "MATH148": [
+    "MATH118"
+  ],
+  "MATH207": [
+    "AMATH231",
+    "MATH212",
+    "NE217",
+    "MATH217",
+    "MATH227",
+    "MATH237"
+  ],
+  "MATH211": [
+    "AMATH350",
+    "MATH218",
+    "ECE205",
+    "MATH213"
+  ],
+  "MATH212": [
+    "AMATH231",
+    "MATH207"
+  ],
+  "MATH212N": [
+    "NE217",
+    "MATH217",
+    "MATH218",
+    "MATH227",
+    "MATH237"
+  ],
+  "MATH213": [
+    "AMATH250",
+    "MATH211",
+    "ECE205"
+  ],
+  "MATH215": [
+    "MATH106",
+    "NE112"
+  ],
+  "MATH217": [
+    "AMATH231",
+    "CIVE221",
+    "ENVE221",
+    "MATH207",
+    "ECE206",
+    "MATH212N",
+    "NE217",
+    "ME201"
+  ],
+  "MATH218": [
+    "AMATH250",
+    "CIVE222",
+    "ENVE223",
+    "MATH211",
+    "ECE205",
+    "MATH212N",
+    "NE217",
+    "ME203",
+    "SYDE211",
+    "AMATH251"
+  ],
+  "MATH225": [
+    "MATH235",
+    "MATH245"
+  ],
+  "MATH227": [
+    "AMATH231",
+    "MATH207",
+    "ECE206",
+    "MATH212N",
+    "NE217"
+  ],
+  "MATH228": [
+    "AMATH250"
+  ],
+  "MATH229": [
+    "CO220",
+    "MATH239",
+    "MATH249",
+    "ECE108"
+  ],
+  "MATH235": [
+    "MATH225"
+  ],
+  "MATH237": [
+    "MATH207",
+    "ECE206",
+    "MATH212N",
+    "MATH247"
+  ],
+  "MATH239": [
+    "CO220",
+    "MATH229"
+  ],
+  "MATH245": [
+    "MATH225"
+  ],
+  "MATH247": [
+    "MATH237",
+    "PMATH333"
+  ],
+  "MATH249": [
+    "CO220",
+    "MATH229"
+  ],
+  "MATH650": [
+    "MATH655"
+  ],
+  "MATH655": [
+    "MATH650"
+  ],
+  "ME101": [
+    "CS115",
+    "CS135",
+    "CS114"
+  ],
+  "ME123": [
+    "ECE140"
+  ],
+  "ME201": [
+    "MATH217"
+  ],
+  "ME202": [
+    "MSE251"
+  ],
+  "ME203": [
+    "MATH218"
+  ],
+  "ME250": [
+    "ECE403"
+  ],
+  "ME262": [
+    "CS251E",
+    "CS251"
+  ],
+  "ME269": [
+    "ECE260"
+  ],
+  "ME360": [
+    "ECE380"
+  ],
+  "ME401": [
+    "AFM335",
+    "AFM231",
+    "BUS231W",
+    "LS283",
+    "COMM231"
+  ],
+  "ME547": [
+    "ECE486"
+  ],
+  "MGMT220": [
+    "ENBUS203",
+    "ECON220",
+    "ARBUS200",
+    "BUS311W"
+  ],
+  "MGMT244": [
+    "BUS352W",
+    "ECON344",
+    "ARBUS302",
+    "ENBUS211",
+    "GBDA304",
+    "MGMT344",
+    "BUS252W"
+  ],
+  "MGMT344": [
+    "ARBUS302",
+    "MGMT244",
+    "BUS352W",
+    "BUS252W"
+  ],
+  "MGMT345": [
+    "ECON345",
+    "ARBUS303"
+  ],
+  "MSCI211": [
+    "AFM280",
+    "BUS228W"
+  ],
+  "MSCI232": [
+    "MSE331"
+  ],
+  "MSCI262": [
+    "AFM102",
+    "AFM182",
+    "AFM123",
+    "AFM191",
+    "AFM101",
+    "ARBUS102",
+    "BUS237W",
+    "BUS247W"
+  ],
+  "MSCI331": [
+    "BUS275W",
+    "MSE232"
+  ],
+  "MSCI346": [
+    "CS338",
+    "CS348"
+  ],
+  "MSCI432": [
+    "BUS385W",
+    "BUS395W"
+  ],
+  "MSCI441": [
+    "CS330",
+    "BUS476W"
+  ],
+  "MSCI444": [
+    "BUS415W"
+  ],
+  "MSCI446": [
+    "CS480"
+  ],
+  "MSCI603": [
+    "MSE634"
+  ],
+  "MSCI634": [
+    "MSE603"
+  ],
+  "MSCI700": [
+    "MSE731",
+    "MSE734",
+    "MSE724"
+  ],
+  "MSCI723": [
+    "MSE623"
+  ],
+  "MSCI730": [
+    "MSE630"
+  ],
+  "MSCI760": [
+    "MSE744",
+    "MSE724"
+  ],
+  "MSE121": [
+    "BME121",
+    "ECE150",
+    "MTE121",
+    "GENE121",
+    "SYDE121",
+    "CS105",
+    "CS115",
+    "CS135",
+    "CS114",
+    "CS106"
+  ],
+  "MSE211": [
+    "AFM280",
+    "BUS288W",
+    "PSYCH238",
+    "SCBUS225",
+    "AFM480",
+    "BUS398W"
+  ],
+  "MSE232": [
+    "MSCI331"
+  ],
+  "MSE240": [
+    "BME122",
+    "CS240",
+    "ECE250",
+    "MTE140",
+    "SYDE223",
+    "CS116",
+    "CS231",
+    "CS234"
+  ],
+  "MSE245": [
+    "CS338"
+  ],
+  "MSE251": [
+    "AE224",
+    "BME213",
+    "CHE220",
+    "CIVE224",
+    "ECE203",
+    "ECON221",
+    "ENVE224",
+    "ME202",
+    "MTE201",
+    "NE215",
+    "STAT231",
+    "SYDE212"
+  ],
+  "MSE253": [
+    "ECE307",
+    "STAT332"
+  ],
+  "MSE261": [
+    "AE392",
+    "BME364",
+    "CIVE392",
+    "ECE390",
+    "ENVE392",
+    "GEOE392",
+    "SYDE262"
+  ],
+  "MSE263": [
+    "ECON101"
+  ],
+  "MSE331": [
+    "BME411",
+    "CHE521",
+    "CIVE332",
+    "CO250",
+    "ENVE320",
+    "MSCI232",
+    "SYDE411"
+  ],
+  "MSE332": [
+    "CO327"
+  ],
+  "MSE333": [
+    "STAT340"
+  ],
+  "MSE334": [
+    "MSE432"
+  ],
+  "MSE342": [
+    "CS247",
+    "CS246"
+  ],
+  "MSE343": [
+    "CS449"
+  ],
+  "MSE391": [
+    "WKRPT200"
+  ],
+  "MSE392": [
+    "WKRPT300"
+  ],
+  "MSE411": [
+    "BET450"
+  ],
+  "MSE432": [
+    "MSE334"
+  ],
+  "MSE434": [
+    "BUS435W"
+  ],
+  "MSE446": [
+    "MSE623"
+  ],
+  "MSE491": [
+    "WKRPT400"
+  ],
+  "MSE546": [
+    "ECE657D"
+  ],
+  "MSE555": [
+    "CO454"
+  ],
+  "MSE602": [
+    "MSE682"
+  ],
+  "MSE603": [
+    "MSCI634",
+    "MSE683"
+  ],
+  "MSE609": [
+    "MSE689"
+  ],
+  "MSE623": [
+    "CS680",
+    "ECE657A",
+    "MSE446",
+    "MSCI723",
+    "ECE657"
+  ],
+  "MSE630": [
+    "CS649",
+    "MSCI730"
+  ],
+  "MSE634": [
+    "MSCI603"
+  ],
+  "MSE651": [
+    "BE605"
+  ],
+  "MSE682": [
+    "MSE602"
+  ],
+  "MSE683": [
+    "MSE603"
+  ],
+  "MSE689": [
+    "MSE609"
+  ],
+  "MSE724": [
+    "MSCI760",
+    "MSCI700"
+  ],
+  "MSE731": [
+    "MSCI700"
+  ],
+  "MSE734": [
+    "MSCI700"
+  ],
+  "MSE744": [
+    "MSCI760"
+  ],
+  "MTE120": [
+    "ECE140"
+  ],
+  "MTE121": [
+    "GENE121",
+    "CS105",
+    "CS115",
+    "CS114",
+    "CS106",
+    "ECE150",
+    "MSE121"
+  ],
+  "MTE140": [
+    "CS231",
+    "CS234",
+    "CS240",
+    "MSE240"
+  ],
+  "MTE201": [
+    "MSE251"
+  ],
+  "MTE204": [
+    "CS370",
+    "CS335",
+    "ECE204"
+  ],
+  "MTE241": [
+    "CS350"
+  ],
+  "MTE262": [
+    "CS251E",
+    "CS251"
+  ],
+  "MTE309": [
+    "ECE403"
+  ],
+  "MTE320": [
+    "ECE260"
+  ],
+  "MTE325": [
+    "ECE224"
+  ],
+  "MTE360": [
+    "ECE380"
+  ],
+  "MTE420": [
+    "ECE463"
+  ],
+  "MTE421": [
+    "ECE444"
+  ],
+  "MTE484": [
+    "ECE484"
+  ],
+  "MTHEL100": [
+    "COMM231",
+    "AFM335",
+    "AFM231",
+    "BUS231W",
+    "LS283"
+  ],
+  "MTHEL305A": [
+    "BUS353W"
+  ],
+  "MTHEL400": [
+    "BUS440W",
+    "COMM400"
+  ],
+  "NE111": [
+    "CS105",
+    "CS115",
+    "CS114",
+    "CS106",
+    "CS116"
+  ],
+  "NE112": [
+    "MATH136",
+    "MATH114",
+    "MATH215",
+    "MATH103",
+    "MATH115",
+    "MATH106",
+    "MATH146"
+  ],
+  "NE113": [
+    "ECE150"
+  ],
+  "NE140": [
+    "ECE140"
+  ],
+  "NE215": [
+    "MSE251"
+  ],
+  "NE217": [
+    "MATH212N",
+    "MATH207",
+    "MATH217",
+    "MATH218",
+    "MATH227"
+  ],
+  "NE232": [
+    "PHYS234",
+    "PHYS233"
+  ],
+  "NE241": [
+    "ECE106"
+  ],
+  "NE242": [
+    "ECE231"
+  ],
+  "NE343": [
+    "ECE433"
+  ],
+  "NE344": [
+    "ECE340"
+  ],
+  "NE353": [
+    "ECE635"
+  ],
+  "NE471": [
+    "PHYS461"
+  ],
+  "NE472": [
+    "ECE634"
+  ],
+  "NE479": [
+    "ECE634"
+  ],
+  "PACS323": [
+    "LS319",
+    "PSYCH439"
+  ],
+  "PD19": [
+    "PD21"
+  ],
+  "PD21": [
+    "PD19"
+  ],
+  "PD22": [
+    "ECE290"
+  ],
+  "PHIL101": [
+    "PHIL110A",
+    "PHIL110B"
+  ],
+  "PHIL110A": [
+    "PHIL101"
+  ],
+  "PHIL110B": [
+    "PHIL101"
+  ],
+  "PHIL120J": [
+    "PHIL211J"
+  ],
+  "PHIL121": [
+    "PHIL220"
+  ],
+  "PHIL125": [
+    "PHIL320"
+  ],
+  "PHIL202": [
+    "WS222"
+  ],
+  "PHIL205": [
+    "PHIL371"
+  ],
+  "PHIL207J": [
+    "PHIL209"
+  ],
+  "PHIL209": [
+    "PHIL207J"
+  ],
+  "PHIL211J": [
+    "PHIL120J"
+  ],
+  "PHIL215": [
+    "ARBUS202",
+    "AFM311",
+    "BUS461QW"
+  ],
+  "PHIL220": [
+    "PHIL121"
+  ],
+  "PHIL220J": [
+    "PHIL403"
+  ],
+  "PHIL250A": [
+    "PHIL283"
+  ],
+  "PHIL250B": [
+    "PHIL284"
+  ],
+  "PHIL252": [
+    "PHIL271"
+  ],
+  "PHIL257": [
+    "PHIL359"
+  ],
+  "PHIL260": [
+    "PHIL271"
+  ],
+  "PHIL271": [
+    "PHIL260",
+    "PHIL252"
+  ],
+  "PHIL283": [
+    "PHIL250A"
+  ],
+  "PHIL284": [
+    "PHIL250B"
+  ],
+  "PHIL320": [
+    "PHIL125"
+  ],
+  "PHIL331": [
+    "FINE338"
+  ],
+  "PHIL359": [
+    "PHIL257"
+  ],
+  "PHIL371": [
+    "PHIL205"
+  ],
+  "PHIL402": [
+    "WS422"
+  ],
+  "PHIL403": [
+    "PHIL220J"
+  ],
+  "PHS611": [
+    "HLTH654"
+  ],
+  "PHYS105": [
+    "PHYS111",
+    "PHYS112",
+    "PHYS115",
+    "PHYS121",
+    "PHYS122"
+  ],
+  "PHYS111": [
+    "PHYS115",
+    "PHYS105",
+    "PHYS121"
+  ],
+  "PHYS111L": [
+    "PHYS121L"
+  ],
+  "PHYS112": [
+    "PHYS122",
+    "ECE106",
+    "PHYS105",
+    "PHYS125"
+  ],
+  "PHYS112L": [
+    "PHYS122L"
+  ],
+  "PHYS115": [
+    "PHYS111",
+    "PHYS105"
+  ],
+  "PHYS121": [
+    "PHYS111",
+    "ECE105",
+    "PHYS105"
+  ],
+  "PHYS121L": [
+    "PHYS111L"
+  ],
+  "PHYS122": [
+    "PHYS112",
+    "PHYS105",
+    "PHYS125"
+  ],
+  "PHYS122L": [
+    "PHYS112L"
+  ],
+  "PHYS125": [
+    "PHYS112",
+    "PHYS122"
+  ],
+  "PHYS132L": [
+    "PHYS160L"
+  ],
+  "PHYS139": [
+    "CS115"
+  ],
+  "PHYS160L": [
+    "PHYS132L"
+  ],
+  "PHYS175": [
+    "SCI238"
+  ],
+  "PHYS224L": [
+    "PHYS242L"
+  ],
+  "PHYS226": [
+    "ECE404"
+  ],
+  "PHYS232L": [
+    "PHYS260A"
+  ],
+  "PHYS233": [
+    "CHEM356",
+    "NE232",
+    "PHYS234",
+    "ECE405"
+  ],
+  "PHYS234": [
+    "CHEM356",
+    "NE232",
+    "PHYS233",
+    "ECE405"
+  ],
+  "PHYS236": [
+    "CS105",
+    "CS135",
+    "CS114",
+    "CS116"
+  ],
+  "PHYS239": [
+    "CS136",
+    "PHYS349"
+  ],
+  "PHYS242L": [
+    "PHYS224L",
+    "PHYS260B"
+  ],
+  "PHYS249": [
+    "MATH136"
+  ],
+  "PHYS256": [
+    "ECE404"
+  ],
+  "PHYS256L": [
+    "PHYS260A"
+  ],
+  "PHYS260A": [
+    "PHYS232L",
+    "PHYS256L"
+  ],
+  "PHYS260B": [
+    "PHYS242L",
+    "PHYS260L"
+  ],
+  "PHYS260L": [
+    "PHYS260B"
+  ],
+  "PHYS263": [
+    "AMATH261",
+    "AMATH271"
+  ],
+  "PHYS267": [
+    "STAT230"
+  ],
+  "PHYS334": [
+    "AMATH373"
+  ],
+  "PHYS349": [
+    "PHYS239"
+  ],
+  "PHYS358": [
+    "CHEM254",
+    "ECE403"
+  ],
+  "PHYS364": [
+    "AMATH353"
+  ],
+  "PHYS365": [
+    "AMATH332",
+    "PMATH332"
+  ],
+  "PHYS461": [
+    "NE471"
+  ],
+  "PHYS468": [
+    "ECE405A",
+    "ECE405B",
+    "ECE405C",
+    "ECE405D"
+  ],
+  "PHYS612": [
+    "PHYS776"
+  ],
+  "PHYS762": [
+    "QIC862",
+    "ECE676E"
+  ],
+  "PHYS776": [
+    "PHYS612"
+  ],
+  "PLAN616": [
+    "GEOG616",
+    "BIOL631"
+  ],
+  "PMATH321": [
+    "PMATH360"
+  ],
+  "PMATH330": [
+    "CS245",
+    "SE212",
+    "CS245E"
+  ],
+  "PMATH332": [
+    "PHYS365"
+  ],
+  "PMATH333": [
+    "MATH247",
+    "PMATH351",
+    "AMATH331"
+  ],
+  "PMATH334": [
+    "PMATH348"
+  ],
+  "PMATH336": [
+    "PMATH347"
+  ],
+  "PMATH339": [
+    "CS341",
+    "CM339"
+  ],
+  "PMATH347": [
+    "PMATH336"
+  ],
+  "PMATH348": [
+    "PMATH334"
+  ],
+  "PMATH351": [
+    "AMATH331",
+    "PMATH333"
+  ],
+  "PMATH352": [
+    "AMATH332"
+  ],
+  "PMATH360": [
+    "PMATH321"
+  ],
+  "PMATH432": [
+    "PMATH632"
+  ],
+  "PMATH434": [
+    "PMATH734"
+  ],
+  "PMATH440": [
+    "PMATH740"
+  ],
+  "PMATH441": [
+    "PMATH741"
+  ],
+  "PMATH445": [
+    "PMATH745"
+  ],
+  "PMATH446": [
+    "PMATH646"
+  ],
+  "PMATH450": [
+    "PMATH650"
+  ],
+  "PMATH451": [
+    "PMATH651"
+  ],
+  "PMATH453": [
+    "PMATH753"
+  ],
+  "PMATH455": [
+    "PMATH655"
+  ],
+  "PMATH457": [
+    "PMATH757",
+    "PMATH754"
+  ],
+  "PMATH464": [
+    "PMATH764"
+  ],
+  "PMATH465": [
+    "PMATH665"
+  ],
+  "PMATH467": [
+    "PMATH667"
+  ],
+  "PMATH632": [
+    "PMATH432"
+  ],
+  "PMATH641": [
+    "PMATH741"
+  ],
+  "PMATH646": [
+    "PMATH446"
+  ],
+  "PMATH650": [
+    "PMATH450"
+  ],
+  "PMATH651": [
+    "PMATH451"
+  ],
+  "PMATH655": [
+    "PMATH455"
+  ],
+  "PMATH665": [
+    "PMATH465"
+  ],
+  "PMATH667": [
+    "PMATH467"
+  ],
+  "PMATH734": [
+    "PMATH434"
+  ],
+  "PMATH740": [
+    "PMATH440"
+  ],
+  "PMATH741": [
+    "PMATH641",
+    "PMATH441"
+  ],
+  "PMATH745": [
+    "PMATH445"
+  ],
+  "PMATH753": [
+    "PMATH453"
+  ],
+  "PMATH754": [
+    "PMATH457"
+  ],
+  "PMATH757": [
+    "PMATH457"
+  ],
+  "PMATH764": [
+    "PMATH464"
+  ],
+  "PMATH833": [
+    "PMATH950"
+  ],
+  "PMATH950": [
+    "PMATH833"
+  ],
+  "PSCI214": [
+    "PSYCH292"
+  ],
+  "PSCI314": [
+    "LS280"
+  ],
+  "PSCI375": [
+    "LS342"
+  ],
+  "PSCI390": [
+    "LS364"
+  ],
+  "PSYCH236": [
+    "SRF204"
+  ],
+  "PSYCH238": [
+    "PSYCH338",
+    "AFM280",
+    "MSE211",
+    "BUS288W",
+    "SCBUS225",
+    "AFM480",
+    "BUS228W",
+    "BUS398W"
+  ],
+  "PSYCH264": [
+    "PSYCH464"
+  ],
+  "PSYCH291": [
+    "HLTH333",
+    "SDS251R",
+    "KIN232",
+    "REC270",
+    "SWREN251R",
+    "LS221"
+  ],
+  "PSYCH292": [
+    "ARTS280",
+    "ECON221",
+    "ENVS278",
+    "HLTH204",
+    "KIN222",
+    "PSCI214",
+    "REC371",
+    "SDS250R",
+    "SRF230",
+    "LS280",
+    "STAT202",
+    "SWREN250R"
+  ],
+  "PSYCH310": [
+    "PSYCH363"
+  ],
+  "PSYCH337": [
+    "PSYCH363"
+  ],
+  "PSYCH338": [
+    "PSYCH238"
+  ],
+  "PSYCH339": [
+    "BUS354W",
+    "BUS408W"
+  ],
+  "PSYCH340": [
+    "BUS474W"
+  ],
+  "PSYCH349R": [
+    "SWREN349R",
+    "PSYCH352",
+    "PSYCH352R"
+  ],
+  "PSYCH352": [
+    "PSYCH349R",
+    "SWREN349R"
+  ],
+  "PSYCH352R": [
+    "PSYCH349R",
+    "SWREN349R"
+  ],
+  "PSYCH354": [
+    "SRF306"
+  ],
+  "PSYCH354R": [
+    "SRF306"
+  ],
+  "PSYCH363": [
+    "PSYCH310",
+    "PSYCH337"
+  ],
+  "PSYCH389": [
+    "PSYCH393",
+    "PSYCH395",
+    "PSYCH397",
+    "PSYCH399"
+  ],
+  "PSYCH390": [
+    "PSYCH392",
+    "PSYCH394",
+    "PSYCH396",
+    "PSYCH398"
+  ],
+  "PSYCH391": [
+    "STAT322",
+    "STAT430",
+    "BIOL361",
+    "PSYCH470"
+  ],
+  "PSYCH392": [
+    "PSYCH390"
+  ],
+  "PSYCH393": [
+    "PSYCH389"
+  ],
+  "PSYCH394": [
+    "PSYCH390"
+  ],
+  "PSYCH395": [
+    "PSYCH389"
+  ],
+  "PSYCH396": [
+    "PSYCH390"
+  ],
+  "PSYCH397": [
+    "PSYCH389"
+  ],
+  "PSYCH398": [
+    "PSYCH390"
+  ],
+  "PSYCH399": [
+    "PSYCH389"
+  ],
+  "PSYCH438": [
+    "BUS432W"
+  ],
+  "PSYCH439": [
+    "PACS323",
+    "LS319"
+  ],
+  "PSYCH448R": [
+    "PSYCH459"
+  ],
+  "PSYCH451": [
+    "PSYCH463"
+  ],
+  "PSYCH455": [
+    "PSYCH459"
+  ],
+  "PSYCH459": [
+    "PSYCH448R",
+    "PSYCH455"
+  ],
+  "PSYCH463": [
+    "PSYCH451"
+  ],
+  "PSYCH464": [
+    "PSYCH264"
+  ],
+  "PSYCH465": [
+    "PSYCH467"
+  ],
+  "PSYCH467": [
+    "PSYCH465"
+  ],
+  "PSYCH470": [
+    "PSYCH391"
+  ],
+  "PSYCH493": [
+    "PSYCH634"
+  ],
+  "PSYCH634": [
+    "PSYCH493"
+  ],
+  "PSYCH675C": [
+    "PSYCH784"
+  ],
+  "PSYCH690": [
+    "PSYCH743",
+    "PSYCH744",
+    "PSYCH746",
+    "PSYCH745",
+    "PSYCH749"
+  ],
+  "PSYCH722C": [
+    "PSYCH811A",
+    "PSYCH811B",
+    "PSYCH811C"
+  ],
+  "PSYCH743": [
+    "PSYCH690"
+  ],
+  "PSYCH744": [
+    "PSYCH690"
+  ],
+  "PSYCH745": [
+    "PSYCH690"
+  ],
+  "PSYCH746": [
+    "PSYCH690"
+  ],
+  "PSYCH749": [
+    "PSYCH690"
+  ],
+  "PSYCH784": [
+    "PSYCH675C"
+  ],
+  "PSYCH811A": [
+    "PSYCH722C"
+  ],
+  "PSYCH811B": [
+    "PSYCH722C"
+  ],
+  "PSYCH811C": [
+    "PSYCH722C"
+  ],
+  "QIC862": [
+    "PHYS762",
+    "ECE676E"
+  ],
+  "REC270": [
+    "LS221",
+    "PSYCH291"
+  ],
+  "REC371": [
+    "HLTH335",
+    "LS280",
+    "PSYCH292"
+  ],
+  "SCBUS225": [
+    "MSE211",
+    "PSYCH238"
+  ],
+  "SCCOM100": [
+    "ENGL193",
+    "COMMST193"
+  ],
+  "SCI238": [
+    "PHYS175"
+  ],
+  "SDS250R": [
+    "LS280",
+    "PSYCH292"
+  ],
+  "SDS251R": [
+    "LS221",
+    "PSYCH291"
+  ],
+  "SDS351R": [
+    "LS322"
+  ],
+  "SE212": [
+    "CS245",
+    "CS245E",
+    "PMATH330",
+    "ECE208"
+  ],
+  "SE240": [
+    "CO339",
+    "CS339",
+    "ECE250"
+  ],
+  "SE350": [
+    "CS350",
+    "ECE350",
+    "ECE252"
+  ],
+  "SE380": [
+    "ECE380"
+  ],
+  "SE463": [
+    "CS445",
+    "ECE451",
+    "ECE651"
+  ],
+  "SE464": [
+    "CS446",
+    "CS430",
+    "ECE651",
+    "ECE452"
+  ],
+  "SE465": [
+    "CS447",
+    "ECE653",
+    "ECE453"
+  ],
+  "SEM041": [
+    "LS435"
+  ],
+  "SFM101": [
+    "AFM285"
+  ],
+  "SOC225": [
+    "COMMST235"
+  ],
+  "SOC226": [
+    "LS306"
+  ],
+  "SOC230": [
+    "LS213"
+  ],
+  "SOC321": [
+    "LS321",
+    "LS221"
+  ],
+  "SOC330": [
+    "LS329"
+  ],
+  "SOC430": [
+    "LS409",
+    "LS435",
+    "LS426"
+  ],
+  "SRF204": [
+    "PSYCH236"
+  ],
+  "SRF220": [
+    "LS221"
+  ],
+  "SRF230": [
+    "PSYCH292"
+  ],
+  "SRF306": [
+    "PSYCH354R",
+    "PSYCH354"
+  ],
+  "STAT202": [
+    "STAT220",
+    "PSYCH292"
+  ],
+  "STAT211": [
+    "AFM113"
+  ],
+  "STAT220": [
+    "STAT202",
+    "STAT240",
+    "STAT230"
+  ],
+  "STAT221": [
+    "STAT231",
+    "STAT241"
+  ],
+  "STAT230": [
+    "STAT220",
+    "PHYS267"
+  ],
+  "STAT231": [
+    "STAT221",
+    "MSE251"
+  ],
+  "STAT232": [
+    "STAT337"
+  ],
+  "STAT240": [
+    "STAT220"
+  ],
+  "STAT241": [
+    "STAT221"
+  ],
+  "STAT316": [
+    "STAT331",
+    "HLTH335"
+  ],
+  "STAT321": [
+    "STAT331",
+    "AFM323",
+    "STAT374",
+    "STAT443",
+    "STAT371",
+    "STAT373"
+  ],
+  "STAT322": [
+    "STAT332",
+    "STAT372",
+    "PSYCH391"
+  ],
+  "STAT330": [
+    "STAT334",
+    "ECE307"
+  ],
+  "STAT331": [
+    "ECON421",
+    "STAT321",
+    "AFM323",
+    "STAT374",
+    "SYDE334",
+    "STAT316"
+  ],
+  "STAT332": [
+    "BIOL361",
+    "STAT322",
+    "MSE253"
+  ],
+  "STAT333": [
+    "STAT334"
+  ],
+  "STAT334": [
+    "STAT330",
+    "STAT333"
+  ],
+  "STAT337": [
+    "HLTH333",
+    "STAT232"
+  ],
+  "STAT340": [
+    "MSE333"
+  ],
+  "STAT371": [
+    "STAT321",
+    "AFM323"
+  ],
+  "STAT372": [
+    "STAT322"
+  ],
+  "STAT373": [
+    "STAT321",
+    "AFM323",
+    "STAT374"
+  ],
+  "STAT374": [
+    "STAT321",
+    "AFM323",
+    "STAT374",
+    "STAT331",
+    "STAT373"
+  ],
+  "STAT430": [
+    "BIOL461",
+    "PSYCH391",
+    "STAT830"
+  ],
+  "STAT431": [
+    "STAT831"
+  ],
+  "STAT435": [
+    "STAT835"
+  ],
+  "STAT436": [
+    "STAT836"
+  ],
+  "STAT437": [
+    "STAT936"
+  ],
+  "STAT440": [
+    "STAT840"
+  ],
+  "STAT441": [
+    "STAT841"
+  ],
+  "STAT442": [
+    "STAT842"
+  ],
+  "STAT443": [
+    "STAT321"
+  ],
+  "STAT444": [
+    "STAT844"
+  ],
+  "STAT446": [
+    "MATBUS470",
+    "AFM322",
+    "BUS423W"
+  ],
+  "STAT450": [
+    "STAT850"
+  ],
+  "STAT454": [
+    "STAT854"
+  ],
+  "STAT830": [
+    "STAT430"
+  ],
+  "STAT831": [
+    "STAT431"
+  ],
+  "STAT835": [
+    "STAT435"
+  ],
+  "STAT836": [
+    "STAT436"
+  ],
+  "STAT840": [
+    "CM461",
+    "STAT440"
+  ],
+  "STAT841": [
+    "CM463",
+    "STAT441"
+  ],
+  "STAT842": [
+    "CM462",
+    "STAT442"
+  ],
+  "STAT844": [
+    "CM464",
+    "STAT444"
+  ],
+  "STAT850": [
+    "STAT450"
+  ],
+  "STAT854": [
+    "STAT454"
+  ],
+  "STAT902": [
+    "ECE780"
+  ],
+  "STAT936": [
+    "STAT437"
+  ],
+  "STAT940": [
+    "ECE657D"
+  ],
+  "STV202": [
+    "SYDE261"
+  ],
+  "SWREN250R": [
+    "PSYCH292"
+  ],
+  "SWREN251R": [
+    "LS221",
+    "PSYCH291"
+  ],
+  "SWREN349R": [
+    "PSYCH349R",
+    "PSYCH352",
+    "PSYCH352R"
+  ],
+  "SYDE121": [
+    "CS105",
+    "CS115",
+    "CS135",
+    "CS114",
+    "CS106",
+    "ECE150",
+    "MSE121"
+  ],
+  "SYDE192": [
+    "CS230",
+    "CS251E",
+    "CS251"
+  ],
+  "SYDE211": [
+    "MATH218"
+  ],
+  "SYDE212": [
+    "MSE251"
+  ],
+  "SYDE223": [
+    "CS231",
+    "CS234",
+    "CS240",
+    "MSE240"
+  ],
+  "SYDE261": [
+    "STV202"
+  ],
+  "SYDE262": [
+    "MSE261"
+  ],
+  "SYDE322": [
+    "CS247",
+    "CS246E",
+    "CS246"
+  ],
+  "SYDE334": [
+    "STAT331"
+  ],
+  "SYDE348": [
+    "CS649",
+    "CS449"
+  ],
+  "SYDE352": [
+    "ECE380"
+  ],
+  "SYDE381": [
+    "ECE403"
+  ],
+  "SYDE411": [
+    "MSE331"
+  ],
+  "SYDE423": [
+    "ECE406",
+    "ECE606"
+  ],
+  "SYDE522": [
+    "CS486"
+  ],
+  "SYDE524": [
+    "ECE423"
+  ],
+  "SYDE552": [
+    "ECE457B"
+  ],
+  "SYDE575": [
+    "ECE417"
+  ],
+  "SYDE577": [
+    "ECE657D"
+  ],
+  "WKRPT200": [
+    "MSE391"
+  ],
+  "WKRPT300": [
+    "MSE392"
+  ],
+  "WKRPT400": [
+    "MSE491"
+  ],
+  "WS206": [
+    "LS201"
+  ],
+  "WS208E": [
+    "ENGL208E"
+  ],
+  "WS222": [
+    "PHIL202"
+  ],
+  "WS410F": [
+    "ENGL410"
+  ],
+  "WS422": [
+    "PHIL402"
+  ]
+}

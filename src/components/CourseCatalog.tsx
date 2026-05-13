@@ -1,83 +1,43 @@
 'use client';
 
-import { useState } from 'react';
-import { useApp } from '@/src/context/AppContext';
+import { useState, useMemo } from 'react';
+import { useApp, type CourseInfo } from '@/src/context/AppContext';
+import rawPrograms from '@/src/data/requirements-filtered.json';
+import { courseCodes } from '@/src/lib/requirementEvaluator';
+import type { ReqNode } from '@/src/lib/requirementEvaluator';
+import { getCurrentTerm } from '@/src/lib/termUtils';
+const programs = rawPrograms as Record<string, { name: string; requirements: ReqNode[] }>;
 
 const SANS = 'var(--font-dm-sans, "DM Sans", sans-serif)';
 const MONO = 'var(--font-dm-mono, "DM Mono", monospace)';
 
-type CourseStatus = 'done' | 'planned' | 'add';
+type CourseStatus = 'done' | 'planned' | 'available';
 
-interface Course {
-  code: string;
-  name: string;
-  req: string;
-  prereqs: string;
-  offered: string;
-  desc: string;
+const MATH_FACULTY_SUBJECTS = new Set(['ACTSC','AMATH','CO','CS','MATBUS','MATH','PMATH','STAT']);
+
+function getSubject(code: string) {
+  return code.match(/^([A-Z]+)/)?.[1] ?? '';
 }
 
-const COURSES: Course[] = [
-  {
-    code: 'CO442', name: 'Graph Theory', req: 'Major requirements',
-    prereqs: 'MATH235 ✓  CO342 ✕', offered: 'F · W',
-    desc: "Connectivity (Menger's theorem, ear decomposition, and Tutte's wheels theorem) and matchings (Hall's and Tutte's theorem). Flows: integer and group-valued flows, the flow polynomial. Ramsey theory. Probabilistic methods.",
-  },
-  {
-    code: 'MATH135', name: 'Algebra for Honours Math', req: 'Core BMath',
-    prereqs: '', offered: 'F · W · S',
-    desc: 'An introduction to the language of mathematics and proof techniques through a study of the basic algebraic systems of mathematics: the integers, the integers modulo n, the rational numbers, the real numbers, the complex numbers and polynomials.',
-  },
-  {
-    code: 'AMATH353', name: 'Partial Differential Equations 1', req: '2 add. 300/400 MATH',
-    prereqs: 'AMATH250 ✕  AMATH231 ✕', offered: 'W · S',
-    desc: 'Second order linear PDEs — the diffusion equation, wave equation, and Laplace equation. Solution techniques: separation of variables, Fourier series and integrals, method of characteristics.',
-  },
-  {
-    code: 'PMATH331', name: 'Applied Real Analysis', req: 'Major requirements',
-    prereqs: 'MATH235 ✓', offered: 'F',
-    desc: 'Metric spaces: open and closed sets, compactness, completeness. Continuity and uniform continuity. Sequences and series of functions, uniform convergence.',
-  },
-  {
-    code: 'CO250', name: 'Introduction to Optimization', req: 'Major requirements',
-    prereqs: 'MATH136 ✓', offered: 'F · W · S',
-    desc: 'Introduction to linear programming including duality and complementary slackness. Network flow problems, algorithms, and applications. Integer programming: branch and bound, cutting planes.',
-  },
-  {
-    code: 'CS246', name: 'Object-Oriented Software Dev.', req: 'Core BMath',
-    prereqs: 'CS136 ✓', offered: 'F · W · S',
-    desc: 'Introduction to object-oriented programming and to tools and techniques for software development. Designing, coding, debugging, testing, and documenting medium-sized programs.',
-  },
-  {
-    code: 'STAT231', name: 'Statistics', req: 'Core BMath',
-    prereqs: 'STAT230 ✓', offered: 'W · S',
-    desc: 'Empirical problem solving, sampling distributions, likelihood function, maximum likelihood estimation, confidence intervals, hypothesis testing, Bayesian inference.',
-  },
-];
+function offeredLabel(offered: string[]) {
+  return offered.join(' · ') || '—';
+}
 
-const DEGREE_PLANS = [
-  { name: 'Combinatorics and Optimization', desc: 'BMath (Honours)', reqs: '40 courses · 3 streams' },
-  { name: 'Pure Mathematics', desc: 'BMath (Honours)', reqs: '38 courses' },
-  { name: 'Applied Mathematics', desc: 'BMath (Honours)', reqs: '38 courses' },
-  { name: 'Statistics', desc: 'BMath (Honours)', reqs: '36 courses' },
-  { name: 'Computer Science', desc: 'BMath (Honours) Double Degree', reqs: '58 courses' },
-];
-
-const STATUS_PILL: Record<CourseStatus, { bg: string; color: string; label: string }> = {
-  done:    { bg: '#858080',                color: '#fff',    label: 'done ✓' },
-  planned: { bg: 'rgba(133,128,128,0.24)', color: '#858080', label: 'planned' },
-  add:     { bg: '#000',                   color: '#fff',    label: '+ add' },
-};
-
-function CourseRow({ course, status, isFavorited, isSelected, onToggleFavorite, onClick }: {
-  course: Course;
+function CourseRow({ course, status, req, isFavorited, isSelected, onToggleFavorite, onClick }: {
+  course: CourseInfo;
   status: CourseStatus;
+  req: string;
   isFavorited: boolean;
   isSelected: boolean;
   onToggleFavorite: () => void;
   onClick: () => void;
 }) {
-  const pill = STATUS_PILL[status];
+  const pill = status === 'done'
+    ? { bg: '#858080', color: '#fff', label: 'done ✓' }
+    : status === 'planned'
+      ? { bg: 'rgba(133,128,128,0.24)', color: '#858080', label: 'planned' }
+      : { bg: '#000', color: '#fff', label: '+ add' };
+
   return (
     <div
       onClick={onClick}
@@ -93,14 +53,14 @@ function CourseRow({ course, status, isFavorited, isSelected, onToggleFavorite, 
         transition: 'background 0.1s',
       }}
     >
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '7px', flex: 1 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '7px', flex: 1, minWidth: 0 }}>
         <div style={{ fontFamily: SANS, fontSize: '18px', color: '#000' }}>
           <span style={{ fontFamily: MONO }}>{course.code}</span>
           {' '}{course.name}
         </div>
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'nowrap', overflow: 'hidden' }}>
           <div style={{ background: '#000', color: '#fff', borderRadius: '15px', padding: '3px 10px', fontFamily: MONO, fontSize: '12px', whiteSpace: 'nowrap', flexShrink: 0 }}>
-            {course.req}
+            {req}
           </div>
           {course.prereqs && (
             <span style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
@@ -108,15 +68,13 @@ function CourseRow({ course, status, isFavorited, isSelected, onToggleFavorite, 
             </span>
           )}
           <span style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', whiteSpace: 'nowrap', flexShrink: 0 }}>
-            {course.offered}
+            {offeredLabel(course.offered)}
           </span>
         </div>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0, marginLeft: '12px' }}>
         <svg
-          width={22}
-          height={22}
-          viewBox="0 0 24 24"
+          width={22} height={22} viewBox="0 0 24 24"
           fill={isFavorited ? '#e0002b' : 'none'}
           stroke={isFavorited ? '#e0002b' : '#858080'}
           strokeWidth={1.8}
@@ -125,7 +83,7 @@ function CourseRow({ course, status, isFavorited, isSelected, onToggleFavorite, 
         >
           <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
         </svg>
-        <div style={{ background: pill.bg, color: pill.color, borderRadius: '15px', padding: '6px 14px', fontFamily: SANS, fontSize: '14px' }}>
+        <div style={{ background: pill.bg, color: pill.color, borderRadius: '15px', padding: '6px 14px', fontFamily: SANS, fontSize: '14px', whiteSpace: 'nowrap' }}>
           {pill.label}
         </div>
       </div>
@@ -133,211 +91,206 @@ function CourseRow({ course, status, isFavorited, isSelected, onToggleFavorite, 
   );
 }
 
-function CourseDetail({ course }: { course: Course }) {
+function CourseDetail({ course, req, currentTerm }: { course: CourseInfo; req: string; currentTerm: string }) {
   const { addCourseToTerm, removeCourseFromTerm, semesterPlans } = useApp();
-  const [selectedTerm, setSelectedTerm] = useState('W26');
-  const sections = [
-    { section: 'LEC 001', cls: '6204', enrolled: '8/10',  time: '2:30–3:50 PM',   days: 'M W F' },
-    { section: 'LEC 002', cls: '6205', enrolled: '10/10', time: '11:30–12:50 PM', days: 'T Th' },
-  ];
+  const nextTerms = useMemo(() => {
+    const seasons: Record<string, number> = { F: 0, W: 1, S: 2 };
+    const [, yy] = currentTerm.match(/^([WFS])(\d{2})$/) ?? [];
+    const curSeason = currentTerm[0];
+    // Generate next 3 upcoming terms
+    const all: string[] = [];
+    let s = curSeason, y = parseInt(yy ?? '26');
+    for (let i = 0; i < 6 && all.length < 3; i++) {
+      const next = s === 'F' ? 'W' : s === 'W' ? 'S' : 'F';
+      const ny = s === 'F' ? y + 1 : y;
+      s = next; y = ny;
+      const code = `${s}${String(y).padStart(2, '0')}`;
+      if (course.offered.includes(s)) all.push(code);
+    }
+    return all;
+  }, [course, currentTerm]);
 
   const isInTerm = (term: string) => (semesterPlans[term] ?? []).includes(course.code);
 
   return (
-    <div style={{ width: '420px', minWidth: '420px', borderLeft: '1px solid #858080', display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
-      <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '14px', flex: 1 }}>
-        <div style={{ fontFamily: MONO, fontSize: '20px', color: '#000' }}>{course.code}</div>
-        <div style={{ fontFamily: SANS, fontSize: '28px', color: '#000', lineHeight: 1.1, fontWeight: 400 }}>{course.name}</div>
+    <div style={{ width: '400px', minWidth: '400px', borderLeft: '1px solid #d9d9d9', display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
+      <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+        <div>
+          <div style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', marginBottom: '4px' }}>{req}</div>
+          <div style={{ fontFamily: MONO, fontSize: '22px', color: '#000' }}>{course.code}</div>
+          <div style={{ fontFamily: SANS, fontSize: '24px', color: '#000', lineHeight: 1.2, fontWeight: 400, marginTop: '4px' }}>{course.name}</div>
+        </div>
+
+        {course.description && (
+          <div>
+            <div style={{ fontFamily: MONO, fontSize: '11px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '6px' }}>Description</div>
+            <div style={{ fontFamily: SANS, fontSize: '14px', color: '#858080', lineHeight: 1.6 }}>{course.description}</div>
+          </div>
+        )}
+
+        {course.prereqs && (
+          <div>
+            <div style={{ fontFamily: MONO, fontSize: '11px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '6px' }}>Prerequisites</div>
+            <div style={{ fontFamily: MONO, fontSize: '14px', color: '#000' }}>{course.prereqs}</div>
+          </div>
+        )}
+
+        {course.antireqs && (
+          <div>
+            <div style={{ fontFamily: MONO, fontSize: '11px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '6px' }}>Antirequisites</div>
+            <div style={{ fontFamily: MONO, fontSize: '14px', color: '#858080' }}>{course.antireqs}</div>
+          </div>
+        )}
 
         <div>
-          <div style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', marginBottom: '6px' }}>DESCRIPTION</div>
-          <div style={{ fontFamily: SANS, fontSize: '15px', color: '#858080', lineHeight: 1.5 }}>{course.desc}</div>
+          <div style={{ fontFamily: MONO, fontSize: '11px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '6px' }}>Offered</div>
+          <div style={{ fontFamily: MONO, fontSize: '14px', color: '#000' }}>{offeredLabel(course.offered)}</div>
         </div>
 
-        <div>
-          <div style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', marginBottom: '6px' }}>PREREQUISITES</div>
-          <div style={{ fontFamily: MONO, fontSize: '15px', color: '#000' }}>{course.prereqs || 'none'}</div>
-        </div>
-
-        <div>
-          <div style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', marginBottom: '6px' }}>OFFERED</div>
-          <div style={{ fontFamily: MONO, fontSize: '15px', color: '#000' }}>{course.offered}</div>
-        </div>
-
-        <div style={{ borderTop: '1px solid #858080', paddingTop: '14px' }}>
-          <div style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', marginBottom: '10px' }}>COURSE SCHEDULE</div>
-          <div style={{ display: 'flex', gap: '6px', marginBottom: '12px', flexWrap: 'wrap' }}>
-            {['W26', 'S26', 'F26'].map((t) => (
-              <div key={t} onClick={() => setSelectedTerm(t)} style={{ background: selectedTerm === t ? '#000' : '#ececec', color: selectedTerm === t ? '#fff' : '#858080', borderRadius: '15px', padding: '5px 14px', fontFamily: MONO, fontSize: '15px', cursor: 'pointer' }}>
-                {t}
-              </div>
-            ))}
+        {nextTerms.length > 0 && (
+          <div style={{ borderTop: '1px solid #d9d9d9', paddingTop: '16px' }}>
+            <div style={{ fontFamily: MONO, fontSize: '11px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '10px' }}>Add to plan</div>
+            <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+              {nextTerms.map(t => (
+                <div
+                  key={t}
+                  onClick={() => isInTerm(t) ? removeCourseFromTerm(t, course.code) : addCourseToTerm(t, course.code)}
+                  style={{
+                    background: isInTerm(t) ? '#858080' : '#000',
+                    color: '#fff',
+                    borderRadius: '15px',
+                    padding: '7px 16px',
+                    fontFamily: MONO,
+                    fontSize: '14px',
+                    cursor: 'pointer',
+                  }}
+                >
+                  {isInTerm(t) ? `✓ ${t}` : `+ ${t}`}
+                </div>
+              ))}
+            </div>
           </div>
-          <div style={{ display: 'flex', gap: '8px', fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', marginBottom: '6px' }}>
-            <span style={{ flex: '0 0 70px' }}>SECTION</span>
-            <span style={{ flex: '0 0 52px' }}>CLASS</span>
-            <span style={{ flex: '0 0 52px' }}>ENROLLED</span>
-            <span style={{ flex: 1 }}>TIME</span>
-          </div>
-          <div style={{ borderTop: '1px solid #858080', paddingTop: '6px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-            {sections.map((s, i) => (
-              <div key={i} style={{ display: 'flex', gap: '8px', fontFamily: MONO, fontSize: '15px', color: '#000', alignItems: 'center' }}>
-                <span style={{ flex: '0 0 70px' }}>{s.section}</span>
-                <span style={{ flex: '0 0 52px' }}>{s.cls}</span>
-                <span style={{ flex: '0 0 52px' }}>{s.enrolled}</span>
-                <span style={{ flex: 1 }}>{s.time}</span>
-                <span style={{ fontFamily: SANS, fontSize: '15px', color: '#858080' }}>{s.days}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div style={{ borderTop: '1px solid #858080', paddingTop: '14px' }}>
-          <div style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', marginBottom: '10px' }}>ADD TO PLAN</div>
-          <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-            {['W26', 'S26', 'F26'].map((t) => (
-              <div
-                key={t}
-                onClick={() => isInTerm(t) ? removeCourseFromTerm(t, course.code) : addCourseToTerm(t, course.code)}
-                style={{
-                  background: isInTerm(t) ? '#858080' : t === 'W26' ? '#000' : '#ececec',
-                  color: isInTerm(t) || t === 'W26' ? '#fff' : '#858080',
-                  borderRadius: '15px',
-                  padding: '7px 16px',
-                  fontFamily: MONO,
-                  fontSize: '15px',
-                  cursor: 'pointer',
-                }}
-              >
-                {isInTerm(t) ? `✓ ${t}` : t === 'W26' ? `+ add to ${t}` : t}
-              </div>
-            ))}
-          </div>
-        </div>
+        )}
       </div>
     </div>
   );
 }
 
-function DegreePlanRow({ plan }: { plan: typeof DEGREE_PLANS[number] }) {
-  return (
-    <div style={{ background: '#ececec', borderRadius: '15px', padding: '16px 20px', marginBottom: '8px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer' }}>
-      <div>
-        <div style={{ fontFamily: SANS, fontSize: '20px', color: '#000' }}>{plan.name}</div>
-        <div style={{ fontFamily: MONO, fontSize: '15px', color: '#858080', marginTop: '4px' }}>{plan.desc} · {plan.reqs}</div>
-      </div>
-      <span style={{ fontFamily: MONO, fontSize: '20px', color: '#858080' }}>→</span>
-    </div>
-  );
-}
+const CURRENT_TERM = getCurrentTerm();
 
 export default function CourseCatalog() {
-  const { completedCourses, semesterPlans, favoriteCourses, toggleFavorite } = useApp();
-  const [catalogView, setCatalogView] = useState<'courses' | 'degree plans'>('courses');
-  const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
+  const { completedCourses, semesterPlans, favoriteCourses, toggleFavorite, courses, coursesStatus, program } = useApp();
+  const [selectedCourse, setSelectedCourse] = useState<CourseInfo | null>(null);
   const [search, setSearch] = useState('');
+  const [filterSubject, setFilterSubject] = useState('');
+  const [filterStatus, setFilterStatus] = useState<'' | 'done' | 'planned' | 'available'>('');
 
-  const completedSet = new Set(completedCourses);
-  const plannedSet = new Set(Object.values(semesterPlans).flat());
+  const completedSet = useMemo(() => new Set(completedCourses), [completedCourses]);
+  const plannedSet = useMemo(() => new Set(Object.values(semesterPlans).flat()), [semesterPlans]);
+
+  // Build a set of course codes that appear in the user's program requirements
+  const programCourseCodes = useMemo(() => {
+    const ids = [program.id, program.doubleMajorId, program.minorId, ...program.extras.map(e => e.id)].filter(Boolean) as string[];
+    const set = new Set<string>();
+    for (const id of ids) {
+      const entry = programs[id];
+      if (entry) entry.requirements.forEach(r => courseCodes(r).forEach(c => set.add(c)));
+    }
+    return set;
+  }, [program]);
+
+  const getReq = (code: string): string => {
+    if (programCourseCodes.has(code)) return 'Required';
+    const subj = getSubject(code);
+    if (MATH_FACULTY_SUBJECTS.has(subj)) return 'Math elective';
+    return 'Non-math elective';
+  };
 
   const getStatus = (code: string): CourseStatus => {
     if (completedSet.has(code)) return 'done';
     if (plannedSet.has(code)) return 'planned';
-    return 'add';
+    return 'available';
   };
 
-  const filtered = COURSES.filter(
-    (c) =>
-      !search ||
-      c.code.toLowerCase().includes(search.toLowerCase()) ||
-      c.name.toLowerCase().includes(search.toLowerCase()) ||
-      c.req.toLowerCase().includes(search.toLowerCase())
-  );
+  const subjects = useMemo(() => {
+    const s = new Set(courses.map(c => getSubject(c.code)));
+    return [...s].sort();
+  }, [courses]);
+
+  const filtered = useMemo(() => {
+    const q = search.toLowerCase();
+    return courses.filter(c => {
+      if (filterSubject && getSubject(c.code) !== filterSubject) return false;
+      if (filterStatus && getStatus(c.code) !== filterStatus) return false;
+      if (q && !c.code.toLowerCase().includes(q) && !c.name.toLowerCase().includes(q)) return false;
+      return true;
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [courses, search, filterSubject, filterStatus, completedSet, plannedSet]);
+
+  const selectedReq = selectedCourse ? getReq(selectedCourse.code) : '';
 
   return (
     <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
 
       {/* Header */}
-      <div style={{ padding: '32px 48px 0', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexShrink: 0 }}>
+      <div style={{ padding: '32px 48px 0', flexShrink: 0 }}>
         <h1 style={{ fontFamily: SANS, fontSize: '60px', color: '#000', lineHeight: 1, margin: 0, fontWeight: 400, animation: 'headingReveal 0.5s ease forwards' }}>
           course catalog...
         </h1>
-        <div style={{ background: '#d9d9d9', borderRadius: '40px', padding: '10px', display: 'flex', marginBottom: '4px', flexShrink: 0 }}>
-          {(['courses', 'degree plans'] as const).map((v) => (
-            <div
-              key={v}
-              onClick={() => { setCatalogView(v); setSelectedCourse(null); }}
-              style={{
-                borderRadius: '40px',
-                padding: '0 24px',
-                height: '58px',
-                display: 'flex',
-                alignItems: 'center',
-                cursor: 'pointer',
-                background: catalogView === v ? '#fff' : 'transparent',
-                color: catalogView === v ? '#000' : '#858080',
-                fontFamily: SANS,
-                fontSize: '20px',
-                whiteSpace: 'nowrap',
-                transition: 'background 0.15s',
-              }}
-            >
-              {v}
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Filter bar */}
-      {catalogView === 'courses' && (
-        <div style={{ padding: '14px 48px', display: 'flex', gap: '8px', alignItems: 'center', borderBottom: '1px solid #858080', flexShrink: 0, flexWrap: 'wrap' }}>
-          {['subject', 'level', 'term', 'status'].map((f) => (
-            <div key={f} style={{ background: '#d9d9d9', borderRadius: '15px', padding: '8px 16px', fontFamily: SANS, fontSize: '16px', color: '#858080', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px' }}>
-              {f} <span style={{ fontFamily: MONO, fontSize: '12px' }}>▾</span>
-            </div>
-          ))}
-          <div style={{ background: '#d9d9d9', borderRadius: '15px', padding: '8px 20px', flex: 1, minWidth: '200px' }}>
-            <input
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              placeholder="⌕ search courses, subjects, professors..."
-              style={{ border: 'none', background: 'transparent', fontFamily: SANS, fontSize: '16px', color: '#858080', outline: 'none', width: '100%' }}
-            />
-          </div>
+      <div style={{ padding: '14px 48px', display: 'flex', gap: '8px', alignItems: 'center', borderBottom: '1px solid #d9d9d9', flexShrink: 0, flexWrap: 'wrap' }}>
+        <select
+          value={filterSubject}
+          onChange={e => setFilterSubject(e.target.value)}
+          style={{ background: '#ececec', border: 'none', borderRadius: '15px', padding: '8px 16px', fontFamily: SANS, fontSize: '15px', color: filterSubject ? '#000' : '#858080', cursor: 'pointer', outline: 'none' }}
+        >
+          <option value="">all subjects</option>
+          {subjects.map(s => <option key={s} value={s}>{s}</option>)}
+        </select>
+        <select
+          value={filterStatus}
+          onChange={e => setFilterStatus(e.target.value as typeof filterStatus)}
+          style={{ background: '#ececec', border: 'none', borderRadius: '15px', padding: '8px 16px', fontFamily: SANS, fontSize: '15px', color: filterStatus ? '#000' : '#858080', cursor: 'pointer', outline: 'none' }}
+        >
+          <option value="">all status</option>
+          <option value="done">done</option>
+          <option value="planned">planned</option>
+          <option value="available">available</option>
+        </select>
+        <div style={{ background: '#ececec', borderRadius: '15px', padding: '8px 20px', flex: 1, minWidth: '200px' }}>
+          <input
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            placeholder={coursesStatus === 'loading' ? 'loading courses...' : '⌕  search courses...'}
+            style={{ border: 'none', background: 'transparent', fontFamily: SANS, fontSize: '15px', color: '#000', outline: 'none', width: '100%' }}
+          />
         </div>
-      )}
-
-      {catalogView === 'degree plans' && (
-        <div style={{ padding: '14px 48px', borderBottom: '1px solid #858080', flexShrink: 0 }}>
-          <div style={{ background: '#d9d9d9', borderRadius: '15px', padding: '8px 20px', display: 'inline-flex', minWidth: '320px' }}>
-            <input
-              placeholder="⌕ search bmath programs and plans..."
-              style={{ border: 'none', background: 'transparent', fontFamily: SANS, fontSize: '16px', color: '#858080', outline: 'none', width: '100%' }}
-            />
-          </div>
-        </div>
-      )}
+        <span style={{ fontFamily: MONO, fontSize: '13px', color: '#858080' }}>
+          {coursesStatus === 'ok' ? `${filtered.length.toLocaleString()} courses` : coursesStatus === 'error' ? 'unavailable' : ''}
+        </span>
+      </div>
 
       {/* Content */}
       <div style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
         <div style={{ flex: 1, padding: '16px 48px', overflowY: 'auto' }}>
-          {catalogView === 'courses'
-            ? filtered.map((c) => (
-                <CourseRow
-                  key={c.code}
-                  course={c}
-                  status={getStatus(c.code)}
-                  isFavorited={favoriteCourses.includes(c.code)}
-                  isSelected={selectedCourse?.code === c.code}
-                  onToggleFavorite={() => toggleFavorite(c.code)}
-                  onClick={() => setSelectedCourse(selectedCourse?.code === c.code ? null : c)}
-                />
-              ))
-            : DEGREE_PLANS.map((p, i) => <DegreePlanRow key={i} plan={p} />)
-          }
+          {filtered.map(c => (
+            <CourseRow
+              key={c.code}
+              course={c}
+              status={getStatus(c.code)}
+              req={getReq(c.code)}
+              isFavorited={favoriteCourses.includes(c.code)}
+              isSelected={selectedCourse?.code === c.code}
+              onToggleFavorite={() => toggleFavorite(c.code)}
+              onClick={() => setSelectedCourse(selectedCourse?.code === c.code ? null : c)}
+            />
+          ))}
         </div>
-        {selectedCourse && catalogView === 'courses' && (
-          <CourseDetail course={selectedCourse} />
+        {selectedCourse && (
+          <CourseDetail course={selectedCourse} req={selectedReq} currentTerm={CURRENT_TERM} />
         )}
       </div>
     </div>
