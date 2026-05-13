@@ -1,0 +1,251 @@
+# Pink Tie Planner — Cursor Rules
+
+## Project Overview
+A UWaterloo degree planner app. Students pick their program (major + optional double major, minor, specialization), import their transcript, and plan future courses across terms. Core features: requirement tracking, prerequisite/antireq validation, co-op sequence mapping.
+
+---
+
+## Tech Stack
+
+- **Next.js 16.2.4** (App Router) — has breaking changes from older versions. Check `node_modules/next/dist/docs/` before writing any Next.js-specific code. Do not assume APIs match what you know from Next.js 13–15.
+- **React 19.2.4** — use modern hooks; avoid legacy patterns
+- **TypeScript 5** — strict mode enabled; no `any`, no type assertions unless unavoidable
+- **Tailwind CSS 4** — used minimally; layout and component styling is done with **inline styles**, not Tailwind classes
+- **fuzzysort 3.1.0** — used for course and program search; do not replace with naive string matching
+- **pdf-parse** — used for transcript import in the API route
+- Path alias: `@/` maps to the repo root (configured in tsconfig.json)
+
+---
+
+## File & Folder Structure
+
+```
+app/                        # Next.js App Router — server entry points only
+  api/
+    courses/route.ts        # Proxies UW Open API, 1hr in-memory cache
+    parse-transcript/route.ts  # PDF transcript parser
+  layout.tsx                # Root layout, DM Sans + DM Mono fonts
+  page.tsx                  # Renders <App />
+  globals.css               # CSS custom properties (design tokens)
+src/
+  components/               # All UI — all 'use client'
+    App.tsx                 # Root component, wraps AppProvider
+    Sidebar.tsx             # Navigation, PageId union
+    Dashboard.tsx           # Program progress overview
+    DegreePlan.tsx          # Requirement tree view
+    CourseCatalog.tsx       # Browsable course list with search
+    SemesterPlanner.tsx     # Per-term course planning
+    Onboarding.tsx          # Program selection + transcript import
+  context/
+    AppContext.tsx           # Single global state store (React Context)
+  lib/
+    termUtils.ts            # Term string helpers (W25, S25, F25)
+    coopSequences.ts        # Co-op stream → study label mapping
+    prereqCheck.ts          # Prerequisite + antireq validation
+    requirementEvaluator.ts # Recursive requirement tree evaluation
+  data/
+    requirements-filtered.json  # All programs with ReqNode trees
+    antireqs.json               # Course antirequisite pairs
+    coopSequences.ts            # Hard-coded co-op stream sequences
+    invalid-combinations.json   # Program combination blockers
+```
+
+---
+
+## Core Types
+
+These are the canonical types. Do not redefine or shadow them.
+
+```typescript
+// AppContext.tsx
+interface UserProgram {
+  id: string;
+  major: string;
+  doubleMajor: string | null;
+  doubleMajorId: string | null;
+  minor: string | null;
+  minorId: string | null;
+  extras: ExtraCredential[];
+  coopStream: '1' | '2' | '3' | '4' | 'none' | null;
+  startTerm: string | null; // e.g. "F25"
+}
+
+interface ExtraCredential {
+  type: 'major' | 'minor' | 'joint' | 'specialization';
+  id: string;
+  name: string;
+}
+
+interface CourseInfo {
+  code: string;        // e.g. "CS135"
+  name: string;
+  description: string;
+  prereqs: string;     // raw text from UW API
+  antireqs: string;
+  offered: string[];   // ['F', 'W', 'S']
+}
+
+// requirementEvaluator / requirements-filtered.json
+interface ReqNode {
+  text: string;
+  type: 'AND' | 'OR' | 'N_OF' | 'COURSE' | 'ADDITIONAL';
+  code?: string;    // only on COURSE nodes
+  n?: number;       // only on N_OF nodes
+  children?: ReqNode[];
+}
+```
+
+**Term strings:** `W25`, `S25`, `F25` (Winter/Spring(co-op)/Fall, 2-digit year).
+**Study labels:** `1A`, `1B`, `2A`, `2B`, `3A`, `3B`, `4A`, `4B`, `WT1`–`WT6`.
+
+---
+
+## State Management
+
+Global state lives entirely in `src/context/AppContext.tsx` via React Context. There is no Redux, Zustand, or other library.
+
+- Access state with `useApp()` — throws if called outside `<AppProvider>`
+- Mutations: use provided setters (`setProgram`, `setCompletedCourses`, `setSemesterPlans`) and convenience methods (`addCourseToTerm`, `removeCourseFromTerm`, `toggleFavorite`)
+- Do not reach around the context to mutate state directly
+- State is currently in-memory (no localStorage persistence)
+
+---
+
+## Component Conventions
+
+- All components in `src/components/` are `'use client'`; add the directive at the top of every new component file
+- One primary component per file; tightly related sub-components (e.g. `CheckBox`, `CourseChip`) may live in the same file
+- Component names: **PascalCase**
+- Utility/helper functions: **camelCase**
+- Props interfaces: inline or named `Props` — keep close to the component definition
+- Destructure props in the function signature: `function Foo({ bar, baz }: { bar: string; baz: number })`
+
+---
+
+## Styling
+
+All layout and visual styling uses **inline styles**. Do not add Tailwind class-based styling to existing components.
+
+**Design token palette (from globals.css):**
+- Black: `#000` — text, active buttons, borders
+- White: `#fff` — backgrounds, reversed text
+- Gray text (inactive): `#858080`
+- Gray panel/sidebar: `#ececec`
+- Gray muted/disabled: `#d9d9d9`
+- Pink (brand): `#c60078`
+- Transparent overlays: `rgba(133,128,128,0.24)`, `rgba(255,255,255,0.45)`
+
+**Fonts:** `DM Sans` (body), `DM Mono` (code/technical). Reference via CSS variables `--font-dm-sans` and `--font-dm-mono`.
+
+**Hover states:** implement with `onMouseEnter`/`onMouseLeave` updating local state, then apply via inline style.
+
+**Icons:** inline `<svg>` elements. Use Next.js `<Image>` for raster assets.
+
+---
+
+## Business Logic
+
+### Term Utilities (`src/lib/termUtils.ts`)
+- `getCurrentTerm()` — returns current term based on month
+- `nextTerm(t: string)` — cycles W → S → F → W
+- `termToNum(t: string)` — converts term to sortable number
+
+### Co-op Sequences (`src/lib/coopSequences.ts`)
+- `getStudyLabel(calTerm, startTerm, stream)` — maps a calendar term to a study label (e.g. `'2A'`, `'WT3'`)
+- `computeGradTerm(startTerm, stream)` — returns the 4B graduation term
+- Stream IDs: `'1'`, `'2'`, `'3'`, `'4'`, `'none'`
+
+### Prerequisite Checking (`src/lib/prereqCheck.ts`)
+- `getMissingPrereqs(prereqStr, available)` — returns unsatisfied prereqs given completed courses
+- `isMathRestricted(prereqStr, userMajor?)` — detects Math-faculty-only restrictions
+- `parseRequiredLevel(prereqStr)` — extracts minimum study level from prereq text
+- Prereq strings come directly from the UW API (natural language); parsing is regex-based
+
+### Requirement Evaluation (`src/lib/requirementEvaluator.ts`)
+- `satisfies(node, completed)` — recursive boolean check
+- `nodeProgress(node, completed)` — returns `{ done, total }`
+- `courseCodes(node)` — flattens all course codes from a ReqNode tree
+
+---
+
+## API Routes
+
+### `/api/courses`
+- Fetches from UW Open API across 6 recent terms
+- Deduplicates by course code; aggregates offered seasons
+- In-memory cache: 1 hour; `revalidate: 86400`
+- Timeout: 15 seconds (AbortController)
+- Returns `CourseInfo[]` sorted by code
+
+### `/api/parse-transcript`
+- Accepts PDF via `multipart/form-data`
+- Extracts course codes with regex: `/\b([A-Z]{2,8})\s{1,8}(\d{1,3}(?:[A-Z](?![a-z]))?)/g`
+- Groups into terms by semester headers; falls back to flat list
+- Returns `{ termCourses: Record<string, string[]> }`
+
+---
+
+## Data Files
+
+### `requirements-filtered.json`
+Programs keyed by opaque ID (e.g. `"HkeH1JRCjh"`). Each entry:
+```json
+{
+  "id": "...",
+  "name": "...",
+  "faculty": "...",
+  "code": "...",
+  "isMinor": false,
+  "isSpecialization": false,
+  "isMathFaculty": true,
+  "requirements": [/* ReqNode[] */]
+}
+```
+
+### `antireqs.json`
+Course code → array of conflicting codes: `{ "ACTSC445": ["ACTSC845"] }`.
+
+### `invalid-combinations.json`
+Used in `Onboarding.tsx` to block illegal program combos (e.g. Data Science cannot double-major).
+
+---
+
+## Program Selection Rules
+- `MATH_MAJOR_IDS`: ~22 core Mathematics program IDs tracked as a `Set`
+- `MATH_FACULTY_SUBJECTS`: `ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT`
+- Joint Honours programs have bidirectional pairs in `JOINT_PAIRS`
+- `getBlockedIds()` in Onboarding computes what programs can't be combined with the current selection
+
+---
+
+## Search Pattern
+Use `fuzzysort` for any typeahead or program/course search:
+```typescript
+import fuzzysort from 'fuzzysort';
+const results = fuzzysort.go(query, items, { key: 'name', limit: 5 });
+```
+Filter by subject prefix when the query contains digits (e.g. `CS 1` → only show CS courses).
+
+---
+
+## Code Style
+
+- No comments unless the reason is non-obvious (a hidden constraint, a workaround, a subtle invariant)
+- No docstrings or multi-line comment blocks
+- No unused variables or imports
+- Prefer `Set` and `Map` for membership checks and lookups over `.includes()` / `.find()` on large arrays
+- Regex patterns for course codes: `/^([A-Z]+)(\d+)([A-Z]?)$/`
+- Regex for term codes: `/^([WFS])(\d{2})$/`
+- No `any`; use `unknown` + type narrowing when needed
+- Async API route handlers should handle errors with try/catch and return appropriate HTTP status codes
+
+---
+
+## What Not To Do
+
+- Do not use Tailwind classes for layout or component styling — use inline styles
+- Do not introduce new state management libraries
+- Do not mock the UW API in client code — go through `/api/courses`
+- Do not add `console.log` debugging statements
+- Do not create new data fetching patterns outside of the existing API route + context pattern
+- Do not assume Next.js APIs match older versions — always verify against `node_modules/next/dist/docs/`
