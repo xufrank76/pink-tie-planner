@@ -186,6 +186,13 @@ export default function Settings() {
         </h2>
         <p style={{ fontFamily: SANS, fontSize: '16px', color: '#858080', lineHeight: 1.55, margin: '0 0 16px' }}>
           Found a bug, spotted an incorrect requirement, or have a suggestion? Tell us what's wrong or what could be better.
+          {' '}For more detailed feedback,{' '}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdo6gwJyp-vFjHKHWKG58bSh_cBHbf_cMBeATuBm6Gtc-ERpw/viewform?usp=dialog"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: '#858080', textDecoration: 'underline' }}
+          >fill out this form</a>.
         </p>
         {feedbackSent ? (
           <div style={{ background: '#f0faf0', border: '1px solid #b8e6b8', borderRadius: '20px', padding: '20px 24px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
