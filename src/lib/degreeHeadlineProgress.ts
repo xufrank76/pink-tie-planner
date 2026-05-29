@@ -265,11 +265,19 @@ export function computeDegreeHeadlineMetrics(
       ];
   const plannedOrCompleted = new Set(coursesPlanned);
 
-  function sumProgress(nodes: ReqNode[]) {
+  // Sum progress over nodes. For ADDITIONAL nodes, exclude courses already required by
+  // non-ADDITIONAL sibling nodes in the same list (plus any caller-supplied extras), so that
+  // core/required courses don't double-count into elective slots.
+  function sumProgress(nodes: ReqNode[], additionalExclude: ReadonlySet<string> = new Set()): { done: number; total: number } {
+    const ownRequired = new Set<string>(nodes.filter(n => n.type !== 'ADDITIONAL').flatMap(n => courseCodes(n)));
+    const exclude = additionalExclude.size > 0 ? new Set([...ownRequired, ...additionalExclude]) : ownRequired;
     let done = 0;
     let total = 0;
     for (const n of nodes) {
-      const p = nodeProgress(n, plannedOrCompleted);
+      const base = n.type === 'ADDITIONAL' && exclude.size > 0
+        ? new Set([...plannedOrCompleted].filter(c => !exclude.has(c)))
+        : plannedOrCompleted;
+      const p = nodeProgress(n, base);
       done += p.done;
       total += p.total;
     }
@@ -284,13 +292,16 @@ export function computeDegreeHeadlineMetrics(
   const allCoreNodes: ReqNode[] = coreReqPatched[0]?.children ?? [];
   // Exclude the comm requirement group — comm courses are already counted in non-math electives.
   const coreNodes = allCoreNodes.filter(n => !/communication/i.test(n.text ?? ''));
+  // All course codes mentioned in core BMath — used to prevent core courses from inflating
+  // ADDITIONAL elective slots in non-core programs (majors, minors, specializations).
+  const coreAllCodes = new Set<string>(coreNodes.flatMap(n => courseCodes(n)));
   const { done: coreDoneRaw, total: coreTotalRaw } = sumProgress(coreNodes);
   const coreOrSets = collectOrCodeSets(coreNodes);
 
-  function entryProgress(id: string) {
+  function entryProgress(id: string, extraExclude: ReadonlySet<string> = new Set()) {
     const entry = programs[id];
     if (!entry) return null;
-    return sumProgress(topLevelRequirementNodes(entry));
+    return sumProgress(topLevelRequirementNodes(entry), extraExclude);
   }
 
   const majorCandidates = [
@@ -305,7 +316,7 @@ export function computeDegreeHeadlineMetrics(
   const processedMajorNodesList: ReqNode[][] = [];
   const majorRows: DegreeProgressRow[] = [];
   for (const { id, name } of majorCandidates) {
-    const p = entryProgress(id);
+    const p = entryProgress(id, coreAllCodes);
     if (!p) continue;
     const entry = programs[id];
     const majorNodes = entry ? topLevelRequirementNodes(entry) : [];
@@ -334,7 +345,7 @@ export function computeDegreeHeadlineMetrics(
   }
 
   const minorEntry = program.minorId ? programs[program.minorId] : null;
-  const minorProgress = minorEntry ? entryProgress(program.minorId!) : null;
+  const minorProgress = minorEntry ? entryProgress(program.minorId!, coreAllCodes) : null;
   const minorFloor = minorEntry?.minCourses ?? 8;
 
   if (minorEntry) {
@@ -358,7 +369,7 @@ export function computeDegreeHeadlineMetrics(
   const specRows = program.extras
     .filter(e => e.type === 'specialization')
     .map(e => {
-      const p = entryProgress(e.id);
+      const p = entryProgress(e.id, coreAllCodes);
       if (!p) return null;
       const specEntry = programs[e.id];
       // Apply minCourses as floor only for standalone specializations (minCourses < 20).

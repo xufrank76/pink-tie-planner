@@ -13,6 +13,7 @@ import SlidingToggle from '@/src/components/SlidingToggle';
 import type { PageId } from '@/src/components/Sidebar';
 import type { FlowRating } from '@/src/context/AppContext';
 import type { SectionInfo, ScheduleEntry } from '@/app/api/schedule/route';
+import { useIsMobile } from '@/src/lib/useIsMobile';
 
 const programs = rawPrograms as Record<string, { name: string; requirements: ReqNode[] }>;
 
@@ -230,7 +231,7 @@ function parseWeekdays(pattern: string | null): Set<string> {
   return result;
 }
 
-function CourseDetail({ course, req, currentTerm, rating, onClose }: { course: CourseInfo; req: string; currentTerm: string; rating?: FlowRating | null; onClose: () => void }) {
+function CourseDetail({ course, req, currentTerm, rating, onClose, isMobile }: { course: CourseInfo; req: string; currentTerm: string; rating?: FlowRating | null; onClose: () => void; isMobile?: boolean }) {
   const { addCourseToTerm, removeCourseFromTerm, semesterPlans } = useApp();
 
   const [scheduledTerms, setScheduledTerms] = useState<string[]>([]);
@@ -292,15 +293,23 @@ function CourseDetail({ course, req, currentTerm, rating, onClose }: { course: C
     (semesterPlans[term] ?? []).some(c => normalizeCode(c) === course.code);
 
   return (
-    <div style={{ width: '50%', minWidth: '320px', borderLeft: '1px solid #d9d9d9', display: 'flex', flexDirection: 'column', overflowY: 'auto', flexShrink: 0, minHeight: 0 }}>
+    <div style={isMobile ? { flex: 1, display: 'flex', flexDirection: 'column', overflowY: 'auto', minHeight: 0 } : { width: '50%', minWidth: '320px', borderLeft: '1px solid #d9d9d9', display: 'flex', flexDirection: 'column', overflowY: 'auto', flexShrink: 0, minHeight: 0 }}>
       <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+        {isMobile && (
+          <button
+            onClick={onClose}
+            style={{ alignSelf: 'flex-start', background: 'none', border: 'none', cursor: 'pointer', fontFamily: SANS, fontSize: '15px', color: '#858080', padding: 0, display: 'flex', alignItems: 'center', gap: '4px' }}
+          >
+            ← back
+          </button>
+        )}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <div>
             <div style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', marginBottom: '4px' }}>{req}</div>
             <div style={{ fontFamily: MONO, fontSize: '22px', color: '#000' }}>{course.code}</div>
             <div style={{ fontFamily: SANS, fontSize: '24px', color: '#000', lineHeight: 1.2, fontWeight: 400, marginTop: '4px' }}>{course.name}</div>
           </div>
-          <div onClick={onClose} style={{ cursor: 'pointer', color: '#858080', fontFamily: MONO, fontSize: '20px', lineHeight: 1, padding: '0 0 0 12px', flexShrink: 0 }}>×</div>
+          {!isMobile && <div onClick={onClose} style={{ cursor: 'pointer', color: '#858080', fontFamily: MONO, fontSize: '20px', lineHeight: 1, padding: '0 0 0 12px', flexShrink: 0 }}>×</div>}
         </div>
 
         {course.description && (
@@ -579,6 +588,7 @@ export default function CourseCatalog({ onNavigate }: { onNavigate: (page: PageI
     program,
     flowRatings,
   } = useApp();
+  const isMobile = useIsMobile();
   const [selectedCourse, setSelectedCourse] = useState<CourseInfo | null>(null);
   const [search, setSearch] = useState('');
   const deferredSearch = useDeferredValue(search);
@@ -725,7 +735,7 @@ export default function CourseCatalog({ onNavigate }: { onNavigate: (page: PageI
 
       <div
         style={{
-          padding: '32px 48px 0',
+          padding: isMobile ? '20px 16px 0' : '32px 48px 0',
           flexShrink: 0,
           display: 'flex',
           justifyContent: 'space-between',
@@ -734,14 +744,14 @@ export default function CourseCatalog({ onNavigate }: { onNavigate: (page: PageI
           flexWrap: 'wrap',
         }}
       >
-        <h1 style={{ fontFamily: SANS, fontSize: '60px', color: '#000', lineHeight: 1, margin: 0, fontWeight: 400, animation: 'headingReveal 0.5s ease forwards' }}>
+        <h1 style={{ fontFamily: SANS, fontSize: isMobile ? '36px' : '60px', color: '#000', lineHeight: 1, margin: 0, fontWeight: 400, animation: 'headingReveal 0.5s ease forwards' }}>
           {catalogView === 'courses' ? 'course catalog...' : 'degree plans...'}
         </h1>
         <SlidingToggle options={CATALOG_VIEW_OPTIONS} value={catalogView} onChange={setCatalogView} />
       </div>
 
       {catalogView === 'courses' && (
-      <div style={{ padding: '14px 48px', display: 'flex', gap: '8px', alignItems: 'center', borderBottom: '1px solid #d9d9d9', flexShrink: 0, flexWrap: 'wrap' }}>
+      <div style={{ padding: isMobile ? '10px 16px' : '14px 48px', display: 'flex', gap: '8px', alignItems: 'center', borderBottom: '1px solid #d9d9d9', flexShrink: 0, flexWrap: 'wrap' }}>
         <div style={{ position: 'relative', display: 'inline-flex', alignItems: 'center' }}>
           <select
             value={filterSubject}
@@ -812,37 +822,47 @@ export default function CourseCatalog({ onNavigate }: { onNavigate: (page: PageI
           </div>
         )}
         {catalogView === 'courses' && coursesStatus === 'ok' && (
-          <div style={{ flex: 1, display: 'flex', overflow: 'hidden', minHeight: 0, minWidth: 0 }}>
-            <div
-              ref={listScrollRef}
-              style={{ flex: 1, minWidth: 0, minHeight: 0, padding: '16px 48px', overflowY: 'auto', WebkitOverflowScrolling: 'touch' }}
-            >
-              {filtered.length === 0 && (
-                <div style={{ fontFamily: SANS, fontSize: '16px', color: '#858080', padding: '24px 0' }}>
-                  {coursesDeduped.length === 0
-                    ? 'couldn\'t load the course catalog. try refreshing the page.'
-                    : 'No courses match your filters.'}
-                </div>
-              )}
-              {visible.map(c => (
-                <CourseRow
-                  key={c.code}
-                  course={c}
-                  status={getStatus(c.code)}
-                  req={getReq(c.code)}
-                  rating={flowRatings[c.code] ?? null}
-                  isSelected={selectedCourse ? normalizeCode(selectedCourse.code) === c.code : false}
-                  onClick={() => setSelectedCourse(selectedCourse && normalizeCode(selectedCourse.code) === c.code ? null : c)}
-                />
-              ))}
-              {filtered.length > visible.length && (
-                <div ref={loadMoreRef} style={{ padding: '16px', fontFamily: MONO, fontSize: '13px', color: '#858080', textAlign: 'center' }}>
-                  Scroll for more…
-                </div>
-              )}
-            </div>
+          <div style={{ flex: 1, display: 'flex', flexDirection: isMobile ? 'column' : 'row', overflow: 'hidden', minHeight: 0, minWidth: 0 }}>
+            {/* List — hidden on mobile when a course is selected */}
+            {(!isMobile || !selectedCourse) && (
+              <div
+                ref={listScrollRef}
+                style={{ flex: 1, minWidth: 0, minHeight: 0, padding: isMobile ? '12px 16px' : '16px 48px', overflowY: 'auto', WebkitOverflowScrolling: 'touch' }}
+              >
+                {filtered.length === 0 && (
+                  <div style={{ fontFamily: SANS, fontSize: '16px', color: '#858080', padding: '24px 0' }}>
+                    {coursesDeduped.length === 0
+                      ? 'couldn\'t load the course catalog. try refreshing the page.'
+                      : 'No courses match your filters.'}
+                  </div>
+                )}
+                {visible.map(c => (
+                  <CourseRow
+                    key={c.code}
+                    course={c}
+                    status={getStatus(c.code)}
+                    req={getReq(c.code)}
+                    rating={flowRatings[c.code] ?? null}
+                    isSelected={selectedCourse ? normalizeCode(selectedCourse.code) === c.code : false}
+                    onClick={() => setSelectedCourse(selectedCourse && normalizeCode(selectedCourse.code) === c.code ? null : c)}
+                  />
+                ))}
+                {filtered.length > visible.length && (
+                  <div ref={loadMoreRef} style={{ padding: '16px', fontFamily: MONO, fontSize: '13px', color: '#858080', textAlign: 'center' }}>
+                    Scroll for more…
+                  </div>
+                )}
+              </div>
+            )}
             {selectedCourse && (
-              <CourseDetail course={selectedCourse} req={selectedReq} currentTerm={CURRENT_TERM} rating={flowRatings[selectedCourse.code] ?? null} onClose={() => setSelectedCourse(null)} />
+              <CourseDetail
+                course={selectedCourse}
+                req={selectedReq}
+                currentTerm={CURRENT_TERM}
+                rating={flowRatings[selectedCourse.code] ?? null}
+                onClose={() => setSelectedCourse(null)}
+                isMobile={isMobile}
+              />
             )}
           </div>
         )}

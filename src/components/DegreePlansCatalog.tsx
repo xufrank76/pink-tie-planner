@@ -7,6 +7,7 @@ import type { ReqNode } from '@/src/lib/requirementEvaluator';
 import type { UserProgram } from '@/src/types/program';
 import type { PageId } from '@/src/components/Sidebar';
 import { useApp } from '@/src/context/AppContext';
+import { useIsMobile } from '@/src/lib/useIsMobile';
 
 const SANS = 'var(--font-dm-sans, "DM Sans", sans-serif)';
 const MONO = 'var(--font-dm-mono, "DM Mono", monospace)';
@@ -477,13 +478,14 @@ function ProgramRow({ entry, isSelected, isYours, onClick }: {
   );
 }
 
-function ProgramDetail({ entry, isYours, onNavigate, completedSet, planSet, onClose }: {
+function ProgramDetail({ entry, isYours, onNavigate, completedSet, planSet, onClose, isMobile }: {
   entry: ProgramEntry;
   isYours: boolean;
   onNavigate: (page: PageId) => void;
   completedSet: Set<string>;
   planSet: Set<string>;
   onClose: () => void;
+  isMobile?: boolean;
 }) {
   const type = programType(entry);
   const nCourses = countRequiredFromEntry(entry);
@@ -518,14 +520,22 @@ function ProgramDetail({ entry, isYours, onNavigate, completedSet, planSet, onCl
   }
 
   return (
-    <div style={{ width: 'min(400px, 40vw)', minWidth: '280px', borderLeft: '1px solid #d9d9d9', display: 'flex', flexDirection: 'column', overflowY: 'auto', flexShrink: 0, minHeight: 0 }}>
+    <div style={isMobile ? { flex: 1, display: 'flex', flexDirection: 'column', overflowY: 'auto', minHeight: 0 } : { width: 'min(400px, 40vw)', minWidth: '280px', borderLeft: '1px solid #d9d9d9', display: 'flex', flexDirection: 'column', overflowY: 'auto', flexShrink: 0, minHeight: 0 }}>
       <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+        {isMobile && (
+          <button
+            onClick={onClose}
+            style={{ alignSelf: 'flex-start', background: 'none', border: 'none', cursor: 'pointer', fontFamily: SANS, fontSize: '15px', color: '#858080', padding: 0, display: 'flex', alignItems: 'center', gap: '4px' }}
+          >
+            ← back
+          </button>
+        )}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <div>
             <div style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', marginBottom: '4px' }}>{entry.faculty}</div>
             <div style={{ fontFamily: SANS, fontSize: '24px', color: '#000', lineHeight: 1.2, fontWeight: 400, marginTop: '4px' }}>{displayTitle(entry)}</div>
           </div>
-          <div onClick={onClose} style={{ cursor: 'pointer', color: '#858080', fontFamily: MONO, fontSize: '20px', lineHeight: 1, padding: '0 0 0 12px', flexShrink: 0 }}>×</div>
+          {!isMobile && <div onClick={onClose} style={{ cursor: 'pointer', color: '#858080', fontFamily: MONO, fontSize: '20px', lineHeight: 1, padding: '0 0 0 12px', flexShrink: 0 }}>×</div>}
         </div>
 
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', alignItems: 'center' }}>
@@ -652,6 +662,7 @@ export default function DegreePlansCatalog({
   onNavigate: (page: PageId) => void;
 }) {
   const { completedCourses, semesterPlans } = useApp();
+  const isMobile = useIsMobile();
   const completedSet = useMemo(() => new Set(completedCourses), [completedCourses]);
   const planSet = useMemo(() => {
     const s = new Set<string>();
@@ -702,7 +713,7 @@ export default function DegreePlansCatalog({
 
   return (
     <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
-      <div style={{ padding: '14px 48px', display: 'flex', gap: '8px', alignItems: 'center', borderBottom: '1px solid #d9d9d9', flexShrink: 0, flexWrap: 'wrap' }}>
+      <div style={{ padding: isMobile ? '10px 16px' : '14px 48px', display: 'flex', gap: '8px', alignItems: 'center', borderBottom: '1px solid #d9d9d9', flexShrink: 0, flexWrap: 'wrap' }}>
         <div style={{ position: 'relative', display: 'inline-flex', alignItems: 'center' }}>
           <select
             value={typeFilter}
@@ -731,23 +742,26 @@ export default function DegreePlansCatalog({
         </span>
       </div>
 
-      <div style={{ flex: 1, display: 'flex', overflow: 'hidden', minHeight: 0 }}>
-        <div style={{ flex: 1, minWidth: 0, padding: '16px 48px', overflowY: 'auto', WebkitOverflowScrolling: 'touch' }}>
-          {filtered.length === 0 && (
-            <div style={{ fontFamily: SANS, fontSize: '16px', color: '#858080', padding: '24px 0' }}>
-              No programs match your filters.
-            </div>
-          )}
-          {filtered.map(p => (
-            <ProgramRow
-              key={p.id}
-              entry={p}
-              isSelected={p.id === selectedId}
-              isYours={p.id === program.id}
-              onClick={() => { userClosedRef.current = p.id === selectedId; setSelectedId(p.id === selectedId ? null : p.id); }}
-            />
-          ))}
-        </div>
+      <div style={{ flex: 1, display: 'flex', flexDirection: isMobile ? 'column' : 'row', overflow: 'hidden', minHeight: 0 }}>
+        {/* List — hidden on mobile when a program is selected */}
+        {(!isMobile || !selected) && (
+          <div style={{ flex: 1, minWidth: 0, padding: isMobile ? '12px 16px' : '16px 48px', overflowY: 'auto', WebkitOverflowScrolling: 'touch' }}>
+            {filtered.length === 0 && (
+              <div style={{ fontFamily: SANS, fontSize: '16px', color: '#858080', padding: '24px 0' }}>
+                No programs match your filters.
+              </div>
+            )}
+            {filtered.map(p => (
+              <ProgramRow
+                key={p.id}
+                entry={p}
+                isSelected={p.id === selectedId}
+                isYours={p.id === program.id}
+                onClick={() => { userClosedRef.current = p.id === selectedId; setSelectedId(p.id === selectedId ? null : p.id); }}
+              />
+            ))}
+          </div>
+        )}
         {selected && (
           <ProgramDetail
             entry={selected}
@@ -756,6 +770,7 @@ export default function DegreePlansCatalog({
             completedSet={completedSet}
             planSet={planSet}
             onClose={() => { userClosedRef.current = true; setSelectedId(null); }}
+            isMobile={isMobile}
           />
         )}
       </div>

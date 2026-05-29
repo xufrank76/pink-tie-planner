@@ -8,6 +8,7 @@ import { computeDegreeHeadlineMetrics } from '@/src/lib/degreeHeadlineProgress';
 import type { ReqNode } from '@/src/lib/requirementEvaluator';
 import { getCurrentTerm } from '@/src/lib/termUtils';
 import { getStudyLabel } from '@/src/data/coopSequences';
+import { useIsMobile } from '@/src/lib/useIsMobile';
 
 const programs = rawPrograms as Record<string, { name: string; requirements: ReqNode[] }>;
 
@@ -74,10 +75,10 @@ function TooltipButton({ planned, total }: { planned: number; total: number }) {
   );
 }
 
-function DegreePctBlock({ pct, planned, total }: { pct: number; planned: number; total: number }) {
+function DegreePctBlock({ pct, planned, total, isMobile }: { pct: number; planned: number; total: number; isMobile: boolean }) {
   return (
     <div style={{ flexShrink: 0 }}>
-      <div style={{ fontFamily: SANS, fontSize: '200px', color: '#000', lineHeight: 0.9, letterSpacing: '-4px', fontWeight: 400 }}>
+      <div style={{ fontFamily: SANS, fontSize: isMobile ? '100px' : '200px', color: '#000', lineHeight: 0.9, letterSpacing: '-4px', fontWeight: 400 }}>
         {pct}%
       </div>
       <div style={{ fontFamily: MONO, fontSize: '15px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.04em', marginTop: '6px', display: 'flex', alignItems: 'center', gap: '6px' }}>
@@ -113,6 +114,7 @@ function CourseChip({ code }: { code: string }) {
 export default function Dashboard({ onNavigate }: { onNavigate: (id: PageId) => void }) {
   const { semesterPlans, completedCourses, effectiveProgram: program } = useApp();
   const thisTermCourses = semesterPlans[CURRENT_TERM] ?? [];
+  const isMobile = useIsMobile();
 
   const { progressRows, degreePlannedSum, degreeTotalSlots, degreePct, hasDegreeMetric } = useMemo(
     () => computeDegreeHeadlineMetrics(programs, program, completedCourses, semesterPlans),
@@ -120,19 +122,19 @@ export default function Dashboard({ onNavigate }: { onNavigate: (id: PageId) => 
   );
 
   return (
-    <div style={{ flex: 1, padding: '32px 48px', overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
+    <div style={{ flex: 1, padding: isMobile ? '24px 20px' : '32px 48px', overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
 
       {/* Row 1: heading + grouped % / DEGREE PLANNED */}
-      <div style={{ display: 'flex', alignItems: 'stretch', gap: '48px', marginBottom: '16px' }}>
+      <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', alignItems: isMobile ? 'flex-start' : 'stretch', gap: isMobile ? '16px' : '48px', marginBottom: '16px' }}>
         <div style={{ flexShrink: 0, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-          <h1 style={{ fontFamily: SANS, fontSize: '60px', color: '#000', lineHeight: 1, margin: 0, fontWeight: 400, animation: 'headingReveal 0.5s ease forwards' }}>
+          <h1 style={{ fontFamily: SANS, fontSize: isMobile ? '40px' : '60px', color: '#000', lineHeight: 1, margin: 0, fontWeight: 400, animation: 'headingReveal 0.5s ease forwards' }}>
             your progress...
           </h1>
-          <div style={{ fontFamily: MONO, fontSize: '15px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+          <div style={{ fontFamily: MONO, fontSize: '15px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.04em', marginTop: isMobile ? '8px' : 0 }}>
             DEGREE REQUIREMENTS
           </div>
         </div>
-        <DegreePctBlock pct={hasDegreeMetric ? degreePct : 0} planned={degreePlannedSum} total={degreeTotalSlots} />
+        <DegreePctBlock pct={hasDegreeMetric ? degreePct : 0} planned={degreePlannedSum} total={degreeTotalSlots} isMobile={isMobile} />
       </div>
 
       {/* Progress bars */}
@@ -159,7 +161,7 @@ export default function Dashboard({ onNavigate }: { onNavigate: (id: PageId) => 
       </div>
 
       {/* Action buttons */}
-      <div style={{ display: 'flex', gap: '12px', marginTop: '28px', flexWrap: 'wrap' }}>
+      <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', gap: '12px', marginTop: '28px', flexWrap: 'wrap' }}>
         <button
           onClick={() => onNavigate('semester-planner')}
           style={{
@@ -167,10 +169,10 @@ export default function Dashboard({ onNavigate }: { onNavigate: (id: PageId) => 
             color: '#000',
             border: 'none',
             borderRadius: '40px',
-            height: '58px',
+            height: isMobile ? '52px' : '58px',
             padding: '0 35px',
             fontFamily: SANS,
-            fontSize: '20px',
+            fontSize: isMobile ? '17px' : '20px',
             cursor: 'pointer',
           }}
         >
@@ -183,10 +185,10 @@ export default function Dashboard({ onNavigate }: { onNavigate: (id: PageId) => 
             color: '#000',
             border: 'none',
             borderRadius: '40px',
-            height: '58px',
+            height: isMobile ? '52px' : '58px',
             padding: '0 35px',
             fontFamily: SANS,
-            fontSize: '20px',
+            fontSize: isMobile ? '17px' : '20px',
             cursor: 'pointer',
           }}
         >

@@ -101,7 +101,7 @@ export function getBlockedIds(majorId: string | undefined): { doubleMajors: Set<
 
 function getStartTerms() {
   const yr = new Date().getFullYear();
-  return Array.from({ length: 7 }, (_, i) => `F${String(yr - 5 + i).slice(-2)}`);
+  return Array.from({ length: 8 }, (_, i) => `F${String(yr - 6 + i).slice(-2)}`);
 }
 export const START_TERMS = getStartTerms();
 

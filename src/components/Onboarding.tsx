@@ -10,6 +10,7 @@ import {
   getBlockedIds, START_TERMS,
   type ProgramEntry,
 } from '@/src/components/ProgramForm';
+import { useIsMobile } from '@/src/lib/useIsMobile';
 
 const SANS = 'var(--font-dm-sans, "DM Sans", sans-serif)';
 const MONO = 'var(--font-dm-mono, "DM Mono", monospace)';
@@ -20,6 +21,7 @@ function ProgramSelect({ onContinue, onBackToPlan }: { onContinue: () => void; o
   const { setProgram } = useApp();
   const form = useProgramForm();
   const { canSave, buildProgram } = form;
+  const isMobile = useIsMobile();
 
   function handleContinue() {
     const p = buildProgram();
@@ -29,9 +31,9 @@ function ProgramSelect({ onContinue, onBackToPlan }: { onContinue: () => void; o
   }
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1, padding: '28px 48px', overflowY: 'auto' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1, padding: isMobile ? '20px 16px' : '28px 48px', overflowY: 'auto' }}>
       <div style={{ width: '100%', maxWidth: '700px', margin: 'auto' }}>
-        <h1 style={{ fontFamily: SANS, fontSize: '60px', color: '#000', margin: '0 0 20px', fontWeight: 400, lineHeight: 1, animation: 'headingReveal 0.5s ease forwards' }}>
+        <h1 style={{ fontFamily: SANS, fontSize: isMobile ? '36px' : '60px', color: '#000', margin: '0 0 20px', fontWeight: 400, lineHeight: 1, animation: 'headingReveal 0.5s ease forwards' }}>
           select your program...
         </h1>
         <ProgramFormFields form={form} />
@@ -65,6 +67,7 @@ function termDisplayLabel(t: string): string {
 
 function TranscriptImport({ courses, coursesStatus, onContinue, onBack, onBackToPlan }: { courses: { code: string; name: string }[]; coursesStatus: 'loading' | 'ok' | 'error'; onContinue: () => void; onBack: () => void; onBackToPlan?: () => void }) {
   const { setCompletedCourses, setSemesterPlans, saveOnboardingCourses, program } = useApp();
+  const isMobile = useIsMobile();
   const [mode, setMode] = useState<'upload' | 'manual'>('upload');
   const [fileDragging, setFileDragging] = useState(false);
   const [status, setStatus] = useState<'idle' | 'parsing' | 'done' | 'error'>('idle');
@@ -77,6 +80,7 @@ function TranscriptImport({ courses, coursesStatus, onContinue, onBack, onBackTo
   const [addTermOpen, setAddTermOpen] = useState(false);
 
   const allAdded = useMemo(() => Object.values(termCourses).flat(), [termCourses]);
+  const hasUnassigned = useMemo(() => (termCourses['unassigned']?.length ?? 0) > 0, [termCourses]);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const addedSet = useMemo(() => new Set(allAdded), [allAdded]);
@@ -171,9 +175,9 @@ const sortedTermKeys = useMemo(() =>
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: '48px', alignItems: 'center', overflowY: 'auto' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: isMobile ? '20px 16px' : '48px', alignItems: 'center', overflowY: 'auto' }}>
       <div style={{ width: '100%', maxWidth: '700px', margin: 'auto' }}>
-        <h1 style={{ fontFamily: SANS, fontSize: '60px', color: '#000', margin: '0 0 32px', fontWeight: 400, lineHeight: 1, animation: 'headingReveal 0.5s ease forwards' }}>
+        <h1 style={{ fontFamily: SANS, fontSize: isMobile ? '36px' : '60px', color: '#000', margin: '0 0 32px', fontWeight: 400, lineHeight: 1, animation: 'headingReveal 0.5s ease forwards' }}>
           import your<br />completed courses...
         </h1>
 
@@ -425,13 +429,18 @@ const sortedTermKeys = useMemo(() =>
               </button>
             )}
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+            {hasUnassigned && (
+              <span style={{ fontFamily: SANS, fontSize: '14px', color: '#858080' }}>
+                assign all courses to a term before continuing
+              </span>
+            )}
             <button
               onClick={onContinue}
               style={{ background: 'transparent', border: 'none', borderRadius: '40px', height: '58px', padding: '0 20px', fontFamily: SANS, fontSize: '18px', cursor: 'pointer', color: '#858080' }}
             >skip</button>
             <button
-              disabled={allAdded.length === 0}
+              disabled={allAdded.length === 0 || hasUnassigned}
               onClick={() => {
                 const termPlans = Object.fromEntries(
                   Object.entries(termCourses).filter(([t]) => /^[WFS]\d{2}$/.test(t))
@@ -441,7 +450,7 @@ const sortedTermKeys = useMemo(() =>
                 saveOnboardingCourses(termPlans);
                 onContinue();
               }}
-              style={{ background: allAdded.length === 0 ? '#f0f0f0' : '#000', border: 'none', borderRadius: '40px', height: '58px', padding: '0 35px', fontFamily: SANS, fontSize: '20px', cursor: allAdded.length === 0 ? 'default' : 'pointer', color: allAdded.length === 0 ? '#c0c0c0' : '#fff' }}
+              style={{ background: allAdded.length === 0 || hasUnassigned ? '#f0f0f0' : '#000', border: 'none', borderRadius: '40px', height: '58px', padding: '0 35px', fontFamily: SANS, fontSize: '20px', cursor: allAdded.length === 0 || hasUnassigned ? 'default' : 'pointer', color: allAdded.length === 0 || hasUnassigned ? '#c0c0c0' : '#fff' }}
             >confirm and continue</button>
           </div>
         </div>

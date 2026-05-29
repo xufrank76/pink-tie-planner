@@ -10,6 +10,7 @@ import { courseCodes } from '@/src/lib/requirementEvaluator';
 import type { ReqNode } from '@/src/lib/requirementEvaluator';
 import { getMissingPrereqs, isMathRestricted, parseRequiredLevel, levelNum, expandWithLabCourses } from '@/src/lib/prereqCheck';
 import { getStudyLabel } from '@/src/data/coopSequences';
+import { useIsMobile } from '@/src/lib/useIsMobile';
 
 const antireqs = rawAntireqs as Record<string, string[]>;
 
@@ -23,6 +24,7 @@ const CURRENT_TERM = getCurrentTerm();
 export default function SemesterPlanner({ onNavigate }: { onNavigate: (id: import('./Sidebar').PageId) => void }) {
   const { semesterPlans, addCourseToTerm, removeCourseFromTerm, completedCourses, courses, coursesStatus, effectiveProgram: program, planEndTerm, flowRatings, showDifficultyScore, courseOverrides, favoriteCourses } = useApp();
   const planTerms = useMemo(() => effectivePlanTerms(program, planEndTerm), [program, planEndTerm]);
+  const isMobile = useIsMobile();
   const [selectedTerm, setSelectedTerm] = useState<string>(CURRENT_TERM);
   const [search, setSearch] = useState('');
   const [activeFilters, setActiveFilters] = useState<Set<string>>(() => new Set(['available-now']));
@@ -215,8 +217,8 @@ export default function SemesterPlanner({ onNavigate }: { onNavigate: (id: impor
     <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
 
       {/* Header */}
-      <div style={{ padding: '32px 48px 16px', flexShrink: 0 }}>
-        <h1 style={{ fontFamily: SANS, fontSize: '60px', color: '#000', lineHeight: 1, margin: '0 0 16px', fontWeight: 400 }}>
+      <div style={{ padding: isMobile ? '20px 16px 12px' : '32px 48px 16px', flexShrink: 0 }}>
+        <h1 style={{ fontFamily: SANS, fontSize: isMobile ? '36px' : '60px', color: '#000', lineHeight: 1, margin: '0 0 16px', fontWeight: 400 }}>
           build your semester...
         </h1>
         <div style={{ display: 'inline-flex', alignItems: 'center', gap: '10px' }}>
@@ -254,7 +256,7 @@ export default function SemesterPlanner({ onNavigate }: { onNavigate: (id: impor
       </div>
 
       {/* Two-panel layout */}
-      <div style={{ flex: 1, display: 'flex', gap: '16px', padding: '0 48px 32px', overflow: 'hidden' }}>
+      <div style={{ flex: 1, display: 'flex', flexDirection: isMobile ? 'column' : 'row', gap: '16px', padding: isMobile ? '0 16px 24px' : '0 48px 32px', overflow: isMobile ? 'auto' : 'hidden' }}>
 
         {/* Left: available courses */}
         <div
@@ -515,7 +517,7 @@ export default function SemesterPlanner({ onNavigate }: { onNavigate: (id: impor
 
       {/* Plan check panel */}
       {showCheck && (
-        <div style={{ padding: '0 48px 16px', flexShrink: 0 }}>
+        <div style={{ padding: isMobile ? '0 16px 12px' : '0 48px 16px', flexShrink: 0 }}>
           <div style={{ background: '#ececec', borderRadius: '15px', padding: '16px 20px' }}>
             <div style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '12px' }}>
               PLAN CHECK — {selectedTerm}
@@ -563,7 +565,7 @@ export default function SemesterPlanner({ onNavigate }: { onNavigate: (id: impor
       )}
 
       {/* Bottom nav */}
-      <div style={{ padding: '0 48px 32px', display: 'flex', gap: '12px', flexShrink: 0 }}>
+      <div style={{ padding: isMobile ? '0 16px 20px' : '0 48px 32px', display: 'flex', gap: '12px', flexShrink: 0 }}>
         <button
           onClick={() => setShowCheck(v => !v)}
           style={{

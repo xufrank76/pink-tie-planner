@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useApp } from '@/src/context/AppContext';
+import { useIsMobile } from '@/src/lib/useIsMobile';
 
 const SANS = 'var(--font-dm-sans, "DM Sans", sans-serif)';
 const MONO = 'var(--font-dm-mono, "DM Mono", monospace)';
@@ -12,6 +13,7 @@ export default function About() {
   const [feedbackSent, setFeedbackSent] = useState(false);
   const [feedbackSending, setFeedbackSending] = useState(false);
   const [feedbackError, setFeedbackError] = useState(false);
+  const isMobile = useIsMobile();
 
   const programCtx = program.id ? [
     program.major,
@@ -21,12 +23,12 @@ export default function About() {
   ].filter(Boolean).join(' + ') : undefined;
 
   return (
-    <div style={{ flex: 1, padding: '32px 48px', overflowY: 'auto' }}>
-      <h1 style={{ fontFamily: SANS, fontSize: '60px', color: '#000', lineHeight: 1, margin: '0 0 24px', fontWeight: 400 }}>
+    <div style={{ flex: 1, padding: isMobile ? '24px 20px' : '32px 48px', overflowY: 'auto' }}>
+      <h1 style={{ fontFamily: SANS, fontSize: isMobile ? '40px' : '60px', color: '#000', lineHeight: 1, margin: '0 0 24px', fontWeight: 400 }}>
         about
       </h1>
 
-      <div style={{ maxWidth: '560px', display: 'flex', flexDirection: 'column', gap: '18px' }}>
+      <div style={{ maxWidth: '560px', width: '100%', display: 'flex', flexDirection: 'column', gap: '18px' }}>
         <p style={{ fontFamily: SANS, fontSize: '16px', color: '#858080', lineHeight: 1.65, margin: 0 }}>
           Pink Tie Planner is a degree planner built for UW BMath students, combining the Undergraduate Calendar, UW Flow, UW Outline, Odyssey projected offerings, and your own personal planner into one unified experience.
         </p>
@@ -37,7 +39,7 @@ export default function About() {
           Designed for the 2A student declaring their major, the upper year looking to switch, and everyone in between navigating 16 majors worth of confusing nested requirements.
         </p>
         <p style={{ fontFamily: SANS, fontSize: '16px', color: '#858080', lineHeight: 1.65, margin: 0 }}>
-          This project is my debut in my pivot towards product design, going through the full end-to-end UX lifecycle: user research, personas, affinity mapping, journey mapping, wireframes, and prototyping, all the way to a shipped product. Stay tuned for the full case study!
+          This project is the start in my pivot towards product design, going through the full end-to-end UX lifecycle: user research, personas, affinity mapping, journey mapping, wireframes, and prototyping, all the way to a shipped product. Stay tuned for the full case study!
         </p>
         <p style={{ fontFamily: SANS, fontSize: '16px', color: '#858080', lineHeight: 1.65, margin: 0 }}>
           Pink Tie Planner relies on user testing to catch logic errors: degree requirements are complex and edge cases are everywhere. If something looks wrong — an incorrect requirement, miscounted courses, a missing plan, or anything off — feedback is super welcome! Use the{' '}

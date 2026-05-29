@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useApp } from '@/src/context/AppContext';
 import { scheduleClearOnNextLoad } from '@/src/lib/planPersistence';
+import { useIsMobile } from '@/src/lib/useIsMobile';
 
 const SANS = 'var(--font-dm-sans, "DM Sans", sans-serif)';
 const MONO = 'var(--font-dm-mono, "DM Mono", monospace)';
@@ -11,6 +12,7 @@ export default function Settings() {
   const { program, restartProgramSelection, courseOverrides, addCourseOverride, removeCourseOverride, semesterPlans, showDifficultyScore, setShowDifficultyScore } = useApp();
   const [overrideInput, setOverrideInput] = useState('');
   const [confirmErase, setConfirmErase] = useState(false);
+  const isMobile = useIsMobile();
 
   const planCourses = [...new Set(Object.values(semesterPlans).flat())].sort();
   const suggestions = overrideInput
@@ -18,12 +20,12 @@ export default function Settings() {
     : [];
 
   return (
-    <div style={{ flex: 1, padding: '32px 48px', overflowY: 'auto' }}>
-      <h1 style={{ fontFamily: SANS, fontSize: '60px', color: '#000', lineHeight: 1, margin: '0 0 24px', fontWeight: 400 }}>
+    <div style={{ flex: 1, padding: isMobile ? '24px 20px' : '32px 48px', overflowY: 'auto' }}>
+      <h1 style={{ fontFamily: SANS, fontSize: isMobile ? '40px' : '60px', color: '#000', lineHeight: 1, margin: '0 0 24px', fontWeight: 400 }}>
         settings
       </h1>
 
-      <section style={{ maxWidth: '560px', marginBottom: '40px' }}>
+      <section style={{ maxWidth: '560px', width: '100%', marginBottom: '40px' }}>
         <h2 style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.06em', margin: '0 0 12px' }}>
           Program
         </h2>
@@ -59,7 +61,7 @@ export default function Settings() {
         </button>
       </section>
 
-      <section style={{ maxWidth: '560px', marginBottom: '40px' }}>
+      <section style={{ maxWidth: '560px', width: '100%', marginBottom: '40px' }}>
         <h2 style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.06em', margin: '0 0 12px' }}>
           add an override
         </h2>
@@ -107,7 +109,7 @@ export default function Settings() {
         )}
       </section>
 
-      <section style={{ maxWidth: '560px', marginBottom: '40px' }}>
+      <section style={{ maxWidth: '560px', width: '100%', marginBottom: '40px' }}>
         <h2 style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.06em', margin: '0 0 12px' }}>
           Difficulty score
         </h2>
@@ -136,7 +138,7 @@ export default function Settings() {
         </div>
       </section>
 
-      <section style={{ maxWidth: '560px', marginBottom: '40px' }}>
+      <section style={{ maxWidth: '560px', width: '100%', marginBottom: '40px' }}>
         <h2 style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.06em', margin: '0 0 12px' }}>
           All data
         </h2>

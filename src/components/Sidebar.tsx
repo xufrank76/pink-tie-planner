@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useRef, useEffect, useState } from 'react';
+import { useIsMobile } from '@/src/lib/useIsMobile';
 
 export type PageId = 'dashboard' | 'degree-plan' | 'my-plans' | 'course-catalog' | 'semester-planner' | 'settings' | 'about' | 'coming-soon';
 
@@ -33,10 +34,15 @@ const NAV_GROUPS = [
 export default function Sidebar({
   active,
   onNavigate,
+  mobileOpen,
+  onMobileClose,
 }: {
   active: PageId;
   onNavigate: (id: PageId) => void;
+  mobileOpen?: boolean;
+  onMobileClose?: () => void;
 }) {
+  const isMobile = useIsMobile();
   const navRef = useRef<HTMLDivElement>(null);
   const itemRefs = useRef<Map<PageId, HTMLDivElement>>(new Map());
   const [pill, setPill] = useState<{ top: number; height: number } | null>(null);
@@ -52,7 +58,7 @@ export default function Sidebar({
     setReady(true);
   }, [active]);
 
-  return (
+  const sidebarContent = (
     <div
       style={{
         background: '#ececec',
@@ -64,8 +70,31 @@ export default function Sidebar({
         padding: '32px 26px',
         boxSizing: 'border-box',
         flexShrink: 0,
+        position: 'relative',
       }}
     >
+      {/* X close button — mobile only */}
+      {isMobile && (
+        <button
+          onClick={onMobileClose}
+          style={{
+            position: 'absolute',
+            top: '16px',
+            right: '16px',
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            fontFamily: 'var(--font-dm-mono, "DM Mono", monospace)',
+            fontSize: '24px',
+            color: '#858080',
+            lineHeight: 1,
+            padding: '4px',
+          }}
+        >
+          ×
+        </button>
+      )}
+
       {/* Logo */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '2px', marginBottom: '44px' }}>
         <span style={{ fontFamily: 'var(--font-dm-sans, "DM Sans", sans-serif)', fontSize: '25px', color: '#c60078', lineHeight: 1 }}>
@@ -127,7 +156,10 @@ export default function Sidebar({
                 <div
                   key={item.id}
                   ref={el => { if (el) itemRefs.current.set(item.id, el); }}
-                  onClick={() => onNavigate(item.id)}
+                  onClick={() => {
+                    onNavigate(item.id);
+                    if (isMobile && onMobileClose) onMobileClose();
+                  }}
                   onMouseEnter={(e) => {
                     if (!isActive) (e.currentTarget as HTMLElement).style.color = '#000';
                   }}
@@ -156,4 +188,39 @@ export default function Sidebar({
       </div>
     </div>
   );
+
+  if (isMobile) {
+    // Mobile: render as overlay drawer
+    return (
+      <>
+        {/* Backdrop */}
+        <div
+          onClick={onMobileClose}
+          style={{
+            display: mobileOpen ? 'block' : 'none',
+            position: 'fixed',
+            inset: 0,
+            background: 'rgba(0,0,0,0.35)',
+            zIndex: 100,
+          }}
+        />
+        {/* Drawer */}
+        <div
+          style={{
+            display: mobileOpen ? 'flex' : 'none',
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            height: '100%',
+            zIndex: 101,
+          }}
+        >
+          {sidebarContent}
+        </div>
+      </>
+    );
+  }
+
+  // Desktop: render inline as before
+  return sidebarContent;
 }

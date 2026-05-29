@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Sidebar, { type PageId } from './Sidebar';
 import Dashboard from './Dashboard';
 import DegreePlan from './DegreePlan';
@@ -12,12 +13,15 @@ import About from './About';
 import MyPlans from './MyPlans';
 import LandingPage from './LandingPage';
 import { AppProvider, useApp } from '@/src/context/AppContext';
+import { useIsMobile } from '@/src/lib/useIsMobile';
 
 
 function AppShell() {
   const { planReady, setupComplete, resumeFromProgramChangeAvailable, cancelProgramChange } = useApp();
   const [page, setPage] = useState<PageId>('dashboard');
   const [landingDismissed, setLandingDismissed] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     const isInteractive = (el: HTMLElement) =>
@@ -90,9 +94,85 @@ function AppShell() {
   }
 
   return (
-    <div style={{ display: 'flex', height: '100vh', overflow: 'hidden', background: '#fff' }}>
-      <Sidebar active={page} onNavigate={setPage} />
-      <main style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0, minWidth: 0 }}>
+    <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', height: '100vh', overflow: 'hidden', background: '#fff' }}>
+      {isMobile ? (
+        <>
+          {/* Mobile top bar */}
+          <div
+            style={{
+              height: '56px',
+              background: '#ececec',
+              display: 'flex',
+              alignItems: 'center',
+              padding: '0 20px',
+              justifyContent: 'space-between',
+              position: 'sticky',
+              top: 0,
+              zIndex: 50,
+              flexShrink: 0,
+            }}
+          >
+            {/* Left: logo */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '2px' }}>
+              <span style={{ fontFamily: 'var(--font-dm-sans, "DM Sans", sans-serif)', fontSize: '20px', color: '#c60078', lineHeight: 1 }}>
+                pink
+              </span>
+              <Image
+                src="/logo-tie.png"
+                alt="pink tie"
+                width={24}
+                height={24}
+                style={{ objectFit: 'contain', flexShrink: 0, margin: '0 -4px' }}
+              />
+              <span style={{ fontFamily: 'var(--font-dm-sans, "DM Sans", sans-serif)', fontSize: '20px', color: '#c60078', lineHeight: 1 }}>
+                tie
+              </span>
+              <span style={{ fontFamily: 'var(--font-dm-sans, "DM Sans", sans-serif)', fontSize: '20px', color: '#000', lineHeight: 1, marginLeft: '5px' }}>
+                planner
+              </span>
+            </div>
+            {/* Right: hamburger */}
+            <button
+              onClick={() => setDrawerOpen(true)}
+              style={{
+                background: 'none',
+                border: 'none',
+                cursor: 'pointer',
+                padding: '4px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '5px',
+                justifyContent: 'center',
+              }}
+              aria-label="Open menu"
+            >
+              <div style={{ width: '28px', height: '2px', background: '#000', borderRadius: '1px' }} />
+              <div style={{ width: '28px', height: '2px', background: '#000', borderRadius: '1px' }} />
+              <div style={{ width: '28px', height: '2px', background: '#000', borderRadius: '1px' }} />
+            </button>
+          </div>
+          {/* Mobile sidebar drawer */}
+          <Sidebar
+            active={page}
+            onNavigate={setPage}
+            mobileOpen={drawerOpen}
+            onMobileClose={() => setDrawerOpen(false)}
+          />
+        </>
+      ) : (
+        <Sidebar active={page} onNavigate={setPage} />
+      )}
+      <main
+        style={{
+          flex: 1,
+          display: 'flex',
+          flexDirection: 'column',
+          overflow: 'hidden',
+          minHeight: 0,
+          minWidth: 0,
+          overflowY: isMobile ? 'auto' : 'hidden',
+        }}
+      >
         {page === 'dashboard'        && <Dashboard onNavigate={setPage} />}
         {page === 'degree-plan'      && <DegreePlan onNavigate={setPage} />}
         {page === 'my-plans'         && <MyPlans onNavigate={setPage} />}

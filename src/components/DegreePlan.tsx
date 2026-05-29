@@ -405,9 +405,10 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
             {Array.from({ length: n }).map((_, i) => {
               const code = filledCodes[i];
               const isDone = code ? completedSet.has(code) : false;
+              const isPlanned = code ? (!isDone && planSet.has(code)) : false;
               return (
                 <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <CheckBox done={isDone} />
+                  <CheckBox done={isDone || isPlanned} />
                   {code ? (
                     <div style={{ background: isDone ? '#000' : '#858080', color: '#fff', borderRadius: '40px', padding: '0 12px', height: '30px', display: 'flex', alignItems: 'center', fontFamily: MONO, fontSize: '13px' }}>
                       {code}
@@ -449,9 +450,10 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
               {Array.from({ length: n }).map((_, i) => {
                 const code = filledCodes[i];
                 const isDone = code ? completedSet.has(code) : false;
+                const isPlanned = code ? (!isDone && planSet.has(code)) : false;
                 return (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <CheckBox done={isDone} />
+                    <CheckBox done={isDone || isPlanned} />
                     {code ? (
                       <div style={{ background: isDone ? '#000' : '#858080', color: '#fff', borderRadius: '40px', padding: '0 12px', height: '30px', display: 'flex', alignItems: 'center', fontFamily: MONO, fontSize: '13px' }}>
                         {code}
@@ -1420,11 +1422,12 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
       allocationByIdx.set(idx, codes);
     }
     const additionalAllocations = additional.map((_, i) => allocationByIdx.get(i) ?? []);
+    for (const allocated of additionalAllocations) totalDone += allocated.length;
 
     return {
       pid: id,
       title: label.trim() ? `${label}: ${shortName(name)}` : shortName(name),
-      progress: `${totalDone}/${totalCount}`,
+      progress: `${Math.round(totalDone)}/${totalCount}`,
       nodes,
       additional,
       exclusions,
