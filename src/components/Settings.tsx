@@ -11,10 +11,6 @@ export default function Settings() {
   const { program, restartProgramSelection, courseOverrides, addCourseOverride, removeCourseOverride, semesterPlans, showDifficultyScore, setShowDifficultyScore } = useApp();
   const [overrideInput, setOverrideInput] = useState('');
   const [confirmErase, setConfirmErase] = useState(false);
-  const [feedbackText, setFeedbackText] = useState('');
-  const [feedbackSent, setFeedbackSent] = useState(false);
-  const [feedbackSending, setFeedbackSending] = useState(false);
-  const [feedbackError, setFeedbackError] = useState(false);
 
   const planCourses = [...new Set(Object.values(semesterPlans).flat())].sort();
   const suggestions = overrideInput
@@ -180,113 +176,7 @@ export default function Settings() {
         )}
       </section>
 
-      <section style={{ maxWidth: '560px', marginBottom: '40px' }}>
-        <h2 style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.06em', margin: '0 0 12px' }}>
-          Feedback
-        </h2>
-        <p style={{ fontFamily: SANS, fontSize: '16px', color: '#858080', lineHeight: 1.55, margin: '0 0 16px' }}>
-          Found a bug, spotted an incorrect requirement, or have a suggestion? Tell us what's wrong or what could be better.
-          {' '}For more detailed feedback,{' '}
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdo6gwJyp-vFjHKHWKG58bSh_cBHbf_cMBeATuBm6Gtc-ERpw/viewform?usp=dialog"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: '#858080', textDecoration: 'underline' }}
-          >fill out this form</a>.
-        </p>
-        {feedbackSent ? (
-          <div style={{ background: '#f0faf0', border: '1px solid #b8e6b8', borderRadius: '20px', padding: '20px 24px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
-            <p style={{ fontFamily: SANS, fontSize: '15px', color: '#2a7a2a', margin: 0, lineHeight: 1.5 }}>
-              feedback received — thanks!
-            </p>
-            <button
-              type="button"
-              onClick={() => { setFeedbackSent(false); setFeedbackText(''); setFeedbackError(false); }}
-              style={{ alignSelf: 'flex-start', background: 'transparent', color: '#858080', border: '1.5px solid #d9d9d9', borderRadius: '40px', height: '36px', padding: '0 18px', fontFamily: SANS, fontSize: '14px', cursor: 'pointer' }}
-            >
-              send another
-            </button>
-          </div>
-        ) : (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-            <textarea
-              value={feedbackText}
-              onChange={e => { setFeedbackText(e.target.value); setFeedbackError(false); }}
-              placeholder="describe the issue or suggestion..."
-              rows={4}
-              style={{ fontFamily: SANS, fontSize: '15px', color: '#000', background: '#ececec', border: 'none', borderRadius: '15px', padding: '14px 18px', outline: 'none', resize: 'vertical', lineHeight: 1.55, width: '100%', boxSizing: 'border-box' }}
-            />
-            {feedbackError && (
-              <p style={{ fontFamily: SANS, fontSize: '14px', color: '#c60078', margin: 0 }}>
-                something went wrong — try again.
-              </p>
-            )}
-            <button
-              type="button"
-              disabled={!feedbackText.trim() || feedbackSending}
-              onClick={async () => {
-                const programCtx = program.id ? [
-                  program.major,
-                  program.doubleMajor,
-                  program.minor,
-                  ...program.extras.map(e => e.name),
-                ].filter(Boolean).join(' + ') : undefined;
-                setFeedbackSending(true);
-                setFeedbackError(false);
-                try {
-                  const res = await fetch('/api/feedback', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ message: feedbackText, context: { program: programCtx, page: 'settings' } }),
-                  });
-                  if (!res.ok) throw new Error();
-                  setFeedbackSent(true);
-                  setFeedbackText('');
-                } catch {
-                  setFeedbackError(true);
-                } finally {
-                  setFeedbackSending(false);
-                }
-              }}
-              style={{
-                alignSelf: 'flex-start',
-                background: feedbackText.trim() && !feedbackSending ? '#000' : '#d9d9d9',
-                color: feedbackText.trim() && !feedbackSending ? '#fff' : '#858080',
-                border: 'none',
-                borderRadius: '40px',
-                height: '52px',
-                padding: '0 28px',
-                fontFamily: SANS,
-                fontSize: '18px',
-                cursor: feedbackText.trim() && !feedbackSending ? 'pointer' : 'default',
-                transition: 'background 0.15s',
-              }}
-            >
-              {feedbackSending ? 'sending…' : 'send feedback →'}
-            </button>
-          </div>
-        )}
-      </section>
 
-      <section style={{ maxWidth: '560px' }}>
-        <h2 style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.06em', margin: '0 0 12px' }}>
-          About
-        </h2>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-          {[
-            'prereq and enrollment restriction checking is best-effort — always verify your course selections on Quest and with your academic advisor.',
-            'triple-counting rules are not enforced. if you have 3 or more concurrent plans (majors/minors), check with an academic advisor.',
-            'course offering and availability data comes from the UW Open Data API and may lag behind Quest.',
-            'difficulty scores are from UW Flow community ratings and may reflect sampling bias.',
-            'this tool is not affiliated with or endorsed by the University of Waterloo.',
-          ].map((text, i) => (
-            <div key={i} style={{ display: 'flex', gap: '10px', fontFamily: SANS, fontSize: '15px', color: '#858080', lineHeight: 1.6 }}>
-              <span style={{ flexShrink: 0, marginTop: '1px' }}>–</span>
-              <span>{text}</span>
-            </div>
-          ))}
-        </div>
-      </section>
     </div>
   );
 }

@@ -506,10 +506,10 @@ function CourseDetail({ course, req, currentTerm, rating, onClose }: { course: C
               <textarea
                 autoFocus
                 value={feedbackText}
-                onChange={e => { setFeedbackText(e.target.value); setFeedbackError(false); }}
+                onChange={e => { setFeedbackText(e.target.value); setFeedbackError(false); e.target.style.height = 'auto'; e.target.style.height = e.target.scrollHeight + 'px'; }}
                 placeholder="what's wrong? (e.g. incorrect prereq, wrong offering term...)"
                 rows={3}
-                style={{ fontFamily: SANS, fontSize: '13px', color: '#000', background: '#ececec', border: 'none', borderRadius: '12px', padding: '10px 14px', outline: 'none', resize: 'vertical', lineHeight: 1.55, width: '100%', boxSizing: 'border-box' }}
+                style={{ fontFamily: SANS, fontSize: '13px', color: '#000', background: '#ececec', border: 'none', borderRadius: '12px', padding: '10px 14px', outline: 'none', resize: 'none', lineHeight: 1.55, width: '100%', boxSizing: 'border-box', overflow: 'hidden' }}
               />
               {feedbackError && (
                 <p style={{ fontFamily: SANS, fontSize: '12px', color: '#c60078', margin: 0 }}>something went wrong — try again.</p>
@@ -546,7 +546,7 @@ function CourseDetail({ course, req, currentTerm, rating, onClose }: { course: C
                       setFeedbackSending(false);
                     }
                   }}
-                  style={{ background: feedbackText.trim() && !feedbackSending ? '#000' : '#d9d9d9', color: feedbackText.trim() && !feedbackSending ? '#fff' : '#858080', border: 'none', borderRadius: '40px', height: '36px', padding: '0 16px', fontFamily: SANS, fontSize: '13px', cursor: feedbackText.trim() && !feedbackSending ? 'pointer' : 'default', transition: 'background 0.15s' }}
+                  style={{ background: feedbackText.trim() && !feedbackSending ? '#000' : '#ececec', color: feedbackText.trim() && !feedbackSending ? '#fff' : '#858080', border: 'none', borderRadius: '40px', height: '36px', padding: '0 16px', fontFamily: SANS, fontSize: '13px', cursor: feedbackText.trim() && !feedbackSending ? 'pointer' : 'default', transition: 'background 0.15s' }}
                 >
                   {feedbackSending ? 'sending…' : 'send →'}
                 </button>

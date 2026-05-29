@@ -344,19 +344,35 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const setSemesterPlans = (plans: Record<string, string[]>) => setPlans(plans);
 
+  // Lab courses that are always co-enrolled with their base course
+  const LAB_PAIRS: Record<string, string> = {
+    'CS136': 'CS136L',
+    'CHEM120': 'CHEM120L',
+    'CHEM121': 'CHEM121L',
+    'CHEM123': 'CHEM123L',
+    'CHEM125': 'CHEM125L',
+    'EARTH121': 'EARTH121L',
+    'EARTH122': 'EARTH122L',
+  };
+
   const addCourseToTerm = (term: string, code: string) => {
-    setPlans(prev => ({
-      ...prev,
-      [term]: prev[term]?.includes(code) ? prev[term] : [...(prev[term] ?? []), code],
-    }));
+    const lab = LAB_PAIRS[code];
+    setPlans(prev => {
+      const existing = prev[term] ?? [];
+      let updated = existing.includes(code) ? existing : [...existing, code];
+      if (lab && !updated.includes(lab)) updated = [...updated, lab];
+      return { ...prev, [term]: updated };
+    });
   };
 
   const removeCourseFromTerm = (term: string, code: string) => {
-    setPlans(prev => ({
-      ...prev,
-      [term]: (prev[term] ?? []).filter(c => c !== code),
-    }));
-    setCompletedCourses(prev => prev.filter(c => c !== code));
+    const lab = LAB_PAIRS[code];
+    setPlans(prev => {
+      let updated = (prev[term] ?? []).filter(c => c !== code);
+      if (lab) updated = updated.filter(c => c !== lab);
+      return { ...prev, [term]: updated };
+    });
+    setCompletedCourses(prev => prev.filter(c => c !== code && c !== (LAB_PAIRS[code] ?? '')));
   };
 
   const createPlan = useCallback((name: string) => {

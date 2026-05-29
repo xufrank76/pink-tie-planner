@@ -87,6 +87,26 @@ export function levelNum(lvl: string): number {
 
 // Returns unsatisfied AND-segments; each inner array is one segment where having
 // any listed course satisfies that segment (alternatives joined as "or" in UI).
+// Lab courses (e.g. CS136L) are always co-enrolled with their base course (CS136).
+// Treat XYZnnnL as satisfied if XYZnnn is available, and vice versa for set expansion.
+function has(available: Set<string>, code: string): boolean {
+  if (available.has(code)) return true;
+  if (code.endsWith('L') && available.has(code.slice(0, -1))) return true;
+  return false;
+}
+
+// Expands a course set to implicitly include lab courses when the base course is present.
+export function expandWithLabCourses(courses: Set<string>): Set<string> {
+  const expanded = new Set(courses);
+  for (const code of courses) {
+    if (!code.endsWith('L') && courses.has(code + 'L') === false) {
+      // If base course is present, add its lab variant
+      expanded.add(code + 'L');
+    }
+  }
+  return expanded;
+}
+
 export function getMissingPrereqs(prereqStr: string, available: Set<string>): string[][] {
   if (!prereqStr) return [];
   const segments = prereqStr.split(/\band\b|;/i).map(s => s.trim()).filter(Boolean);
@@ -97,12 +117,12 @@ export function getMissingPrereqs(prereqStr: string, available: Set<string>): st
     if (codes.length === 0) continue;
     if (/\bor\b|\bone\s+of\b/i.test(seg)) {
       // OR segment: any one code satisfies it
-      if (codes.some(c => available.has(c))) continue;
+      if (codes.some(c => has(available, c))) continue;
       missing.push(codes);
     } else {
       // No "or" / "one of" — comma-separated codes are each independently required (AND)
       for (const code of codes) {
-        if (available.has(code)) continue;
+        if (has(available, code)) continue;
         missing.push([code]);
       }
     }

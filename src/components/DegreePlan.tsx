@@ -7,7 +7,7 @@ import rawPrograms from '@/src/data/requirements-filtered.json';
 import rawAntireqs from '@/src/data/antireqs.json';
 import { satisfies, nodeProgress, courseCodes, type ReqNode, isMathUndergradCommBlock, nodeProgressMathUndergradComm, isStatActsciCommBlock, nodeProgressStatActsciComm, isCompMathAdditionalBlock, isCompMathNonMathBlock, nodeProgressCompMathNonMath, isAmathSubjectConcentration, nodeProgressAmathConcentration, parseConcentrationSubjects, extractSubjectsFromText } from '@/src/lib/requirementEvaluator';
 import { patchCoreBmathRequirements, adjustUndergradCommList2ForPlanDisplay } from '@/src/lib/coreBmathCommPatch';
-import { getMissingPrereqs, formatPrereqForDisplay, isMathRestricted, parseRequiredLevel, levelNum } from '@/src/lib/prereqCheck';
+import { getMissingPrereqs, formatPrereqForDisplay, isMathRestricted, parseRequiredLevel, levelNum, expandWithLabCourses } from '@/src/lib/prereqCheck';
 import { getCurrentTerm, termToNum } from '@/src/lib/termUtils';
 import { getStudyLabel, computeGradTerm } from '@/src/data/coopSequences';
 import { parseListSectionFromRawHtml } from '@/src/lib/parseRequirementListHtml';
@@ -1210,10 +1210,10 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
   // requirements state
   // A course is "completed" only if it's NOT assigned to a future term.
   const completedSet = useMemo(
-    () => new Set(completedCourses),
+    () => expandWithLabCourses(new Set(completedCourses)),
     [completedCourses]
   );
-  const planSet = new Set([...completedCourses, ...Object.values(semesterPlans).flat()]);
+  const planSet = expandWithLabCourses(new Set([...completedCourses, ...Object.values(semesterPlans).flat()]));
 
   const searchResults = useMemo(() => {
     const raw = search.trim();

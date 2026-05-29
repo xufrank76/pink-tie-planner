@@ -8,6 +8,7 @@ import CourseCatalog from './CourseCatalog';
 import SemesterPlanner from './SemesterPlanner';
 import Onboarding from './Onboarding';
 import Settings from './Settings';
+import About from './About';
 import MyPlans from './MyPlans';
 import LandingPage from './LandingPage';
 import { AppProvider, useApp } from '@/src/context/AppContext';
@@ -98,6 +99,7 @@ function AppShell() {
         {page === 'course-catalog'   && <CourseCatalog onNavigate={setPage} />}
         {page === 'semester-planner' && <SemesterPlanner onNavigate={setPage} />}
         {page === 'settings' && <Settings />}
+        {page === 'about' && <About />}
         {page === 'coming-soon' && (
           <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <span style={{ fontFamily: 'var(--font-dm-sans, "DM Sans", sans-serif)', fontSize: '20px', color: '#858080' }}>

@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useRef, useEffect, useState } from 'react';
 
-export type PageId = 'dashboard' | 'degree-plan' | 'my-plans' | 'course-catalog' | 'semester-planner' | 'settings' | 'coming-soon';
+export type PageId = 'dashboard' | 'degree-plan' | 'my-plans' | 'course-catalog' | 'semester-planner' | 'settings' | 'about' | 'coming-soon';
 
 const NAV_GROUPS = [
   {
@@ -22,8 +22,11 @@ const NAV_GROUPS = [
     ],
   },
   {
-    label: 'ACCOUNT',
-    items: [{ id: 'settings' as PageId, label: 'settings' }],
+    label: 'MISC',
+    items: [
+      { id: 'settings' as PageId, label: 'settings' },
+      { id: 'about' as PageId, label: 'about' },
+    ],
   },
 ];
 

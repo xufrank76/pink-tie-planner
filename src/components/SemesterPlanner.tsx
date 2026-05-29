@@ -8,7 +8,7 @@ import rawPrograms from '@/src/data/requirements-filtered.json';
 import rawAntireqs from '@/src/data/antireqs.json';
 import { courseCodes } from '@/src/lib/requirementEvaluator';
 import type { ReqNode } from '@/src/lib/requirementEvaluator';
-import { getMissingPrereqs, isMathRestricted, parseRequiredLevel, levelNum } from '@/src/lib/prereqCheck';
+import { getMissingPrereqs, isMathRestricted, parseRequiredLevel, levelNum, expandWithLabCourses } from '@/src/lib/prereqCheck';
 import { getStudyLabel } from '@/src/data/coopSequences';
 
 const antireqs = rawAntireqs as Record<string, string[]>;
@@ -65,7 +65,7 @@ export default function SemesterPlanner({ onNavigate }: { onNavigate: (id: impor
     for (const [t, codes] of Object.entries(semesterPlans)) {
       if (termToNum(t) < selN) for (const c of codes) base.add(c);
     }
-    return base;
+    return expandWithLabCourses(base);
   }, [selectedTerm, completedCourses, semesterPlans]);
 
   const studentLevelAtTerm = useMemo(() => {
@@ -426,7 +426,7 @@ export default function SemesterPlanner({ onNavigate }: { onNavigate: (id: impor
                   width: '220px',
                   background: '#000',
                   color: '#fff',
-                  fontFamily: MONO,
+                  fontFamily: SANS,
                   fontSize: '11px',
                   lineHeight: 1.5,
                   padding: '10px 12px',
@@ -565,22 +565,6 @@ export default function SemesterPlanner({ onNavigate }: { onNavigate: (id: impor
       {/* Bottom nav */}
       <div style={{ padding: '0 48px 32px', display: 'flex', gap: '12px', flexShrink: 0 }}>
         <button
-          onClick={() => onNavigate('dashboard')}
-          style={{
-            background: '#d9d9d9',
-            border: 'none',
-            borderRadius: '40px',
-            height: '58px',
-            padding: '0 35px',
-            fontFamily: SANS,
-            fontSize: '20px',
-            cursor: 'pointer',
-            color: '#000',
-          }}
-        >
-          ← back
-        </button>
-        <button
           onClick={() => setShowCheck(v => !v)}
           style={{
             background: showCheck ? '#000' : '#d9d9d9',
@@ -595,7 +579,7 @@ export default function SemesterPlanner({ onNavigate }: { onNavigate: (id: impor
             transition: 'background 0.15s, opacity 0.15s',
           }}
         >
-          check plan →
+          check plan
         </button>
       </div>
     </div>
