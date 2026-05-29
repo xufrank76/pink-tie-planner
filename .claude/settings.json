@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc --noEmit *)",
+      "Bash(curl -s -X POST https://uwflow.com/graphql *)",
+      "Bash(curl -s http://localhost:3000/*)"
+    ]
+  }
+}

@@ -9,6 +9,7 @@ export interface CourseInfo {
   prereqs: string;       // raw prereq text from requirementsDescription
   antireqs: string;      // raw antireq text
   offered: string[];     // e.g. ['F', 'W', 'S']
+  offeredTerms?: string[] | null; // specific terms for biennial courses, e.g. ['W27','W29']; null = every year
 }
 
 let memCache: { courses: CourseInfo[]; at: number } | null = null;
@@ -72,9 +73,10 @@ export async function GET() {
 
   const results = await Promise.allSettled(
     terms.map(term =>
+      // UW returns ~9MB per term; Next fetch cache max is 2MB — skip Data Cache, rely on memCache below.
       fetch(`${UW_API}/Courses/${term}`, {
         headers: { 'x-api-key': key },
-        next: { revalidate: 86400 },
+        cache: 'no-store',
       }).then(r => (r.ok ? (r.json() as Promise<UWCourse[]>) : [] as UWCourse[]))
         .catch(() => [] as UWCourse[])
     )
@@ -120,6 +122,6 @@ export async function GET() {
       offered: [...seasons].sort((a, b) => seasonOrder[a] - seasonOrder[b]),
     }));
 
-  memCache = { courses, at: Date.now() };
+  if (courses.length > 0) memCache = { courses, at: Date.now() };
   return NextResponse.json(courses);
 }

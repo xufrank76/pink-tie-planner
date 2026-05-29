@@ -133,13 +133,34 @@ function parseProgram(rawHtml) {
   const root = parse(stripComments(rawHtml));
   const nodes = [];
 
-  // Each <section> is a grouping (e.g. "Required Courses", "Additional Requirements")
+  // Each top-level <section> is a grouping (e.g. "Required Courses", "Approved Courses List").
+  // Nested sections (list sub-groups like "List 1", "List A") have their <header> wrapped in a
+  // <div> rather than being a direct child — skip them here; they're handled below.
   for (const section of root.querySelectorAll('section')) {
-    const sectionLabel = section.querySelector('[data-testid="grouping-label"]')?.text?.trim() ?? '';
-    const ul = section.querySelector(':scope > div > div > ul');
-    if (!ul) continue;
+    const directHeader = section.querySelector(':scope > header');
+    if (!directHeader) continue; // nested section — skip
 
-    const children = parseUl(ul);
+    const sectionLabel = section.querySelector('[data-testid="grouping-label"]')?.text?.trim()
+                      ?? section.querySelector('.style__itemHeaderH2___2f-ov')?.text?.trim()
+                      ?? '';
+
+    // Main rule list for this section
+    const ul = section.querySelector(':scope > div > div > ul');
+    const children = ul ? parseUl(ul) : [];
+
+    // Some sections (e.g. "Approved Courses List") have a second inner div that contains
+    // nested sub-sections (List 1/2/3, List A/B). Process them and append to children.
+    const innerDivs = section.querySelectorAll(':scope > div > div');
+    if (innerDivs.length >= 2) {
+      const subSections = innerDivs[1].querySelectorAll(':scope > section');
+      for (const subSect of subSections) {
+        // Sub-section ul is one level deeper: section > div > header + div > div > ul
+        const subUl = subSect.querySelector('ul');
+        if (!subUl) continue;
+        const subChildren = parseUl(subUl);
+        children.push(...subChildren);
+      }
+    }
 
     if (children.length === 0) continue;
     if (children.length === 1 && !sectionLabel) {

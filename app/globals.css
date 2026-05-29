@@ -1,6 +1,11 @@
 @import "tailwindcss";
+@import "@fontsource/dm-sans/400.css";
+@import "@fontsource/dm-sans/500.css";
+@import "@fontsource/dm-mono/400.css";
 
 :root {
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-dm-mono: "DM Mono", monospace;
   --color-black:       #000000;
   --color-white:       #ffffff;
   --color-gray-mid:    #858080;
@@ -40,3 +45,30 @@ body {
   from { opacity: 0; transform: translateY(16px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+.kuali-html {
+  font-family: var(--font-dm-sans, 'DM Sans', sans-serif);
+  font-size: 13px;
+  color: #858080;
+  line-height: 1.6;
+}
+.kuali-html ul,
+.kuali-html ol {
+  margin: 2px 0 6px 0;
+  padding-left: 14px;
+  list-style: none;
+}
+.kuali-html li {
+  margin-bottom: 2px;
+  position: relative;
+  padding-left: 14px;
+}
+.kuali-html li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  color: #858080;
+}
+.kuali-html p { margin: 0 0 4px 0; }
+.kuali-html strong, .kuali-html b { font-weight: 600; }
+.kuali-html a { color: inherit; text-decoration: underline; }

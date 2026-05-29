@@ -19,7 +19,7 @@ function extractCourseCodes(str: string): string[] {
 
 // Programs clearly outside the Faculty of Mathematics. Matches both the "X students only"
 // pattern (belt) and the implicit "Level at least XY X" pattern (suspenders).
-const NON_MATH_FACULTY_RE = /\b(?:architect(?:ure|ural)|pharmacy|optometry|kinesiology|dental)\b/i;
+const NON_MATH_FACULTY_RE = /\b(?:architect(?:ure|ural)|pharmacy|optometry|kinesiology|dental|electrical\s+engineering|computer\s+engineering|mechanical\s+engineering|civil\s+engineering|chemical\s+engineering|systems\s+design(?:\s+engineering)?|software\s+engineering|nanotechnology(?:\s+engineering)?|management\s+engineering|environmental\s+engineering|geological\s+engineering|biomedical\s+engineering|aerospace\s+engineering|engineering\s+students)\b/i;
 
 // Returns true if the prereq string restricts general Honours Math faculty students.
 // Three patterns detected:
@@ -56,9 +56,10 @@ export function isMathRestricted(prereqStr: string, userMajor?: string): boolean
     }
 
     // Pattern 3: implicit non-Math faculty program restriction
-    // Catches "Level at least 1B Architecture students" and "Level at least 1A Architectural Engineering"
-    // Skip "Not open to Architecture students" (exclusion = course IS open to Math)
-    if (!isExclusion && NON_MATH_FACULTY_RE.test(clause)) return true;
+    // Catches "Level at least 1B Architecture students", "within the Faculty of Science", etc.
+    // Skip if the same clause contains Math course codes — the non-Math program is just an OR alternative.
+    if (!isExclusion && NON_MATH_FACULTY_RE.test(clause) && !/\bMATH\s+\d+/i.test(clause)) return true;
+    if (!isExclusion && /\bfaculty\s+of\s+(?!math)/i.test(clause)) return true;
   }
   return false;
 }
@@ -84,18 +85,79 @@ export function levelNum(lvl: string): number {
   return LEVEL_ORDER.indexOf(lvl.toUpperCase() as StudyLevel);
 }
 
-// Returns course codes from unsatisfied AND-segments of a prereq string.
-// Each segment is treated as an OR group — if the available set contains ANY
-// code from the segment, the segment is considered satisfied.
-export function getMissingPrereqs(prereqStr: string, available: Set<string>): string[] {
+// Returns unsatisfied AND-segments; each inner array is one segment where having
+// any listed course satisfies that segment (alternatives joined as "or" in UI).
+export function getMissingPrereqs(prereqStr: string, available: Set<string>): string[][] {
   if (!prereqStr) return [];
   const segments = prereqStr.split(/\band\b|;/i).map(s => s.trim()).filter(Boolean);
-  const missing: string[] = [];
+  const missing: string[][] = [];
   for (const seg of segments) {
     if (EXCLUSION_RE.test(seg)) continue;
     const codes = extractCourseCodes(seg);
-    if (codes.length === 0 || codes.some(c => available.has(c))) continue;
-    missing.push(...codes);
+    if (codes.length === 0) continue;
+    if (/\bor\b|\bone\s+of\b/i.test(seg)) {
+      // OR segment: any one code satisfies it
+      if (codes.some(c => available.has(c))) continue;
+      missing.push(codes);
+    } else {
+      // No "or" / "one of" — comma-separated codes are each independently required (AND)
+      for (const code of codes) {
+        if (available.has(code)) continue;
+        missing.push([code]);
+      }
+    }
   }
   return missing;
+}
+
+export function formatMissingPrereqGroups(groups: string[][]): string {
+  return groups
+    .filter(g => g.length > 0)
+    .map(g => g.length > 1 ? `(${g.join(' or ')})` : g[0])
+    .join(' and ');
+}
+
+export function formatMissingPrereqLines(groups: string[][]): string[] {
+  return groups
+    .filter(g => g.length > 0)
+    .map(g => g.length > 1 ? g.join(' or ') : g[0]);
+}
+
+// Splits a prereq string into top-level OR branches (respecting parens depth)
+// and formats each branch cleanly for display.
+export function formatPrereqForDisplay(prereqStr: string): string[] {
+  if (!prereqStr) return [];
+  const main = prereqStr.split(';')[0].trim();
+
+  // Split on top-level " or "
+  const parts: string[] = [];
+  let depth = 0, start = 0;
+  for (let i = 0; i < main.length; i++) {
+    if (main[i] === '(') { depth++; continue; }
+    if (main[i] === ')') { depth--; continue; }
+    if (depth === 0 && main.slice(i).match(/^or /i)) {
+      parts.push(main.slice(start, i).trim());
+      i += 2; start = i + 1;
+    }
+  }
+  parts.push(main.slice(start).trim());
+
+  return parts.map(p => {
+    // "CS 246" → "CS246"
+    let s = p.replace(/\b([A-Z]{2,8})\s+(\d{1,3}[A-Z]?)\b/g, '$1$2');
+    // "CS246/246E" → "CS246/CS246E"
+    s = s.replace(/\b([A-Z]{2,8})(\d{1,3}[A-Z]?)\/(\d{1,3}[A-Z]?)\b/g, '$1$2/$1$3');
+    // Resolve abbreviated numbers that trail a subject: "CS136 or 146" → "CS136 or CS146"
+    s = s.replace(/\b([A-Z]{2,8})(\d{1,3}[A-Z]?)\b((?:\s+or\s+\d{1,3}[A-Z]?)+)/g, (_, subj, first, tail) => {
+      const rest = tail.replace(/(\d{1,3}[A-Z]?)/g, subj + '$1');
+      return subj + first + rest;
+    });
+    // grade phrasing → "85%+"
+    s = s.replace(/a grade of\s+/gi, '');
+    s = s.replace(/(\d+)%\s+or\s+higher\s+in\s+one\s+of\s*/gi, '$1%+ in ');
+    s = s.replace(/(\d+)%\s+or\s+higher\s+in\s*/gi, '$1%+ in ');
+    // "and" → "+"
+    s = s.replace(/\band\b/gi, '+');
+    return s.replace(/\s+/g, ' ').trim();
+  }).filter(Boolean);
 }

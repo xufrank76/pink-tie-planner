@@ -107,7 +107,7 @@ Global state lives entirely in `src/context/AppContext.tsx` via React Context. T
 - Access state with `useApp()` — throws if called outside `<AppProvider>`
 - Mutations: use provided setters (`setProgram`, `setCompletedCourses`, `setSemesterPlans`) and convenience methods (`addCourseToTerm`, `removeCourseFromTerm`, `toggleFavorite`)
 - Do not reach around the context to mutate state directly
-- State is currently in-memory (no localStorage persistence)
+- State is persisted in **`localStorage`** under `pink-tie-planner-plan` (versioned JSON: program, completed courses, semester plans, favorites, `setupComplete`). Debounced writes + `beforeunload` flush; use `clearPersistedPlan()` from `@/src/lib/planPersistence` when adding a reset control.
 
 ---
 
