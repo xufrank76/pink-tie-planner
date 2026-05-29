@@ -18,6 +18,7 @@ import {
   inferredDefaultEndTerm,
   planEndTermSelectOptions,
 } from '@/src/lib/planTerms';
+import { useIsMobile } from '@/src/lib/useIsMobile';
 
 const SANS = 'var(--font-dm-sans, "DM Sans", sans-serif)';
 const MONO = 'var(--font-dm-mono, "DM Mono", monospace)';
@@ -1142,6 +1143,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
   const [showValidate, setShowValidate] = useState(false);
   const { completedCourses, semesterPlans, addCourseToTerm, removeCourseFromTerm, effectiveProgram: program, planEndTerm, setPlanEndTerm, savedPlans, activePlanId, switchPlan, courseOverrides, flowRatings, showDifficultyScore, favoriteCourses } = useApp();
   const activePlanName = savedPlans.find(p => p.id === activePlanId)?.name ?? 'My Plan';
+  const isMobile = useIsMobile();
 
   // timeline state
   const [search, setSearch] = useState('');
@@ -1528,32 +1530,47 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
     <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
 
       {/* Header */}
-      <div style={{ padding: '32px 48px 0', flexShrink: 0 }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '20px' }}>
-          <h1 style={{ fontFamily: SANS, fontSize: '60px', color: '#000', lineHeight: 1, margin: 0, fontWeight: 400, animation: 'headingReveal 0.5s ease forwards' }}>
+      <div style={{ padding: isMobile ? '20px 16px 0' : '32px 48px 0', flexShrink: 0 }}>
+        <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: 'space-between', alignItems: isMobile ? 'flex-start' : 'flex-start', gap: isMobile ? '16px' : 0, marginBottom: '20px' }}>
+          <h1 style={{ fontFamily: SANS, fontSize: isMobile ? '36px' : '60px', color: '#000', lineHeight: 1, margin: 0, fontWeight: 400, animation: 'headingReveal 0.5s ease forwards' }}>
             your full<br />degree plan...
           </h1>
           <SlidingToggle
             options={[{ value: 'timeline', label: 'timeline' }, { value: 'requirements', label: 'requirements' }]}
             value={view}
             onChange={setView}
+            height={isMobile ? 44 : 58}
+            fontSize={isMobile ? 16 : 20}
+            paddingX={isMobile ? 18 : 24}
           />
         </div>
 
         {/* Stats */}
-        <div style={{ display: 'flex', gap: '12px', marginBottom: '20px' }}>
+        <div style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
           {[
             { num: Math.round(requirementsMetBeforeCurrent), den: degreeTotalSlots, l: 'COURSES DONE', tooltip: { num: 'unique requirement slots filled by completed courses, counting shared courses once, not including pd or labs', den: 'core bmath + major + non-math electives, counting shared courses once, not including pd or labs' } },
             { num: degreePlannedSum, den: degreeTotalSlots, l: 'COURSES PLANNED', tooltip: { num: 'unique requirement slots filled, counting shared courses once, not including pd or labs', den: 'core bmath + major + non-math electives, counting shared courses once, not including pd or labs' } },
             { num: null, den: null, l: 'GRAD TARGET', plain: gradTarget, tooltip: null },
           ].map((s) => (
-            <StatCard key={s.l} num={s.num ?? undefined} den={s.den ?? undefined} label={s.l} plain={s.plain} tooltip={s.tooltip ?? undefined} />
+            <div key={s.l} style={{ flex: 1, background: '#d9d9d9', borderRadius: '15px', padding: isMobile ? '12px 10px' : '16px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>
+              {s.num != null ? (
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '2px' }}>
+                  <span style={{ fontFamily: SANS, fontSize: isMobile ? '28px' : '40px', color: '#000', lineHeight: 1, fontWeight: 400 }}>{s.num}</span>
+                  <span style={{ fontFamily: MONO, fontSize: isMobile ? '13px' : '18px', color: '#858080', lineHeight: 1 }}>/{s.den}</span>
+                </div>
+              ) : (
+                <div style={{ fontFamily: SANS, fontSize: isMobile ? '28px' : '40px', color: '#000', lineHeight: 1, fontWeight: 400 }}>{s.plain}</div>
+              )}
+              <div style={{ fontFamily: MONO, fontSize: isMobile ? '9px' : '12px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.06em', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                {s.l}
+                {s.tooltip && s.num != null && s.den != null && <StatCardTooltipBtn num={s.num} den={s.den} tooltip={s.tooltip} />}
+              </div>
+            </div>
           ))}
         </div>
 
-        <div style={{ display: 'flex', gap: '24px', marginBottom: '20px' }}>
-          {/* Left col — matches 240px search panel below */}
-          <div style={{ width: '240px', flexShrink: 0, display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', gap: isMobile ? '8px' : '24px', marginBottom: '16px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <span style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', letterSpacing: '0.06em', whiteSpace: 'nowrap' }}>end term</span>
             <div style={{ position: 'relative', display: 'inline-flex', alignItems: 'center' }}>
               <select
@@ -1574,14 +1591,13 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
               </svg>
             </div>
           </div>
-          {/* Right col — matches timeline column below */}
-          <div style={{ flex: 1, display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '10px', flex: 1 }}>
             <span style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', letterSpacing: '0.06em' }}>plan</span>
-            <div style={{ position: 'relative', display: 'inline-flex', alignItems: 'center' }}>
+            <div style={{ position: 'relative', display: 'inline-flex', alignItems: 'center', flex: isMobile ? 1 : undefined }}>
               <select
                 value={activePlanId}
                 onChange={e => switchPlan(e.target.value)}
-                style={{ appearance: 'none', background: '#ececec', border: 'none', borderRadius: '15px', padding: '10px 36px 10px 16px', fontFamily: SANS, fontSize: '15px', color: '#000', cursor: 'pointer', outline: 'none' }}
+                style={{ appearance: 'none', background: '#ececec', border: 'none', borderRadius: '15px', padding: '10px 36px 10px 16px', fontFamily: SANS, fontSize: '15px', color: '#000', cursor: 'pointer', outline: 'none', width: isMobile ? '100%' : undefined }}
               >
                 {savedPlans.map(p => (
                   <option key={p.id} value={p.id}>{p.name}</option>
@@ -1593,7 +1609,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
             </div>
             <button
               onClick={() => setShowValidate(v => !v)}
-              style={{ background: showValidate ? '#000' : '#ececec', color: showValidate ? '#fff' : '#000', border: 'none', borderRadius: '15px', padding: '10px 16px', fontFamily: SANS, fontSize: '15px', cursor: 'pointer', whiteSpace: 'nowrap', flexShrink: 0, marginLeft: 'auto' }}
+              style={{ background: showValidate ? '#000' : '#ececec', color: showValidate ? '#fff' : '#000', border: 'none', borderRadius: '15px', padding: '10px 16px', fontFamily: SANS, fontSize: '15px', cursor: 'pointer', whiteSpace: 'nowrap', flexShrink: 0, marginLeft: isMobile ? 0 : 'auto' }}
             >
               check plan
             </button>
@@ -1602,10 +1618,10 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
       </div>
 
       {/* Body */}
-        <div style={{ flex: 1, display: view === 'timeline' ? 'flex' : 'none', gap: '24px', padding: '0 48px 32px', overflow: 'hidden', minHeight: 0 }}>
+        <div style={{ flex: 1, display: view === 'timeline' ? 'flex' : 'none', gap: '24px', padding: isMobile ? '0 16px 24px' : '0 48px 32px', overflow: 'hidden', minHeight: 0 }}>
 
-          {/* Search panel */}
-          <div style={{ width: '240px', flexShrink: 0, display: 'flex', flexDirection: 'column', gap: '12px', overflow: 'hidden' }}>
+          {/* Search panel — hidden on mobile */}
+          <div style={{ width: '240px', flexShrink: 0, display: isMobile ? 'none' : 'flex', flexDirection: 'column', gap: '12px', overflow: 'hidden' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
               <div style={{ border: '1px solid #000', borderRadius: '15px', padding: '10px 14px', display: 'flex', alignItems: 'center', flex: 1, minWidth: 0 }}>
                 <span style={{ fontFamily: MONO, fontSize: '18px', marginRight: '8px', color: '#858080' }}>⌕</span>
@@ -1724,7 +1740,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
                       );
                     })}
                     {termCourses.length === 0 && (
-                      <span style={{ fontFamily: MONO, fontSize: '13px', color: '#d0d0d0' }}>drag courses here</span>
+                      <span style={{ fontFamily: MONO, fontSize: '13px', color: '#d0d0d0' }}>{isMobile ? 'empty' : 'drag courses here'}</span>
                     )}
                   </div>
                   <div style={{ fontFamily: MONO, fontSize: '13px', color: '#858080', flexShrink: 0, display: 'flex', alignItems: 'center' }}>{termCourses.filter(c => !c.startsWith('PD') && c !== 'MTHEL99').length}/5</div>
@@ -1733,7 +1749,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
             })}
           </div>
         </div>
-        <div style={{ flex: 1, overflowY: 'auto', padding: '0 48px 32px', display: view === 'requirements' ? 'block' : 'none' }}>
+        <div style={{ flex: 1, overflowY: 'auto', padding: isMobile ? '0 16px 24px' : '0 48px 32px', display: view === 'requirements' ? 'block' : 'none' }}>
           {REQUIREMENT_GROUPS.map((g, i) => <RequirementGroup key={i} group={g} completedSet={completedSet} planSet={planSet} />)}
           <NonMathElectivesGroup completedSet={completedSet} planSet={planSet} />
         </div>
