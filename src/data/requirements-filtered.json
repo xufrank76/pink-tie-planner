@@ -10215,351 +10215,6 @@
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 4.0 units, from the list of courses below or any ECON course. <ul> <li>At least 2.0 units must be at the 300- or 400-level.</li> </ul> </li> </ul>",
     "additionalConstraintsHtml": "<ol> <li>ECON courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> </ol>"
   },
-  "HkzBkkCCoh": {
-    "id": "HkzBkkCCoh",
-    "name": "Engineering Specialization",
-    "faculty": "Faculty of Mathematics",
-    "code": "AMATH-Engineering Specialization",
-    "isMinor": false,
-    "isSpecialization": true,
-    "isMathFaculty": true,
-    "requirements": [
-      {
-        "type": "OR",
-        "code": "",
-        "text": "Complete 1 of the following Complete all of the following Complete all the following: AMATH271 - Introduction to Theoretical Mechanics (0.50)AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)ME219 - Mechanics of Deformable Solids 1 (0.50)ME250 - Thermodynamics 1 (0.50)ME353 - Heat Transfer 1 (0.50)ME354 - Thermodynamics 2 (0.50)ME456 - Heat Transfer 2 (0.50) AMATH271 - Introduction to Theoretical Mechanics (0.50)AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)ME219 - Mechanics of Deformable Solids 1 (0.50)ME250 - Thermodynamics 1 (0.50)ME353 - Heat Transfer 1 (0.50)ME354 - Thermodynamics 2 (0.50)ME456 - Heat Transfer 2 (0.50)Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50) CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50)Complete 1 of the following: ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50) ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50)Complete 1 of the following: ME557 - Combustion 1 (0.50)ME564 - Aerodynamics (0.50)ME571 - Clean Air Technologies (0.50) ME557 - Combustion 1 (0.50)ME564 - Aerodynamics (0.50)ME571 - Clean Air Technologies (0.50)Complete all of the following Complete all the following: AMATH455 - Control Theory (0.50)ECE207 - Signals and Systems (0.50)ECE240 - Electronic Circuits 1 (0.50)ECE318 - Communication Systems (0.50)ECE380 - Analog Control Systems (0.50) AMATH455 - Control Theory (0.50)ECE207 - Signals and Systems (0.50)ECE240 - Electronic Circuits 1 (0.50)ECE318 - Communication Systems (0.50)ECE380 - Analog Control Systems (0.50)Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)CS475 - Computational Linear Algebra (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50) CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)CS475 - Computational Linear Algebra (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50)Complete 1 of the following: ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50) ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50)Complete 2 of the following: ECE313 - Digital Signal Processing (0.50)ECE484 - Digital Control Applications (0.50)ECE486 - Robot Dynamics and Control (0.50)SYDE544 - Biomedical Measurement and Signal Processing (0.50)SYDE572 - Introduction to Pattern Recognition (0.50) ECE313 - Digital Signal Processing (0.50)ECE484 - Digital Control Applications (0.50)ECE486 - Robot Dynamics and Control (0.50)SYDE544 - Biomedical Measurement and Signal Processing (0.50)SYDE572 - Introduction to Pattern Recognition (0.50)Complete all of the following Complete all the following: AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)CHE230 - Physical Chemistry 1 (0.50)CHE231 - Physical Chemistry 2 (0.50)CHE312 - Mathematics of Heat and Mass Transfer (0.50)CHE313 - Applications of Heat and Mass Transfer (0.50)CHE330 - Chemical Engineering Thermodynamics (0.50) AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)CHE230 - Physical Chemistry 1 (0.50)CHE231 - Physical Chemistry 2 (0.50)CHE312 - Mathematics of Heat and Mass Transfer (0.50)CHE313 - Applications of Heat and Mass Transfer (0.50)CHE330 - Chemical Engineering Thermodynamics (0.50)Complete 2 of the following: CHE314 - Chemical Reaction Engineering (0.50)CHE331 - Electrochemical Engineering (0.50)CHE341 - Introduction to Process Control (0.50)CHE361 - Bioprocess Engineering (0.50)CHE522 - Advanced Process Dynamics and Control (0.50) CHE314 - Chemical Reaction Engineering (0.50)CHE331 - Electrochemical Engineering (0.50)CHE341 - Introduction to Process Control (0.50)CHE361 - Bioprocess Engineering (0.50)CHE522 - Advanced Process Dynamics and Control (0.50)",
-        "children": [
-          {
-            "type": "AND",
-            "code": "",
-            "text": "Complete all of the following Complete all the following: AMATH271 - Introduction to Theoretical Mechanics (0.50)AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)ME219 - Mechanics of Deformable Solids 1 (0.50)ME250 - Thermodynamics 1 (0.50)ME353 - Heat Transfer 1 (0.50)ME354 - Thermodynamics 2 (0.50)ME456 - Heat Transfer 2 (0.50) AMATH271 - Introduction to Theoretical Mechanics (0.50)AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)ME219 - Mechanics of Deformable Solids 1 (0.50)ME250 - Thermodynamics 1 (0.50)ME353 - Heat Transfer 1 (0.50)ME354 - Thermodynamics 2 (0.50)ME456 - Heat Transfer 2 (0.50)Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50) CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50)Complete 1 of the following: ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50) ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50)Complete 1 of the following: ME557 - Combustion 1 (0.50)ME564 - Aerodynamics (0.50)ME571 - Clean Air Technologies (0.50) ME557 - Combustion 1 (0.50)ME564 - Aerodynamics (0.50)ME571 - Clean Air Technologies (0.50)",
-            "children": [
-              {
-                "type": "AND",
-                "code": "",
-                "text": "Complete all the following: AMATH271 - Introduction to Theoretical Mechanics (0.50)AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)ME219 - Mechanics of Deformable Solids 1 (0.50)ME250 - Thermodynamics 1 (0.50)ME353 - Heat Transfer 1 (0.50)ME354 - Thermodynamics 2 (0.50)ME456 - Heat Transfer 2 (0.50) AMATH271 - Introduction to Theoretical Mechanics (0.50)AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)ME219 - Mechanics of Deformable Solids 1 (0.50)ME250 - Thermodynamics 1 (0.50)ME353 - Heat Transfer 1 (0.50)ME354 - Thermodynamics 2 (0.50)ME456 - Heat Transfer 2 (0.50)",
-                "children": [
-                  {
-                    "type": "COURSE",
-                    "code": "AMATH271",
-                    "text": "AMATH271 - Introduction to Theoretical Mechanics (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "AMATH361",
-                    "text": "AMATH361 - Continuum Mechanics (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "AMATH463",
-                    "text": "AMATH463 - Fluid Mechanics (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ME219",
-                    "text": "ME219 - Mechanics of Deformable Solids 1 (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ME250",
-                    "text": "ME250 - Thermodynamics 1 (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ME353",
-                    "text": "ME353 - Heat Transfer 1 (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ME354",
-                    "text": "ME354 - Thermodynamics 2 (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ME456",
-                    "text": "ME456 - Heat Transfer 2 (0.50)"
-                  }
-                ]
-              },
-              {
-                "type": "OR",
-                "code": "",
-                "text": "Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50) CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50)",
-                "children": [
-                  {
-                    "type": "COURSE",
-                    "code": "CO250",
-                    "text": "CO250 - Introduction to Optimization (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CO255",
-                    "text": "CO255 - Introduction to Optimization (Advanced Level) (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "STAT331",
-                    "text": "STAT331 - Applied Linear Models (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "STAT340",
-                    "text": "STAT340 - Stochastic Simulation Methods (0.50)"
-                  }
-                ]
-              },
-              {
-                "type": "OR",
-                "code": "",
-                "text": "Complete 1 of the following: ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50) ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50)",
-                "children": [
-                  {
-                    "type": "COURSE",
-                    "code": "ECE140",
-                    "text": "ECE140 - Linear Circuits (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "GENE123",
-                    "text": "GENE123 - Electrical Circuits and Instrumentation (0.50)"
-                  }
-                ]
-              },
-              {
-                "type": "OR",
-                "code": "",
-                "text": "Complete 1 of the following: ME557 - Combustion 1 (0.50)ME564 - Aerodynamics (0.50)ME571 - Clean Air Technologies (0.50) ME557 - Combustion 1 (0.50)ME564 - Aerodynamics (0.50)ME571 - Clean Air Technologies (0.50)",
-                "children": [
-                  {
-                    "type": "COURSE",
-                    "code": "ME557",
-                    "text": "ME557 - Combustion 1 (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ME564",
-                    "text": "ME564 - Aerodynamics (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ME571",
-                    "text": "ME571 - Clean Air Technologies (0.50)"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "AND",
-            "code": "",
-            "text": "Complete all of the following Complete all the following: AMATH455 - Control Theory (0.50)ECE207 - Signals and Systems (0.50)ECE240 - Electronic Circuits 1 (0.50)ECE318 - Communication Systems (0.50)ECE380 - Analog Control Systems (0.50) AMATH455 - Control Theory (0.50)ECE207 - Signals and Systems (0.50)ECE240 - Electronic Circuits 1 (0.50)ECE318 - Communication Systems (0.50)ECE380 - Analog Control Systems (0.50)Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)CS475 - Computational Linear Algebra (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50) CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)CS475 - Computational Linear Algebra (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50)Complete 1 of the following: ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50) ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50)Complete 2 of the following: ECE313 - Digital Signal Processing (0.50)ECE484 - Digital Control Applications (0.50)ECE486 - Robot Dynamics and Control (0.50)SYDE544 - Biomedical Measurement and Signal Processing (0.50)SYDE572 - Introduction to Pattern Recognition (0.50) ECE313 - Digital Signal Processing (0.50)ECE484 - Digital Control Applications (0.50)ECE486 - Robot Dynamics and Control (0.50)SYDE544 - Biomedical Measurement and Signal Processing (0.50)SYDE572 - Introduction to Pattern Recognition (0.50)",
-            "children": [
-              {
-                "type": "AND",
-                "code": "",
-                "text": "Complete all the following: AMATH455 - Control Theory (0.50)ECE207 - Signals and Systems (0.50)ECE240 - Electronic Circuits 1 (0.50)ECE318 - Communication Systems (0.50)ECE380 - Analog Control Systems (0.50) AMATH455 - Control Theory (0.50)ECE207 - Signals and Systems (0.50)ECE240 - Electronic Circuits 1 (0.50)ECE318 - Communication Systems (0.50)ECE380 - Analog Control Systems (0.50)",
-                "children": [
-                  {
-                    "type": "COURSE",
-                    "code": "AMATH455",
-                    "text": "AMATH455 - Control Theory (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ECE207",
-                    "text": "ECE207 - Signals and Systems (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ECE240",
-                    "text": "ECE240 - Electronic Circuits 1 (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ECE318",
-                    "text": "ECE318 - Communication Systems (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ECE380",
-                    "text": "ECE380 - Analog Control Systems (0.50)"
-                  }
-                ]
-              },
-              {
-                "type": "OR",
-                "code": "",
-                "text": "Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)CS475 - Computational Linear Algebra (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50) CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)CS475 - Computational Linear Algebra (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50)",
-                "children": [
-                  {
-                    "type": "COURSE",
-                    "code": "CO250",
-                    "text": "CO250 - Introduction to Optimization (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CO255",
-                    "text": "CO255 - Introduction to Optimization (Advanced Level) (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CS475",
-                    "text": "CS475 - Computational Linear Algebra (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "STAT331",
-                    "text": "STAT331 - Applied Linear Models (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "STAT340",
-                    "text": "STAT340 - Stochastic Simulation Methods (0.50)"
-                  }
-                ]
-              },
-              {
-                "type": "OR",
-                "code": "",
-                "text": "Complete 1 of the following: ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50) ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50)",
-                "children": [
-                  {
-                    "type": "COURSE",
-                    "code": "ECE140",
-                    "text": "ECE140 - Linear Circuits (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "GENE123",
-                    "text": "GENE123 - Electrical Circuits and Instrumentation (0.50)"
-                  }
-                ]
-              },
-              {
-                "type": "N_OF",
-                "n": 2,
-                "code": "",
-                "text": "Complete 2 of the following: ECE313 - Digital Signal Processing (0.50)ECE484 - Digital Control Applications (0.50)ECE486 - Robot Dynamics and Control (0.50)SYDE544 - Biomedical Measurement and Signal Processing (0.50)SYDE572 - Introduction to Pattern Recognition (0.50) ECE313 - Digital Signal Processing (0.50)ECE484 - Digital Control Applications (0.50)ECE486 - Robot Dynamics and Control (0.50)SYDE544 - Biomedical Measurement and Signal Processing (0.50)SYDE572 - Introduction to Pattern Recognition (0.50)",
-                "children": [
-                  {
-                    "type": "COURSE",
-                    "code": "ECE313",
-                    "text": "ECE313 - Digital Signal Processing (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ECE484",
-                    "text": "ECE484 - Digital Control Applications (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "ECE486",
-                    "text": "ECE486 - Robot Dynamics and Control (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "SYDE544",
-                    "text": "SYDE544 - Biomedical Measurement and Signal Processing (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "SYDE572",
-                    "text": "SYDE572 - Introduction to Pattern Recognition (0.50)"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "AND",
-            "code": "",
-            "text": "Complete all of the following Complete all the following: AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)CHE230 - Physical Chemistry 1 (0.50)CHE231 - Physical Chemistry 2 (0.50)CHE312 - Mathematics of Heat and Mass Transfer (0.50)CHE313 - Applications of Heat and Mass Transfer (0.50)CHE330 - Chemical Engineering Thermodynamics (0.50) AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)CHE230 - Physical Chemistry 1 (0.50)CHE231 - Physical Chemistry 2 (0.50)CHE312 - Mathematics of Heat and Mass Transfer (0.50)CHE313 - Applications of Heat and Mass Transfer (0.50)CHE330 - Chemical Engineering Thermodynamics (0.50)Complete 2 of the following: CHE314 - Chemical Reaction Engineering (0.50)CHE331 - Electrochemical Engineering (0.50)CHE341 - Introduction to Process Control (0.50)CHE361 - Bioprocess Engineering (0.50)CHE522 - Advanced Process Dynamics and Control (0.50) CHE314 - Chemical Reaction Engineering (0.50)CHE331 - Electrochemical Engineering (0.50)CHE341 - Introduction to Process Control (0.50)CHE361 - Bioprocess Engineering (0.50)CHE522 - Advanced Process Dynamics and Control (0.50)",
-            "children": [
-              {
-                "type": "AND",
-                "code": "",
-                "text": "Complete all the following: AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)CHE230 - Physical Chemistry 1 (0.50)CHE231 - Physical Chemistry 2 (0.50)CHE312 - Mathematics of Heat and Mass Transfer (0.50)CHE313 - Applications of Heat and Mass Transfer (0.50)CHE330 - Chemical Engineering Thermodynamics (0.50) AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)CHE230 - Physical Chemistry 1 (0.50)CHE231 - Physical Chemistry 2 (0.50)CHE312 - Mathematics of Heat and Mass Transfer (0.50)CHE313 - Applications of Heat and Mass Transfer (0.50)CHE330 - Chemical Engineering Thermodynamics (0.50)",
-                "children": [
-                  {
-                    "type": "COURSE",
-                    "code": "AMATH361",
-                    "text": "AMATH361 - Continuum Mechanics (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "AMATH463",
-                    "text": "AMATH463 - Fluid Mechanics (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CHE230",
-                    "text": "CHE230 - Physical Chemistry 1 (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CHE231",
-                    "text": "CHE231 - Physical Chemistry 2 (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CHE312",
-                    "text": "CHE312 - Mathematics of Heat and Mass Transfer (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CHE313",
-                    "text": "CHE313 - Applications of Heat and Mass Transfer (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CHE330",
-                    "text": "CHE330 - Chemical Engineering Thermodynamics (0.50)"
-                  }
-                ]
-              },
-              {
-                "type": "N_OF",
-                "n": 2,
-                "code": "",
-                "text": "Complete 2 of the following: CHE314 - Chemical Reaction Engineering (0.50)CHE331 - Electrochemical Engineering (0.50)CHE341 - Introduction to Process Control (0.50)CHE361 - Bioprocess Engineering (0.50)CHE522 - Advanced Process Dynamics and Control (0.50) CHE314 - Chemical Reaction Engineering (0.50)CHE331 - Electrochemical Engineering (0.50)CHE341 - Introduction to Process Control (0.50)CHE361 - Bioprocess Engineering (0.50)CHE522 - Advanced Process Dynamics and Control (0.50)",
-                "children": [
-                  {
-                    "type": "COURSE",
-                    "code": "CHE314",
-                    "text": "CHE314 - Chemical Reaction Engineering (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CHE331",
-                    "text": "CHE331 - Electrochemical Engineering (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CHE341",
-                    "text": "CHE341 - Introduction to Process Control (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CHE361",
-                    "text": "CHE361 - Bioprocess Engineering (0.50)"
-                  },
-                  {
-                    "type": "COURSE",
-                    "code": "CHE522",
-                    "text": "CHE522 - Advanced Process Dynamics and Control (0.50)"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\">Theme 1: Fluids and Heat</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66db19e79ec8f90591e82e50\" target=\"_blank\">AMATH271</a> <!-- -->-<!-- --> <!-- -->Introduction to Theoretical Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483a7cb1ad924812db57d1\" target=\"_blank\">AMATH361</a> <!-- -->-<!-- --> <!-- -->Continuum Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483aa373439a009589b5b7\" target=\"_blank\">AMATH463</a> <!-- -->-<!-- --> <!-- -->Fluid Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3ae1187f5e8224913619\" target=\"_blank\">ME219</a> <!-- -->-<!-- --> <!-- -->Mechanics of Deformable Solids 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/678fdc9e3b83c1a8e0a4e091\" target=\"_blank\">ME250</a> <!-- -->-<!-- --> <!-- -->Thermodynamics 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3e306632c682a635a0ba\" target=\"_blank\">ME353</a> <!-- -->-<!-- --> <!-- -->Heat Transfer 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3e52187f5ec6aa913642\" target=\"_blank\">ME354</a> <!-- -->-<!-- --> <!-- -->Thermodynamics 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b922e15c94794f5ce56fc6\" target=\"_blank\">ME456</a> <!-- -->-<!-- --> <!-- -->Heat Transfer 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b85d5123cba71d2b47bab9\" target=\"_blank\">CO250</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b1a15e731ab599652f0d\" target=\"_blank\">CO255</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c0423c3ff99cd867aefa16\" target=\"_blank\">STAT331</a> <!-- -->-<!-- --> <!-- -->Applied Linear Models<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69b04b38943da42afcd4df92\" target=\"_blank\">STAT340</a> <!-- -->-<!-- --> <!-- -->Stochastic Simulation Methods<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.4\"><div data-test=\"ruleView-A.4-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66d9e38c6a6e2eaccb63ae51\" target=\"_blank\">ECE140</a> <!-- -->-<!-- --> <!-- -->Linear Circuits<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66daf022f5b8c964f1a13245\" target=\"_blank\">GENE123</a> <!-- -->-<!-- --> <!-- -->Electrical Circuits and Instrumentation<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.3\"><div data-test=\"ruleView-A.3-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b9249cec4e6457c1e2469b\" target=\"_blank\">ME557</a> <!-- -->-<!-- --> <!-- -->Combustion 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b925bf23cba7e52847bf35\" target=\"_blank\">ME564</a> <!-- -->-<!-- --> <!-- -->Aerodynamics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65abe7f2b1bab04265fadcab\" target=\"_blank\">ME571</a> <!-- -->-<!-- --> <!-- -->Clean Air Technologies<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\">Theme 2: Communication and Control</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B.1\"><div data-test=\"ruleView-B.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/666f281e31fa49756e5de3a2\" target=\"_blank\">AMATH455</a> <!-- -->-<!-- --> <!-- -->Control Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b86be1026eba2bb4bb5633\" target=\"_blank\">ECE207</a> <!-- -->-<!-- --> <!-- -->Signals and Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cce34d13b386effe8e9cd0\" target=\"_blank\">ECE240</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cce38eb29e15d4577e4ee8\" target=\"_blank\">ECE318</a> <!-- -->-<!-- --> <!-- -->Communication Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b870096cd589f3a9e901c1\" target=\"_blank\">ECE380</a> <!-- -->-<!-- --> <!-- -->Analog Control Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.2\"><div data-test=\"ruleView-B.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b85d5123cba71d2b47bab9\" target=\"_blank\">CO250</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b1a15e731ab599652f0d\" target=\"_blank\">CO255</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66f3242157393842603af17b\" target=\"_blank\">CS475</a> <!-- -->-<!-- --> <!-- -->Computational Linear Algebra<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c0423c3ff99cd867aefa16\" target=\"_blank\">STAT331</a> <!-- -->-<!-- --> <!-- -->Applied Linear Models<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69b04b38943da42afcd4df92\" target=\"_blank\">STAT340</a> <!-- -->-<!-- --> <!-- -->Stochastic Simulation Methods<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.4\"><div data-test=\"ruleView-B.4-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66d9e38c6a6e2eaccb63ae51\" target=\"_blank\">ECE140</a> <!-- -->-<!-- --> <!-- -->Linear Circuits<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66daf022f5b8c964f1a13245\" target=\"_blank\">GENE123</a> <!-- -->-<!-- --> <!-- -->Electrical Circuits and Instrumentation<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.3\"><div data-test=\"ruleView-B.3-result\">Complete <span>2</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a731e8ab246f872d31d520\" target=\"_blank\">ECE313</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b875535c9479363ee56bff\" target=\"_blank\">ECE484</a> <!-- -->-<!-- --> <!-- -->Digital Control Applications<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b875b798f04407171031e1\" target=\"_blank\">ECE486</a> <!-- -->-<!-- --> <!-- -->Robot Dynamics and Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a0a2b7fa43c40307f5492f\" target=\"_blank\">SYDE544</a> <!-- -->-<!-- --> <!-- -->Biomedical Measurement and Signal Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b9c41e5d504386011742c7\" target=\"_blank\">SYDE572</a> <!-- -->-<!-- --> <!-- -->Introduction to Pattern Recognition<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\">Theme 3: Heat and Mass Transfer</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-C.1\"><div data-test=\"ruleView-C.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/68483a7cb1ad924812db57d1\" target=\"_blank\">AMATH361</a> <!-- -->-<!-- --> <!-- -->Continuum Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483aa373439a009589b5b7\" target=\"_blank\">AMATH463</a> <!-- -->-<!-- --> <!-- -->Fluid Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cb9fc5dc755c668d1fb37d\" target=\"_blank\">CHE230</a> <!-- -->-<!-- --> <!-- -->Physical Chemistry 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cb9fd9651c236129a97fca\" target=\"_blank\">CHE231</a> <!-- -->-<!-- --> <!-- -->Physical Chemistry 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba053ce9eec22afd28bc1\" target=\"_blank\">CHE312</a> <!-- -->-<!-- --> <!-- -->Mathematics of Heat and Mass Transfer<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba06a13b3862cf78e95c8\" target=\"_blank\">CHE313</a> <!-- -->-<!-- --> <!-- -->Applications of Heat and Mass Transfer<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba0cc1a5d976d6c702eeb\" target=\"_blank\">CHE330</a> <!-- -->-<!-- --> <!-- -->Chemical Engineering Thermodynamics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C.2\"><div data-test=\"ruleView-C.2-result\">Complete <span>2</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cba080cd2beb809be74d51\" target=\"_blank\">CHE314</a> <!-- -->-<!-- --> <!-- -->Chemical Reaction Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba0eb1a5d9712be702eed\" target=\"_blank\">CHE331</a> <!-- -->-<!-- --> <!-- -->Electrochemical Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba104481f46def081a3ec\" target=\"_blank\">CHE341</a> <!-- -->-<!-- --> <!-- -->Introduction to Process Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba11c13b3860a5c8e95d3\" target=\"_blank\">CHE361</a> <!-- -->-<!-- --> <!-- -->Bioprocess Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b843cbedfead49c43407b8\" target=\"_blank\">CHE522</a> <!-- -->-<!-- --> <!-- -->Advanced Process Dynamics and Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div></ul></li></ul></div><div></div></div></section></div>",
-    "minCourses": 11,
-    "graduationRequirementsHtml": "<ul> <li>Complete the required courses for one theme described below. <ul> <li>Theme 1: Complete a total of 5.5 units.</li> <li>Theme 2: Complete a total of 4.5 units.</li> <li>Theme 3: Complete a total of 4.5 units.</li> </ul> </li> </ul>",
-    "additionalConstraintsHtml": "<ol> <li>Theme 1: <ol> <li>ME courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH361 and AMATH463 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> <li>Theme 2: <ol> <li>ECE and SYDE courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH455 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> <li>Theme 3: <ol> <li>CHE courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH361 and AMATH463 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> </ol>"
-  },
   "B1SkyR0j3": {
     "id": "B1SkyR0j3",
     "name": "Physics Specialization",
@@ -16909,6 +16564,374 @@
                     "code": "ENGL378"
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "HkzBkkCCoh-t1": {
+    "faculty": "Faculty of Mathematics",
+    "code": "AMATH-Engineering Specialization",
+    "isMinor": false,
+    "isSpecialization": true,
+    "isMathFaculty": true,
+    "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\">Theme 1: Fluids and Heat</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66db19e79ec8f90591e82e50\" target=\"_blank\">AMATH271</a> <!-- -->-<!-- --> <!-- -->Introduction to Theoretical Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483a7cb1ad924812db57d1\" target=\"_blank\">AMATH361</a> <!-- -->-<!-- --> <!-- -->Continuum Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483aa373439a009589b5b7\" target=\"_blank\">AMATH463</a> <!-- -->-<!-- --> <!-- -->Fluid Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3ae1187f5e8224913619\" target=\"_blank\">ME219</a> <!-- -->-<!-- --> <!-- -->Mechanics of Deformable Solids 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/678fdc9e3b83c1a8e0a4e091\" target=\"_blank\">ME250</a> <!-- -->-<!-- --> <!-- -->Thermodynamics 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3e306632c682a635a0ba\" target=\"_blank\">ME353</a> <!-- -->-<!-- --> <!-- -->Heat Transfer 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3e52187f5ec6aa913642\" target=\"_blank\">ME354</a> <!-- -->-<!-- --> <!-- -->Thermodynamics 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b922e15c94794f5ce56fc6\" target=\"_blank\">ME456</a> <!-- -->-<!-- --> <!-- -->Heat Transfer 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b85d5123cba71d2b47bab9\" target=\"_blank\">CO250</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b1a15e731ab599652f0d\" target=\"_blank\">CO255</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c0423c3ff99cd867aefa16\" target=\"_blank\">STAT331</a> <!-- -->-<!-- --> <!-- -->Applied Linear Models<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69b04b38943da42afcd4df92\" target=\"_blank\">STAT340</a> <!-- -->-<!-- --> <!-- -->Stochastic Simulation Methods<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.4\"><div data-test=\"ruleView-A.4-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66d9e38c6a6e2eaccb63ae51\" target=\"_blank\">ECE140</a> <!-- -->-<!-- --> <!-- -->Linear Circuits<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66daf022f5b8c964f1a13245\" target=\"_blank\">GENE123</a> <!-- -->-<!-- --> <!-- -->Electrical Circuits and Instrumentation<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.3\"><div data-test=\"ruleView-A.3-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b9249cec4e6457c1e2469b\" target=\"_blank\">ME557</a> <!-- -->-<!-- --> <!-- -->Combustion 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b925bf23cba7e52847bf35\" target=\"_blank\">ME564</a> <!-- -->-<!-- --> <!-- -->Aerodynamics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65abe7f2b1bab04265fadcab\" target=\"_blank\">ME571</a> <!-- -->-<!-- --> <!-- -->Clean Air Technologies<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\">Theme 2: Communication and Control</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B.1\"><div data-test=\"ruleView-B.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/666f281e31fa49756e5de3a2\" target=\"_blank\">AMATH455</a> <!-- -->-<!-- --> <!-- -->Control Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b86be1026eba2bb4bb5633\" target=\"_blank\">ECE207</a> <!-- -->-<!-- --> <!-- -->Signals and Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cce34d13b386effe8e9cd0\" target=\"_blank\">ECE240</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cce38eb29e15d4577e4ee8\" target=\"_blank\">ECE318</a> <!-- -->-<!-- --> <!-- -->Communication Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b870096cd589f3a9e901c1\" target=\"_blank\">ECE380</a> <!-- -->-<!-- --> <!-- -->Analog Control Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.2\"><div data-test=\"ruleView-B.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b85d5123cba71d2b47bab9\" target=\"_blank\">CO250</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b1a15e731ab599652f0d\" target=\"_blank\">CO255</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66f3242157393842603af17b\" target=\"_blank\">CS475</a> <!-- -->-<!-- --> <!-- -->Computational Linear Algebra<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c0423c3ff99cd867aefa16\" target=\"_blank\">STAT331</a> <!-- -->-<!-- --> <!-- -->Applied Linear Models<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69b04b38943da42afcd4df92\" target=\"_blank\">STAT340</a> <!-- -->-<!-- --> <!-- -->Stochastic Simulation Methods<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.4\"><div data-test=\"ruleView-B.4-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66d9e38c6a6e2eaccb63ae51\" target=\"_blank\">ECE140</a> <!-- -->-<!-- --> <!-- -->Linear Circuits<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66daf022f5b8c964f1a13245\" target=\"_blank\">GENE123</a> <!-- -->-<!-- --> <!-- -->Electrical Circuits and Instrumentation<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.3\"><div data-test=\"ruleView-B.3-result\">Complete <span>2</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a731e8ab246f872d31d520\" target=\"_blank\">ECE313</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b875535c9479363ee56bff\" target=\"_blank\">ECE484</a> <!-- -->-<!-- --> <!-- -->Digital Control Applications<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b875b798f04407171031e1\" target=\"_blank\">ECE486</a> <!-- -->-<!-- --> <!-- -->Robot Dynamics and Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a0a2b7fa43c40307f5492f\" target=\"_blank\">SYDE544</a> <!-- -->-<!-- --> <!-- -->Biomedical Measurement and Signal Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b9c41e5d504386011742c7\" target=\"_blank\">SYDE572</a> <!-- -->-<!-- --> <!-- -->Introduction to Pattern Recognition<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\">Theme 3: Heat and Mass Transfer</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-C.1\"><div data-test=\"ruleView-C.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/68483a7cb1ad924812db57d1\" target=\"_blank\">AMATH361</a> <!-- -->-<!-- --> <!-- -->Continuum Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483aa373439a009589b5b7\" target=\"_blank\">AMATH463</a> <!-- -->-<!-- --> <!-- -->Fluid Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cb9fc5dc755c668d1fb37d\" target=\"_blank\">CHE230</a> <!-- -->-<!-- --> <!-- -->Physical Chemistry 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cb9fd9651c236129a97fca\" target=\"_blank\">CHE231</a> <!-- -->-<!-- --> <!-- -->Physical Chemistry 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba053ce9eec22afd28bc1\" target=\"_blank\">CHE312</a> <!-- -->-<!-- --> <!-- -->Mathematics of Heat and Mass Transfer<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba06a13b3862cf78e95c8\" target=\"_blank\">CHE313</a> <!-- -->-<!-- --> <!-- -->Applications of Heat and Mass Transfer<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba0cc1a5d976d6c702eeb\" target=\"_blank\">CHE330</a> <!-- -->-<!-- --> <!-- -->Chemical Engineering Thermodynamics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C.2\"><div data-test=\"ruleView-C.2-result\">Complete <span>2</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cba080cd2beb809be74d51\" target=\"_blank\">CHE314</a> <!-- -->-<!-- --> <!-- -->Chemical Reaction Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba0eb1a5d9712be702eed\" target=\"_blank\">CHE331</a> <!-- -->-<!-- --> <!-- -->Electrochemical Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba104481f46def081a3ec\" target=\"_blank\">CHE341</a> <!-- -->-<!-- --> <!-- -->Introduction to Process Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba11c13b3860a5c8e95d3\" target=\"_blank\">CHE361</a> <!-- -->-<!-- --> <!-- -->Bioprocess Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b843cbedfead49c43407b8\" target=\"_blank\">CHE522</a> <!-- -->-<!-- --> <!-- -->Advanced Process Dynamics and Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div></ul></li></ul></div><div></div></div></section></div>",
+    "graduationRequirementsHtml": "<ul> <li>Complete the required courses for one theme described below. <ul> <li>Theme 1: Complete a total of 5.5 units.</li> <li>Theme 2: Complete a total of 4.5 units.</li> <li>Theme 3: Complete a total of 4.5 units.</li> </ul> </li> </ul>",
+    "additionalConstraintsHtml": "<ol> <li>Theme 1: <ol> <li>ME courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH361 and AMATH463 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> <li>Theme 2: <ol> <li>ECE and SYDE courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH455 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> <li>Theme 3: <ol> <li>CHE courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH361 and AMATH463 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> </ol>",
+    "id": "HkzBkkCCoh-t1",
+    "name": "Engineering Specialization — Fluids and Heat",
+    "minCourses": 11,
+    "requirements": [
+      {
+        "type": "AND",
+        "code": "",
+        "text": "Complete all of the following Complete all the following: AMATH271 - Introduction to Theoretical Mechanics (0.50)AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)ME219 - Mechanics of Deformable Solids 1 (0.50)ME250 - Thermodynamics 1 (0.50)ME353 - Heat Transfer 1 (0.50)ME354 - Thermodynamics 2 (0.50)ME456 - Heat Transfer 2 (0.50) AMATH271 - Introduction to Theoretical Mechanics (0.50)AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)ME219 - Mechanics of Deformable Solids 1 (0.50)ME250 - Thermodynamics 1 (0.50)ME353 - Heat Transfer 1 (0.50)ME354 - Thermodynamics 2 (0.50)ME456 - Heat Transfer 2 (0.50)Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50) CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50)Complete 1 of the following: ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50) ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50)Complete 1 of the following: ME557 - Combustion 1 (0.50)ME564 - Aerodynamics (0.50)ME571 - Clean Air Technologies (0.50) ME557 - Combustion 1 (0.50)ME564 - Aerodynamics (0.50)ME571 - Clean Air Technologies (0.50)",
+        "children": [
+          {
+            "type": "AND",
+            "code": "",
+            "text": "Complete all the following: AMATH271 - Introduction to Theoretical Mechanics (0.50)AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)ME219 - Mechanics of Deformable Solids 1 (0.50)ME250 - Thermodynamics 1 (0.50)ME353 - Heat Transfer 1 (0.50)ME354 - Thermodynamics 2 (0.50)ME456 - Heat Transfer 2 (0.50) AMATH271 - Introduction to Theoretical Mechanics (0.50)AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)ME219 - Mechanics of Deformable Solids 1 (0.50)ME250 - Thermodynamics 1 (0.50)ME353 - Heat Transfer 1 (0.50)ME354 - Thermodynamics 2 (0.50)ME456 - Heat Transfer 2 (0.50)",
+            "children": [
+              {
+                "type": "COURSE",
+                "code": "AMATH271",
+                "text": "AMATH271 - Introduction to Theoretical Mechanics (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "AMATH361",
+                "text": "AMATH361 - Continuum Mechanics (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "AMATH463",
+                "text": "AMATH463 - Fluid Mechanics (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ME219",
+                "text": "ME219 - Mechanics of Deformable Solids 1 (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ME250",
+                "text": "ME250 - Thermodynamics 1 (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ME353",
+                "text": "ME353 - Heat Transfer 1 (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ME354",
+                "text": "ME354 - Thermodynamics 2 (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ME456",
+                "text": "ME456 - Heat Transfer 2 (0.50)"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "code": "",
+            "text": "Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50) CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50)",
+            "children": [
+              {
+                "type": "COURSE",
+                "code": "CO250",
+                "text": "CO250 - Introduction to Optimization (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CO255",
+                "text": "CO255 - Introduction to Optimization (Advanced Level) (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "STAT331",
+                "text": "STAT331 - Applied Linear Models (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "STAT340",
+                "text": "STAT340 - Stochastic Simulation Methods (0.50)"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "code": "",
+            "text": "Complete 1 of the following: ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50) ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50)",
+            "children": [
+              {
+                "type": "COURSE",
+                "code": "ECE140",
+                "text": "ECE140 - Linear Circuits (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "GENE123",
+                "text": "GENE123 - Electrical Circuits and Instrumentation (0.50)"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "code": "",
+            "text": "Complete 1 of the following: ME557 - Combustion 1 (0.50)ME564 - Aerodynamics (0.50)ME571 - Clean Air Technologies (0.50) ME557 - Combustion 1 (0.50)ME564 - Aerodynamics (0.50)ME571 - Clean Air Technologies (0.50)",
+            "children": [
+              {
+                "type": "COURSE",
+                "code": "ME557",
+                "text": "ME557 - Combustion 1 (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ME564",
+                "text": "ME564 - Aerodynamics (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ME571",
+                "text": "ME571 - Clean Air Technologies (0.50)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "HkzBkkCCoh-t2": {
+    "faculty": "Faculty of Mathematics",
+    "code": "AMATH-Engineering Specialization",
+    "isMinor": false,
+    "isSpecialization": true,
+    "isMathFaculty": true,
+    "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\">Theme 1: Fluids and Heat</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66db19e79ec8f90591e82e50\" target=\"_blank\">AMATH271</a> <!-- -->-<!-- --> <!-- -->Introduction to Theoretical Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483a7cb1ad924812db57d1\" target=\"_blank\">AMATH361</a> <!-- -->-<!-- --> <!-- -->Continuum Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483aa373439a009589b5b7\" target=\"_blank\">AMATH463</a> <!-- -->-<!-- --> <!-- -->Fluid Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3ae1187f5e8224913619\" target=\"_blank\">ME219</a> <!-- -->-<!-- --> <!-- -->Mechanics of Deformable Solids 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/678fdc9e3b83c1a8e0a4e091\" target=\"_blank\">ME250</a> <!-- -->-<!-- --> <!-- -->Thermodynamics 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3e306632c682a635a0ba\" target=\"_blank\">ME353</a> <!-- -->-<!-- --> <!-- -->Heat Transfer 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3e52187f5ec6aa913642\" target=\"_blank\">ME354</a> <!-- -->-<!-- --> <!-- -->Thermodynamics 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b922e15c94794f5ce56fc6\" target=\"_blank\">ME456</a> <!-- -->-<!-- --> <!-- -->Heat Transfer 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b85d5123cba71d2b47bab9\" target=\"_blank\">CO250</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b1a15e731ab599652f0d\" target=\"_blank\">CO255</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c0423c3ff99cd867aefa16\" target=\"_blank\">STAT331</a> <!-- -->-<!-- --> <!-- -->Applied Linear Models<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69b04b38943da42afcd4df92\" target=\"_blank\">STAT340</a> <!-- -->-<!-- --> <!-- -->Stochastic Simulation Methods<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.4\"><div data-test=\"ruleView-A.4-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66d9e38c6a6e2eaccb63ae51\" target=\"_blank\">ECE140</a> <!-- -->-<!-- --> <!-- -->Linear Circuits<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66daf022f5b8c964f1a13245\" target=\"_blank\">GENE123</a> <!-- -->-<!-- --> <!-- -->Electrical Circuits and Instrumentation<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.3\"><div data-test=\"ruleView-A.3-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b9249cec4e6457c1e2469b\" target=\"_blank\">ME557</a> <!-- -->-<!-- --> <!-- -->Combustion 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b925bf23cba7e52847bf35\" target=\"_blank\">ME564</a> <!-- -->-<!-- --> <!-- -->Aerodynamics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65abe7f2b1bab04265fadcab\" target=\"_blank\">ME571</a> <!-- -->-<!-- --> <!-- -->Clean Air Technologies<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\">Theme 2: Communication and Control</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B.1\"><div data-test=\"ruleView-B.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/666f281e31fa49756e5de3a2\" target=\"_blank\">AMATH455</a> <!-- -->-<!-- --> <!-- -->Control Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b86be1026eba2bb4bb5633\" target=\"_blank\">ECE207</a> <!-- -->-<!-- --> <!-- -->Signals and Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cce34d13b386effe8e9cd0\" target=\"_blank\">ECE240</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cce38eb29e15d4577e4ee8\" target=\"_blank\">ECE318</a> <!-- -->-<!-- --> <!-- -->Communication Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b870096cd589f3a9e901c1\" target=\"_blank\">ECE380</a> <!-- -->-<!-- --> <!-- -->Analog Control Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.2\"><div data-test=\"ruleView-B.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b85d5123cba71d2b47bab9\" target=\"_blank\">CO250</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b1a15e731ab599652f0d\" target=\"_blank\">CO255</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66f3242157393842603af17b\" target=\"_blank\">CS475</a> <!-- -->-<!-- --> <!-- -->Computational Linear Algebra<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c0423c3ff99cd867aefa16\" target=\"_blank\">STAT331</a> <!-- -->-<!-- --> <!-- -->Applied Linear Models<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69b04b38943da42afcd4df92\" target=\"_blank\">STAT340</a> <!-- -->-<!-- --> <!-- -->Stochastic Simulation Methods<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.4\"><div data-test=\"ruleView-B.4-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66d9e38c6a6e2eaccb63ae51\" target=\"_blank\">ECE140</a> <!-- -->-<!-- --> <!-- -->Linear Circuits<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66daf022f5b8c964f1a13245\" target=\"_blank\">GENE123</a> <!-- -->-<!-- --> <!-- -->Electrical Circuits and Instrumentation<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.3\"><div data-test=\"ruleView-B.3-result\">Complete <span>2</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a731e8ab246f872d31d520\" target=\"_blank\">ECE313</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b875535c9479363ee56bff\" target=\"_blank\">ECE484</a> <!-- -->-<!-- --> <!-- -->Digital Control Applications<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b875b798f04407171031e1\" target=\"_blank\">ECE486</a> <!-- -->-<!-- --> <!-- -->Robot Dynamics and Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a0a2b7fa43c40307f5492f\" target=\"_blank\">SYDE544</a> <!-- -->-<!-- --> <!-- -->Biomedical Measurement and Signal Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b9c41e5d504386011742c7\" target=\"_blank\">SYDE572</a> <!-- -->-<!-- --> <!-- -->Introduction to Pattern Recognition<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\">Theme 3: Heat and Mass Transfer</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-C.1\"><div data-test=\"ruleView-C.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/68483a7cb1ad924812db57d1\" target=\"_blank\">AMATH361</a> <!-- -->-<!-- --> <!-- -->Continuum Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483aa373439a009589b5b7\" target=\"_blank\">AMATH463</a> <!-- -->-<!-- --> <!-- -->Fluid Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cb9fc5dc755c668d1fb37d\" target=\"_blank\">CHE230</a> <!-- -->-<!-- --> <!-- -->Physical Chemistry 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cb9fd9651c236129a97fca\" target=\"_blank\">CHE231</a> <!-- -->-<!-- --> <!-- -->Physical Chemistry 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba053ce9eec22afd28bc1\" target=\"_blank\">CHE312</a> <!-- -->-<!-- --> <!-- -->Mathematics of Heat and Mass Transfer<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba06a13b3862cf78e95c8\" target=\"_blank\">CHE313</a> <!-- -->-<!-- --> <!-- -->Applications of Heat and Mass Transfer<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba0cc1a5d976d6c702eeb\" target=\"_blank\">CHE330</a> <!-- -->-<!-- --> <!-- -->Chemical Engineering Thermodynamics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C.2\"><div data-test=\"ruleView-C.2-result\">Complete <span>2</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cba080cd2beb809be74d51\" target=\"_blank\">CHE314</a> <!-- -->-<!-- --> <!-- -->Chemical Reaction Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba0eb1a5d9712be702eed\" target=\"_blank\">CHE331</a> <!-- -->-<!-- --> <!-- -->Electrochemical Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba104481f46def081a3ec\" target=\"_blank\">CHE341</a> <!-- -->-<!-- --> <!-- -->Introduction to Process Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba11c13b3860a5c8e95d3\" target=\"_blank\">CHE361</a> <!-- -->-<!-- --> <!-- -->Bioprocess Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b843cbedfead49c43407b8\" target=\"_blank\">CHE522</a> <!-- -->-<!-- --> <!-- -->Advanced Process Dynamics and Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div></ul></li></ul></div><div></div></div></section></div>",
+    "graduationRequirementsHtml": "<ul> <li>Complete the required courses for one theme described below. <ul> <li>Theme 1: Complete a total of 5.5 units.</li> <li>Theme 2: Complete a total of 4.5 units.</li> <li>Theme 3: Complete a total of 4.5 units.</li> </ul> </li> </ul>",
+    "additionalConstraintsHtml": "<ol> <li>Theme 1: <ol> <li>ME courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH361 and AMATH463 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> <li>Theme 2: <ol> <li>ECE and SYDE courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH455 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> <li>Theme 3: <ol> <li>CHE courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH361 and AMATH463 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> </ol>",
+    "id": "HkzBkkCCoh-t2",
+    "name": "Engineering Specialization — Communication and Control",
+    "minCourses": 9,
+    "requirements": [
+      {
+        "type": "AND",
+        "code": "",
+        "text": "Complete all of the following Complete all the following: AMATH455 - Control Theory (0.50)ECE207 - Signals and Systems (0.50)ECE240 - Electronic Circuits 1 (0.50)ECE318 - Communication Systems (0.50)ECE380 - Analog Control Systems (0.50) AMATH455 - Control Theory (0.50)ECE207 - Signals and Systems (0.50)ECE240 - Electronic Circuits 1 (0.50)ECE318 - Communication Systems (0.50)ECE380 - Analog Control Systems (0.50)Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)CS475 - Computational Linear Algebra (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50) CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)CS475 - Computational Linear Algebra (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50)Complete 1 of the following: ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50) ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50)Complete 2 of the following: ECE313 - Digital Signal Processing (0.50)ECE484 - Digital Control Applications (0.50)ECE486 - Robot Dynamics and Control (0.50)SYDE544 - Biomedical Measurement and Signal Processing (0.50)SYDE572 - Introduction to Pattern Recognition (0.50) ECE313 - Digital Signal Processing (0.50)ECE484 - Digital Control Applications (0.50)ECE486 - Robot Dynamics and Control (0.50)SYDE544 - Biomedical Measurement and Signal Processing (0.50)SYDE572 - Introduction to Pattern Recognition (0.50)",
+        "children": [
+          {
+            "type": "AND",
+            "code": "",
+            "text": "Complete all the following: AMATH455 - Control Theory (0.50)ECE207 - Signals and Systems (0.50)ECE240 - Electronic Circuits 1 (0.50)ECE318 - Communication Systems (0.50)ECE380 - Analog Control Systems (0.50) AMATH455 - Control Theory (0.50)ECE207 - Signals and Systems (0.50)ECE240 - Electronic Circuits 1 (0.50)ECE318 - Communication Systems (0.50)ECE380 - Analog Control Systems (0.50)",
+            "children": [
+              {
+                "type": "COURSE",
+                "code": "AMATH455",
+                "text": "AMATH455 - Control Theory (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ECE207",
+                "text": "ECE207 - Signals and Systems (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ECE240",
+                "text": "ECE240 - Electronic Circuits 1 (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ECE318",
+                "text": "ECE318 - Communication Systems (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ECE380",
+                "text": "ECE380 - Analog Control Systems (0.50)"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "code": "",
+            "text": "Complete 1 of the following: CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)CS475 - Computational Linear Algebra (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50) CO250 - Introduction to Optimization (0.50)CO255 - Introduction to Optimization (Advanced Level) (0.50)CS475 - Computational Linear Algebra (0.50)STAT331 - Applied Linear Models (0.50)STAT340 - Stochastic Simulation Methods (0.50)",
+            "children": [
+              {
+                "type": "COURSE",
+                "code": "CO250",
+                "text": "CO250 - Introduction to Optimization (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CO255",
+                "text": "CO255 - Introduction to Optimization (Advanced Level) (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CS475",
+                "text": "CS475 - Computational Linear Algebra (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "STAT331",
+                "text": "STAT331 - Applied Linear Models (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "STAT340",
+                "text": "STAT340 - Stochastic Simulation Methods (0.50)"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "code": "",
+            "text": "Complete 1 of the following: ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50) ECE140 - Linear Circuits (0.50)GENE123 - Electrical Circuits and Instrumentation (0.50)",
+            "children": [
+              {
+                "type": "COURSE",
+                "code": "ECE140",
+                "text": "ECE140 - Linear Circuits (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "GENE123",
+                "text": "GENE123 - Electrical Circuits and Instrumentation (0.50)"
+              }
+            ]
+          },
+          {
+            "type": "N_OF",
+            "n": 2,
+            "code": "",
+            "text": "Complete 2 of the following: ECE313 - Digital Signal Processing (0.50)ECE484 - Digital Control Applications (0.50)ECE486 - Robot Dynamics and Control (0.50)SYDE544 - Biomedical Measurement and Signal Processing (0.50)SYDE572 - Introduction to Pattern Recognition (0.50) ECE313 - Digital Signal Processing (0.50)ECE484 - Digital Control Applications (0.50)ECE486 - Robot Dynamics and Control (0.50)SYDE544 - Biomedical Measurement and Signal Processing (0.50)SYDE572 - Introduction to Pattern Recognition (0.50)",
+            "children": [
+              {
+                "type": "COURSE",
+                "code": "ECE313",
+                "text": "ECE313 - Digital Signal Processing (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ECE484",
+                "text": "ECE484 - Digital Control Applications (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "ECE486",
+                "text": "ECE486 - Robot Dynamics and Control (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "SYDE544",
+                "text": "SYDE544 - Biomedical Measurement and Signal Processing (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "SYDE572",
+                "text": "SYDE572 - Introduction to Pattern Recognition (0.50)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "HkzBkkCCoh-t3": {
+    "faculty": "Faculty of Mathematics",
+    "code": "AMATH-Engineering Specialization",
+    "isMinor": false,
+    "isSpecialization": true,
+    "isMathFaculty": true,
+    "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\">Theme 1: Fluids and Heat</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66db19e79ec8f90591e82e50\" target=\"_blank\">AMATH271</a> <!-- -->-<!-- --> <!-- -->Introduction to Theoretical Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483a7cb1ad924812db57d1\" target=\"_blank\">AMATH361</a> <!-- -->-<!-- --> <!-- -->Continuum Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483aa373439a009589b5b7\" target=\"_blank\">AMATH463</a> <!-- -->-<!-- --> <!-- -->Fluid Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3ae1187f5e8224913619\" target=\"_blank\">ME219</a> <!-- -->-<!-- --> <!-- -->Mechanics of Deformable Solids 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/678fdc9e3b83c1a8e0a4e091\" target=\"_blank\">ME250</a> <!-- -->-<!-- --> <!-- -->Thermodynamics 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3e306632c682a635a0ba\" target=\"_blank\">ME353</a> <!-- -->-<!-- --> <!-- -->Heat Transfer 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cd3e52187f5ec6aa913642\" target=\"_blank\">ME354</a> <!-- -->-<!-- --> <!-- -->Thermodynamics 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b922e15c94794f5ce56fc6\" target=\"_blank\">ME456</a> <!-- -->-<!-- --> <!-- -->Heat Transfer 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b85d5123cba71d2b47bab9\" target=\"_blank\">CO250</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b1a15e731ab599652f0d\" target=\"_blank\">CO255</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c0423c3ff99cd867aefa16\" target=\"_blank\">STAT331</a> <!-- -->-<!-- --> <!-- -->Applied Linear Models<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69b04b38943da42afcd4df92\" target=\"_blank\">STAT340</a> <!-- -->-<!-- --> <!-- -->Stochastic Simulation Methods<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.4\"><div data-test=\"ruleView-A.4-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66d9e38c6a6e2eaccb63ae51\" target=\"_blank\">ECE140</a> <!-- -->-<!-- --> <!-- -->Linear Circuits<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66daf022f5b8c964f1a13245\" target=\"_blank\">GENE123</a> <!-- -->-<!-- --> <!-- -->Electrical Circuits and Instrumentation<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.3\"><div data-test=\"ruleView-A.3-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b9249cec4e6457c1e2469b\" target=\"_blank\">ME557</a> <!-- -->-<!-- --> <!-- -->Combustion 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b925bf23cba7e52847bf35\" target=\"_blank\">ME564</a> <!-- -->-<!-- --> <!-- -->Aerodynamics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65abe7f2b1bab04265fadcab\" target=\"_blank\">ME571</a> <!-- -->-<!-- --> <!-- -->Clean Air Technologies<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\">Theme 2: Communication and Control</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B.1\"><div data-test=\"ruleView-B.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/666f281e31fa49756e5de3a2\" target=\"_blank\">AMATH455</a> <!-- -->-<!-- --> <!-- -->Control Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b86be1026eba2bb4bb5633\" target=\"_blank\">ECE207</a> <!-- -->-<!-- --> <!-- -->Signals and Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cce34d13b386effe8e9cd0\" target=\"_blank\">ECE240</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cce38eb29e15d4577e4ee8\" target=\"_blank\">ECE318</a> <!-- -->-<!-- --> <!-- -->Communication Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b870096cd589f3a9e901c1\" target=\"_blank\">ECE380</a> <!-- -->-<!-- --> <!-- -->Analog Control Systems<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.2\"><div data-test=\"ruleView-B.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b85d5123cba71d2b47bab9\" target=\"_blank\">CO250</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1b1a15e731ab599652f0d\" target=\"_blank\">CO255</a> <!-- -->-<!-- --> <!-- -->Introduction to Optimization (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66f3242157393842603af17b\" target=\"_blank\">CS475</a> <!-- -->-<!-- --> <!-- -->Computational Linear Algebra<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68c0423c3ff99cd867aefa16\" target=\"_blank\">STAT331</a> <!-- -->-<!-- --> <!-- -->Applied Linear Models<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69b04b38943da42afcd4df92\" target=\"_blank\">STAT340</a> <!-- -->-<!-- --> <!-- -->Stochastic Simulation Methods<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.4\"><div data-test=\"ruleView-B.4-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66d9e38c6a6e2eaccb63ae51\" target=\"_blank\">ECE140</a> <!-- -->-<!-- --> <!-- -->Linear Circuits<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66daf022f5b8c964f1a13245\" target=\"_blank\">GENE123</a> <!-- -->-<!-- --> <!-- -->Electrical Circuits and Instrumentation<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.3\"><div data-test=\"ruleView-B.3-result\">Complete <span>2</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a731e8ab246f872d31d520\" target=\"_blank\">ECE313</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b875535c9479363ee56bff\" target=\"_blank\">ECE484</a> <!-- -->-<!-- --> <!-- -->Digital Control Applications<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b875b798f04407171031e1\" target=\"_blank\">ECE486</a> <!-- -->-<!-- --> <!-- -->Robot Dynamics and Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a0a2b7fa43c40307f5492f\" target=\"_blank\">SYDE544</a> <!-- -->-<!-- --> <!-- -->Biomedical Measurement and Signal Processing<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b9c41e5d504386011742c7\" target=\"_blank\">SYDE572</a> <!-- -->-<!-- --> <!-- -->Introduction to Pattern Recognition<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\">Theme 3: Heat and Mass Transfer</span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-C.1\"><div data-test=\"ruleView-C.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/68483a7cb1ad924812db57d1\" target=\"_blank\">AMATH361</a> <!-- -->-<!-- --> <!-- -->Continuum Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68483aa373439a009589b5b7\" target=\"_blank\">AMATH463</a> <!-- -->-<!-- --> <!-- -->Fluid Mechanics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cb9fc5dc755c668d1fb37d\" target=\"_blank\">CHE230</a> <!-- -->-<!-- --> <!-- -->Physical Chemistry 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cb9fd9651c236129a97fca\" target=\"_blank\">CHE231</a> <!-- -->-<!-- --> <!-- -->Physical Chemistry 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba053ce9eec22afd28bc1\" target=\"_blank\">CHE312</a> <!-- -->-<!-- --> <!-- -->Mathematics of Heat and Mass Transfer<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba06a13b3862cf78e95c8\" target=\"_blank\">CHE313</a> <!-- -->-<!-- --> <!-- -->Applications of Heat and Mass Transfer<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba0cc1a5d976d6c702eeb\" target=\"_blank\">CHE330</a> <!-- -->-<!-- --> <!-- -->Chemical Engineering Thermodynamics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C.2\"><div data-test=\"ruleView-C.2-result\">Complete <span>2</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65cba080cd2beb809be74d51\" target=\"_blank\">CHE314</a> <!-- -->-<!-- --> <!-- -->Chemical Reaction Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba0eb1a5d9712be702eed\" target=\"_blank\">CHE331</a> <!-- -->-<!-- --> <!-- -->Electrochemical Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba104481f46def081a3ec\" target=\"_blank\">CHE341</a> <!-- -->-<!-- --> <!-- -->Introduction to Process Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cba11c13b3860a5c8e95d3\" target=\"_blank\">CHE361</a> <!-- -->-<!-- --> <!-- -->Bioprocess Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b843cbedfead49c43407b8\" target=\"_blank\">CHE522</a> <!-- -->-<!-- --> <!-- -->Advanced Process Dynamics and Control<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div></ul></li></ul></div><div></div></div></section></div>",
+    "graduationRequirementsHtml": "<ul> <li>Complete the required courses for one theme described below. <ul> <li>Theme 1: Complete a total of 5.5 units.</li> <li>Theme 2: Complete a total of 4.5 units.</li> <li>Theme 3: Complete a total of 4.5 units.</li> </ul> </li> </ul>",
+    "additionalConstraintsHtml": "<ol> <li>Theme 1: <ol> <li>ME courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH361 and AMATH463 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> <li>Theme 2: <ol> <li>ECE and SYDE courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH455 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> <li>Theme 3: <ol> <li>CHE courses can be used to fulfil the subject concentration requirement of the Honours Applied Mathematics academic plan.</li> <li>AMATH361 and AMATH463 can be used to satisfy the AMATH courses at the 300- or 400-level requirement of the Honours Applied Mathematics academic plan.</li> </ol> </li> </ol>",
+    "id": "HkzBkkCCoh-t3",
+    "name": "Engineering Specialization — Heat and Mass Transfer",
+    "minCourses": 9,
+    "requirements": [
+      {
+        "type": "AND",
+        "code": "",
+        "text": "Complete all of the following Complete all the following: AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)CHE230 - Physical Chemistry 1 (0.50)CHE231 - Physical Chemistry 2 (0.50)CHE312 - Mathematics of Heat and Mass Transfer (0.50)CHE313 - Applications of Heat and Mass Transfer (0.50)CHE330 - Chemical Engineering Thermodynamics (0.50) AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)CHE230 - Physical Chemistry 1 (0.50)CHE231 - Physical Chemistry 2 (0.50)CHE312 - Mathematics of Heat and Mass Transfer (0.50)CHE313 - Applications of Heat and Mass Transfer (0.50)CHE330 - Chemical Engineering Thermodynamics (0.50)Complete 2 of the following: CHE314 - Chemical Reaction Engineering (0.50)CHE331 - Electrochemical Engineering (0.50)CHE341 - Introduction to Process Control (0.50)CHE361 - Bioprocess Engineering (0.50)CHE522 - Advanced Process Dynamics and Control (0.50) CHE314 - Chemical Reaction Engineering (0.50)CHE331 - Electrochemical Engineering (0.50)CHE341 - Introduction to Process Control (0.50)CHE361 - Bioprocess Engineering (0.50)CHE522 - Advanced Process Dynamics and Control (0.50)",
+        "children": [
+          {
+            "type": "AND",
+            "code": "",
+            "text": "Complete all the following: AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)CHE230 - Physical Chemistry 1 (0.50)CHE231 - Physical Chemistry 2 (0.50)CHE312 - Mathematics of Heat and Mass Transfer (0.50)CHE313 - Applications of Heat and Mass Transfer (0.50)CHE330 - Chemical Engineering Thermodynamics (0.50) AMATH361 - Continuum Mechanics (0.50)AMATH463 - Fluid Mechanics (0.50)CHE230 - Physical Chemistry 1 (0.50)CHE231 - Physical Chemistry 2 (0.50)CHE312 - Mathematics of Heat and Mass Transfer (0.50)CHE313 - Applications of Heat and Mass Transfer (0.50)CHE330 - Chemical Engineering Thermodynamics (0.50)",
+            "children": [
+              {
+                "type": "COURSE",
+                "code": "AMATH361",
+                "text": "AMATH361 - Continuum Mechanics (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "AMATH463",
+                "text": "AMATH463 - Fluid Mechanics (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CHE230",
+                "text": "CHE230 - Physical Chemistry 1 (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CHE231",
+                "text": "CHE231 - Physical Chemistry 2 (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CHE312",
+                "text": "CHE312 - Mathematics of Heat and Mass Transfer (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CHE313",
+                "text": "CHE313 - Applications of Heat and Mass Transfer (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CHE330",
+                "text": "CHE330 - Chemical Engineering Thermodynamics (0.50)"
+              }
+            ]
+          },
+          {
+            "type": "N_OF",
+            "n": 2,
+            "code": "",
+            "text": "Complete 2 of the following: CHE314 - Chemical Reaction Engineering (0.50)CHE331 - Electrochemical Engineering (0.50)CHE341 - Introduction to Process Control (0.50)CHE361 - Bioprocess Engineering (0.50)CHE522 - Advanced Process Dynamics and Control (0.50) CHE314 - Chemical Reaction Engineering (0.50)CHE331 - Electrochemical Engineering (0.50)CHE341 - Introduction to Process Control (0.50)CHE361 - Bioprocess Engineering (0.50)CHE522 - Advanced Process Dynamics and Control (0.50)",
+            "children": [
+              {
+                "type": "COURSE",
+                "code": "CHE314",
+                "text": "CHE314 - Chemical Reaction Engineering (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CHE331",
+                "text": "CHE331 - Electrochemical Engineering (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CHE341",
+                "text": "CHE341 - Introduction to Process Control (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CHE361",
+                "text": "CHE361 - Bioprocess Engineering (0.50)"
+              },
+              {
+                "type": "COURSE",
+                "code": "CHE522",
+                "text": "CHE522 - Advanced Process Dynamics and Control (0.50)"
               }
             ]
           }
