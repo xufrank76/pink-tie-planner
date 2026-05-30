@@ -7,7 +7,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 10 courses (subject codes: PSYCH, HLTH)",
+        "n": 10,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 10,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 5.0 units.</li> </ul>",
@@ -407,7 +414,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 8 courses (subject codes: AVIA, EARTH, GEOG)",
+        "n": 8,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 8,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 4.0 units.</li> </ul>",
@@ -421,7 +435,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 10 courses (subject codes: CHEM, BIOL)",
+        "n": 10,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 10,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 5.0 units.</li> </ul>",
@@ -438,13 +459,9 @@
     "requirements": [
       {
         "type": "ADDITIONAL",
-        "n": 5,
-        "text": "5 BIOL courses at the 300- or higher level"
-      },
-      {
-        "type": "ADDITIONAL",
-        "n": 5,
-        "text": "5 BIOL courses"
+        "text": "Complete 10 BIOL courses",
+        "n": 10,
+        "code": ""
       }
     ],
     "rawHtml": "",
@@ -460,7 +477,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 10 courses (subject codes: BIOL, PHYS)",
+        "n": 10,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 10,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 5.0 units.</li> </ul>",
@@ -632,6 +656,12 @@
             "text": "MATBUS470 - Derivatives (0.50)"
           }
         ]
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 4 additional courses (subject codes: ECON, COMM, MSE, AFM, ACTSC, MATBUS)",
+        "n": 4,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa6ab9405ebfa9d2b5273e\" target=\"_blank\">ECON201</a> <!-- -->-<!-- --> <!-- -->Microeconomic Theory for Business and Policy<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1.1\"><div data-test=\"ruleView-A.1.1-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa75b3df9c42c28b6191fb\" target=\"_blank\">COMM103</a> <!-- -->-<!-- --> <!-- -->Principles of Economics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa78b3df9c42c28b61a365\" target=\"_blank\">ECON100</a> <!-- -->-<!-- --> <!-- -->Principles of Economics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.1.2\"><div data-test=\"ruleView-A.1.2-result\"><div>Complete 2.0 units from the Approved Courses list</div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.2.1\"><div data-test=\"ruleView-A.2.1-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa6ab1df9c42c28b612b9a\" target=\"_blank\">ECON101</a> <!-- -->-<!-- --> <!-- -->Introduction to Microeconomics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6ab55cacac2fbe7fa3b5\" target=\"_blank\">ECON120W</a> <!-- -->-<!-- --> <!-- -->Introduction to Microeconomics (WLU)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/685c222640950345bed7d3c4\" target=\"_blank\">MSE263</a> <!-- -->-<!-- --> <!-- -->Managerial Economics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2.2\"><div data-test=\"ruleView-A.2.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa6ab313e1b07a8b5ab67c\" target=\"_blank\">ECON102</a> <!-- -->-<!-- --> <!-- -->Introduction to Macroeconomics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6ab7306256e3f1297260\" target=\"_blank\">ECON140W</a> <!-- -->-<!-- --> <!-- -->Introduction to Macroeconomics (WLU)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2.3\"><div data-test=\"ruleView-A.2.3-result\"><div>Complete 1.5 units from the Approved Courses list</div></div></li></ul></li></div></ul></li></div><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/682ca86b236dddf2dedd6d1f\" target=\"_blank\">AFM272</a> <!-- -->-<!-- --> <!-- -->Global Capital Markets and Financial Analytics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/682c9028b6382f0f5c35f03f\" target=\"_blank\">AFM273</a> <!-- -->-<!-- --> <!-- -->Financial Instruments and Capital Markets<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a721ee8197cc8370996dd9\" target=\"_blank\">AFM274</a> <!-- -->-<!-- --> <!-- -->Introduction to Corporate Finance<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a720bb5cacac2fbe747ca8\" target=\"_blank\">AFM275</a> <!-- -->-<!-- --> <!-- -->Corporate Finance<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6ad688fba4af19cb1e67\" target=\"_blank\">ECON371</a> <!-- -->-<!-- --> <!-- -->Business Finance 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/663e826e2ed76b5513d8903d\" target=\"_blank\">ACTSC446</a> <!-- -->-<!-- --> <!-- -->Mathematics of Financial Markets<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1d2010cc3a4f01d8aafed\" target=\"_blank\">AFM322</a> <!-- -->-<!-- --> <!-- -->Derivative Securities<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6ad8ab246f872d3c84a6\" target=\"_blank\">ECON372</a> <!-- -->-<!-- --> <!-- -->Business Finance 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a1a64a6dcaceeaae2dde4e\" target=\"_blank\">MATBUS470</a> <!-- -->-<!-- --> <!-- -->Derivatives<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></ul></div><div></div></div></section></div>",
@@ -1619,7 +1649,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 8 courses (subject codes: CLAS, GRK, LAT)",
+        "n": 8,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 8,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 4.0 units of CLAS, GRK, or LAT courses.</li> </ul>"
@@ -4083,6 +4120,12 @@
             ]
           }
         ]
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 4 additional courses (subject codes: ECON, COMM, MSE)",
+        "n": 4,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa6ab9405ebfa9d2b5273e\" target=\"_blank\">ECON201</a> <!-- -->-<!-- --> <!-- -->Microeconomic Theory for Business and Policy<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa711d306256e3f129b3db\" target=\"_blank\">ECON207</a> <!-- -->-<!-- --> <!-- -->Economic Growth and Development 1<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa715b8197cc8370a4d1c7\" target=\"_blank\">ECON241</a> <!-- -->-<!-- --> <!-- -->Introduction to Public Economics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B.1.1\"><div data-test=\"ruleView-B.1.1-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa75b3df9c42c28b6191fb\" target=\"_blank\">COMM103</a> <!-- -->-<!-- --> <!-- -->Principles of Economics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa78b3df9c42c28b61a365\" target=\"_blank\">ECON100</a> <!-- -->-<!-- --> <!-- -->Principles of Economics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.1.2\"><div data-test=\"ruleView-B.1.2-result\"><div>Complete 2.0 units from the Approved Courses list</div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B.2.1.1\"><div data-test=\"ruleView-B.2.1.1-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa6ab1df9c42c28b612b9a\" target=\"_blank\">ECON101</a> <!-- -->-<!-- --> <!-- -->Introduction to Microeconomics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6ab55cacac2fbe7fa3b5\" target=\"_blank\">ECON120W</a> <!-- -->-<!-- --> <!-- -->Introduction to Microeconomics (WLU)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/685c222640950345bed7d3c4\" target=\"_blank\">MSE263</a> <!-- -->-<!-- --> <!-- -->Managerial Economics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.2.1.2\"><div data-test=\"ruleView-B.2.1.2-result\">Complete <span></span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa6ab313e1b07a8b5ab67c\" target=\"_blank\">ECON102</a> <!-- -->-<!-- --> <!-- -->Introduction to Macroeconomics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6ab7306256e3f1297260\" target=\"_blank\">ECON140W</a> <!-- -->-<!-- --> <!-- -->Introduction to Macroeconomics (WLU)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></div><li data-test=\"ruleView-B.2.2\"><div data-test=\"ruleView-B.2.2-result\"><div>Complete 1.5 units from the Approved Courses list</div></div></li></ul></li></div></ul></li></div></ul></li></ul></div><div></div></div></section></div>",
@@ -4254,6 +4297,12 @@
             ]
           }
         ]
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 3 additional ECON courses",
+        "n": 3,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.4.1\"><div data-test=\"ruleView-A.4.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa7128943da42afcc5b553\" target=\"_blank\">ECON290</a> <!-- -->-<!-- --> <!-- -->Models of Choice in Competitive Markets<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa713313e1b07a8b5afce9\" target=\"_blank\">ECON391</a> <!-- -->-<!-- --> <!-- -->Equilibrium in Market Economies<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa7137ab246f872d3cc898\" target=\"_blank\">ECON393</a> <!-- -->-<!-- --> <!-- -->Market Failures<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69a1c28275fb814e1cd4f4ca\" target=\"_blank\">AE221</a> <!-- -->-<!-- --> <!-- -->Advanced Calculus<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65cbc4ac429c177fe08d8656\" target=\"_blank\">CIVE221</a> <!-- -->-<!-- --> <!-- -->Advanced Calculus<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aefd0a943da42afcd2ad2b\" target=\"_blank\">ECE206</a> <!-- -->-<!-- --> <!-- -->Advanced Calculus 2 for Electrical Engineers<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6aba943da42afcc57636\" target=\"_blank\">ECON211</a> <!-- -->-<!-- --> <!-- -->Introduction to Mathematical Economics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65ccc3353cb0dda694928f14\" target=\"_blank\">GEOE221</a> <!-- -->-<!-- --> <!-- -->Advanced Calculus<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b9082c23cba710ea47be65\" target=\"_blank\">MATH119</a> <!-- -->-<!-- --> <!-- -->Calculus 2 for Engineering<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b90f567786309ebe7ffd33\" target=\"_blank\">MATH128</a> <!-- -->-<!-- --> <!-- -->Calculus 2 for the Sciences<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65e8b7c8187f5ef72d91ec88\" target=\"_blank\">MATH138</a> <!-- -->-<!-- --> <!-- -->Calculus 2 for Honours Mathematics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b53402026ebaf97ebb4437\" target=\"_blank\">MATH148</a> <!-- -->-<!-- --> <!-- -->Calculus 2 (Advanced Level)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1.1\"><div data-test=\"ruleView-A.1.1-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa78b3df9c42c28b61a365\" target=\"_blank\">ECON100</a> <!-- -->-<!-- --> <!-- -->Principles of Economics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.1.2\"><div data-test=\"ruleView-A.1.2-result\"><div>Complete 1.5 units from the Approved Courses List</div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.2.1\"><div data-test=\"ruleView-A.2.1-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa6ab1df9c42c28b612b9a\" target=\"_blank\">ECON101</a> <!-- -->-<!-- --> <!-- -->Introduction to Microeconomics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6ab55cacac2fbe7fa3b5\" target=\"_blank\">ECON120W</a> <!-- -->-<!-- --> <!-- -->Introduction to Microeconomics (WLU)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/685c222640950345bed7d3c4\" target=\"_blank\">MSE263</a> <!-- -->-<!-- --> <!-- -->Managerial Economics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2.2\"><div data-test=\"ruleView-A.2.2-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa6ab313e1b07a8b5ab67c\" target=\"_blank\">ECON102</a> <!-- -->-<!-- --> <!-- -->Introduction to Macroeconomics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6ab7306256e3f1297260\" target=\"_blank\">ECON140W</a> <!-- -->-<!-- --> <!-- -->Introduction to Macroeconomics (WLU)<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2.3\"><div data-test=\"ruleView-A.2.3-result\"><div>Complete 1.0 units from the Approved Courses List</div></div></li></ul></li></div></ul></li></div></ul></li></ul></div><div></div></div></section></div>",
@@ -4613,7 +4662,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 10 courses (subject codes: ERS, ENVS, GEOG)",
+        "n": 10,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 10,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 5.0 units of ERS and ENVS courses. <ul> <li>A maximum of 2.0 units of ENVS courses can be used towards this Minor.</li> </ul> </li> </ul>"
@@ -4626,7 +4682,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 10 KIN courses",
+        "n": 10,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 10,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 5.0 units.</li> </ul>",
@@ -4640,7 +4703,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 8 REC courses",
+        "n": 8,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 8,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 4.0 units.</li> </ul>",
@@ -4919,6 +4989,12 @@
         "type": "COURSE",
         "code": "GSJ100",
         "text": "GSJ100 - Introduction to Gender and Social Justice (0.50)"
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 7 additional GSJ courses",
+        "n": 7,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa72e888fba4af19cb70c9\" target=\"_blank\">GSJ100</a> <!-- -->-<!-- --> <!-- -->Introduction to Gender and Social Justice<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></div><div></div></div></section></div>",
@@ -4933,7 +5009,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 10 courses (subject codes: GEOG, ENVS)",
+        "n": 10,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 10,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 5.0 units in AVIA, ENVS, GDS, and GEOG courses. <ul> <li>Students may use no more than 2.0 units of ENVS courses.</li> </ul> </li> </ul>"
@@ -5373,6 +5456,12 @@
         "type": "ADDITIONAL",
         "code": "",
         "text": "Complete 1.0 unit of courses in the same subject from any of the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, RCS, REES, RUSS, SI, SPAN"
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 3 additional courses (subject codes: GA, PSCI)",
+        "n": 3,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa72c2df9c42c28b617bf6\" target=\"_blank\">GA200</a> <!-- -->-<!-- --> <!-- -->Introduction to Global Affairs<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa72c55cacac2fbe7fef85\" target=\"_blank\">GA400</a> <!-- -->-<!-- --> <!-- -->Capstone in Global Affairs<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa6c54943da42afcc58651\" target=\"_blank\">PSCI281</a> <!-- -->-<!-- --> <!-- -->Introduction to International Relations<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6c5517940b8f16d3af1d\" target=\"_blank\">PSCI282</a> <!-- -->-<!-- --> <!-- -->Foreign Policy<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6eb9ab246f872d3cacc6\" target=\"_blank\">PSCI283</a> <!-- -->-<!-- --> <!-- -->International Political Economy<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\"><div>Complete 1.0 unit of courses in the same subject from any of the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, RCS, REES, RUSS, SI, SPAN</div></div></li></ul></li></ul></div><div></div></div></section></div>",
@@ -6407,7 +6496,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 8 courses (subject codes: INTDEV, GEOG, PSCI)",
+        "n": 8,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 8,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 4.0 units.</li> <li>Complete the Community Service Experience Requirement.</li> </ul> <h4>Community Service Experience Requirement</h4> <p>The International Development Minor requires the completion of a pre-approved community service experience or educational seminar focused on community development issues of at least three weeks duration in Canada or internationally. This requirement must be organized by the student with support and pre-approval from the <a href=\"https://uwaterloo.ca/school-environment-enterprise-development/our-people/administrators\">Manager of International Work Placements</a> and is to be completed at the student's own expense. Co-op work terms that meet the above description will normally fulfil this requirement.</p>"
@@ -6795,7 +6891,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 8 KI courses",
+        "n": 8,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 8,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 4.0 units.</li> </ul>"
@@ -7249,7 +7352,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 10 courses (subject codes: BIOL, KIN)",
+        "n": 10,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 10,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 5.0 units.</li> </ul>",
@@ -7641,6 +7751,12 @@
             "text": "PSYCH335 - Developmental Neuropsychology (0.50)"
           }
         ]
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 5 additional courses (subject codes: BIOL, HLTH, KIN, PSYCH)",
+        "n": 5,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>5</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65b7f689026eba61ecbb52c2\" target=\"_blank\">BIOL371</a> <!-- -->-<!-- --> <!-- -->Comparative Animal Physiology: Evolutionary Themes<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/65b7f6b55f44045314f290ce\" target=\"_blank\">BIOL373</a> <!-- -->-<!-- --> <!-- -->Principles of Human Physiology 2<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69a0a37367f4be7000832760\" target=\"_blank\">BIOL376</a> <!-- -->-<!-- --> <!-- -->Cellular Neurophysiology<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/68b6fb87045cd93c8e22ac3b\" target=\"_blank\">HLTH290</a> <!-- -->-<!-- --> <!-- -->An Introduction to Health Neuroscience<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b8dd3bbc4ef67b3ef595\" target=\"_blank\">KIN255</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Neuroscience<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/699de9de0cc3a4f01d828a92\" target=\"_blank\">KIN301</a> <!-- -->-<!-- --> <!-- -->Human Anatomy of the Central Nervous System<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/699df9124aaaf35263fbc6dd\" target=\"_blank\">KIN312</a> <!-- -->-<!-- --> <!-- -->Introduction to Neurological Disorders<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6c835cacac2fbe7fb393\" target=\"_blank\">PSYCH261</a> <!-- -->-<!-- --> <!-- -->Physiological Psychology<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6c8b943da42afcc5884d\" target=\"_blank\">PSYCH306</a> <!-- -->-<!-- --> <!-- -->Perception<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6c8c8197cc8370a49f31\" target=\"_blank\">PSYCH307</a> <!-- -->-<!-- --> <!-- -->Human Neuropsychology<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6fef88fba4af19cb51e0\" target=\"_blank\">PSYCH335</a> <!-- -->-<!-- --> <!-- -->Developmental Neuropsychology<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></div><div></div></div></section></div>",
@@ -7656,7 +7772,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 8 courses (subject codes: REC, GEOG)",
+        "n": 8,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 8,
     "graduationRequirementsHtml": "<ul> <li>Complete a minimum of 4.0 units.</li> </ul>",
@@ -7698,6 +7821,12 @@
         "type": "ADDITIONAL",
         "code": "",
         "text": "Complete 1.0 unit of PACS courses at the 300-level"
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 4 additional PACS courses",
+        "n": 4,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>2</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64a5b8e5ec4d1af8906b518c\" target=\"_blank\">PACS201</a> <!-- -->-<!-- --> <!-- -->Roots of Conflict, Violence, and Peace<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa758a13e1b07a8b5b21fa\" target=\"_blank\">PACS202</a> <!-- -->-<!-- --> <!-- -->Conflict Resolution<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa75935cacac2fbe800421\" target=\"_blank\">PACS203</a> <!-- -->-<!-- --> <!-- -->A History of Peace Movements<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>Complete 1.0 unit of PACS courses at the 300-level</div></div></li></ul></li></ul></div><div></div></div></section></div>",
@@ -7718,6 +7847,12 @@
         "type": "ADDITIONAL",
         "code": "",
         "text": "Complete 0.5 unit of PHIL courses at the 300-level or above"
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 7 additional PHIL courses",
+        "n": 7,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Complete 0.5 unit of PHIL courses at the 300-level or above</div></div></li></ul></div><div></div></div></section></div>",
@@ -7733,7 +7868,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 10 PHYS courses",
+        "n": 10,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 10,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 5.0 units: <ul> <li>3.0 units of required PHYS courses, listed below.</li> <li>2.0 units additional PHYS courses.</li> </ul> </li> </ul>",
@@ -8439,6 +8581,12 @@
             "text": "SRF366 - Special Topics in Relationships and Families (0.50)"
           }
         ]
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 3 additional SRF courses",
+        "n": 3,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6649057ae94a13237f975908\" target=\"_blank\">SRF101</a> <!-- -->-<!-- --> <!-- -->Introduction to Sexualities, Relationships, and Families<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/6649077be94a133edf975913\" target=\"_blank\">SRF207</a> <!-- -->-<!-- --> <!-- -->Parent and Child Relations<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66490b060884de26776badcf\" target=\"_blank\">SRF310</a> <!-- -->-<!-- --> <!-- -->Sexual and Relational Ethics<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69af088a0cdb8bf7a7117e25\" target=\"_blank\">PSYCH236</a> <!-- -->-<!-- --> <!-- -->A Psychological Analysis of Human Sexuality<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66490704763e85eef99c6597\" target=\"_blank\">SRF204</a> <!-- -->-<!-- --> <!-- -->Introduction to Human Sexualities<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69af098a88fba4af19d87b60\" target=\"_blank\">PSYCH354</a> <!-- -->-<!-- --> <!-- -->Interpersonal Relations<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69af098f17940b8f16e13189\" target=\"_blank\">PSYCH354R</a> <!-- -->-<!-- --> <!-- -->Interpersonal Relations<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/664912e3559f03ec876616e3\" target=\"_blank\">SRF304</a> <!-- -->-<!-- --> <!-- -->Human Sexuality in Relationships<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/664909ff0f2dbc7e446fab9a\" target=\"_blank\">SRF305</a> <!-- -->-<!-- --> <!-- -->Social Issues and Controversies in Human Sexuality<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66490a36076e6375ee8c5c39\" target=\"_blank\">SRF306</a> <!-- -->-<!-- --> <!-- -->Intimate Relationships<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66490a650f2dbc67006fab9e\" target=\"_blank\">SRF307</a> <!-- -->-<!-- --> <!-- -->Conflict in Close Relationships<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66490b40f867c04a2e7a9ab6\" target=\"_blank\">SRF365</a> <!-- -->-<!-- --> <!-- -->Special Topics in Human Sexualities<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/66490c2b2ed76b2933d8c5f6\" target=\"_blank\">SRF366</a> <!-- -->-<!-- --> <!-- -->Special Topics in Relationships and Families<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></ul></div><div></div></div></section></div>",
@@ -8868,6 +9016,12 @@
         "type": "ADDITIONAL",
         "code": "",
         "text": "Complete 1.0 unit of additional SI courses"
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 2 additional courses (subject codes: SI, ARABIC)",
+        "n": 2,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64a5b97c69e9ee41792ae6b5\" target=\"_blank\">SI121R</a> <!-- -->-<!-- --> <!-- -->Islam in the World<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/64a5b9ef0f5f45a4ee430de8\" target=\"_blank\">SI131R</a> <!-- -->-<!-- --> <!-- -->Arab Culture<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>Complete 1.0 unit of ARABIC courses</div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\"><div>Complete 1.0 unit of additional SI courses</div></div></li></ul></li></ul></div><div></div></div></section></div>",
@@ -9377,7 +9531,14 @@
     "isMinor": true,
     "isSpecialization": false,
     "isMathFaculty": false,
-    "requirements": [],
+    "requirements": [
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 9 courses (subject codes: PLAN, GEOG, SOC)",
+        "n": 9,
+        "code": ""
+      }
+    ],
     "rawHtml": "",
     "minCourses": 9,
     "graduationRequirementsHtml": "<ul> <li>Complete a total of 4.5 units: <ul> <li>Complete 2.0 units of required courses.</li> <li>Complete 2.5 units of courses from one theme described below.</li> </ul> </li> </ul>",
@@ -9425,6 +9586,12 @@
             "text": "VCULT101 - Art History and Visual Culture (0.50)"
           }
         ]
+      },
+      {
+        "type": "ADDITIONAL",
+        "text": "Complete 5 additional VCULT courses",
+        "n": 5,
+        "code": ""
       }
     ],
     "rawHtml": "<div><section><header data-test=\"grouping-0-header\"><div><h2 data-testid=\"grouping-label\"><span>Required Courses</span></h2></div><div><div><button aria-label=\"Collapse\"><i></i></button></div></div></header><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69aa6f97df9c42c28b615edb\" target=\"_blank\">VCULT200</a> <!-- -->-<!-- --> <!-- -->Visual Studies Across the Discipline<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69aa6f9817940b8f16d3d0ee\" target=\"_blank\">VCULT300</a> <!-- -->-<!-- --> <!-- -->Visual Culture in Theory<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/69af1acc8197cc8370b213ad\" target=\"_blank\">VCULT100</a> <!-- -->-<!-- --> <!-- -->World Cinema and Visual Culture<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li><li><span><a href=\"#/courses/view/69af1af68197cc8370b2142b\" target=\"_blank\">VCULT101</a> <!-- -->-<!-- --> <!-- -->Art History and Visual Culture<!-- --> <span style=\"margin-left:5px\">(0.50)</span></span></li></ul></div></div></li></ul></li></ul></div><div></div></div></section></div>",

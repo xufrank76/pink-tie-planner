@@ -54,6 +54,19 @@ function termCodesBefore(start: number, count: number): number[] {
   return codes;
 }
 
+function termCodesAfter(start: number, count: number): number[] {
+  const codes: number[] = [];
+  let cur = start;
+  for (let i = 0; i < count; i++) {
+    const d = cur % 10;
+    if (d === 9) cur += 2;
+    else if (d === 5) cur += 4;
+    else cur += 4;
+    codes.push(cur);
+  }
+  return codes;
+}
+
 function parseSection(desc: string | null, label: 'Prereq' | 'Antireq'): string {
   if (!desc) return '';
   const m = desc.match(new RegExp(`${label}s?:\\s*([^.]+(?:\\.[^.]+)*)`, 'i'));
@@ -69,7 +82,8 @@ export async function GET() {
   if (memCache && Date.now() - memCache.at < 3_600_000)
     return NextResponse.json(memCache.courses);
 
-  const terms = termCodesBefore(currentTermCode(), 6);
+  const cur = currentTermCode();
+  const terms = [...termCodesBefore(cur, 6), ...termCodesAfter(cur, 3)];
 
   const results = await Promise.allSettled(
     terms.map(term =>

@@ -71,6 +71,9 @@ interface AppContextValue {
   courseOverrides: Set<string>;
   addCourseOverride: (code: string) => void;
   removeCourseOverride: (code: string) => void;
+  /** Per-term overrides for the study/work label (e.g. "WT1", "2A"). null removes override. */
+  termLabelOverrides: Record<string, string>;
+  setTermLabelOverride: (term: string, label: string | null) => void;
   flowRatings: Record<string, FlowRating>;
   showDifficultyScore: boolean;
   setShowDifficultyScore: (v: boolean) => void;
@@ -509,6 +512,20 @@ export function AppProvider({ children }: { children: ReactNode }) {
     });
   }, []);
 
+  const [termLabelOverrides, setTermLabelOverridesState] = useState<Record<string, string>>(() => {
+    if (typeof window === 'undefined') return {};
+    try { return JSON.parse(localStorage.getItem('ptp-term-label-overrides-v1') ?? '{}') as Record<string, string>; } catch { return {}; }
+  });
+
+  const setTermLabelOverride = useCallback((term: string, label: string | null) => {
+    setTermLabelOverridesState(prev => {
+      const next = { ...prev };
+      if (label === null) delete next[term]; else next[term] = label;
+      try { localStorage.setItem('ptp-term-label-overrides-v1', JSON.stringify(next)); } catch {}
+      return next;
+    });
+  }, []);
+
   return (
     <AppContext.Provider value={{
       planReady,
@@ -520,6 +537,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       effectiveProgram,
       savedPlans, activePlanId, createPlan, clonePlan, deletePlan, renamePlan, switchPlan, setPlanProgramOverride, saveOnboardingCourses,
       courseOverrides, addCourseOverride, removeCourseOverride,
+      termLabelOverrides, setTermLabelOverride,
       flowRatings, showDifficultyScore, setShowDifficultyScore,
     }}>
       {children}

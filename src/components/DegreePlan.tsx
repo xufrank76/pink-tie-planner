@@ -1141,9 +1141,15 @@ function StatCard({ num, den, label, plain, tooltip }: {
 export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (id: import('./Sidebar').PageId) => void }) {
   const [view, setView] = useState<'timeline' | 'requirements'>('timeline');
   const [showValidate, setShowValidate] = useState(false);
-  const { completedCourses, semesterPlans, addCourseToTerm, removeCourseFromTerm, effectiveProgram: program, planEndTerm, setPlanEndTerm, savedPlans, activePlanId, switchPlan, courseOverrides, flowRatings, showDifficultyScore, favoriteCourses } = useApp();
+  const { completedCourses, semesterPlans, addCourseToTerm, removeCourseFromTerm, effectiveProgram: program, planEndTerm, setPlanEndTerm, savedPlans, activePlanId, switchPlan, courseOverrides, flowRatings, showDifficultyScore, favoriteCourses, termLabelOverrides, setTermLabelOverride } = useApp();
   const activePlanName = savedPlans.find(p => p.id === activePlanId)?.name ?? 'My Plan';
   const isMobile = useIsMobile();
+
+  const getEffectiveLabel = (term: string): string | null => {
+    if (termLabelOverrides[term]) return termLabelOverrides[term];
+    if (!program.startTerm || !program.coopStream) return null;
+    return getStudyLabel(term, program.startTerm, program.coopStream) ?? null;
+  };
 
   // timeline state
   const [search, setSearch] = useState('');
@@ -1152,6 +1158,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
   const [dropTarget, setDropTarget] = useState<string | null>(null);
   const [hoveredChip, setHoveredChip] = useState<string | null>(null);
   const [hoveredDiffTerm, setHoveredDiffTerm] = useState<string | null>(null);
+  const [labelPopoverTerm, setLabelPopoverTerm] = useState<string | null>(null);
 
   const setChipDragImage = (e: React.DragEvent, code: string) => {
     const el = document.createElement('div');
@@ -1256,9 +1263,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
     }
     for (const [term, codes] of Object.entries(semesterPlans)) {
       const termN = termToNum(term);
-      const studentLevel = (program.startTerm && program.coopStream)
-        ? (() => { const l = getStudyLabel(term, program.startTerm!, program.coopStream!); return l?.startsWith('WT') ? null : l ?? null; })()
-        : null;
+      const studentLevel = (() => { const l = getEffectiveLabel(term); return l?.startsWith('WT') ? null : l ?? null; })();
       const availableByThen = new Set([
         ...completedCourses,
         ...allPlanned.filter(c => (courseTermNum.get(c) ?? Infinity) <= termN),
@@ -1358,7 +1363,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
     }
 
     return issues;
-  }, [semesterPlans, completedCourses, courseInfoMap, program.id, program.doubleMajorId, program.minorId, program.extras]);
+  }, [semesterPlans, completedCourses, courseInfoMap, program.id, program.doubleMajorId, program.minorId, program.extras, termLabelOverrides, program.startTerm, program.coopStream]);
   const shortName = (name: string) =>
     name.replace(' (Bachelor of Mathematics - Honours)', '')
         .replace(' (Bachelor of Mathematics)', '')
@@ -1660,7 +1665,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
           </div>
 
           {/* Timeline */}
-          <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+          <div onClick={() => setLabelPopoverTerm(null)} style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '4px' }}>
             {terms.map(term => {
               const termCourses = semesterPlans[term] ?? [];
               const isCurrent = term === currentTerm;
@@ -1680,8 +1685,56 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
                     transition: 'background 0.1s, border-color 0.1s',
                   }}
                 >
-                  <div style={{ width: '110px', flexShrink: 0, display: 'flex', alignItems: 'center', paddingRight: '16px', borderRight: '1px solid #e0e0e0', fontFamily: MONO, fontSize: '14px', color: isPast ? '#c0c0c0' : isCurrent ? '#000' : '#858080', fontWeight: isCurrent ? 700 : 400 }}>
-                    {term}{program.coopStream && program.startTerm ? (() => { const sl = getStudyLabel(term, program.startTerm, program.coopStream!); return sl ? ` (${sl})` : ''; })() : ''}
+                  <div style={{ width: '110px', flexShrink: 0, display: 'flex', alignItems: 'center', paddingRight: '16px', borderRight: '1px solid #e0e0e0', fontFamily: MONO, fontSize: '14px', color: isPast ? '#c0c0c0' : isCurrent ? '#000' : '#858080', fontWeight: isCurrent ? 700 : 400, position: 'relative' }}>
+                    {term}
+                    {(() => {
+                      const sl = getEffectiveLabel(term);
+                      if (!sl) return null;
+                      const isOpen = labelPopoverTerm === term;
+                      return (
+                        <>
+                          <span
+                            onClick={e => { e.stopPropagation(); setLabelPopoverTerm(isOpen ? null : term); }}
+                            style={{ marginLeft: '2px', cursor: 'pointer', borderRadius: '4px', padding: '1px 3px', background: isOpen ? '#e0e0e0' : 'transparent', transition: 'background 0.1s' }}
+                          >({sl})</span>
+                          {isOpen && (
+                            <div
+                              onClick={e => e.stopPropagation()}
+                              style={{ position: 'absolute', top: '100%', left: 0, marginTop: '6px', background: '#fff', border: '1px solid #e0e0e0', borderRadius: '12px', padding: '10px 12px', zIndex: 200, boxShadow: '0 4px 16px rgba(0,0,0,0.12)', minWidth: '220px', display: 'flex', flexDirection: 'column', gap: '8px' }}
+                            >
+                              <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <span style={{ fontFamily: SANS, fontSize: '11px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.05em' }}>study</span>
+                                <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
+                                  {(['1A','1B','2A','2B','3A','3B','4A','4B'] as const).map(lbl => (
+                                    <button key={lbl} onClick={() => { setTermLabelOverride(term, lbl === getStudyLabel(term, program.startTerm ?? '', program.coopStream ?? '1') && !termLabelOverrides[term] ? null : lbl); setLabelPopoverTerm(null); }}
+                                      style={{ fontFamily: MONO, fontSize: '13px', fontWeight: 400, border: 'none', borderRadius: '6px', padding: '4px 8px', cursor: 'pointer', background: sl === lbl ? '#000' : '#ececec', color: sl === lbl ? '#fff' : '#000', transition: 'background 0.1s' }}>
+                                      {lbl}
+                                    </button>
+                                  ))}
+                                </div>
+                              </div>
+                              <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <span style={{ fontFamily: SANS, fontSize: '11px', color: '#858080', textTransform: 'uppercase', letterSpacing: '0.05em' }}>work</span>
+                                <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
+                                  {(['WT1','WT2','WT3','WT4','WT5','WT6'] as const).map(lbl => (
+                                    <button key={lbl} onClick={() => { setTermLabelOverride(term, lbl); setLabelPopoverTerm(null); }}
+                                      style={{ fontFamily: MONO, fontSize: '13px', fontWeight: 400, border: 'none', borderRadius: '6px', padding: '4px 8px', cursor: 'pointer', background: sl === lbl ? '#000' : '#ececec', color: sl === lbl ? '#fff' : '#000', transition: 'background 0.1s' }}>
+                                      {lbl}
+                                    </button>
+                                  ))}
+                                </div>
+                              </div>
+                              {termLabelOverrides[term] && (
+                                <button onClick={() => { setTermLabelOverride(term, null); setLabelPopoverTerm(null); }}
+                                  style={{ fontFamily: SANS, fontSize: '12px', fontWeight: 400, color: '#858080', background: 'transparent', border: 'none', cursor: 'pointer', textAlign: 'left', padding: '2px 0' }}>
+                                  reset to default
+                                </button>
+                              )}
+                            </div>
+                          )}
+                        </>
+                      );
+                    })()}
                   </div>
                   <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', flex: 1, alignItems: 'flex-start', alignContent: 'flex-start', padding: '13px 0' }}>
                     {termCourses.map(code => {
