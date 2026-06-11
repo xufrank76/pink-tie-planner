@@ -50,7 +50,8 @@ export async function POST(request: Request) {
       let cm;
       coursePattern.lastIndex = 0;
       while ((cm = coursePattern.exec(section)) !== null) {
-        seen.add(`${cm[1]}${cm[2]}`);
+        const courseCode = `${cm[1]}${cm[2]}`;
+        if (!courseCode.startsWith('COOP')) seen.add(courseCode);
       }
       if (seen.size > 0) termCourses[code] = [...seen].sort();
     }
@@ -60,7 +61,8 @@ export async function POST(request: Request) {
     let cm;
     coursePattern.lastIndex = 0;
     while ((cm = coursePattern.exec(text)) !== null) {
-      seen.add(`${cm[1]}${cm[2]}`);
+      const courseCode = `${cm[1]}${cm[2]}`;
+      if (!courseCode.startsWith('COOP')) seen.add(courseCode);
     }
     if (seen.size > 0) termCourses['unknown'] = [...seen].sort();
   }

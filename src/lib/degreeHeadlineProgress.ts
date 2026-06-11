@@ -15,6 +15,7 @@ function topLevelRequirementNodes(entry: { requirements: ReqNode[] }): ReqNode[]
 
 export function isNonMathElective(code: string): boolean {
   if (code.startsWith('PD')) return false;
+  if (code.startsWith('COOP')) return false;
   if (ZERO_CREDIT_COURSES.has(code)) return false;
   const subject = code.match(/^([A-Z]+)/)?.[1] ?? '';
   return !MATH_FACULTY_SUBJECTS.has(subject);

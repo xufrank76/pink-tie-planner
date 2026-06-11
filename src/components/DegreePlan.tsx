@@ -108,10 +108,11 @@ type ReqGroup = {
   rawHtml?: string | null;
 };
 
-function CheckBox({ done }: { done?: boolean }) {
+function CheckBox({ done, planned }: { done?: boolean; planned?: boolean }) {
+  const bg = done ? '#000' : planned ? '#a0a0a0' : '#d9d9d9';
   return (
-    <div style={{ width: '22px', height: '22px', borderRadius: '5px', background: done ? '#000' : '#d9d9d9', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      {done && <span style={{ color: '#fff', fontSize: '13px', lineHeight: 1 }}>✓</span>}
+    <div style={{ width: '22px', height: '22px', borderRadius: '5px', background: bg, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      {(done || planned) && <span style={{ color: '#fff', fontSize: '13px', lineHeight: 1 }}>✓</span>}
     </div>
   );
 }
@@ -174,7 +175,7 @@ function isWluOnly(node: ReqNode, planSet: Set<string>): boolean {
   return codes.length > 0 && codes.every(c => c.endsWith('W')) && !codes.some(c => planSet.has(c));
 }
 
-function SectionLabel({ label, done, dim }: { label: string; done: boolean; dim: boolean }) {
+function SectionLabel({ label, done, planned, dim }: { label: string; done: boolean; planned?: boolean; dim: boolean }) {
   return (
     <div style={{
       borderTop: '1px solid rgba(133,128,128,0.35)',
@@ -192,13 +193,13 @@ function SectionLabel({ label, done, dim }: { label: string; done: boolean; dim:
         textTransform: 'uppercase',
         letterSpacing: '0.08em',
       }}>{label}</span>
-      {!dim && <CheckBox done={done} />}
+      {!dim && <CheckBox done={done} planned={planned} />}
     </div>
   );
 }
 
-function CollapsibleSection({ label, done, dim, defaultOpen = true, children }: {
-  label: string; done: boolean; dim: boolean; defaultOpen?: boolean; children: React.ReactNode;
+function CollapsibleSection({ label, done, planned, dim, defaultOpen = true, children }: {
+  label: string; done: boolean; planned?: boolean; dim: boolean; defaultOpen?: boolean; children: React.ReactNode;
 }) {
   const [open, setOpen] = useState(defaultOpen);
   return (
@@ -224,7 +225,7 @@ function CollapsibleSection({ label, done, dim, defaultOpen = true, children }: 
           letterSpacing: '0.08em',
         }}>{label}</span>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          {!dim && <CheckBox done={done} />}
+          {!dim && <CheckBox done={done} planned={planned} />}
           <svg width="12" height="12" viewBox="0 0 12 12" style={{ transform: open ? 'rotate(0deg)' : 'rotate(-90deg)', transition: 'transform 0.15s', color: '#858080', flexShrink: 0 }}>
             <path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
@@ -250,7 +251,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
     const displayName = dashIdx >= 0 ? raw.slice(dashIdx + 3) : '';
     return (
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-        {!dim && <CheckBox done={done || inPlan} />}
+        {!dim && <CheckBox done={done} planned={inPlan} />}
         {dim && <div style={{ width: '22px', flexShrink: 0 }} />}
         <span style={{ fontFamily: MONO, fontSize: '14px', color: fgDone, flexShrink: 0 }}>{node.code}</span>
         {displayName && <span style={{ fontFamily: SANS, fontSize: '14px', color: dim ? fgDone : '#555' }}>{displayName}</span>}
@@ -291,7 +292,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
       return (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
           <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-            {!dim && <CheckBox done={done || inPlan} />}
+            {!dim && <CheckBox done={done} planned={inPlan} />}
             {dim && <div style={{ width: '22px', flexShrink: 0 }} />}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
               <span style={{ fontFamily: SANS, fontSize: '14px', color: fgDone }}>
@@ -342,7 +343,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
       return (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
           <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-            {!dim && <CheckBox done={done || inPlan} />}
+            {!dim && <CheckBox done={done} planned={inPlan} />}
             {dim && <div style={{ width: '22px', flexShrink: 0 }} />}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
               <span style={{ fontFamily: SANS, fontSize: '14px', color: fgDone }}>
@@ -409,7 +410,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
               const isPlanned = code ? (!isDone && planSet.has(code)) : false;
               return (
                 <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <CheckBox done={isDone || isPlanned} />
+                  <CheckBox done={isDone} planned={isPlanned} />
                   {code ? (
                     <div style={{ background: isDone ? '#000' : '#858080', color: '#fff', borderRadius: '40px', padding: '0 12px', height: '30px', display: 'flex', alignItems: 'center', fontFamily: MONO, fontSize: '13px' }}>
                       {code}
@@ -454,7 +455,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
                 const isPlanned = code ? (!isDone && planSet.has(code)) : false;
                 return (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <CheckBox done={isDone || isPlanned} />
+                    <CheckBox done={isDone} planned={isPlanned} />
                     {code ? (
                       <div style={{ background: isDone ? '#000' : '#858080', color: '#fff', borderRadius: '40px', padding: '0 12px', height: '30px', display: 'flex', alignItems: 'center', fontFamily: MONO, fontSize: '13px' }}>
                         {code}
@@ -490,7 +491,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
               const isInPlan = !isDone && planSet.has(code);
               return (
                 <div key={code} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  {!dim && <CheckBox done={isDone || isInPlan} />}
+                  {!dim && <CheckBox done={isDone} planned={isInPlan} />}
                   {dim && <div style={{ width: '22px', flexShrink: 0 }} />}
                   <span style={{ fontFamily: MONO, fontSize: '14px', color: fgDone, flexShrink: 0 }}>{code}</span>
                   <span style={{ fontFamily: SANS, fontSize: '14px', color: dim ? fgDone : '#555' }}>{name}</span>
@@ -552,7 +553,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
             const isInPlan = !isDone && planSet.has(code);
             return (
               <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                {!dim && <CheckBox done={isDone || isInPlan} />}
+                {!dim && <CheckBox done={isDone} planned={isInPlan} />}
                 {dim && <div style={{ width: '22px', flexShrink: 0 }} />}
                 <span style={{ fontFamily: MONO, fontSize: '14px', color: fgDone, flexShrink: 0 }}>{code}</span>
                 <span style={{ fontFamily: SANS, fontSize: '14px', color: dim ? fgDone : '#555' }}>{name}</span>
@@ -603,7 +604,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-              {!dim && <CheckBox done={addDone || addInPlan} />}
+              {!dim && <CheckBox done={addDone} planned={addInPlan} />}
               {dim && <div style={{ width: '22px', flexShrink: 0 }} />}
               <span style={{ fontFamily: SANS, fontSize: '13px', color: dim ? fgDone : '#888', fontStyle: 'italic', paddingTop: '3px' }}>{label}</span>
             </div>
@@ -640,7 +641,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
     }
     if (listSectionMatch) {
       return (
-        <CollapsibleSection label={listSectionMatch[1]} done={done || inPlan} dim={dim}>
+        <CollapsibleSection label={listSectionMatch[1]} done={done} planned={inPlan} dim={dim}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
             {children.map((c, i) => (
               <ReqNodeView key={i} node={unwrapSingle(c)} dim={dim} {...sharedChildProps} />
@@ -679,7 +680,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
     const visChildren = children.filter(c => !isWluOnly(c, planSet));
     const dispChildren = done ? visChildren.filter(c => satisfies(c, completedSet)) : visChildren;
     return (
-      <CollapsibleSection label={listSectionMatch[1]} done={done || inPlan} dim={dim}>
+      <CollapsibleSection label={listSectionMatch[1]} done={done} planned={inPlan} dim={dim}>
         {dispChildren.length > 0 && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
@@ -699,7 +700,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
                   return (
                     <div key={i} style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                       <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                        {!childDim && <CheckBox done={andDone || andInPlan} />}
+                        {!childDim && <CheckBox done={andDone} planned={andInPlan} />}
                         {childDim && <div style={{ width: '22px', flexShrink: 0 }} />}
                         <span style={{ fontFamily: SANS, fontSize: '14px', fontWeight: 500, color: andFg, paddingTop: '3px' }}>Complete all the following:</span>
                       </div>
@@ -752,7 +753,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
           </div>
         </CollapsibleSection>
         {/* Additional constraint section */}
-        <CollapsibleSection label="Additional" done={done || inPlan} dim={dim}>
+        <CollapsibleSection label="Additional" done={done} planned={inPlan} dim={dim}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
             <span style={{ fontFamily: SANS, fontSize: '13px', color: dim ? fgDone : '#555', fontStyle: 'italic' }}>
               {`Complete ${n} additional courses from List 2 or List 3`}
@@ -823,7 +824,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
         }
         return (
           <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            {!gDim && <CheckBox done={anyDone || anyInPlan} />}
+            {!gDim && <CheckBox done={anyDone} planned={anyInPlan} />}
             {gDim && <div style={{ width: '22px', flexShrink: 0 }} />}
             <span style={{ fontFamily: MONO, fontSize: '14px', color: gFg, flexShrink: 0 }}>{gNodes.map(c => c.code).join('/')}</span>
             <span style={{ fontFamily: SANS, fontSize: '14px', color: gDim ? gFg : '#555' }}>{key}</span>
@@ -835,7 +836,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
       return (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
           <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-            {!dim && <CheckBox done={done || inPlan} />}
+            {!dim && <CheckBox done={done} planned={inPlan} />}
             {dim && <div style={{ width: '22px', flexShrink: 0 }} />}
             <span style={{ fontFamily: SANS, fontSize: '14px', fontWeight: 500, color: fgDone, paddingTop: '3px' }}>Complete 1 of the following:</span>
           </div>
@@ -860,7 +861,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
       <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-        {!dim && <CheckBox done={done || inPlan} />}
+        {!dim && <CheckBox done={done} planned={inPlan} />}
         {dim && <div style={{ width: '22px', flexShrink: 0 }} />}
         <span style={{ fontFamily: SANS, fontSize: '14px', fontWeight: 500, color: fgDone, paddingTop: '3px' }}>{header}</span>
       </div>
@@ -876,7 +877,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
             return (
               <div key={i} style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                  {!childDim && <CheckBox done={andDone || andInPlan} />}
+                  {!childDim && <CheckBox done={andDone} planned={andInPlan} />}
                   {childDim && <div style={{ width: '22px', flexShrink: 0 }} />}
                   <span style={{ fontFamily: SANS, fontSize: '14px', fontWeight: 500, color: andFg, paddingTop: '3px' }}>Complete all the following:</span>
                 </div>
