@@ -244,9 +244,16 @@ export default function SemesterPlanner({ onNavigate }: { onNavigate: (id: impor
                 outline: 'none',
               }}
             >
-              {planTerms.map(term => (
-                <option key={term} value={term}>{term}{term === CURRENT_TERM ? ' — current' : ''}</option>
-              ))}
+              {planTerms.map(term => {
+                const studyLbl = program.startTerm && program.coopStream
+                  ? getStudyLabel(term, program.startTerm, program.coopStream)
+                  : null;
+                const levelPart = studyLbl ? ` (${studyLbl})` : '';
+                const currentPart = term === CURRENT_TERM ? ' — current' : '';
+                return (
+                  <option key={term} value={term}>{term}{levelPart}{currentPart}</option>
+                );
+              })}
             </select>
             <svg width="12" height="12" viewBox="0 0 12 12" style={{ position: 'absolute', right: '14px', pointerEvents: 'none', color: '#858080' }}>
               <path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
