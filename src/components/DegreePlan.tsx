@@ -671,6 +671,21 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
       );
     }
 
+    // Undergraduate Communication Requirement: List 2 also accepts a second different List 1 course
+    if (isMathUndergradCommBlock(node) && children.length === 2) {
+      const [l1Node, l2Node] = children;
+      const l2Combined: ReqNode = {
+        ...l2Node,
+        children: [...(l1Node.children ?? []), ...(l2Node.children ?? [])],
+      };
+      return (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+          <ReqNodeView node={l1Node} dim={dim} {...sharedChildProps} />
+          <ReqNodeView node={l2Combined} dim={dim} {...sharedChildProps} />
+        </div>
+      );
+    }
+
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
         {children.map((c, i) => (
@@ -1435,7 +1450,32 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
     }
 
     // Pre-allocate courses to additional slots, most restrictive first (fewest allowed levels)
-    const requiredCodes = new Set(nodes.flatMap(n => courseCodes(n)));
+    // requiredCodes: only claim courses actually consumed by required nodes, not entire N_OF pools.
+    // This lets excess planned courses (beyond the N required) flow into ADDITIONAL slots.
+    const claimedByRequired = (n: ReqNode, avail: Set<string>): string[] => {
+      if (n.type === 'COURSE') return n.code && avail.has(n.code) ? [n.code] : [];
+      if (n.type === 'OR') { const f = courseCodes(n).find(c => avail.has(c)); return f ? [f] : []; }
+      if (n.type === 'N_OF') {
+        return courseCodes(n).filter(c => avail.has(c)).slice(0, n.n ?? 1);
+      }
+      if (n.type === 'AND') {
+        const out: string[] = [];
+        const remaining = new Set(avail);
+        for (const c of n.children ?? []) {
+          const got = claimedByRequired(c, remaining);
+          got.forEach(x => { out.push(x); remaining.delete(x); });
+        }
+        return out;
+      }
+      return [];
+    };
+    const requiredCodes = new Set<string>();
+    { const avail = new Set(planSet);
+      for (const n of nodes) {
+        const got = claimedByRequired(n, avail);
+        got.forEach(c => { requiredCodes.add(c); avail.delete(c); });
+      }
+    }
     const globalAllocated = new Set<string>();
 
     // Sort most-restrictive first (level-constrained before unconstrained) so specific slots
