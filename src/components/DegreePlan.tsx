@@ -683,14 +683,9 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
   if (node.type === 'N_OF' && listSectionMatch) {
     const n = node.n ?? 1;
     const visChildren = children.filter(c => !isWluOnly(c, planSet));
-    const isSimpleLeafN = n === 1 && visChildren.every(c => unwrapSingle(c).type === 'COURSE');
-    const dispChildren = isSimpleLeafN
-      ? visChildren
-      : done
-        ? visChildren.filter(c => satisfies(c, completedSet))
-        : inPlan
-          ? visChildren.filter(c => satisfies(c, planSet)).slice(0, n)
-          : visChildren;
+    const dispChildren = done
+      ? visChildren.filter(c => satisfies(c, completedSet))
+      : visChildren;
     return (
       <CollapsibleSection label={listSectionMatch[1]} done={done} planned={inPlan} dim={dim}>
         {dispChildren.length > 0 && (
@@ -799,20 +794,22 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
     );
   }
 
-  // OR / N_OF: filter non-visible (WLU) children
-  // n>1: collapse to the chosen n.
-  // n=1 / OR: show all when children are all leaf COURSE nodes (simple pick-one list) — dim unselected.
-  //           collapse to the chosen branch when children are complex sub-trees (AND/N_OF/OR).
+  // OR / N_OF: filter non-visible (WLU) children, then:
+  // - done (completed from transcript): collapse to just the chosen ones — keep it clean
+  // - inPlan or unsatisfied: show all options, childDim handles graying unselected ones
+  // Exception: complex sub-tree branches (children are AND/N_OF/OR) collapse even when inPlan
+  //            to avoid showing redundant nested structures.
   const visibleChildren = children.filter(c => !isWluOnly(c, planSet));
   const nOf = node.type === 'N_OF' ? (node.n ?? 1) : 1;
-  const isSimpleLeafChoice = nOf === 1 && visibleChildren.every(c => unwrapSingle(c).type === 'COURSE');
-  const displayChildren = isSimpleLeafChoice
-    ? visibleChildren
-    : done
-      ? visibleChildren.filter(c => satisfies(c, completedSet)).slice(0, nOf)
-      : inPlan
-        ? visibleChildren.filter(c => satisfies(c, planSet)).slice(0, nOf)
-        : visibleChildren;
+  const hasComplexChildren = visibleChildren.some(c => {
+    const u = unwrapSingle(c);
+    return u.type === 'AND' || u.type === 'N_OF' || u.type === 'OR';
+  });
+  const displayChildren = done
+    ? visibleChildren.filter(c => satisfies(c, completedSet)).slice(0, nOf)
+    : (inPlan && hasComplexChildren)
+      ? visibleChildren.filter(c => satisfies(c, planSet)).slice(0, nOf)
+      : visibleChildren;
 
   // For OR nodes with all-course children: group advanced/enriched variants by matching base name.
   // Only courses whose names differ solely by "(Advanced Level)" or "(Enriched)" are collapsed together.

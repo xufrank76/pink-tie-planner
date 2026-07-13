@@ -266,6 +266,9 @@ export function satisfies(node: ReqNode, completed: Set<string>): boolean {
     case 'ADDITIONAL':
       if (isCompMathNonMathBlock(node)) return satisfiesCompMathNonMath(node, completed);
       if (isAmathSubjectConcentration(node)) return satisfiesAmathSubjectConcentration(node, completed);
+      // "If COURSE is taken, ..." — conditional guard; only satisfied if that course is in the set
+      { const m = (node.text ?? '').match(/^If\s+([A-Z]{2,8}\d{3}[A-Z]?)\s+is\s+taken/i);
+        if (m) return completed.has(m[1]); }
       return true; // informational — doesn't block parent AND satisfaction
     default:
       return false;
