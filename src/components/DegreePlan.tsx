@@ -678,11 +678,13 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
   if (node.type === 'N_OF' && listSectionMatch) {
     const n = node.n ?? 1;
     const visChildren = children.filter(c => !isWluOnly(c, planSet));
-    const dispChildren = done
-      ? visChildren.filter(c => satisfies(c, completedSet))
-      : inPlan
-        ? visChildren.filter(c => satisfies(c, planSet))
-        : visChildren;
+    const dispChildren = n > 1
+      ? (done
+        ? visChildren.filter(c => satisfies(c, completedSet))
+        : inPlan
+          ? visChildren.filter(c => satisfies(c, planSet)).slice(0, n)
+          : visChildren)
+      : visChildren;
     return (
       <CollapsibleSection label={listSectionMatch[1]} done={done} planned={inPlan} dim={dim}>
         {dispChildren.length > 0 && (
@@ -695,7 +697,9 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
             </div>
             <div style={{ marginLeft: '32px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
               {dispChildren.map((c, i) => {
-                const childDim = dim || (!done && satisfies(node, planSet) && !satisfies(c, planSet));
+                const childDim = dim
+                  || (done && n === 1 && !satisfies(c, completedSet))
+                  || (!done && satisfies(node, planSet) && !satisfies(c, planSet));
                 const unwrapped = unwrapSingle(c);
                 if (unwrapped.type === 'AND' && (unwrapped.children?.length ?? 0) > 1) {
                   const andDone = satisfies(unwrapped, completedSet);
@@ -789,13 +793,18 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
     );
   }
 
-  // OR / N_OF: filter non-visible (WLU) children, then hide unchosen when done or fully planned
+  // OR / N_OF: filter non-visible (WLU) children
+  // n>1: collapse to only the chosen n; n=1 / OR: show all options, dim unselected
   const visibleChildren = children.filter(c => !isWluOnly(c, planSet));
-  const displayChildren = done
-    ? visibleChildren.filter(c => satisfies(c, completedSet))
-    : inPlan
-      ? visibleChildren.filter(c => satisfies(c, planSet))
-      : visibleChildren;
+  const nOf = node.type === 'N_OF' ? (node.n ?? 1) : 1;
+  const shouldCollapse = nOf > 1;
+  const displayChildren = !shouldCollapse
+    ? visibleChildren
+    : done
+      ? visibleChildren.filter(c => satisfies(c, completedSet))
+      : inPlan
+        ? visibleChildren.filter(c => satisfies(c, planSet)).slice(0, nOf)
+        : visibleChildren;
 
   // For OR nodes with all-course children: group advanced/enriched variants by matching base name.
   // Only courses whose names differ solely by "(Advanced Level)" or "(Enriched)" are collapsed together.
@@ -823,7 +832,9 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
         const gNodes = groupMap.get(key)!;
         const anyDone = gNodes.some(c => completedSet.has(c.code!));
         const anyInPlan = !anyDone && gNodes.some(c => planSet.has(c.code!));
-        const gDim = dim || (!done && satisfies(node, planSet) && !anyDone && !anyInPlan);
+        const gDim = dim
+          || (done && !anyDone)
+          || (!done && satisfies(node, planSet) && !anyDone && !anyInPlan);
         const gFg = gDim ? 'rgba(133,128,128,0.55)' : '#000';
         if (gNodes.length === 1) {
           return <ReqNodeView key={idx} node={gNodes[0]} completedSet={completedSet} planSet={planSet} dim={gDim} excludeCodes={excludeCodes} rawHtml={rawHtml} />;
@@ -873,7 +884,9 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
       </div>
       <div style={{ marginLeft: '32px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
         {displayChildren.map((c, i) => {
-          const childDim = dim || (!done && satisfies(node, planSet) && !satisfies(c, planSet));
+          const childDim = dim
+            || (done && !satisfies(c, completedSet))
+            || (!done && satisfies(node, planSet) && !satisfies(c, planSet));
           const unwrapped = unwrapSingle(c);
           // AND with multiple courses inside an OR — render with "Complete all the following:" header
           if (unwrapped.type === 'AND' && (unwrapped.children?.length ?? 0) > 1) {
