@@ -678,7 +678,11 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
   if (node.type === 'N_OF' && listSectionMatch) {
     const n = node.n ?? 1;
     const visChildren = children.filter(c => !isWluOnly(c, planSet));
-    const dispChildren = done ? visChildren.filter(c => satisfies(c, completedSet)) : visChildren;
+    const dispChildren = done
+      ? visChildren.filter(c => satisfies(c, completedSet))
+      : inPlan
+        ? visChildren.filter(c => satisfies(c, planSet))
+        : visChildren;
     return (
       <CollapsibleSection label={listSectionMatch[1]} done={done} planned={inPlan} dim={dim}>
         {dispChildren.length > 0 && (
@@ -785,11 +789,13 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
     );
   }
 
-  // OR / N_OF: filter non-visible (WLU) children, then hide unchosen when done
+  // OR / N_OF: filter non-visible (WLU) children, then hide unchosen when done or fully planned
   const visibleChildren = children.filter(c => !isWluOnly(c, planSet));
   const displayChildren = done
     ? visibleChildren.filter(c => satisfies(c, completedSet))
-    : visibleChildren;
+    : inPlan
+      ? visibleChildren.filter(c => satisfies(c, planSet))
+      : visibleChildren;
 
   // For OR nodes with all-course children: group advanced/enriched variants by matching base name.
   // Only courses whose names differ solely by "(Advanced Level)" or "(Enriched)" are collapsed together.
@@ -898,9 +904,11 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
 
 type PlanIssue = { antireqs: string[]; prereqs: string[][]; restricted: boolean; requiredLevel: string | null; notOffered: boolean; retaking: boolean; capViolation: string | null; duplicate: boolean };
 
-function ValidatePanel({ groups, planIssues, onClose }: {
+function ValidatePanel({ groups, planIssues, completedSet, planSet, onClose }: {
   groups: ReqGroup[];
   planIssues: Map<string, PlanIssue>;
+  completedSet: Set<string>;
+  planSet: Set<string>;
   onClose: () => void;
 }) {
   const issueList = useMemo(() => {
@@ -923,12 +931,17 @@ function ValidatePanel({ groups, planIssues, onClose }: {
     return out.sort((a, b) => termToNum(a.term) - termToNum(b.term));
   }, [planIssues]);
 
-  const reqSummary = groups.map(g => {
-    const [doneStr, totalStr] = g.progress.split('/');
-    const done = parseFloat(doneStr ?? '0');
-    const total = parseFloat(totalStr ?? '0');
-    return { title: g.title, done, total, ok: done >= total };
-  });
+  const reqSummary = (() => {
+    const items = groups.map(g => {
+      const [doneStr, totalStr] = g.progress.split('/');
+      const done = parseFloat(doneStr ?? '0');
+      const total = parseFloat(totalStr ?? '0');
+      return { title: g.title, done, total, ok: done >= total };
+    });
+    const nonMathDone = Math.min([...planSet].filter(isNonMathElective).length, NON_MATH_TOTAL);
+    items.push({ title: 'Non-Math Electives', done: nonMathDone, total: NON_MATH_TOTAL, ok: nonMathDone >= NON_MATH_TOTAL });
+    return items;
+  })();
 
   const reqIssues = reqSummary.filter(r => !r.ok).length;
   const allGood = issueList.length === 0 && reqIssues === 0;
@@ -1808,7 +1821,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
           <NonMathElectivesGroup completedSet={completedSet} planSet={planSet} />
         </div>
 
-      {showValidate && <ValidatePanel groups={REQUIREMENT_GROUPS} planIssues={planIssues} onClose={() => setShowValidate(false)} />}
+      {showValidate && <ValidatePanel groups={REQUIREMENT_GROUPS} planIssues={planIssues} completedSet={completedSet} planSet={planSet} onClose={() => setShowValidate(false)} />}
     </div>
   );
 }
