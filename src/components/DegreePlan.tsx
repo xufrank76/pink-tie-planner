@@ -144,6 +144,7 @@ function formatAdditional(text: string): string {
     const subjects = extractSubjectsFromText(text);
     if (subjects.size > 1) {
       const subjectList = [...subjects].sort().join(', ');
+      if (levelStr) return `${n} additional ${levelStr} ${plural} from: ${subjectList}`;
       return `${n} additional ${plural} from: ${subjectList}`;
     }
     if (subject && levelStr) return `${n} additional ${subject} ${levelStr} ${plural}`;
