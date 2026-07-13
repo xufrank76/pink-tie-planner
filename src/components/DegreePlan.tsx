@@ -376,7 +376,12 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
 
     const text = node.text ?? '';
     const label = formatAdditional(text.trim());
-    const subject = text.match(/\b([A-Z]{2,8})\s+courses?/i)?.[1]?.toUpperCase() ?? '';
+    const multiSubjects = extractSubjectsFromText(text);
+    // Only treat as single-subject if extractSubjectsFromText returned ≤1 subject
+    // (otherwise "from: A, B, C; excluding ... with a CO course" would match "CO" as the subject)
+    const subject = multiSubjects.size <= 1
+      ? (text.match(/\b([A-Z]{2,8})\s+courses?/i)?.[1]?.toUpperCase() ?? '')
+      : '';
     const levelNums = [...text.matchAll(/\b([1-4])00[-–]/g)].map(m => parseInt(m[1]));
     const nFromText = text.match(/Complete\s+(\d+)/i)?.[1];
     const n = node.n ?? (nFromText ? parseInt(nFromText) : null);
@@ -435,7 +440,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
 
     // Multi-subject + count: "Complete N ... from: SUBJ1, SUBJ2, ..."
     if (!subject && n != null) {
-      const subjects = extractSubjectsFromText(text);
+      const subjects = multiSubjects;
       if (subjects.size > 0) {
         const matchesCriteria = (code: string) => {
           const subj = code.match(/^([A-Z]+)/)?.[1] ?? '';
@@ -678,13 +683,14 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
   if (node.type === 'N_OF' && listSectionMatch) {
     const n = node.n ?? 1;
     const visChildren = children.filter(c => !isWluOnly(c, planSet));
-    const dispChildren = n > 1
-      ? (done
+    const isSimpleLeafN = n === 1 && visChildren.every(c => unwrapSingle(c).type === 'COURSE');
+    const dispChildren = isSimpleLeafN
+      ? visChildren
+      : done
         ? visChildren.filter(c => satisfies(c, completedSet))
         : inPlan
           ? visChildren.filter(c => satisfies(c, planSet)).slice(0, n)
-          : visChildren)
-      : visChildren;
+          : visChildren;
     return (
       <CollapsibleSection label={listSectionMatch[1]} done={done} planned={inPlan} dim={dim}>
         {dispChildren.length > 0 && (
@@ -794,14 +800,16 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
   }
 
   // OR / N_OF: filter non-visible (WLU) children
-  // n>1: collapse to only the chosen n; n=1 / OR: show all options, dim unselected
+  // n>1: collapse to the chosen n.
+  // n=1 / OR: show all when children are all leaf COURSE nodes (simple pick-one list) — dim unselected.
+  //           collapse to the chosen branch when children are complex sub-trees (AND/N_OF/OR).
   const visibleChildren = children.filter(c => !isWluOnly(c, planSet));
   const nOf = node.type === 'N_OF' ? (node.n ?? 1) : 1;
-  const shouldCollapse = nOf > 1;
-  const displayChildren = !shouldCollapse
+  const isSimpleLeafChoice = nOf === 1 && visibleChildren.every(c => unwrapSingle(c).type === 'COURSE');
+  const displayChildren = isSimpleLeafChoice
     ? visibleChildren
     : done
-      ? visibleChildren.filter(c => satisfies(c, completedSet))
+      ? visibleChildren.filter(c => satisfies(c, completedSet)).slice(0, nOf)
       : inPlan
         ? visibleChildren.filter(c => satisfies(c, planSet)).slice(0, nOf)
         : visibleChildren;

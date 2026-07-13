@@ -40,12 +40,12 @@ export function extractSubjectsFromText(text: string): Set<string> {
     return codes.length > 0 ? new Set(codes) : null;
   };
   // "subject codes (...): X, Y, Z" — list follows colon after optional parenthetical
-  const afterParen = text.match(/subject\s+codes?\s*(?:\([^)]*\))?\s*:\s*([A-Z][A-Z0-9,\s/]+?)(?:[.\n]|$)/i);
+  const afterParen = text.match(/subject\s+codes?\s*(?:\([^)]*\))?\s*:\s*([A-Z][A-Z0-9,\s/]+?)(?:[;.\n]|$)/i);
   if (afterParen) { const r = tryParse(afterParen[1]); if (r) return r; }
-  // "from: X, Y, Z" or "subject codes (X, Y, Z)" — list is inline or parenthesized
-  const inline = text.match(/(?:from:|subject\s+codes?\s*\()\s*([A-Z][A-Z0-9,\s/]+?)(?:[).\n]|$)/i);
+  // "from: X, Y, Z" or "subject codes (X, Y, Z)" — list is inline or parenthesized; semicolon ends the list
+  const inline = text.match(/(?:from:|subject\s+codes?\s*\()\s*([A-Z][A-Z0-9,\s/]+?)(?:[);.\n]|$)/i);
   if (inline) { const r = tryParse(inline[1]); if (r) return r; }
-  // Single subject: "X courses"
+  // Single subject: "X courses" — only when no "from:" list was found above
   const single = text.match(/\b([A-Z]{2,8})\s+courses?/i)?.[1]?.toUpperCase();
   if (single) return new Set([single]);
   return new Set();
