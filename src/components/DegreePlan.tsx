@@ -1472,7 +1472,12 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
     const requiredCodes = new Set<string>();
     { const avail = new Set(planSet);
       for (const n of nodes) {
-        const got = claimedByRequired(n, avail);
+        // Top-level N_OF: claim the first n courses from the full planSet (not avail).
+        // This lets OR-claimed courses (e.g. CO342, CO351) also count toward the N_OF,
+        // so only the genuinely excess pool courses flow into ADDITIONAL slots.
+        const got = n.type === 'N_OF'
+          ? courseCodes(n).filter(c => planSet.has(c)).slice(0, n.n ?? 1)
+          : claimedByRequired(n, avail);
         got.forEach(c => { requiredCodes.add(c); avail.delete(c); });
       }
     }
