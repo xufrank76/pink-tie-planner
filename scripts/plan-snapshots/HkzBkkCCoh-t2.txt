@@ -1,0 +1,144 @@
+# Engineering Specialization — Communication and Control (HkzBkkCCoh-t2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AMATH455
+Control Theory
+ECE207
+Signals and Systems
+ECE240
+Electronic Circuits 1
+ECE318
+Communication Systems
+ECE380
+Analog Control Systems
+Complete 1 of the following:
+  CO250/CO255
+  Introduction to Optimization
+  CS475
+  Computational Linear Algebra
+  STAT331
+  Applied Linear Models
+  STAT340
+  Stochastic Simulation Methods
+Complete 1 of the following:
+  ECE140
+  Linear Circuits
+  GENE123
+  Electrical Circuits and Instrumentation
+Complete 2 of the following:
+  ECE313
+  Digital Signal Processing
+  ECE484
+  Digital Control Applications
+  ECE486
+  Robot Dynamics and Control
+  SYDE544
+  Biomedical Measurement and Signal Processing
+  SYDE572
+  Introduction to Pattern Recognition
+
+## PLANNED (every course planned)
+
+✓
+AMATH455
+Control Theory
+planned
+✓
+ECE207
+Signals and Systems
+planned
+✓
+ECE240
+Electronic Circuits 1
+planned
+✓
+ECE318
+Communication Systems
+planned
+✓
+ECE380
+Analog Control Systems
+planned
+✓
+Complete 1 of the following:
+  ✓
+  CO250/CO255
+  Introduction to Optimization
+  planned
+  ✓
+  CS475
+  Computational Linear Algebra
+  planned
+  ✓
+  STAT331
+  Applied Linear Models
+  planned
+  ✓
+  STAT340
+  Stochastic Simulation Methods
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  ECE140
+  Linear Circuits
+  planned
+  ✓
+  GENE123
+  Electrical Circuits and Instrumentation
+  planned
+✓
+Complete 2 of the following:
+  ✓
+  ECE313
+  Digital Signal Processing
+  planned
+  ✓
+  ECE484
+  Digital Control Applications
+  planned
+  ✓
+  ECE486
+  Robot Dynamics and Control
+  planned
+  ✓
+  SYDE544
+  Biomedical Measurement and Signal Processing
+  planned
+  ✓
+  SYDE572
+  Introduction to Pattern Recognition
+  planned
+
+## DONE (every course completed)
+
+✓
+AMATH455
+Control Theory
+✓
+ECE207
+Signals and Systems
+✓
+ECE240
+Electronic Circuits 1
+✓
+ECE318
+Communication Systems
+✓
+ECE380
+Analog Control Systems
+✓
+CO250
+Introduction to Optimization
+✓
+ECE140
+Linear Circuits
+✓
+Complete 2 of the following:
+  ✓
+  ECE313
+  Digital Signal Processing
+  ✓
+  ECE484
+  Digital Control Applications

@@ -1,0 +1,210 @@
+# Human Nutrition Minor (S1sJy0Aj2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+BIOL273
+Principles of Human Physiology 1
+BIOL373
+Principles of Human Physiology 2
+KIN146
+Introduction to Human Nutrition
+---
+Complete 1 of the following:
+  CHEM233
+  Fundamentals of Biochemistry
+  CHEM237
+  Introductory Biochemistry
+  HLTH217
+  Biochemistry for Health Sciences
+  KIN217
+  Human Biochemistry
+---
+Complete 1 of the following:
+  KIN343
+  Micronutrient Metabolism
+  KIN346
+  Human Nutrition and Metabolism
+---
+Complete 5 of the following:
+  BIOL241
+  Introduction to Applied Microbiology
+  BIOL345
+  Microorganisms in Foods
+  CHEM331
+  Fundamentals of Metabolism 1
+  HLTH340
+  Environmental Toxicology and Public Health
+  HLTH355
+  Public Health Nutrition
+  HLTH421
+  Nutritional Aspects of Chronic Disease
+  HLTH449
+  Substance use in Contemporary Society
+  HLTH459
+  Social Neurobiology of Eating
+  HLTH475
+  Food and Nutrition Security
+  KIN307
+  Methods in Biochemical and Physiological Research
+  KIN342
+  Nutrition and Aging
+  KIN343
+  Micronutrient Metabolism
+  KIN346
+  Human Nutrition and Metabolism
+  KIN404
+  Physiology of Obesity and Type 2 Diabetes
+  KIN429
+  Bone and Joint Health
+  KIN446
+  Physiological and Biochemical Aspects of Nutrition and Health
+
+## PLANNED (every course planned)
+
+✓
+BIOL273
+Principles of Human Physiology 1
+planned
+✓
+BIOL373
+Principles of Human Physiology 2
+planned
+✓
+KIN146
+Introduction to Human Nutrition
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CHEM233
+  Fundamentals of Biochemistry
+  planned
+  ✓
+  CHEM237
+  Introductory Biochemistry
+  planned
+  ✓
+  HLTH217
+  Biochemistry for Health Sciences
+  planned
+  ✓
+  KIN217
+  Human Biochemistry
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  KIN343
+  Micronutrient Metabolism
+  planned
+  ✓
+  KIN346
+  Human Nutrition and Metabolism
+  planned
+---
+✓
+Complete 5 of the following:
+  ✓
+  BIOL241
+  Introduction to Applied Microbiology
+  planned
+  ✓
+  BIOL345
+  Microorganisms in Foods
+  planned
+  ✓
+  CHEM331
+  Fundamentals of Metabolism 1
+  planned
+  ✓
+  HLTH340
+  Environmental Toxicology and Public Health
+  planned
+  ✓
+  HLTH355
+  Public Health Nutrition
+  planned
+  ✓
+  HLTH421
+  Nutritional Aspects of Chronic Disease
+  planned
+  ✓
+  HLTH449
+  Substance use in Contemporary Society
+  planned
+  ✓
+  HLTH459
+  Social Neurobiology of Eating
+  planned
+  ✓
+  HLTH475
+  Food and Nutrition Security
+  planned
+  ✓
+  KIN307
+  Methods in Biochemical and Physiological Research
+  planned
+  ✓
+  KIN342
+  Nutrition and Aging
+  planned
+  ✓
+  KIN343
+  Micronutrient Metabolism
+  planned
+  ✓
+  KIN346
+  Human Nutrition and Metabolism
+  planned
+  ✓
+  KIN404
+  Physiology of Obesity and Type 2 Diabetes
+  planned
+  ✓
+  KIN429
+  Bone and Joint Health
+  planned
+  ✓
+  KIN446
+  Physiological and Biochemical Aspects of Nutrition and Health
+  planned
+
+## DONE (every course completed)
+
+✓
+BIOL273
+Principles of Human Physiology 1
+✓
+BIOL373
+Principles of Human Physiology 2
+✓
+KIN146
+Introduction to Human Nutrition
+---
+✓
+CHEM233
+Fundamentals of Biochemistry
+---
+✓
+KIN343
+Micronutrient Metabolism
+---
+✓
+Complete 5 of the following:
+  ✓
+  BIOL241
+  Introduction to Applied Microbiology
+  ✓
+  BIOL345
+  Microorganisms in Foods
+  ✓
+  CHEM331
+  Fundamentals of Metabolism 1
+  ✓
+  HLTH340
+  Environmental Toxicology and Public Health
+  ✓
+  HLTH355
+  Public Health Nutrition

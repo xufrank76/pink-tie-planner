@@ -1,0 +1,13 @@
+# Medical Physiology Minor (r1W01k0Rin)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 10 courses (subject codes: BIOL, KIN)
+
+## PLANNED (every course planned)
+
+Complete 10 courses (subject codes: BIOL, KIN)
+
+## DONE (every course completed)
+
+Complete 10 courses (subject codes: BIOL, KIN)

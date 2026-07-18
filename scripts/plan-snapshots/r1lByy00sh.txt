@@ -1,0 +1,289 @@
+# Applied Mathematics (Bachelor of Mathematics - Honours) (r1lByy00sh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AMATH231
+Calculus 4
+AMATH342
+Computational Methods for Differential Equations
+AMATH353
+Partial Differential Equations 1
+---
+AMATH242/CS371
+Introduction to Computational Mathematics
+---
+AMATH250/AMATH251
+Introduction to Differential Equations
+---
+Complete 1 of the following:
+  AMATH271
+  Introduction to Theoretical Mechanics
+  Complete 1 of the following:
+    AMATH333
+    Calculus on Manifolds for Applied Mathematics and Physics
+    AMATH343
+    Discrete Models in Applied Mathematics
+    AMATH345
+    Data-Driven Mathematical Models
+    AMATH361
+    Continuum Mechanics
+    AMATH362
+    Mathematics of Climate Change
+    AMATH373
+    Quantum Theory 1
+    AMATH382
+    Computational Modelling of Cellular Systems
+    AMATH383
+    Introduction to Mathematical Biology
+    AMATH390
+    Mathematics and Music
+    AMATH391
+    Data Analysis with Fourier and Wavelet Methods
+    PMATH343
+    Introduction to the Mathematics of Quantum Information
+---
+Complete 1 of the following:
+  AMATH331/PMATH331
+  Applied Real Analysis
+  AMATH332/PMATH332
+  Applied Complex Analysis
+  PMATH333
+  Introduction to Real Analysis
+  PMATH351
+  Real Analysis
+  PMATH352
+  Complex Analysis
+---
+Complete 3 of the following:
+  AMATH442
+  Computational Methods for Partial Differential Equations
+  AMATH445
+  Scientific Machine Learning
+  AMATH446
+  Introduction to Mathematics of Deep Learning
+  AMATH449
+  Neural Networks
+  AMATH451
+  Introduction to Dynamical Systems
+  AMATH453
+  Partial Differential Equations 2
+  AMATH455
+  Control Theory
+  AMATH456
+  Calculus of Variations
+  AMATH462
+  Introduction to Mathematics of Climate Modelling
+  AMATH463
+  Fluid Mechanics
+  AMATH473
+  Quantum Theory
+  AMATH474
+  Advanced Quantum Theory: Quantum Information and Foundations
+  AMATH475
+  Introduction to General Relativity
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  AMATH490
+  Topics in Applied Mathematics
+  AMATH495
+  Reading Course
+  AMATH499
+  Research Project
+  CS479
+  Neural Networks
+---
+MATH237/MATH247
+Calculus 3
+---
+1 additional AMATH 3XX/4XX course
+---
+Subject concentration: 4 courses, all same subject code AE, BIOL, BME, CHE, CHEM, CIVE, EARTH, ECE, ECON, ENVE, GEOE, GEOG, ME, MNS, MSE, MTE, NE, PHYS, SYDE
+
+## PLANNED (every course planned)
+
+✓
+AMATH231
+Calculus 4
+planned
+✓
+AMATH342
+Computational Methods for Differential Equations
+planned
+✓
+AMATH353
+Partial Differential Equations 1
+planned
+---
+✓
+AMATH242/CS371
+Introduction to Computational Mathematics
+planned
+---
+✓
+AMATH250/AMATH251
+Introduction to Differential Equations
+planned
+---
+✓
+AMATH271
+Introduction to Theoretical Mechanics
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH331/PMATH331
+  Applied Real Analysis
+  planned
+  ✓
+  AMATH332/PMATH332
+  Applied Complex Analysis
+  planned
+  ✓
+  PMATH333
+  Introduction to Real Analysis
+  planned
+  ✓
+  PMATH351
+  Real Analysis
+  planned
+  ✓
+  PMATH352
+  Complex Analysis
+  planned
+---
+✓
+Complete 3 of the following:
+  ✓
+  AMATH442
+  Computational Methods for Partial Differential Equations
+  planned
+  ✓
+  AMATH445
+  Scientific Machine Learning
+  planned
+  ✓
+  AMATH446
+  Introduction to Mathematics of Deep Learning
+  planned
+  ✓
+  AMATH449
+  Neural Networks
+  planned
+  ✓
+  AMATH451
+  Introduction to Dynamical Systems
+  planned
+  ✓
+  AMATH453
+  Partial Differential Equations 2
+  planned
+  ✓
+  AMATH455
+  Control Theory
+  planned
+  ✓
+  AMATH456
+  Calculus of Variations
+  planned
+  ✓
+  AMATH462
+  Introduction to Mathematics of Climate Modelling
+  planned
+  ✓
+  AMATH463
+  Fluid Mechanics
+  planned
+  ✓
+  AMATH473
+  Quantum Theory
+  planned
+  ✓
+  AMATH474
+  Advanced Quantum Theory: Quantum Information and Foundations
+  planned
+  ✓
+  AMATH475
+  Introduction to General Relativity
+  planned
+  ✓
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  planned
+  ✓
+  AMATH490
+  Topics in Applied Mathematics
+  planned
+  ✓
+  AMATH495
+  Reading Course
+  planned
+  ✓
+  AMATH499
+  Research Project
+  planned
+  ✓
+  CS479
+  Neural Networks
+  planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+1 additional AMATH 3XX/4XX course
+✓
+AMATH342
+---
+Subject concentration: 4 courses, all same subject code AE, BIOL, BME, CHE, CHEM, CIVE, EARTH, ECE, ECON, ENVE, GEOE, GEOG, ME, MNS, MSE, MTE, NE, PHYS, SYDE
+
+## DONE (every course completed)
+
+✓
+AMATH231
+Calculus 4
+✓
+AMATH342
+Computational Methods for Differential Equations
+✓
+AMATH353
+Partial Differential Equations 1
+---
+✓
+AMATH242
+Introduction to Computational Mathematics
+---
+✓
+AMATH250
+Introduction to Differential Equations
+---
+✓
+AMATH271
+Introduction to Theoretical Mechanics
+---
+✓
+AMATH331
+Applied Real Analysis
+---
+✓
+Complete 3 of the following:
+  ✓
+  AMATH442
+  Computational Methods for Partial Differential Equations
+  ✓
+  AMATH445
+  Scientific Machine Learning
+  ✓
+  AMATH446
+  Introduction to Mathematics of Deep Learning
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+1 additional AMATH 3XX/4XX course
+✓
+AMATH342
+---
+Subject concentration: 4 courses, all same subject code AE, BIOL, BME, CHE, CHEM, CIVE, EARTH, ECE, ECON, ENVE, GEOE, GEOG, ME, MNS, MSE, MTE, NE, PHYS, SYDE

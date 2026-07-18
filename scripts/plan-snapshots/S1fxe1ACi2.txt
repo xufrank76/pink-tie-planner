@@ -1,0 +1,141 @@
+# Pure Mathematics (Joint Honours) (S1fxe1ACi2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1 of the following:
+  AMATH331/PMATH331
+  Applied Real Analysis
+  PMATH333
+  Introduction to Real Analysis
+  PMATH351
+  Real Analysis
+---
+Complete 1 of the following:
+  AMATH332/PMATH332
+  Applied Complex Analysis
+  PMATH352
+  Complex Analysis
+---
+MATH237/MATH247
+Calculus 3
+---
+Complete 1 of the following:
+  PMATH334
+  Introduction to Rings and Fields with Applications
+  PMATH348
+  Fields and Galois Theory
+---
+Complete 1 of the following:
+  PMATH336
+  Introduction to Group Theory with Applications
+  PMATH347
+  Groups and Rings
+---
+Complete 1 of the following:
+  MATH239/MATH249
+  Introduction to Combinatorics
+  1 additional PMATH course
+---
+3 additional PMATH courses
+
+## PLANNED (every course planned)
+
+✓
+Complete 1 of the following:
+  ✓
+  AMATH331/PMATH331
+  Applied Real Analysis
+  planned
+  ✓
+  PMATH333
+  Introduction to Real Analysis
+  planned
+  ✓
+  PMATH351
+  Real Analysis
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH332/PMATH332
+  Applied Complex Analysis
+  planned
+  ✓
+  PMATH352
+  Complex Analysis
+  planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  PMATH334
+  Introduction to Rings and Fields with Applications
+  planned
+  ✓
+  PMATH348
+  Fields and Galois Theory
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  PMATH336
+  Introduction to Group Theory with Applications
+  planned
+  ✓
+  PMATH347
+  Groups and Rings
+  planned
+---
+✓
+MATH239/MATH249
+Introduction to Combinatorics
+planned
+---
+3 additional PMATH courses
+✓
+PMATH331
+✓
+PMATH333
+✓
+PMATH351
+
+## DONE (every course completed)
+
+✓
+AMATH331
+Applied Real Analysis
+---
+✓
+AMATH332
+Applied Complex Analysis
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+✓
+PMATH334
+Introduction to Rings and Fields with Applications
+---
+✓
+PMATH336
+Introduction to Group Theory with Applications
+---
+✓
+MATH239
+Introduction to Combinatorics
+---
+3 additional PMATH courses
+✓
+PMATH331
+✓
+PMATH333
+✓
+PMATH351

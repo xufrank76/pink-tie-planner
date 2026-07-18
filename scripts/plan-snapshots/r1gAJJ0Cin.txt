@@ -1,0 +1,252 @@
+# Mathematical Economics (Bachelor of Mathematics - Honours) (r1gAJJ0Cin)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete the following courses with a minimum cumulative Economics average of 70.0%.
+  ECON101
+  Introduction to Microeconomics
+  ECON102
+  Introduction to Macroeconomics
+  ECON290
+  Models of Choice in Competitive Markets
+  ECON306
+  Macroeconomics
+  ECON391
+  Equilibrium in Market Economies
+  ECON393
+  Market Failures
+  ECON472
+  Senior Honours Essay
+  ECON491
+  Advanced Microeconomics
+  ECON496
+  Advanced Macroeconomics
+  Complete 1 of the following:
+    ECON406
+    Money and Banking 2
+    ECON407
+    Economic Growth and Development 2
+    ECON408
+    Business Cycles
+    ECON409
+    Workers, Jobs, and Wages
+  4 additional ECON 3XX/4XX courses
+---
+Complete the following courses with a minimum cumulative Mathematics average of 60.0%.
+  AMATH350
+  Differential Equations for Business and Economics
+  STAT331
+  Applied Linear Models
+  STAT443
+  Forecasting
+  Complete 1 of the following:
+    AMATH331/PMATH331
+    Applied Real Analysis
+    PMATH333
+    Introduction to Real Analysis
+    PMATH351
+    Real Analysis
+  CO250/CO255
+  Introduction to Optimization
+  MATH237/MATH247
+  Calculus 3
+  7 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+  Complete 2 additional courses
+
+## PLANNED (every course planned)
+
+Complete the following courses with a minimum cumulative Economics average of 70.0%.
+  ✓
+  ECON101
+  Introduction to Microeconomics
+  planned
+  ✓
+  ECON102
+  Introduction to Macroeconomics
+  planned
+  ✓
+  ECON290
+  Models of Choice in Competitive Markets
+  planned
+  ✓
+  ECON306
+  Macroeconomics
+  planned
+  ✓
+  ECON391
+  Equilibrium in Market Economies
+  planned
+  ✓
+  ECON393
+  Market Failures
+  planned
+  ✓
+  ECON472
+  Senior Honours Essay
+  planned
+  ✓
+  ECON491
+  Advanced Microeconomics
+  planned
+  ✓
+  ECON496
+  Advanced Macroeconomics
+  planned
+  ✓
+  Complete 1 of the following:
+    ✓
+    ECON406
+    Money and Banking 2
+    planned
+    ✓
+    ECON407
+    Economic Growth and Development 2
+    planned
+    ✓
+    ECON408
+    Business Cycles
+    planned
+    ✓
+    ECON409
+    Workers, Jobs, and Wages
+    planned
+  4 additional ECON 3XX/4XX courses
+  ✓
+  ECON306
+  ✓
+  ECON391
+  ✓
+  ECON393
+  ✓
+  ECON472
+---
+Complete the following courses with a minimum cumulative Mathematics average of 60.0%.
+  ✓
+  AMATH350
+  Differential Equations for Business and Economics
+  planned
+  ✓
+  STAT331
+  Applied Linear Models
+  planned
+  ✓
+  STAT443
+  Forecasting
+  planned
+  ✓
+  Complete 1 of the following:
+    ✓
+    AMATH331/PMATH331
+    Applied Real Analysis
+    planned
+    ✓
+    PMATH333
+    Introduction to Real Analysis
+    planned
+    ✓
+    PMATH351
+    Real Analysis
+    planned
+  ✓
+  CO250/CO255
+  Introduction to Optimization
+  planned
+  ✓
+  MATH237/MATH247
+  Calculus 3
+  planned
+  7 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+  ✓
+  AMATH350
+  ✓
+  STAT331
+  ✓
+  STAT443
+  ✓
+  AMATH331
+  ✓
+  PMATH331
+  ✓
+  PMATH333
+  ✓
+  PMATH351
+  Complete 2 additional courses
+
+## DONE (every course completed)
+
+Complete the following courses with a minimum cumulative Economics average of 70.0%.
+  ✓
+  ECON101
+  Introduction to Microeconomics
+  ✓
+  ECON102
+  Introduction to Macroeconomics
+  ✓
+  ECON290
+  Models of Choice in Competitive Markets
+  ✓
+  ECON306
+  Macroeconomics
+  ✓
+  ECON391
+  Equilibrium in Market Economies
+  ✓
+  ECON393
+  Market Failures
+  ✓
+  ECON472
+  Senior Honours Essay
+  ✓
+  ECON491
+  Advanced Microeconomics
+  ✓
+  ECON496
+  Advanced Macroeconomics
+  ✓
+  ECON406
+  Money and Banking 2
+  4 additional ECON 3XX/4XX courses
+  ✓
+  ECON306
+  ✓
+  ECON391
+  ✓
+  ECON393
+  ✓
+  ECON472
+---
+Complete the following courses with a minimum cumulative Mathematics average of 60.0%.
+  ✓
+  AMATH350
+  Differential Equations for Business and Economics
+  ✓
+  STAT331
+  Applied Linear Models
+  ✓
+  STAT443
+  Forecasting
+  ✓
+  AMATH331
+  Applied Real Analysis
+  ✓
+  CO250
+  Introduction to Optimization
+  ✓
+  MATH237
+  Calculus 3 for Honours Mathematics
+  7 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+  ✓
+  AMATH350
+  ✓
+  STAT331
+  ✓
+  STAT443
+  ✓
+  AMATH331
+  ✓
+  PMATH331
+  ✓
+  PMATH333
+  ✓
+  PMATH351
+  Complete 2 additional courses

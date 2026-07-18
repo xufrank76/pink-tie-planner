@@ -1,0 +1,128 @@
+# Social Innovation and Impact Minor (BJFnsR133)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+INNOV200
+Theory and Practice of Social Innovation and Impact
+INNOV201
+Social Innovation for Global Impact
+INNOV300
+Case Studies in Social Innovation for Impact
+INNOV302
+Measuring and Evaluating Social Innovation for Impact
+INNOV311
+Research for Social Impact
+INNOV411
+Designing for Social Impact
+---
+Complete 1 of the following:
+  Complete 2 of the following:
+    BET100
+    Foundations of Entrepreneurial Practice
+    BET300
+    Foundations of Venture Creation
+    BET360
+    Design Frameworks for Social Ventures
+    BET420
+    Entrepreneurship for Social Impact
+  Complete 2 of the following:
+    ENBUS203
+    Green Entrepreneurship
+    ENBUS211
+    Principles of Marketing for Sustainability Professionals
+    ENBUS309
+    Behaviour Change and Sustainability
+  Complete 2 of the following:
+    INDG201
+    The Indigenous Experience in Canada
+    INDG272
+    Issues in Contemporary Indigenous Communities in Canada
+    INDG305
+    Indigenous Rights in Global Context
+    INDG318
+    Indigenous Worldviews and Spirituality
+  Complete 2 of the following:
+    REC201
+    Introduction to Leisure, Equity, Diversity, and Inclusion for Just Communities
+    REC218
+    Social Entrepreneurship for Change
+    REC356
+    Leading Action for Community Change
+    REC361
+    Aging and Leisure
+
+## PLANNED (every course planned)
+
+✓
+INNOV200
+Theory and Practice of Social Innovation and Impact
+planned
+✓
+INNOV201
+Social Innovation for Global Impact
+planned
+✓
+INNOV300
+Case Studies in Social Innovation for Impact
+planned
+✓
+INNOV302
+Measuring and Evaluating Social Innovation for Impact
+planned
+✓
+INNOV311
+Research for Social Impact
+planned
+✓
+INNOV411
+Designing for Social Impact
+planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  BET100
+  Foundations of Entrepreneurial Practice
+  planned
+  ✓
+  BET300
+  Foundations of Venture Creation
+  planned
+  ✓
+  BET360
+  Design Frameworks for Social Ventures
+  planned
+  ✓
+  BET420
+  Entrepreneurship for Social Impact
+  planned
+
+## DONE (every course completed)
+
+✓
+INNOV200
+Theory and Practice of Social Innovation and Impact
+✓
+INNOV201
+Social Innovation for Global Impact
+✓
+INNOV300
+Case Studies in Social Innovation for Impact
+✓
+INNOV302
+Measuring and Evaluating Social Innovation for Impact
+✓
+INNOV311
+Research for Social Impact
+✓
+INNOV411
+Designing for Social Impact
+---
+✓
+Complete 2 of the following:
+  ✓
+  BET100
+  Foundations of Entrepreneurial Practice
+  ✓
+  BET300
+  Foundations of Venture Creation

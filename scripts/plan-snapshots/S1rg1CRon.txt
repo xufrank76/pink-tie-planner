@@ -1,0 +1,19 @@
+# Italian Studies Minor (S1rg1CRon)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1.0 unit of ITAL courses
+---
+Complete 3.0 units of ITALST courses (see Additional Constraints)
+
+## PLANNED (every course planned)
+
+Complete 1.0 unit of ITAL courses
+---
+Complete 3.0 units of ITALST courses (see Additional Constraints)
+
+## DONE (every course completed)
+
+Complete 1.0 unit of ITAL courses
+---
+Complete 3.0 units of ITALST courses (see Additional Constraints)

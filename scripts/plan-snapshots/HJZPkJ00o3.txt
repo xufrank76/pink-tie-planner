@@ -1,0 +1,361 @@
+# Entrepreneurship Minor (HJZPkJ00o3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+BET100
+Foundations of Entrepreneurial Practice
+BET320
+Entrepreneurial Strategy
+BET340
+Essentials of Entrepreneurial Planning and Execution
+---
+3 additional BET courses
+---
+Complete 2 courses from any additional BET courses or from the list of courses below.
+  Complete 1 of the following:
+  AFM101
+  Introduction to Financial Accounting
+  AFM131
+  Introduction to Business in North America
+  AFM274
+  Introduction to Corporate Finance
+  AFM333
+  International Business
+  AFM433
+  Business Strategy
+  AFM480
+  Introduction to Organizational Behaviour
+  ARBUS101
+  Introduction to Business in North America
+  ARBUS300
+  Practical Business Skills
+  ARBUS301
+  International Business
+  CFM401
+  Topics in Financial Technology
+  COMM400
+  Entrepreneurship, Technology and the Emerging Information Economy
+  DAC309
+  User Experience Design
+  ENBUS203
+  Green Entrepreneurship
+  ENBUS302
+  Strategies for Environment and Business
+  ENVS105
+  Environmental Sustainability and Ethics
+  ERS200
+  Indigenous Sustainability Entrepreneurship
+  ERS201
+  Environmental Policy, Politics and Governance
+  GBDA210
+  Introduction to User Experience Design
+  GBDA304
+  Marketing in the Digital World
+  INDENT200
+  The Past, Present, and Future of Indigenous Entrepreneurship
+  INDENT210
+  Fundamentals of Indigenous Entrepreneurship
+  INDENT302
+  Creating an Online Business
+  INDENT310
+  Case Studies in Indigenous Venture Creation
+  INDEV308
+  Introduction to Social Entrepreneurship
+  INNOV200
+  Theory and Practice of Social Innovation and Impact
+  INNOV201
+  Social Innovation for Global Impact
+  INNOV302
+  Measuring and Evaluating Social Innovation for Impact
+  MSE211
+  Organizational Behaviour
+  MSE411
+  Leadership and Influence
+  MSE454
+  Technical Entrepreneurship
+  REC218
+  Social Entrepreneurship for Change
+  SCBUS122
+  Management of Business Organizations
+  SCBUS225
+  Organizational Behaviour in Scientific and Technical Workplaces
+
+## PLANNED (every course planned)
+
+✓
+BET100
+Foundations of Entrepreneurial Practice
+planned
+✓
+BET320
+Entrepreneurial Strategy
+planned
+✓
+BET340
+Essentials of Entrepreneurial Planning and Execution
+planned
+---
+3 additional BET courses
+✓
+BET100
+✓
+BET320
+✓
+BET340
+---
+Complete 2 courses from any additional BET courses or from the list of courses below.
+  Complete 1 of the following:
+  ✓
+  AFM101
+  Introduction to Financial Accounting
+  planned
+  ✓
+  AFM131
+  Introduction to Business in North America
+  planned
+  ✓
+  AFM274
+  Introduction to Corporate Finance
+  planned
+  ✓
+  AFM333
+  International Business
+  planned
+  ✓
+  AFM433
+  Business Strategy
+  planned
+  ✓
+  AFM480
+  Introduction to Organizational Behaviour
+  planned
+  ✓
+  ARBUS101
+  Introduction to Business in North America
+  planned
+  ✓
+  ARBUS300
+  Practical Business Skills
+  planned
+  ✓
+  ARBUS301
+  International Business
+  planned
+  ✓
+  CFM401
+  Topics in Financial Technology
+  planned
+  ✓
+  COMM400
+  Entrepreneurship, Technology and the Emerging Information Economy
+  planned
+  ✓
+  DAC309
+  User Experience Design
+  planned
+  ✓
+  ENBUS203
+  Green Entrepreneurship
+  planned
+  ✓
+  ENBUS302
+  Strategies for Environment and Business
+  planned
+  ✓
+  ENVS105
+  Environmental Sustainability and Ethics
+  planned
+  ✓
+  ERS200
+  Indigenous Sustainability Entrepreneurship
+  planned
+  ✓
+  ERS201
+  Environmental Policy, Politics and Governance
+  planned
+  ✓
+  GBDA210
+  Introduction to User Experience Design
+  planned
+  ✓
+  GBDA304
+  Marketing in the Digital World
+  planned
+  ✓
+  INDENT200
+  The Past, Present, and Future of Indigenous Entrepreneurship
+  planned
+  ✓
+  INDENT210
+  Fundamentals of Indigenous Entrepreneurship
+  planned
+  ✓
+  INDENT302
+  Creating an Online Business
+  planned
+  ✓
+  INDENT310
+  Case Studies in Indigenous Venture Creation
+  planned
+  ✓
+  INDEV308
+  Introduction to Social Entrepreneurship
+  planned
+  ✓
+  INNOV200
+  Theory and Practice of Social Innovation and Impact
+  planned
+  ✓
+  INNOV201
+  Social Innovation for Global Impact
+  planned
+  ✓
+  INNOV302
+  Measuring and Evaluating Social Innovation for Impact
+  planned
+  ✓
+  MSE211
+  Organizational Behaviour
+  planned
+  ✓
+  MSE411
+  Leadership and Influence
+  planned
+  ✓
+  MSE454
+  Technical Entrepreneurship
+  planned
+  ✓
+  REC218
+  Social Entrepreneurship for Change
+  planned
+  ✓
+  SCBUS122
+  Management of Business Organizations
+  planned
+  ✓
+  SCBUS225
+  Organizational Behaviour in Scientific and Technical Workplaces
+  planned
+
+## DONE (every course completed)
+
+✓
+BET100
+Foundations of Entrepreneurial Practice
+✓
+BET320
+Entrepreneurial Strategy
+✓
+BET340
+Essentials of Entrepreneurial Planning and Execution
+---
+3 additional BET courses
+✓
+BET100
+✓
+BET320
+✓
+BET340
+---
+Complete 2 courses from any additional BET courses or from the list of courses below.
+  Complete 1 of the following:
+  ✓
+  AFM101
+  Introduction to Financial Accounting
+  ✓
+  AFM131
+  Introduction to Business in North America
+  ✓
+  AFM274
+  Introduction to Corporate Finance
+  ✓
+  AFM333
+  International Business
+  ✓
+  AFM433
+  Business Strategy
+  ✓
+  AFM480
+  Introduction to Organizational Behaviour
+  ✓
+  ARBUS101
+  Introduction to Business in North America
+  ✓
+  ARBUS300
+  Practical Business Skills
+  ✓
+  ARBUS301
+  International Business
+  ✓
+  CFM401
+  Topics in Financial Technology
+  ✓
+  COMM400
+  Entrepreneurship, Technology and the Emerging Information Economy
+  ✓
+  DAC309
+  User Experience Design
+  ✓
+  ENBUS203
+  Green Entrepreneurship
+  ✓
+  ENBUS302
+  Strategies for Environment and Business
+  ✓
+  ENVS105
+  Environmental Sustainability and Ethics
+  ✓
+  ERS200
+  Indigenous Sustainability Entrepreneurship
+  ✓
+  ERS201
+  Environmental Policy, Politics and Governance
+  ✓
+  GBDA210
+  Introduction to User Experience Design
+  ✓
+  GBDA304
+  Marketing in the Digital World
+  ✓
+  INDENT200
+  The Past, Present, and Future of Indigenous Entrepreneurship
+  ✓
+  INDENT210
+  Fundamentals of Indigenous Entrepreneurship
+  ✓
+  INDENT302
+  Creating an Online Business
+  ✓
+  INDENT310
+  Case Studies in Indigenous Venture Creation
+  ✓
+  INDEV308
+  Introduction to Social Entrepreneurship
+  ✓
+  INNOV200
+  Theory and Practice of Social Innovation and Impact
+  ✓
+  INNOV201
+  Social Innovation for Global Impact
+  ✓
+  INNOV302
+  Measuring and Evaluating Social Innovation for Impact
+  ✓
+  MSE211
+  Organizational Behaviour
+  ✓
+  MSE411
+  Leadership and Influence
+  ✓
+  MSE454
+  Technical Entrepreneurship
+  ✓
+  REC218
+  Social Entrepreneurship for Change
+  ✓
+  SCBUS122
+  Management of Business Organizations
+  ✓
+  SCBUS225
+  Organizational Behaviour in Scientific and Technical Workplaces

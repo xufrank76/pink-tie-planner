@@ -1,0 +1,13 @@
+# Biochemistry Minor (S1mSkJ00o3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 10 courses (subject codes: CHEM, BIOL)
+
+## PLANNED (every course planned)
+
+Complete 10 courses (subject codes: CHEM, BIOL)
+
+## DONE (every course completed)
+
+Complete 10 courses (subject codes: CHEM, BIOL)

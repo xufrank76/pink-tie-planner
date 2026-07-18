@@ -1,0 +1,206 @@
+# Technical and Professional Writing Minor (B1bDgJR0j3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ENGL210E
+Genres of Technical Communication
+ENGL210J
+Technical Editing
+ENGL292
+Rhetorical Theory and Criticism
+ENGL392A
+Information Design
+---
+Complete 2 of the following:
+  COMMST191
+  Communication in the Engineering Profession (AE, CHE, CIVE, ENVE, GEOE)
+  COMMST192
+  Communication in the Engineering Profession (COMPE, ELE, MGTE)
+  COMMST193
+  Communication in the Sciences
+  ENGL109
+  Introduction to Academic Writing
+  ENGL191
+  Communication in the Engineering Profession (AE, CHE, CIVE, ENVE, GEOE)
+  ENGL192
+  Communication in the Engineering Profession (COMPE, ELE, MGTE)
+  ENGL193
+  Communication in the Sciences
+  ENGL210F
+  Genres of Business Communication
+  ENGL210G
+  Genres of Fundraising Communication
+  ENGL210H
+  Arts Writing
+  ENGL210I
+  Legal Writing
+  LS291
+  Legal Writing
+---
+Complete 2 of the following:
+  ENGL293
+  Introduction to Digital Media Studies
+  ENGL306B
+  How English Grammar Works
+  ENGL335
+  Creative Writing 1
+  ENGL371
+  Editing Literary Works
+  ENGL392B
+  Visual Rhetoric
+  ENGL408A
+  Writing for the Media
+  ENGL408B
+  The Discourse of Advertising
+  ENGL408C
+  The Rhetoric of Digital Design: Theory and Practice
+  ENGL472
+  Research Methods in Technical Communication
+  ENGL493
+  Topics in Professional Writing and Communication Design
+
+## PLANNED (every course planned)
+
+✓
+ENGL210E
+Genres of Technical Communication
+planned
+✓
+ENGL210J
+Technical Editing
+planned
+✓
+ENGL292
+Rhetorical Theory and Criticism
+planned
+✓
+ENGL392A
+Information Design
+planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  COMMST191
+  Communication in the Engineering Profession (AE, CHE, CIVE, ENVE, GEOE)
+  planned
+  ✓
+  COMMST192
+  Communication in the Engineering Profession (COMPE, ELE, MGTE)
+  planned
+  ✓
+  COMMST193
+  Communication in the Sciences
+  planned
+  ✓
+  ENGL109
+  Introduction to Academic Writing
+  planned
+  ✓
+  ENGL191
+  Communication in the Engineering Profession (AE, CHE, CIVE, ENVE, GEOE)
+  planned
+  ✓
+  ENGL192
+  Communication in the Engineering Profession (COMPE, ELE, MGTE)
+  planned
+  ✓
+  ENGL193
+  Communication in the Sciences
+  planned
+  ✓
+  ENGL210F
+  Genres of Business Communication
+  planned
+  ✓
+  ENGL210G
+  Genres of Fundraising Communication
+  planned
+  ✓
+  ENGL210H
+  Arts Writing
+  planned
+  ✓
+  ENGL210I
+  Legal Writing
+  planned
+  ✓
+  LS291
+  Legal Writing
+  planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  ENGL293
+  Introduction to Digital Media Studies
+  planned
+  ✓
+  ENGL306B
+  How English Grammar Works
+  planned
+  ✓
+  ENGL335
+  Creative Writing 1
+  planned
+  ✓
+  ENGL371
+  Editing Literary Works
+  planned
+  ✓
+  ENGL392B
+  Visual Rhetoric
+  planned
+  ✓
+  ENGL408A
+  Writing for the Media
+  planned
+  ✓
+  ENGL408B
+  The Discourse of Advertising
+  planned
+  ✓
+  ENGL408C
+  The Rhetoric of Digital Design: Theory and Practice
+  planned
+  ✓
+  ENGL472
+  Research Methods in Technical Communication
+  planned
+  ✓
+  ENGL493
+  Topics in Professional Writing and Communication Design
+  planned
+
+## DONE (every course completed)
+
+✓
+ENGL210E
+Genres of Technical Communication
+✓
+ENGL210J
+Technical Editing
+✓
+ENGL292
+Rhetorical Theory and Criticism
+✓
+ENGL392A
+Information Design
+---
+✓
+Complete 2 of the following:
+  ✓
+  COMMST191
+  Communication in the Engineering Profession (AE, CHE, CIVE, ENVE, GEOE)
+  ✓
+  COMMST192
+  Communication in the Engineering Profession (COMPE, ELE, MGTE)
+---
+✓
+Complete 2 of the following:
+  ✓
+  ENGL293
+  Introduction to Digital Media Studies
+  ✓
+  ENGL306B
+  How English Grammar Works

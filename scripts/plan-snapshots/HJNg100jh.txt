@@ -1,0 +1,29 @@
+# Gender and Social Justice Minor (HJNg100jh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+GSJ100
+Introduction to Gender and Social Justice
+---
+7 additional GSJ courses
+
+## PLANNED (every course planned)
+
+✓
+GSJ100
+Introduction to Gender and Social Justice
+planned
+---
+7 additional GSJ courses
+✓
+GSJ100
+
+## DONE (every course completed)
+
+✓
+GSJ100
+Introduction to Gender and Social Justice
+---
+7 additional GSJ courses
+✓
+GSJ100

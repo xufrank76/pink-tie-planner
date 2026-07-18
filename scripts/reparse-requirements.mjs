@@ -1,9 +1,11 @@
 // Reparses the `rawHtml` field in requirements-filtered.json and regenerates
-// the `requirements` tree for every program.
+// the `requirements` tree for every program, then re-applies the hand-maintained
+// overlays from overlays.mjs (calendar gaps the parse alone can't express).
 import { parse } from 'node-html-parser';
 import { readFileSync, writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import path from 'path';
+import { applyOverlay } from './overlays.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.join(__dirname, '../src/data/requirements-filtered.json');
@@ -190,7 +192,7 @@ for (const [id, entry] of Object.entries(data)) {
   try {
     const requirements = parseProgram(entry.rawHtml);
     if (requirements.length > 0) {
-      entry.requirements = requirements;
+      entry.requirements = applyOverlay(id, requirements);
       updated++;
     }
   } catch (e) {

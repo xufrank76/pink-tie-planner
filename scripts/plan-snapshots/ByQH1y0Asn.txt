@@ -1,0 +1,31 @@
+# Economics Specialization (ByQH1y0Asn)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+CO250
+Introduction to Optimization
+---
+CO255
+Introduction to Optimization (Advanced Level)
+
+## PLANNED (every course planned)
+
+✓
+CO250
+Introduction to Optimization
+planned
+---
+✓
+CO255
+Introduction to Optimization (Advanced Level)
+planned
+
+## DONE (every course completed)
+
+✓
+CO250
+Introduction to Optimization
+---
+✓
+CO255
+Introduction to Optimization (Advanced Level)

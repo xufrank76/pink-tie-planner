@@ -1,0 +1,94 @@
+# International Trade Minor (ryBg10Rjn)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ECON102
+Introduction to Macroeconomics
+ECON231
+Introduction to International Economics
+PSCI150
+Introduction to Global Politics
+PSCI283
+International Political Economy
+PSCI380
+Political Economy of International Trade
+---
+Complete 1 of the following:
+  COMM103/ECON100
+  Principles of Economics
+  ECON101
+  Introduction to Microeconomics
+  ECON201
+  Microeconomic Theory for Business and Policy
+  ECON290
+  Models of Choice in Competitive Markets
+---
+Complete 1.0 unit in the same subject from the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, REES, RUSS, SI, SPAN
+
+## PLANNED (every course planned)
+
+✓
+ECON102
+Introduction to Macroeconomics
+planned
+✓
+ECON231
+Introduction to International Economics
+planned
+✓
+PSCI150
+Introduction to Global Politics
+planned
+✓
+PSCI283
+International Political Economy
+planned
+✓
+PSCI380
+Political Economy of International Trade
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  COMM103/ECON100
+  Principles of Economics
+  planned
+  ✓
+  ECON101
+  Introduction to Microeconomics
+  planned
+  ✓
+  ECON201
+  Microeconomic Theory for Business and Policy
+  planned
+  ✓
+  ECON290
+  Models of Choice in Competitive Markets
+  planned
+---
+Complete 1.0 unit in the same subject from the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, REES, RUSS, SI, SPAN
+
+## DONE (every course completed)
+
+✓
+ECON102
+Introduction to Macroeconomics
+✓
+ECON231
+Introduction to International Economics
+✓
+PSCI150
+Introduction to Global Politics
+✓
+PSCI283
+International Political Economy
+✓
+PSCI380
+Political Economy of International Trade
+---
+✓
+COMM103
+Principles of Economics
+---
+Complete 1.0 unit in the same subject from the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, REES, RUSS, SI, SPAN

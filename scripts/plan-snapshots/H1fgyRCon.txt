@@ -1,0 +1,126 @@
+# Economic Theory Minor (H1fgyRCon)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ECON290
+Models of Choice in Competitive Markets
+ECON391
+Equilibrium in Market Economies
+ECON393
+Market Failures
+---
+Complete 1 of the following:
+  AE221/CIVE221/GEOE221
+  Advanced Calculus
+  ECE206
+  Advanced Calculus 2 for Electrical Engineers
+  ECON211
+  Introduction to Mathematical Economics
+  MATH119
+  Calculus 2 for Engineering
+  MATH128
+  Calculus 2 for the Sciences
+  MATH138/MATH148
+  Calculus 2
+---
+Complete 1 of the following:
+  Complete all the following:
+    ECON100
+    Principles of Economics
+    Complete 1.5 units from the Approved Courses List
+  Complete all the following:
+    Complete 1 of the following:
+      ECON101
+      Introduction to Microeconomics
+      MSE263
+      Managerial Economics
+    ECON102
+    Introduction to Macroeconomics
+    Complete 1.0 units from the Approved Courses List
+---
+3 additional ECON courses
+
+## PLANNED (every course planned)
+
+✓
+ECON290
+Models of Choice in Competitive Markets
+planned
+✓
+ECON391
+Equilibrium in Market Economies
+planned
+✓
+ECON393
+Market Failures
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AE221/CIVE221/GEOE221
+  Advanced Calculus
+  planned
+  ✓
+  ECE206
+  Advanced Calculus 2 for Electrical Engineers
+  planned
+  ✓
+  ECON211
+  Introduction to Mathematical Economics
+  planned
+  ✓
+  MATH119
+  Calculus 2 for Engineering
+  planned
+  ✓
+  MATH128
+  Calculus 2 for the Sciences
+  planned
+  ✓
+  MATH138/MATH148
+  Calculus 2
+  planned
+---
+✓
+ECON100
+Principles of Economics
+planned
+Complete 1.5 units from the Approved Courses List
+---
+3 additional ECON courses
+✓
+ECON290
+✓
+ECON391
+✓
+ECON393
+
+## DONE (every course completed)
+
+✓
+ECON290
+Models of Choice in Competitive Markets
+✓
+ECON391
+Equilibrium in Market Economies
+✓
+ECON393
+Market Failures
+---
+✓
+AE221
+Advanced Calculus
+---
+✓
+ECON100
+Principles of Economics
+Complete 1.5 units from the Approved Courses List
+---
+3 additional ECON courses
+✓
+ECON290
+✓
+ECON391
+✓
+ECON393

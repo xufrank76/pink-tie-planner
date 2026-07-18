@@ -1,0 +1,213 @@
+# Mennonite Studies Minor (BJBg100j2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+HIST247
+Mennonite History: A Survey
+MENN125
+Who are the Mennonites?
+SOC275
+Mennonites as a Sociological Community
+---
+HIST348/RCS344
+The Radical Reformation
+---
+Complete 4 of the following:
+  CMW363
+  The Church's Song
+  CMW364
+  Worship and its Music
+  HIST232
+  A History of Peace Movements
+  HIST235
+  History of Christianity
+  HIST379
+  Reformation History
+  JS235
+  Jesus: Life and Legacy
+  JS236
+  Paul: Life and Letters
+  MENN390
+  Special Topics in Mennonite Studies
+  MENN397
+  Directed Readings in Mennonite Studies
+  MUSIC363
+  The Church's Song
+  MUSIC364
+  Worship and its Music
+  PACS201
+  Roots of Conflict, Violence, and Peace
+  PACS203
+  A History of Peace Movements
+  PACS320
+  Christian Approaches to Peacemaking
+  PACS330
+  War and Peace in Christianity
+  RCS235
+  Jesus: Life and Legacy
+  RCS236
+  Paul: Life and Letters
+  RCS240
+  History of Christianity
+  RCS253
+  Christianity's Big Questions
+  RCS320
+  Christian Approaches to Peacemaking
+  RCS343
+  Reformation History
+  RCS353
+  War and Peace in Christianity
+  RCS357
+  The Church's Song
+  RCS358
+  Worship and its Music
+
+## PLANNED (every course planned)
+
+✓
+HIST247
+Mennonite History: A Survey
+planned
+✓
+MENN125
+Who are the Mennonites?
+planned
+✓
+SOC275
+Mennonites as a Sociological Community
+planned
+---
+✓
+HIST348/RCS344
+The Radical Reformation
+planned
+---
+✓
+Complete 4 of the following:
+  ✓
+  CMW363
+  The Church's Song
+  planned
+  ✓
+  CMW364
+  Worship and its Music
+  planned
+  ✓
+  HIST232
+  A History of Peace Movements
+  planned
+  ✓
+  HIST235
+  History of Christianity
+  planned
+  ✓
+  HIST379
+  Reformation History
+  planned
+  ✓
+  JS235
+  Jesus: Life and Legacy
+  planned
+  ✓
+  JS236
+  Paul: Life and Letters
+  planned
+  ✓
+  MENN390
+  Special Topics in Mennonite Studies
+  planned
+  ✓
+  MENN397
+  Directed Readings in Mennonite Studies
+  planned
+  ✓
+  MUSIC363
+  The Church's Song
+  planned
+  ✓
+  MUSIC364
+  Worship and its Music
+  planned
+  ✓
+  PACS201
+  Roots of Conflict, Violence, and Peace
+  planned
+  ✓
+  PACS203
+  A History of Peace Movements
+  planned
+  ✓
+  PACS320
+  Christian Approaches to Peacemaking
+  planned
+  ✓
+  PACS330
+  War and Peace in Christianity
+  planned
+  ✓
+  RCS235
+  Jesus: Life and Legacy
+  planned
+  ✓
+  RCS236
+  Paul: Life and Letters
+  planned
+  ✓
+  RCS240
+  History of Christianity
+  planned
+  ✓
+  RCS253
+  Christianity's Big Questions
+  planned
+  ✓
+  RCS320
+  Christian Approaches to Peacemaking
+  planned
+  ✓
+  RCS343
+  Reformation History
+  planned
+  ✓
+  RCS353
+  War and Peace in Christianity
+  planned
+  ✓
+  RCS357
+  The Church's Song
+  planned
+  ✓
+  RCS358
+  Worship and its Music
+  planned
+
+## DONE (every course completed)
+
+✓
+HIST247
+Mennonite History: A Survey
+✓
+MENN125
+Who are the Mennonites?
+✓
+SOC275
+Mennonites as a Sociological Community
+---
+✓
+HIST348
+The Radical Reformation
+---
+✓
+Complete 4 of the following:
+  ✓
+  CMW363
+  The Church's Song
+  ✓
+  CMW364
+  Worship and its Music
+  ✓
+  HIST232
+  A History of Peace Movements
+  ✓
+  HIST235
+  History of Christianity

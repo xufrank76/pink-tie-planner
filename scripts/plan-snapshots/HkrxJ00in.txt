@@ -1,0 +1,63 @@
+# Music Minor (HkrxJ00in)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+MUSIC110
+How Music Matters
+MUSIC270
+Music Theory 1
+---
+Complete 1 of the following:
+  MUSIC222
+  Conducting 1
+  MUSIC233
+  Musical Rhythms of the World
+---
+Complete 2.5 additional units of MUSIC courses
+
+## PLANNED (every course planned)
+
+✓
+MUSIC110
+How Music Matters
+planned
+✓
+MUSIC270
+Music Theory 1
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MUSIC222
+  Conducting 1
+  planned
+  ✓
+  MUSIC233
+  Musical Rhythms of the World
+  planned
+---
+Complete 2.5 additional units of MUSIC courses
+✓
+MUSIC110
+✓
+MUSIC270
+
+## DONE (every course completed)
+
+✓
+MUSIC110
+How Music Matters
+✓
+MUSIC270
+Music Theory 1
+---
+✓
+MUSIC222
+Conducting 1
+---
+Complete 2.5 additional units of MUSIC courses
+✓
+MUSIC110
+✓
+MUSIC270

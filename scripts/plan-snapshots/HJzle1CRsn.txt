@@ -1,0 +1,90 @@
+# Anthropology Minor (HJzle1CRsn)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ANTH204
+Biological Anthropology
+---
+ANTH201/CLAS221
+Introduction to Archaeology
+---
+Complete 1 of the following:
+  ANTH202
+  Social and Cultural Anthropology
+  ANTH221
+  Language and Society
+  ANTH241
+  Food and Culture
+  ANTH245
+  Anthropology of Education
+  ANTH251
+  Doing Ethnography
+  ANTH290
+  Visual Anthropology
+---
+Complete 2.5 additional units of ANTH courses at any level
+
+## PLANNED (every course planned)
+
+✓
+ANTH204
+Biological Anthropology
+planned
+---
+✓
+ANTH201/CLAS221
+Introduction to Archaeology
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  ANTH202
+  Social and Cultural Anthropology
+  planned
+  ✓
+  ANTH221
+  Language and Society
+  planned
+  ✓
+  ANTH241
+  Food and Culture
+  planned
+  ✓
+  ANTH245
+  Anthropology of Education
+  planned
+  ✓
+  ANTH251
+  Doing Ethnography
+  planned
+  ✓
+  ANTH290
+  Visual Anthropology
+  planned
+---
+Complete 2.5 additional units of ANTH courses at any level
+✓
+ANTH204
+✓
+ANTH201
+
+## DONE (every course completed)
+
+✓
+ANTH204
+Biological Anthropology
+---
+✓
+ANTH201
+Introduction to Archaeology
+---
+✓
+ANTH202
+Social and Cultural Anthropology
+---
+Complete 2.5 additional units of ANTH courses at any level
+✓
+ANTH204
+✓
+ANTH201

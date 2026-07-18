@@ -1,0 +1,292 @@
+# Core BMath (core-bmath)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1 of the following:
+  CS115
+  Introduction to Computer Science 1
+  CS135/CS145
+  Designing Functional Programs
+Complete 1 of the following:
+  CS116
+  Introduction to Computer Science 2
+  CS136/CS146
+  Elementary Algorithm Design and Data Abstraction
+Complete 1 of the following:
+  MATH106
+  Applied Linear Algebra 1
+  MATH136/MATH146
+  Linear Algebra 1
+Complete 1 of the following:
+  MATH127
+  Calculus 1 for the Sciences
+  MATH137/MATH147
+  Calculus 1
+Complete 1 of the following:
+  MATH128
+  Calculus 2 for the Sciences
+  MATH138/MATH148
+  Calculus 2
+MATH135/MATH145
+Algebra
+MATH235/MATH245
+Linear Algebra 2
+Complete 1 of the following:
+  MATH237/MATH247
+  Calculus 3
+  MATH239/MATH249
+  Introduction to Combinatorics
+STAT230/STAT240
+Probability
+STAT231/STAT241
+Statistics
+Complete 1 of the following:
+  COMMST100
+  Interpersonal Communication
+  COMMST223
+  Public Speaking
+  EMLS101
+  Oral Communications for Academic Purposes
+  EMLS102
+  Clear Communication in English Writing
+  EMLS129/ENGL129
+  Written Academic English
+  ENGL109
+  Introduction to Academic Writing
+Complete 1 of the following:
+  COMMST225
+  Interviewing
+  COMMST227
+  Leadership
+  COMMST228
+  Public Communication
+  EMLS103
+  Effective English Pronunciation
+  EMLS104
+  Reading and Listening for Academic Purposes
+  EMLS110
+  Communicating in Canadian Academic Contexts
+  ENGL101B
+  Introduction to Rhetorical Studies
+  ENGL108B
+  Global English Literatures
+  ENGL108D
+  Digital Lives
+  ENGL119
+  Communications in Mathematics and Computer Science
+  ENGL208B
+  Science Fiction
+  ENGL209
+  Advanced Academic Writing
+  ENGL210E
+  Genres of Technical Communication
+  ENGL210F
+  Genres of Business Communication
+  ENGL378
+  Professional Communications in Statistics and Actuarial Science
+
+## PLANNED (every course planned)
+
+✓
+Complete 1 of the following:
+  ✓
+  CS115
+  Introduction to Computer Science 1
+  planned
+  ✓
+  CS135/CS145
+  Designing Functional Programs
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  CS116
+  Introduction to Computer Science 2
+  planned
+  ✓
+  CS136/CS146
+  Elementary Algorithm Design and Data Abstraction
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  MATH106
+  Applied Linear Algebra 1
+  planned
+  ✓
+  MATH136/MATH146
+  Linear Algebra 1
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  MATH127
+  Calculus 1 for the Sciences
+  planned
+  ✓
+  MATH137/MATH147
+  Calculus 1
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  MATH128
+  Calculus 2 for the Sciences
+  planned
+  ✓
+  MATH138/MATH148
+  Calculus 2
+  planned
+✓
+MATH135/MATH145
+Algebra
+planned
+✓
+MATH235/MATH245
+Linear Algebra 2
+planned
+✓
+Complete 1 of the following:
+  ✓
+  MATH237/MATH247
+  Calculus 3
+  planned
+  ✓
+  MATH239/MATH249
+  Introduction to Combinatorics
+  planned
+✓
+STAT230/STAT240
+Probability
+planned
+✓
+STAT231/STAT241
+Statistics
+planned
+✓
+Complete 1 of the following:
+  ✓
+  COMMST100
+  Interpersonal Communication
+  planned
+  ✓
+  COMMST223
+  Public Speaking
+  planned
+  ✓
+  EMLS101
+  Oral Communications for Academic Purposes
+  planned
+  ✓
+  EMLS102
+  Clear Communication in English Writing
+  planned
+  ✓
+  EMLS129/ENGL129
+  Written Academic English
+  planned
+  ✓
+  ENGL109
+  Introduction to Academic Writing
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  COMMST225
+  Interviewing
+  planned
+  ✓
+  COMMST227
+  Leadership
+  planned
+  ✓
+  COMMST228
+  Public Communication
+  planned
+  ✓
+  EMLS103
+  Effective English Pronunciation
+  planned
+  ✓
+  EMLS104
+  Reading and Listening for Academic Purposes
+  planned
+  ✓
+  EMLS110
+  Communicating in Canadian Academic Contexts
+  planned
+  ✓
+  ENGL101B
+  Introduction to Rhetorical Studies
+  planned
+  ✓
+  ENGL108B
+  Global English Literatures
+  planned
+  ✓
+  ENGL108D
+  Digital Lives
+  planned
+  ✓
+  ENGL119
+  Communications in Mathematics and Computer Science
+  planned
+  ✓
+  ENGL208B
+  Science Fiction
+  planned
+  ✓
+  ENGL209
+  Advanced Academic Writing
+  planned
+  ✓
+  ENGL210E
+  Genres of Technical Communication
+  planned
+  ✓
+  ENGL210F
+  Genres of Business Communication
+  planned
+  ✓
+  ENGL378
+  Professional Communications in Statistics and Actuarial Science
+  planned
+
+## DONE (every course completed)
+
+✓
+CS115
+Introduction to Computer Science 1
+✓
+CS116
+Introduction to Computer Science 2
+✓
+MATH106
+Applied Linear Algebra 1
+✓
+MATH127
+Calculus 1 for the Sciences
+✓
+MATH128
+Calculus 2 for the Sciences
+✓
+MATH135
+Algebra for Honours Mathematics
+✓
+MATH235
+Linear Algebra 2 for Honours Mathematics
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+✓
+STAT230
+Probability
+✓
+STAT231
+Statistics
+✓
+COMMST100
+Interpersonal Communication
+✓
+COMMST225
+Interviewing

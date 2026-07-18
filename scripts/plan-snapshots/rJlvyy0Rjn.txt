@@ -1,0 +1,70 @@
+# Earth Sciences Minor (rJlvyy0Rjn)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+EARTH121
+Introductory Earth Sciences
+EARTH121L
+Introductory Earth Sciences Laboratory
+EARTH122L
+Introductory Environmental Sciences Laboratory
+---
+Complete 1 of the following:
+  EARTH122
+  Introductory Environmental Sciences
+  ENVS195
+  Introduction to Environmental Studies
+---
+LECTURE3XX
+---
+4 additional LECTURE courses
+
+## PLANNED (every course planned)
+
+✓
+EARTH121
+Introductory Earth Sciences
+planned
+✓
+EARTH121L
+Introductory Earth Sciences Laboratory
+planned
+✓
+EARTH122L
+Introductory Environmental Sciences Laboratory
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  EARTH122
+  Introductory Environmental Sciences
+  planned
+  ✓
+  ENVS195
+  Introduction to Environmental Studies
+  planned
+---
+LECTURE3XX
+---
+4 additional LECTURE courses
+
+## DONE (every course completed)
+
+✓
+EARTH121
+Introductory Earth Sciences
+✓
+EARTH121L
+Introductory Earth Sciences Laboratory
+✓
+EARTH122L
+Introductory Environmental Sciences Laboratory
+---
+✓
+EARTH122
+Introductory Environmental Sciences
+---
+LECTURE3XX
+---
+4 additional LECTURE courses

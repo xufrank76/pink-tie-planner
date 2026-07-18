@@ -1,0 +1,85 @@
+# Predictive Analytics Specialization (S1WH1yA0i3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ACTSC456
+Statistical Learning in Actuarial Science
+STAT431
+Generalized Linear Models and their Applications
+STAT440
+Computational Inference
+---
+Complete 1 of the following:
+  ACTSC454
+  Longevity and Mortality Using Predictive Analytics
+  ACTSC457
+  Predictive Modelling in Property and Casualty Insurance
+---
+Complete 1 of the following:
+  STAT442
+  Data Visualization
+  STAT443
+  Forecasting
+  STAT444
+  Statistical Learning - Advanced Regression
+
+## PLANNED (every course planned)
+
+✓
+ACTSC456
+Statistical Learning in Actuarial Science
+planned
+✓
+STAT431
+Generalized Linear Models and their Applications
+planned
+✓
+STAT440
+Computational Inference
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  ACTSC454
+  Longevity and Mortality Using Predictive Analytics
+  planned
+  ✓
+  ACTSC457
+  Predictive Modelling in Property and Casualty Insurance
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  STAT442
+  Data Visualization
+  planned
+  ✓
+  STAT443
+  Forecasting
+  planned
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression
+  planned
+
+## DONE (every course completed)
+
+✓
+ACTSC456
+Statistical Learning in Actuarial Science
+✓
+STAT431
+Generalized Linear Models and their Applications
+✓
+STAT440
+Computational Inference
+---
+✓
+ACTSC454
+Longevity and Mortality Using Predictive Analytics
+---
+✓
+STAT442
+Data Visualization

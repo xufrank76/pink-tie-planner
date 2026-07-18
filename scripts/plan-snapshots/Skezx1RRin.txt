@@ -1,0 +1,72 @@
+# Economics Minor (Skezx1RRin)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ECON101
+Introduction to Microeconomics
+ECON102
+Introduction to Macroeconomics
+ECON201
+Microeconomic Theory for Business and Policy
+---
+Complete 1 of the following:
+  ECON206
+  Money and Banking 1
+  ECON207
+  Economic Growth and Development 1
+---
+ECON2XX
+
+## PLANNED (every course planned)
+
+✓
+ECON101
+Introduction to Microeconomics
+planned
+✓
+ECON102
+Introduction to Macroeconomics
+planned
+✓
+ECON201
+Microeconomic Theory for Business and Policy
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  ECON206
+  Money and Banking 1
+  planned
+  ✓
+  ECON207
+  Economic Growth and Development 1
+  planned
+---
+ECON2XX
+✓
+ECON201
+✓
+ECON206
+
+## DONE (every course completed)
+
+✓
+ECON101
+Introduction to Microeconomics
+✓
+ECON102
+Introduction to Macroeconomics
+✓
+ECON201
+Microeconomic Theory for Business and Policy
+---
+✓
+ECON206
+Money and Banking 1
+---
+ECON2XX
+✓
+ECON201
+✓
+ECON206

@@ -1,0 +1,349 @@
+# Data Science (Bachelor of Mathematics - Honours) (HymD11R0j3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+CS136L
+Tools and Techniques for Software Development
+CS230
+Introduction to Computers and Computer Systems
+CS231
+Algorithmic Problem Solving
+CS234
+Data Types and Structures
+CS338
+Computer Applications in Business: Databases
+CS431
+Data-Intensive Distributed Analytics
+DATSC401
+Capstone in Data Science
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+PHIL228
+Ethics and Artificial Intelligence
+STAT331
+Applied Linear Models
+STAT341
+Computational Statistics and Data Analysis
+STAT442
+Data Visualization
+---
+Complete 1 of the following:
+  AMATH231
+  Calculus 4
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+---
+CO250/CO255
+Introduction to Optimization
+---
+CS136/CS146
+Elementary Algorithm Design and Data Abstraction
+---
+MATH237/MATH247
+Calculus 3
+---
+Complete 2 of the following:
+  AMATH345
+  Data-Driven Mathematical Models
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  CO353
+  Computational Discrete Optimization
+  CO365
+  Optimization Models and Algorithms for Data Science
+  CO367
+  Nonlinear Optimization
+  CO370
+  Deterministic OR Models
+---
+Complete 2 of the following:
+  AMATH445
+  Scientific Machine Learning
+  STAT441
+  Statistical Learning - Classification
+  STAT443
+  Forecasting
+  STAT444
+  Statistical Learning - Advanced Regression
+---
+Complete 2 of the following:
+  Complete all the following:
+    Complete 1 of the following:
+      AMATH242/CS371
+      Introduction to Computational Mathematics
+      CS335
+      Computational Methods in Business and Finance
+      CS370
+      Numerical Computation
+    AMATH449/CS479
+    Neural Networks
+  Complete all the following:
+    STAT330
+    Mathematical Statistics
+    Complete 1 of the following:
+      STAT431
+      Generalized Linear Models and their Applications
+      STAT440
+      Computational Inference
+  Complete all the following:
+    STAT332
+    Sampling and Experimental Design
+    Complete 1 of the following:
+      STAT430
+      Experimental Design
+      STAT454
+      Sampling Theory and Practice
+
+## PLANNED (every course planned)
+
+✓
+CS136L
+Tools and Techniques for Software Development
+planned
+✓
+CS230
+Introduction to Computers and Computer Systems
+planned
+✓
+CS231
+Algorithmic Problem Solving
+planned
+✓
+CS234
+Data Types and Structures
+planned
+✓
+CS338
+Computer Applications in Business: Databases
+planned
+✓
+CS431
+Data-Intensive Distributed Analytics
+planned
+✓
+DATSC401
+Capstone in Data Science
+planned
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+planned
+✓
+PHIL228
+Ethics and Artificial Intelligence
+planned
+✓
+STAT331
+Applied Linear Models
+planned
+✓
+STAT341
+Computational Statistics and Data Analysis
+planned
+✓
+STAT442
+Data Visualization
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH231
+  Calculus 4
+  planned
+  ✓
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  planned
+---
+✓
+CO250/CO255
+Introduction to Optimization
+planned
+---
+✓
+CS136/CS146
+Elementary Algorithm Design and Data Abstraction
+planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  AMATH345
+  Data-Driven Mathematical Models
+  planned
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  planned
+  ✓
+  CO353
+  Computational Discrete Optimization
+  planned
+  ✓
+  CO365
+  Optimization Models and Algorithms for Data Science
+  planned
+  ✓
+  CO367
+  Nonlinear Optimization
+  planned
+  ✓
+  CO370
+  Deterministic OR Models
+  planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  AMATH445
+  Scientific Machine Learning
+  planned
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  planned
+  ✓
+  STAT443
+  Forecasting
+  planned
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression
+  planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  Complete all the following:
+    ✓
+    Complete 1 of the following:
+      ✓
+      AMATH242/CS371
+      Introduction to Computational Mathematics
+      planned
+      ✓
+      CS335
+      Computational Methods in Business and Finance
+      planned
+      ✓
+      CS370
+      Numerical Computation
+      planned
+    ✓
+    AMATH449/CS479
+    Neural Networks
+    planned
+  ✓
+  Complete all the following:
+    ✓
+    STAT330
+    Mathematical Statistics
+    planned
+    ✓
+    Complete 1 of the following:
+      ✓
+      STAT431
+      Generalized Linear Models and their Applications
+      planned
+      ✓
+      STAT440
+      Computational Inference
+      planned
+
+## DONE (every course completed)
+
+✓
+CS136L
+Tools and Techniques for Software Development
+✓
+CS230
+Introduction to Computers and Computer Systems
+✓
+CS231
+Algorithmic Problem Solving
+✓
+CS234
+Data Types and Structures
+✓
+CS338
+Computer Applications in Business: Databases
+✓
+CS431
+Data-Intensive Distributed Analytics
+✓
+DATSC401
+Capstone in Data Science
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+✓
+PHIL228
+Ethics and Artificial Intelligence
+✓
+STAT331
+Applied Linear Models
+✓
+STAT341
+Computational Statistics and Data Analysis
+✓
+STAT442
+Data Visualization
+---
+✓
+AMATH231
+Calculus 4
+---
+✓
+CO250
+Introduction to Optimization
+---
+✓
+CS136
+Elementary Algorithm Design and Data Abstraction
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+✓
+Complete 2 of the following:
+  ✓
+  AMATH345
+  Data-Driven Mathematical Models
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+---
+✓
+Complete 2 of the following:
+  ✓
+  AMATH445
+  Scientific Machine Learning
+  ✓
+  STAT441
+  Statistical Learning - Classification
+---
+✓
+Complete 2 of the following:
+  ✓
+  Complete all the following:
+    ✓
+    AMATH242
+    Introduction to Computational Mathematics
+    ✓
+    AMATH449
+    Neural Networks
+  ✓
+  Complete all the following:
+    ✓
+    STAT330
+    Mathematical Statistics
+    ✓
+    STAT431
+    Generalized Linear Models and their Applications

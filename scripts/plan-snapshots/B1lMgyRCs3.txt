@@ -1,0 +1,238 @@
+# Church Music and Worship Minor (B1lMgyRCs3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+CMW363/MUSIC363/RCS357
+The Church's Song
+---
+CMW364/MUSIC364/RCS358
+Worship and its Music
+---
+Complete 1 of the following:
+  Complete all the following:
+    CMW201
+    Worship Practicum 1
+    CMW202
+    Worship Practicum 2
+  Complete all the following:
+    MUSIC116
+    Music Ensemble
+    MUSIC117
+    Music Ensemble
+---
+Complete 2 of the following:
+  HIST235
+  History of Christianity
+  HIST348
+  The Radical Reformation
+  HIST379
+  Reformation History
+  JS228
+  Big Ideas of the Bible
+  JS235
+  Jesus: Life and Legacy
+  JS236
+  Paul: Life and Letters
+  PACS336
+  Christianity, Violence, and the Bible
+  RCS110
+  Judaism, Christianity, Islam
+  RCS228
+  Big Ideas of the Bible
+  RCS235
+  Jesus: Life and Legacy
+  RCS236
+  Paul: Life and Letters
+  RCS240
+  History of Christianity
+  RCS253
+  Christianity's Big Questions
+  RCS255
+  Roman Catholicism
+  RCS335
+  Christianity, Violence, and the Bible
+  RCS343
+  Reformation History
+  RCS344
+  The Radical Reformation
+---
+Complete at least 1 courses from HIST or RCS 300 - 499
+---
+MUSIC216
+Music Ensemble
+MUSIC217
+Music Ensemble
+MUSIC316
+Music Ensemble
+MUSIC317
+Music Ensemble
+MUSIC416
+Music Ensemble
+MUSIC417
+Music Ensemble
+
+## PLANNED (every course planned)
+
+✓
+CMW363/MUSIC363/RCS357
+The Church's Song
+planned
+---
+✓
+CMW364/MUSIC364/RCS358
+Worship and its Music
+planned
+---
+✓
+CMW201
+Worship Practicum 1
+planned
+✓
+CMW202
+Worship Practicum 2
+planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  HIST235
+  History of Christianity
+  planned
+  ✓
+  HIST348
+  The Radical Reformation
+  planned
+  ✓
+  HIST379
+  Reformation History
+  planned
+  ✓
+  JS228
+  Big Ideas of the Bible
+  planned
+  ✓
+  JS235
+  Jesus: Life and Legacy
+  planned
+  ✓
+  JS236
+  Paul: Life and Letters
+  planned
+  ✓
+  PACS336
+  Christianity, Violence, and the Bible
+  planned
+  ✓
+  RCS110
+  Judaism, Christianity, Islam
+  planned
+  ✓
+  RCS228
+  Big Ideas of the Bible
+  planned
+  ✓
+  RCS235
+  Jesus: Life and Legacy
+  planned
+  ✓
+  RCS236
+  Paul: Life and Letters
+  planned
+  ✓
+  RCS240
+  History of Christianity
+  planned
+  ✓
+  RCS253
+  Christianity's Big Questions
+  planned
+  ✓
+  RCS255
+  Roman Catholicism
+  planned
+  ✓
+  RCS335
+  Christianity, Violence, and the Bible
+  planned
+  ✓
+  RCS343
+  Reformation History
+  planned
+  ✓
+  RCS344
+  The Radical Reformation
+  planned
+---
+Complete at least 1 courses from HIST or RCS 300 - 499
+---
+✓
+MUSIC216
+Music Ensemble
+planned
+✓
+MUSIC217
+Music Ensemble
+planned
+✓
+MUSIC316
+Music Ensemble
+planned
+✓
+MUSIC317
+Music Ensemble
+planned
+✓
+MUSIC416
+Music Ensemble
+planned
+✓
+MUSIC417
+Music Ensemble
+planned
+
+## DONE (every course completed)
+
+✓
+CMW363
+The Church's Song
+---
+✓
+CMW364
+Worship and its Music
+---
+✓
+CMW201
+Worship Practicum 1
+✓
+CMW202
+Worship Practicum 2
+---
+✓
+Complete 2 of the following:
+  ✓
+  HIST235
+  History of Christianity
+  ✓
+  HIST348
+  The Radical Reformation
+---
+Complete at least 1 courses from HIST or RCS 300 - 499
+---
+✓
+MUSIC216
+Music Ensemble
+✓
+MUSIC217
+Music Ensemble
+✓
+MUSIC316
+Music Ensemble
+✓
+MUSIC317
+Music Ensemble
+✓
+MUSIC416
+Music Ensemble
+✓
+MUSIC417
+Music Ensemble

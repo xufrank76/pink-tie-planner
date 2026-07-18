@@ -1,0 +1,45 @@
+# Religion, Culture, and Spirituality Minor (rkzDxkARjn)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+RCS260
+Religion Matters
+---
+RCS2XX
+---
+RCS3XX
+---
+Complete 1.5 additional units of RCS courses
+
+## PLANNED (every course planned)
+
+✓
+RCS260
+Religion Matters
+planned
+---
+RCS2XX
+✓
+RCS260
+---
+RCS3XX
+---
+Complete 1.5 additional units of RCS courses
+✓
+RCS260
+
+## DONE (every course completed)
+
+✓
+RCS260
+Religion Matters
+---
+RCS2XX
+✓
+RCS260
+---
+RCS3XX
+---
+Complete 1.5 additional units of RCS courses
+✓
+RCS260

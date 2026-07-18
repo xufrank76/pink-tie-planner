@@ -1,0 +1,114 @@
+# Engineering Specialization — Heat and Mass Transfer (HkzBkkCCoh-t3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AMATH361
+Continuum Mechanics
+AMATH463
+Fluid Mechanics
+CHE230
+Physical Chemistry 1
+CHE231
+Physical Chemistry 2
+CHE312
+Mathematics of Heat and Mass Transfer
+CHE313
+Applications of Heat and Mass Transfer
+CHE330
+Chemical Engineering Thermodynamics
+Complete 2 of the following:
+  CHE314
+  Chemical Reaction Engineering
+  CHE331
+  Electrochemical Engineering
+  CHE341
+  Introduction to Process Control
+  CHE361
+  Bioprocess Engineering
+  CHE522
+  Advanced Process Dynamics and Control
+
+## PLANNED (every course planned)
+
+✓
+AMATH361
+Continuum Mechanics
+planned
+✓
+AMATH463
+Fluid Mechanics
+planned
+✓
+CHE230
+Physical Chemistry 1
+planned
+✓
+CHE231
+Physical Chemistry 2
+planned
+✓
+CHE312
+Mathematics of Heat and Mass Transfer
+planned
+✓
+CHE313
+Applications of Heat and Mass Transfer
+planned
+✓
+CHE330
+Chemical Engineering Thermodynamics
+planned
+✓
+Complete 2 of the following:
+  ✓
+  CHE314
+  Chemical Reaction Engineering
+  planned
+  ✓
+  CHE331
+  Electrochemical Engineering
+  planned
+  ✓
+  CHE341
+  Introduction to Process Control
+  planned
+  ✓
+  CHE361
+  Bioprocess Engineering
+  planned
+  ✓
+  CHE522
+  Advanced Process Dynamics and Control
+  planned
+
+## DONE (every course completed)
+
+✓
+AMATH361
+Continuum Mechanics
+✓
+AMATH463
+Fluid Mechanics
+✓
+CHE230
+Physical Chemistry 1
+✓
+CHE231
+Physical Chemistry 2
+✓
+CHE312
+Mathematics of Heat and Mass Transfer
+✓
+CHE313
+Applications of Heat and Mass Transfer
+✓
+CHE330
+Chemical Engineering Thermodynamics
+✓
+Complete 2 of the following:
+  ✓
+  CHE314
+  Chemical Reaction Engineering
+  ✓
+  CHE331
+  Electrochemical Engineering

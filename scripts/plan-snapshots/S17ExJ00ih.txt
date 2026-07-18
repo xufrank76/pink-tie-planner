@@ -1,0 +1,174 @@
+# Human Sciences Minor (S17ExJ00ih)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+HUMSC101
+Great Dialogues: Reflection and Action
+HUMSC102
+Great Dialogues: Politics and Morality
+---
+Complete 1 of the following:
+  HUMSC201
+  Great Dialogues: Reason and Faith
+  HUMSC301
+  Great Dialogues: The Sacred and the Profane
+---
+Complete 1 of the following:
+  HUMSC401
+  Great Dialogues: Athens, Jerusalem, and Technological Society
+  PHIL326J
+  Philosophy of Social Justice
+---
+Complete 1 of the following:
+  ITALST291
+  Italian Culture and Civilization 1
+  ITALST311
+  Medieval Italian Literature
+  ITALST312
+  Renaissance Italian Literature
+  ITALST360
+  Dante's Divine Comedy
+---
+Complete 2 of the following:
+  PHIL100J
+  Introduction to Philosophy
+  PHIL118J
+  Virtue and the Good Life
+  PHIL120J
+  The Meaning of Life
+  PHIL204J
+  Philosophy and Culture
+  PHIL210J
+  Human Nature
+  PHIL218J
+  Foundations of Ethics
+---
+Complete 1 of the following:
+  SOC355J
+  Power and Parenting
+  SOC369J
+  The Sociology of Community
+
+## PLANNED (every course planned)
+
+✓
+HUMSC101
+Great Dialogues: Reflection and Action
+planned
+✓
+HUMSC102
+Great Dialogues: Politics and Morality
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  HUMSC201
+  Great Dialogues: Reason and Faith
+  planned
+  ✓
+  HUMSC301
+  Great Dialogues: The Sacred and the Profane
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  HUMSC401
+  Great Dialogues: Athens, Jerusalem, and Technological Society
+  planned
+  ✓
+  PHIL326J
+  Philosophy of Social Justice
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  ITALST291
+  Italian Culture and Civilization 1
+  planned
+  ✓
+  ITALST311
+  Medieval Italian Literature
+  planned
+  ✓
+  ITALST312
+  Renaissance Italian Literature
+  planned
+  ✓
+  ITALST360
+  Dante's Divine Comedy
+  planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  PHIL100J
+  Introduction to Philosophy
+  planned
+  ✓
+  PHIL118J
+  Virtue and the Good Life
+  planned
+  ✓
+  PHIL120J
+  The Meaning of Life
+  planned
+  ✓
+  PHIL204J
+  Philosophy and Culture
+  planned
+  ✓
+  PHIL210J
+  Human Nature
+  planned
+  ✓
+  PHIL218J
+  Foundations of Ethics
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  SOC355J
+  Power and Parenting
+  planned
+  ✓
+  SOC369J
+  The Sociology of Community
+  planned
+
+## DONE (every course completed)
+
+✓
+HUMSC101
+Great Dialogues: Reflection and Action
+✓
+HUMSC102
+Great Dialogues: Politics and Morality
+---
+✓
+HUMSC201
+Great Dialogues: Reason and Faith
+---
+✓
+HUMSC401
+Great Dialogues: Athens, Jerusalem, and Technological Society
+---
+✓
+ITALST291
+Italian Culture and Civilization 1
+---
+✓
+Complete 2 of the following:
+  ✓
+  PHIL100J
+  Introduction to Philosophy
+  ✓
+  PHIL118J
+  Virtue and the Good Life
+---
+✓
+SOC355J
+Power and Parenting

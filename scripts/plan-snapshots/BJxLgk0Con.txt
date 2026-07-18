@@ -1,0 +1,224 @@
+# Politics and Business Minor (BJxLgk0Con)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+PSCI231
+Government and Business
+PSCI283
+International Political Economy
+PSCI300
+Theories of Political Economy
+---
+Complete 3 of the following:
+  ECON101
+  Introduction to Microeconomics
+  ECON102
+  Introduction to Macroeconomics
+  ECON201
+  Microeconomic Theory for Business and Policy
+  ECON206
+  Money and Banking 1
+  ECON207
+  Economic Growth and Development 1
+  ECON231
+  Introduction to International Economics
+  ECON290
+  Models of Choice in Competitive Markets
+  ECON351
+  Labour Economics
+  ECON371
+  Business Finance 1
+---
+Complete 2 of the following:
+  ERS462
+  Global Food and Agricultural Politics
+  GEOG462
+  Global Food and Agricultural Politics
+  PSCI244
+  Solving Puzzles in Political Science
+  PSCI252
+  Global South
+  PSCI254
+  The Political Documentary
+  PSCI255
+  Political Economy of Rich Countries
+  PSCI301
+  Canadian Political Economy
+  PSCI303
+  Political Economy of the Environment
+  PSCI387
+  Globalization
+  PSCI403
+  Topics in Politics and Business
+  PSCI404
+  Globalization, International Business, and Development
+  PSCI405
+  Chinese Political Economy
+  PSCI428
+  The State and Economic Life
+  PSCI455
+  Comparative Political Economy
+  PSCI479
+  International Political Economy of Asia
+  PSCI485
+  Selected Topics in International Political Economy
+  PSCI488
+  Global Food and Agricultural Politics
+
+## PLANNED (every course planned)
+
+✓
+PSCI231
+Government and Business
+planned
+✓
+PSCI283
+International Political Economy
+planned
+✓
+PSCI300
+Theories of Political Economy
+planned
+---
+✓
+Complete 3 of the following:
+  ✓
+  ECON101
+  Introduction to Microeconomics
+  planned
+  ✓
+  ECON102
+  Introduction to Macroeconomics
+  planned
+  ✓
+  ECON201
+  Microeconomic Theory for Business and Policy
+  planned
+  ✓
+  ECON206
+  Money and Banking 1
+  planned
+  ✓
+  ECON207
+  Economic Growth and Development 1
+  planned
+  ✓
+  ECON231
+  Introduction to International Economics
+  planned
+  ✓
+  ECON290
+  Models of Choice in Competitive Markets
+  planned
+  ✓
+  ECON351
+  Labour Economics
+  planned
+  ✓
+  ECON371
+  Business Finance 1
+  planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  ERS462
+  Global Food and Agricultural Politics
+  planned
+  ✓
+  GEOG462
+  Global Food and Agricultural Politics
+  planned
+  ✓
+  PSCI244
+  Solving Puzzles in Political Science
+  planned
+  ✓
+  PSCI252
+  Global South
+  planned
+  ✓
+  PSCI254
+  The Political Documentary
+  planned
+  ✓
+  PSCI255
+  Political Economy of Rich Countries
+  planned
+  ✓
+  PSCI301
+  Canadian Political Economy
+  planned
+  ✓
+  PSCI303
+  Political Economy of the Environment
+  planned
+  ✓
+  PSCI387
+  Globalization
+  planned
+  ✓
+  PSCI403
+  Topics in Politics and Business
+  planned
+  ✓
+  PSCI404
+  Globalization, International Business, and Development
+  planned
+  ✓
+  PSCI405
+  Chinese Political Economy
+  planned
+  ✓
+  PSCI428
+  The State and Economic Life
+  planned
+  ✓
+  PSCI455
+  Comparative Political Economy
+  planned
+  ✓
+  PSCI479
+  International Political Economy of Asia
+  planned
+  ✓
+  PSCI485
+  Selected Topics in International Political Economy
+  planned
+  ✓
+  PSCI488
+  Global Food and Agricultural Politics
+  planned
+
+## DONE (every course completed)
+
+✓
+PSCI231
+Government and Business
+✓
+PSCI283
+International Political Economy
+✓
+PSCI300
+Theories of Political Economy
+---
+✓
+Complete 3 of the following:
+  ✓
+  ECON101
+  Introduction to Microeconomics
+  ✓
+  ECON102
+  Introduction to Macroeconomics
+  ✓
+  ECON201
+  Microeconomic Theory for Business and Policy
+---
+✓
+Complete 2 of the following:
+  ✓
+  ERS462
+  Global Food and Agricultural Politics
+  ✓
+  GEOG462
+  Global Food and Agricultural Politics

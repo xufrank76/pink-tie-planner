@@ -1,0 +1,90 @@
+# Russian and East European Studies Minor (Syvl1CAo3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+RUSS101
+Elementary Russian 1
+RUSS102
+Elementary Russian 2
+---
+Complete 3.0 units from the courses listed below or from the following subject codes: CROAT, REES, RUSS
+  or from
+  HIST263
+  The Age of Revolution: Europe in the 19th Century
+  HIST265
+  Eastern Europe Since 1945
+  HIST356
+  Russia: From Tsars to Putin
+  PSCI353
+  Politics in Russia
+  PSCI355
+  Russia and its Neighbours
+
+## PLANNED (every course planned)
+
+✓
+RUSS101
+Elementary Russian 1
+planned
+✓
+RUSS102
+Elementary Russian 2
+planned
+---
+✓
+Complete 3.0 units from the courses listed below or from the following subject codes: CROAT, REES, RUSS
+  RUSS101
+  RUSS102
+  or from
+  ✓
+  HIST263
+  The Age of Revolution: Europe in the 19th Century
+  planned
+  ✓
+  HIST265
+  Eastern Europe Since 1945
+  planned
+  ✓
+  HIST356
+  Russia: From Tsars to Putin
+  planned
+  ✓
+  PSCI353
+  Politics in Russia
+  planned
+  ✓
+  PSCI355
+  Russia and its Neighbours
+  planned
+
+## DONE (every course completed)
+
+✓
+RUSS101
+Elementary Russian 1
+✓
+RUSS102
+Elementary Russian 2
+---
+✓
+Complete 3.0 units from the courses listed below or from the following subject codes: CROAT, REES, RUSS
+  ✓
+  RUSS101
+  ✓
+  RUSS102
+  or from
+  ✓
+  HIST263
+  The Age of Revolution: Europe in the 19th Century
+  ✓
+  HIST265
+  Eastern Europe Since 1945
+  ✓
+  HIST356
+  Russia: From Tsars to Putin
+  ✓
+  PSCI353
+  Politics in Russia
+  ✓
+  PSCI355
+  Russia and its Neighbours

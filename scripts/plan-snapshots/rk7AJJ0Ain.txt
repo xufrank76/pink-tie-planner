@@ -1,0 +1,180 @@
+# Mathematics Minor (rk7AJJ0Ain)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1 of the following:
+  CS115
+  Introduction to Computer Science 1
+  CS135/CS145
+  Designing Functional Programs
+---
+Complete 1 of the following:
+  CS114
+  Principles of Computing for Science
+  CS116
+  Introduction to Computer Science 2
+  CS136/CS146
+  Elementary Algorithm Design and Data Abstraction
+---
+Complete 1 of the following:
+  MATH106
+  Applied Linear Algebra 1
+  MATH114
+  Linear Algebra for Science
+  MATH115
+  Linear Algebra for Engineering
+---
+Complete 1 of the following:
+  MATH116/MATH117
+  Calculus 1 for Engineering
+  MATH127
+  Calculus 1 for the Sciences
+---
+Complete 1 of the following:
+  MATH118/MATH119
+  Calculus 2 for Engineering
+  MATH128
+  Calculus 2 for the Sciences
+---
+Complete 2 of the following:
+  STAT220
+  Probability (Non-Specialist Level)
+  STAT221
+  Statistics (Non-Specialist Level)
+  STAT321
+  Regression and Forecasting (Non-Specialist Level)
+  STAT322
+  Sampling and Experimental Design (Non-Specialist Level)
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+
+## PLANNED (every course planned)
+
+✓
+Complete 1 of the following:
+  ✓
+  CS115
+  Introduction to Computer Science 1
+  planned
+  ✓
+  CS135/CS145
+  Designing Functional Programs
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CS114
+  Principles of Computing for Science
+  planned
+  ✓
+  CS116
+  Introduction to Computer Science 2
+  planned
+  ✓
+  CS136/CS146
+  Elementary Algorithm Design and Data Abstraction
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH106
+  Applied Linear Algebra 1
+  planned
+  ✓
+  MATH114
+  Linear Algebra for Science
+  planned
+  ✓
+  MATH115
+  Linear Algebra for Engineering
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH116/MATH117
+  Calculus 1 for Engineering
+  planned
+  ✓
+  MATH127
+  Calculus 1 for the Sciences
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH118/MATH119
+  Calculus 2 for Engineering
+  planned
+  ✓
+  MATH128
+  Calculus 2 for the Sciences
+  planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  STAT220
+  Probability (Non-Specialist Level)
+  planned
+  ✓
+  STAT221
+  Statistics (Non-Specialist Level)
+  planned
+  ✓
+  STAT321
+  Regression and Forecasting (Non-Specialist Level)
+  planned
+  ✓
+  STAT322
+  Sampling and Experimental Design (Non-Specialist Level)
+  planned
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+CS115
+✓
+CS135
+✓
+CS145
+
+## DONE (every course completed)
+
+✓
+CS115
+Introduction to Computer Science 1
+---
+✓
+CS114
+Principles of Computing for Science
+---
+✓
+MATH106
+Applied Linear Algebra 1
+---
+✓
+MATH116
+Calculus 1 for Engineering
+---
+✓
+MATH118
+Calculus 2 for Engineering
+---
+✓
+Complete 2 of the following:
+  ✓
+  STAT220
+  Probability (Non-Specialist Level)
+  ✓
+  STAT221
+  Statistics (Non-Specialist Level)
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+CS115
+✓
+CS135
+✓
+CS145

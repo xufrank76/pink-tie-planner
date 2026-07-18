@@ -1,0 +1,13 @@
+# Urban Studies Minor (SJflekAAjh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 9 courses (subject codes: PLAN, GEOG, SOC)
+
+## PLANNED (every course planned)
+
+Complete 9 courses (subject codes: PLAN, GEOG, SOC)
+
+## DONE (every course completed)
+
+Complete 9 courses (subject codes: PLAN, GEOG, SOC)

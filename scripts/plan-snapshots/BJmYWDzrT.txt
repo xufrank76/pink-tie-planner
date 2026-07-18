@@ -1,0 +1,102 @@
+# Neuroscience Minor (BJmYWDzrT)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 5 of the following:
+  BIOL371
+  Comparative Animal Physiology: Evolutionary Themes
+  BIOL373
+  Principles of Human Physiology 2
+  BIOL376
+  Cellular Neurophysiology
+  HLTH290
+  An Introduction to Health Neuroscience
+  KIN255
+  Fundamentals of Neuroscience
+  KIN301
+  Human Anatomy of the Central Nervous System
+  KIN312
+  Introduction to Neurological Disorders
+  PSYCH261
+  Physiological Psychology
+  PSYCH306
+  Perception
+  PSYCH307
+  Human Neuropsychology
+  PSYCH335
+  Developmental Neuropsychology
+---
+Complete 5 additional courses (subject codes: BIOL, HLTH, KIN, PSYCH)
+
+## PLANNED (every course planned)
+
+✓
+Complete 5 of the following:
+  ✓
+  BIOL371
+  Comparative Animal Physiology: Evolutionary Themes
+  planned
+  ✓
+  BIOL373
+  Principles of Human Physiology 2
+  planned
+  ✓
+  BIOL376
+  Cellular Neurophysiology
+  planned
+  ✓
+  HLTH290
+  An Introduction to Health Neuroscience
+  planned
+  ✓
+  KIN255
+  Fundamentals of Neuroscience
+  planned
+  ✓
+  KIN301
+  Human Anatomy of the Central Nervous System
+  planned
+  ✓
+  KIN312
+  Introduction to Neurological Disorders
+  planned
+  ✓
+  PSYCH261
+  Physiological Psychology
+  planned
+  ✓
+  PSYCH306
+  Perception
+  planned
+  ✓
+  PSYCH307
+  Human Neuropsychology
+  planned
+  ✓
+  PSYCH335
+  Developmental Neuropsychology
+  planned
+---
+Complete 5 additional courses (subject codes: BIOL, HLTH, KIN, PSYCH)
+
+## DONE (every course completed)
+
+✓
+Complete 5 of the following:
+  ✓
+  BIOL371
+  Comparative Animal Physiology: Evolutionary Themes
+  ✓
+  BIOL373
+  Principles of Human Physiology 2
+  ✓
+  BIOL376
+  Cellular Neurophysiology
+  ✓
+  HLTH290
+  An Introduction to Health Neuroscience
+  ✓
+  KIN255
+  Fundamentals of Neuroscience
+---
+Complete 5 additional courses (subject codes: BIOL, HLTH, KIN, PSYCH)

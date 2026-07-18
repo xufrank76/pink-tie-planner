@@ -1,0 +1,74 @@
+# Statistics Minor (rJbgx1RAs3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+MATH237/MATH247
+Calculus 3
+---
+Complete 3 of the following:
+  STAT330
+  Mathematical Statistics
+  STAT331
+  Applied Linear Models
+  STAT332
+  Sampling and Experimental Design
+  STAT333
+  Stochastic Processes 1
+---
+2 additional STAT 3XX/4XX courses
+
+## PLANNED (every course planned)
+
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+✓
+Complete 3 of the following:
+  ✓
+  STAT330
+  Mathematical Statistics
+  planned
+  ✓
+  STAT331
+  Applied Linear Models
+  planned
+  ✓
+  STAT332
+  Sampling and Experimental Design
+  planned
+  ✓
+  STAT333
+  Stochastic Processes 1
+  planned
+---
+2 additional STAT 3XX/4XX courses
+✓
+STAT330
+✓
+STAT331
+
+## DONE (every course completed)
+
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+✓
+Complete 3 of the following:
+  ✓
+  STAT330
+  Mathematical Statistics
+  ✓
+  STAT331
+  Applied Linear Models
+  ✓
+  STAT332
+  Sampling and Experimental Design
+---
+2 additional STAT 3XX/4XX courses
+✓
+STAT330
+✓
+STAT331

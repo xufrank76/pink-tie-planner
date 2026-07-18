@@ -1,0 +1,209 @@
+# Biostatistics (Bachelor of Mathematics - Honours) (SkUkJR0oh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+STAT330
+Mathematical Statistics
+STAT331
+Applied Linear Models
+STAT332
+Sampling and Experimental Design
+STAT333
+Stochastic Processes 1
+STAT337
+Introduction to Biostatistics
+STAT431
+Generalized Linear Models and their Applications
+STAT437
+Statistical Methods for Life History Analysis
+STAT438
+Advanced Methods in Biostatistics
+---
+Complete 1 of the following:
+  AMATH231
+  Calculus 4
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  AMATH350
+  Differential Equations for Business and Economics
+  MATH239/MATH249
+  Introduction to Combinatorics
+---
+Complete 1 of the following:
+  BIOL239
+  Genetics
+  HLTH101
+  Introduction to Health 1
+---
+MATH237/MATH247
+Calculus 3
+---
+2 additional STAT 3XX/4XX courses
+---
+2 additional 3XX/4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+
+## PLANNED (every course planned)
+
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+planned
+✓
+STAT330
+Mathematical Statistics
+planned
+✓
+STAT331
+Applied Linear Models
+planned
+✓
+STAT332
+Sampling and Experimental Design
+planned
+✓
+STAT333
+Stochastic Processes 1
+planned
+✓
+STAT337
+Introduction to Biostatistics
+planned
+✓
+STAT431
+Generalized Linear Models and their Applications
+planned
+✓
+STAT437
+Statistical Methods for Life History Analysis
+planned
+✓
+STAT438
+Advanced Methods in Biostatistics
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH231
+  Calculus 4
+  planned
+  ✓
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  planned
+  ✓
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  planned
+  ✓
+  AMATH350
+  Differential Equations for Business and Economics
+  planned
+  ✓
+  MATH239/MATH249
+  Introduction to Combinatorics
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  BIOL239
+  Genetics
+  planned
+  ✓
+  HLTH101
+  Introduction to Health 1
+  planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+2 additional STAT 3XX/4XX courses
+✓
+STAT330
+✓
+STAT331
+---
+2 additional 3XX/4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+STAT330
+✓
+STAT331
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+STAT330
+✓
+STAT331
+✓
+STAT332
+
+## DONE (every course completed)
+
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+✓
+STAT330
+Mathematical Statistics
+✓
+STAT331
+Applied Linear Models
+✓
+STAT332
+Sampling and Experimental Design
+✓
+STAT333
+Stochastic Processes 1
+✓
+STAT337
+Introduction to Biostatistics
+✓
+STAT431
+Generalized Linear Models and their Applications
+✓
+STAT437
+Statistical Methods for Life History Analysis
+✓
+STAT438
+Advanced Methods in Biostatistics
+---
+✓
+AMATH231
+Calculus 4
+---
+✓
+BIOL239
+Genetics
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+2 additional STAT 3XX/4XX courses
+✓
+STAT330
+✓
+STAT331
+---
+2 additional 3XX/4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+STAT330
+✓
+STAT331
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+STAT330
+✓
+STAT331
+✓
+STAT332

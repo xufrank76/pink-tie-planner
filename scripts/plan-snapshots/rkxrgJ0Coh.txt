@@ -1,0 +1,63 @@
+# Peace and Conflict Studies Minor (rkxrgJ0Coh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 2 of the following:
+  PACS201
+  Roots of Conflict, Violence, and Peace
+  PACS202
+  Conflict Resolution
+  PACS203
+  A History of Peace Movements
+---
+PACS3XX
+---
+4 additional PACS courses
+
+## PLANNED (every course planned)
+
+✓
+Complete 2 of the following:
+  ✓
+  PACS201
+  Roots of Conflict, Violence, and Peace
+  planned
+  ✓
+  PACS202
+  Conflict Resolution
+  planned
+  ✓
+  PACS203
+  A History of Peace Movements
+  planned
+---
+PACS3XX
+---
+4 additional PACS courses
+✓
+PACS201
+✓
+PACS202
+✓
+PACS203
+
+## DONE (every course completed)
+
+✓
+Complete 2 of the following:
+  ✓
+  PACS201
+  Roots of Conflict, Violence, and Peace
+  ✓
+  PACS202
+  Conflict Resolution
+---
+PACS3XX
+---
+4 additional PACS courses
+✓
+PACS201
+✓
+PACS202
+✓
+PACS203

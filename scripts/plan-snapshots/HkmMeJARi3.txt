@@ -1,0 +1,71 @@
+# English Language and Literature Minor (HkmMeJARi3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ENGL251
+Literary Theory and Criticism
+---
+Complete 2 of the following:
+  ENGL200A
+  English Literatures 1
+  ENGL200B
+  English Literatures 2
+  ENGL200C
+  English Literatures 3
+---
+ENGL3XX
+---
+Complete 2.0 additional units of ENGL courses
+
+## PLANNED (every course planned)
+
+✓
+ENGL251
+Literary Theory and Criticism
+planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  ENGL200A
+  English Literatures 1
+  planned
+  ✓
+  ENGL200B
+  English Literatures 2
+  planned
+  ✓
+  ENGL200C
+  English Literatures 3
+  planned
+---
+ENGL3XX
+---
+Complete 2.0 additional units of ENGL courses
+✓
+ENGL251
+✓
+ENGL200A
+
+## DONE (every course completed)
+
+✓
+ENGL251
+Literary Theory and Criticism
+---
+✓
+Complete 2 of the following:
+  ✓
+  ENGL200A
+  English Literatures 1
+  ✓
+  ENGL200B
+  English Literatures 2
+---
+ENGL3XX
+---
+Complete 2.0 additional units of ENGL courses
+✓
+ENGL251
+✓
+ENGL200A

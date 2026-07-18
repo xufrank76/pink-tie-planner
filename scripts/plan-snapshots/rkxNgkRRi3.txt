@@ -1,0 +1,25 @@
+# History Minor (rkxNgkRRi3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+HIST3XX
+---
+HIST2XX
+---
+Complete 1.0 additional unit of HIST courses at any level (see Additional Constraints)
+
+## PLANNED (every course planned)
+
+HIST3XX
+---
+HIST2XX
+---
+Complete 1.0 additional unit of HIST courses at any level (see Additional Constraints)
+
+## DONE (every course completed)
+
+HIST3XX
+---
+HIST2XX
+---
+Complete 1.0 additional unit of HIST courses at any level (see Additional Constraints)

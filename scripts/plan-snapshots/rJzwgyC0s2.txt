@@ -1,0 +1,49 @@
+# Social Development Studies Minor (rJzwgyC0s2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+SDS131R
+Political Ideologies and Social Development
+SDS150R
+Lifespan Processes
+SOCWK120R
+Introduction to Social Work
+---
+SDS2XX
+---
+Complete 1.5 additional units from the approved courses list
+
+## PLANNED (every course planned)
+
+✓
+SDS131R
+Political Ideologies and Social Development
+planned
+✓
+SDS150R
+Lifespan Processes
+planned
+✓
+SOCWK120R
+Introduction to Social Work
+planned
+---
+SDS2XX
+---
+Complete 1.5 additional units from the approved courses list
+
+## DONE (every course completed)
+
+✓
+SDS131R
+Political Ideologies and Social Development
+✓
+SDS150R
+Lifespan Processes
+✓
+SOCWK120R
+Introduction to Social Work
+---
+SDS2XX
+---
+Complete 1.5 additional units from the approved courses list

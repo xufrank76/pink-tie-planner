@@ -1,0 +1,201 @@
+# Tourism Minor (r1xgeJR0in)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+GEOG233
+Geography of Tourism
+REC280
+Introduction to Tourism
+---
+GEOG323/REC383
+Tourism Impacts - International Perspectives
+---
+Complete 1 of the following:
+  GEOG430C
+  Field Research in Regional Geography (1.50)
+  PLAN414/REC425
+  Heritage Conservation Planning
+  REC433
+  Ecotourism and Communities (1.00)
+  REC475
+  Independent Study: Translating Research for Practice
+  REC480
+  Advanced Seminar in Tourism Development
+---
+Complete 4 of the following:
+  ANTH348
+  Anthropology of Tourism
+  ENGL208M
+  Travel Literature
+  GEOG423
+  Sustainable Tourism
+  HRM200
+  Basic Human Resources Management
+  MGMT220
+  Entrepreneurship and the Creative Workplace
+  PLAN414
+  Heritage Conservation Planning
+  REC215
+  Marketing Recreation, Sport, and Events
+  REC218
+  Social Entrepreneurship for Change
+  REC219
+  Introduction to Event Studies
+  REC230
+  Outdoor Recreation and Land-Based Learning
+  REC312
+  Practicum in Recreation, Sport, and Tourism
+  REC319
+  Event Planning and Design
+  REC419
+  Event Implementation and Evaluation
+  REC422
+  Urban Recreation
+  REC425
+  Heritage Conservation Planning
+  REC433
+  Ecotourism and Communities (1.00)
+  REC480
+  Advanced Seminar in Tourism Development
+
+## PLANNED (every course planned)
+
+✓
+GEOG233
+Geography of Tourism
+planned
+✓
+REC280
+Introduction to Tourism
+planned
+---
+✓
+GEOG323/REC383
+Tourism Impacts - International Perspectives
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  GEOG430C
+  Field Research in Regional Geography (1.50)
+  planned
+  ✓
+  PLAN414/REC425
+  Heritage Conservation Planning
+  planned
+  ✓
+  REC433
+  Ecotourism and Communities (1.00)
+  planned
+  ✓
+  REC475
+  Independent Study: Translating Research for Practice
+  planned
+  ✓
+  REC480
+  Advanced Seminar in Tourism Development
+  planned
+---
+✓
+Complete 4 of the following:
+  ✓
+  ANTH348
+  Anthropology of Tourism
+  planned
+  ✓
+  ENGL208M
+  Travel Literature
+  planned
+  ✓
+  GEOG423
+  Sustainable Tourism
+  planned
+  ✓
+  HRM200
+  Basic Human Resources Management
+  planned
+  ✓
+  MGMT220
+  Entrepreneurship and the Creative Workplace
+  planned
+  ✓
+  PLAN414
+  Heritage Conservation Planning
+  planned
+  ✓
+  REC215
+  Marketing Recreation, Sport, and Events
+  planned
+  ✓
+  REC218
+  Social Entrepreneurship for Change
+  planned
+  ✓
+  REC219
+  Introduction to Event Studies
+  planned
+  ✓
+  REC230
+  Outdoor Recreation and Land-Based Learning
+  planned
+  ✓
+  REC312
+  Practicum in Recreation, Sport, and Tourism
+  planned
+  ✓
+  REC319
+  Event Planning and Design
+  planned
+  ✓
+  REC419
+  Event Implementation and Evaluation
+  planned
+  ✓
+  REC422
+  Urban Recreation
+  planned
+  ✓
+  REC425
+  Heritage Conservation Planning
+  planned
+  ✓
+  REC433
+  Ecotourism and Communities (1.00)
+  planned
+  ✓
+  REC480
+  Advanced Seminar in Tourism Development
+  planned
+
+## DONE (every course completed)
+
+✓
+GEOG233
+Geography of Tourism
+✓
+REC280
+Introduction to Tourism
+---
+✓
+GEOG323
+Tourism Impacts - International Perspectives
+---
+✓
+GEOG430C
+Field Research in Regional Geography (1.50)
+---
+✓
+Complete 4 of the following:
+  ✓
+  ANTH348
+  Anthropology of Tourism
+  ✓
+  ENGL208M
+  Travel Literature
+  ✓
+  GEOG423
+  Sustainable Tourism
+  ✓
+  HRM200
+  Basic Human Resources Management

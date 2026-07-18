@@ -1,0 +1,216 @@
+# Fine Arts Studio Minor (H1El10Roh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+FINE100
+Studio Fundamentals
+VCULT101
+Art History and Visual Culture
+---
+Complete 1 of the following:
+  INDG216/VCULT216
+  Indigenous Visual Culture in Canada
+  VCULT100
+  World Cinema and Visual Culture
+  VCULT200
+  Visual Studies Across the Discipline
+  VCULT209
+  Global Modernisms: 1940-1970
+  VCULT257
+  Video, New Media and the Digital Turn
+  VCULT293
+  Fine Arts Abroad
+---
+Complete 5 of the following:
+  FINE130
+  Introduction to Digital Imaging
+  FINE202
+  Painting
+  FINE204
+  Topics in Studio Practice
+  FINE220
+  Oil Painting
+  FINE221
+  Acrylic and Mixed Media
+  FINE222
+  Principles of Sculpture
+  FINE223
+  Methods and Materials of Sculpture
+  FINE224
+  Expressive Drawing
+  FINE225
+  Observational Drawing
+  FINE226
+  Experimental Drawing
+  FINE227
+  Photography
+  FINE228
+  Design and Imaging
+  FINE230
+  Printmaking
+  FINE231
+  Mixed Multiples
+  FINE232
+  Video and Sound
+  FINE246
+  Expanded Media: Site and Intervention
+  FINE247
+  Expanded Media: Interaction
+  FINE271
+  Ceramics: Studies in Material Practice
+  FINE272
+  Clay Studies
+  VCULT293
+  Fine Arts Abroad
+
+## PLANNED (every course planned)
+
+✓
+FINE100
+Studio Fundamentals
+planned
+✓
+VCULT101
+Art History and Visual Culture
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  INDG216/VCULT216
+  Indigenous Visual Culture in Canada
+  planned
+  ✓
+  VCULT100
+  World Cinema and Visual Culture
+  planned
+  ✓
+  VCULT200
+  Visual Studies Across the Discipline
+  planned
+  ✓
+  VCULT209
+  Global Modernisms: 1940-1970
+  planned
+  ✓
+  VCULT257
+  Video, New Media and the Digital Turn
+  planned
+  ✓
+  VCULT293
+  Fine Arts Abroad
+  planned
+---
+✓
+Complete 5 of the following:
+  ✓
+  FINE130
+  Introduction to Digital Imaging
+  planned
+  ✓
+  FINE202
+  Painting
+  planned
+  ✓
+  FINE204
+  Topics in Studio Practice
+  planned
+  ✓
+  FINE220
+  Oil Painting
+  planned
+  ✓
+  FINE221
+  Acrylic and Mixed Media
+  planned
+  ✓
+  FINE222
+  Principles of Sculpture
+  planned
+  ✓
+  FINE223
+  Methods and Materials of Sculpture
+  planned
+  ✓
+  FINE224
+  Expressive Drawing
+  planned
+  ✓
+  FINE225
+  Observational Drawing
+  planned
+  ✓
+  FINE226
+  Experimental Drawing
+  planned
+  ✓
+  FINE227
+  Photography
+  planned
+  ✓
+  FINE228
+  Design and Imaging
+  planned
+  ✓
+  FINE230
+  Printmaking
+  planned
+  ✓
+  FINE231
+  Mixed Multiples
+  planned
+  ✓
+  FINE232
+  Video and Sound
+  planned
+  ✓
+  FINE246
+  Expanded Media: Site and Intervention
+  planned
+  ✓
+  FINE247
+  Expanded Media: Interaction
+  planned
+  ✓
+  FINE271
+  Ceramics: Studies in Material Practice
+  planned
+  ✓
+  FINE272
+  Clay Studies
+  planned
+  ✓
+  VCULT293
+  Fine Arts Abroad
+  planned
+
+## DONE (every course completed)
+
+✓
+FINE100
+Studio Fundamentals
+✓
+VCULT101
+Art History and Visual Culture
+---
+✓
+INDG216
+Indigenous Visual Culture in Canada
+---
+✓
+Complete 5 of the following:
+  ✓
+  FINE130
+  Introduction to Digital Imaging
+  ✓
+  FINE202
+  Painting
+  ✓
+  FINE204
+  Topics in Studio Practice
+  ✓
+  FINE220
+  Oil Painting
+  ✓
+  FINE221
+  Acrylic and Mixed Media

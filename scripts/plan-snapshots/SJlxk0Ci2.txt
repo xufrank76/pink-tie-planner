@@ -1,0 +1,147 @@
+# Pure Mathematics Minor (SJlxk0Ci2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1 of the following:
+  MATH103
+  Introductory Algebra for Arts and Social Science
+  MATH106
+  Applied Linear Algebra 1
+  MATH114
+  Linear Algebra for Science
+  MATH115
+  Linear Algebra for Engineering
+  MATH136/MATH146
+  Linear Algebra 1
+---
+Complete 1 of the following:
+  MATH104
+  Introductory Calculus for Arts and Social Science
+  MATH116/MATH117
+  Calculus 1 for Engineering
+  MATH127
+  Calculus 1 for the Sciences
+  MATH137/MATH147
+  Calculus 1
+---
+Complete 1 of the following:
+  MATH118/MATH119
+  Calculus 2 for Engineering
+  MATH128
+  Calculus 2 for the Sciences
+  MATH138/MATH148
+  Calculus 2
+---
+5 additional PMATH courses
+---
+Complete 1 of the following:
+  1 additional PMATH course
+  Complete 1 of the following:
+    ECE206/MATH212
+    Advanced Calculus 2 for Electrical Engineers
+    MATH217
+    Calculus 3 for Chemical Engineering
+    MATH227
+    Calculus 3 for Honours Physics
+    MATH237/MATH247
+    Calculus 3
+
+## PLANNED (every course planned)
+
+✓
+Complete 1 of the following:
+  ✓
+  MATH103
+  Introductory Algebra for Arts and Social Science
+  planned
+  ✓
+  MATH106
+  Applied Linear Algebra 1
+  planned
+  ✓
+  MATH114
+  Linear Algebra for Science
+  planned
+  ✓
+  MATH115
+  Linear Algebra for Engineering
+  planned
+  ✓
+  MATH136/MATH146
+  Linear Algebra 1
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH104
+  Introductory Calculus for Arts and Social Science
+  planned
+  ✓
+  MATH116/MATH117
+  Calculus 1 for Engineering
+  planned
+  ✓
+  MATH127
+  Calculus 1 for the Sciences
+  planned
+  ✓
+  MATH137/MATH147
+  Calculus 1
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH118/MATH119
+  Calculus 2 for Engineering
+  planned
+  ✓
+  MATH128
+  Calculus 2 for the Sciences
+  planned
+  ✓
+  MATH138/MATH148
+  Calculus 2
+  planned
+---
+5 additional PMATH courses
+---
+✓
+Complete 1 of the following:
+  ✓
+  ECE206/MATH212
+  Advanced Calculus 2 for Electrical Engineers
+  planned
+  ✓
+  MATH217
+  Calculus 3 for Chemical Engineering
+  planned
+  ✓
+  MATH227
+  Calculus 3 for Honours Physics
+  planned
+  ✓
+  MATH237/MATH247
+  Calculus 3
+  planned
+
+## DONE (every course completed)
+
+✓
+MATH103
+Introductory Algebra for Arts and Social Science
+---
+✓
+MATH104
+Introductory Calculus for Arts and Social Science
+---
+✓
+MATH118
+Calculus 2 for Engineering
+---
+5 additional PMATH courses
+---
+✓
+ECE206
+Advanced Calculus 2 for Electrical Engineers

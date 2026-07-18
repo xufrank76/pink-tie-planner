@@ -1,0 +1,191 @@
+# Statistics (Bachelor of Mathematics - Honours) (H1XegyCAin)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+STAT330
+Mathematical Statistics
+STAT331
+Applied Linear Models
+STAT332
+Sampling and Experimental Design
+STAT333
+Stochastic Processes 1
+---
+Complete 1 of the following:
+  AMATH231
+  Calculus 4
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  AMATH350
+  Differential Equations for Business and Economics
+  MATH239/MATH249
+  Introduction to Combinatorics
+---
+MATH237/MATH247
+Calculus 3
+---
+STAT4XX
+---
+1 additional STAT 3XX/4XX course
+---
+Complete 1 of the following:
+  1 additional STAT 4XX course
+  Complete 1 of the following:
+    CS457
+    System Performance Evaluation
+    CS485
+    Statistical and Computational Foundations of Machine Learning
+    CS486
+    Introduction to Artificial Intelligence
+---
+4 additional 3XX/4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+
+## PLANNED (every course planned)
+
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+planned
+✓
+STAT330
+Mathematical Statistics
+planned
+✓
+STAT331
+Applied Linear Models
+planned
+✓
+STAT332
+Sampling and Experimental Design
+planned
+✓
+STAT333
+Stochastic Processes 1
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH231
+  Calculus 4
+  planned
+  ✓
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  planned
+  ✓
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  planned
+  ✓
+  AMATH350
+  Differential Equations for Business and Economics
+  planned
+  ✓
+  MATH239/MATH249
+  Introduction to Combinatorics
+  planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+STAT4XX
+---
+1 additional STAT 3XX/4XX course
+✓
+STAT330
+---
+✓
+Complete 1 of the following:
+  ✓
+  CS457
+  System Performance Evaluation
+  planned
+  ✓
+  CS485
+  Statistical and Computational Foundations of Machine Learning
+  planned
+  ✓
+  CS486
+  Introduction to Artificial Intelligence
+  planned
+---
+4 additional 3XX/4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+STAT330
+✓
+STAT331
+✓
+STAT332
+✓
+STAT333
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+STAT330
+✓
+STAT331
+✓
+STAT332
+
+## DONE (every course completed)
+
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+✓
+STAT330
+Mathematical Statistics
+✓
+STAT331
+Applied Linear Models
+✓
+STAT332
+Sampling and Experimental Design
+✓
+STAT333
+Stochastic Processes 1
+---
+✓
+AMATH231
+Calculus 4
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+STAT4XX
+---
+1 additional STAT 3XX/4XX course
+✓
+STAT330
+---
+✓
+CS457
+System Performance Evaluation
+---
+4 additional 3XX/4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+STAT330
+✓
+STAT331
+✓
+STAT332
+✓
+STAT333
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+STAT330
+✓
+STAT331
+✓
+STAT332

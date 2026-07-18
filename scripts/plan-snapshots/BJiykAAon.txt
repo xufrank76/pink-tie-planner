@@ -1,0 +1,13 @@
+# Event Management Minor (BJiykAAon)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 8 REC courses
+
+## PLANNED (every course planned)
+
+Complete 8 REC courses
+
+## DONE (every course completed)
+
+Complete 8 REC courses

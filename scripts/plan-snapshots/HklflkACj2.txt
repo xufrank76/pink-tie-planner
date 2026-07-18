@@ -1,0 +1,275 @@
+# Canadian Politics and Public Policy Minor (HklflkACj2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+PSCI100
+Power, Politics, and Policy: An Introduction
+---
+LS206/PSCI260
+Canadian Government and Politics
+---
+Complete 4 of the following:
+  LS363
+  Canadian Constitutional Law
+  LS462
+  Indigenous Political Theory
+  LS463
+  Rights and Public Policy
+  PSCI301
+  Canadian Political Economy
+  PSCI302
+  Local Government
+  PSCI303
+  Political Economy of the Environment
+  PSCI331
+  Public Administration
+  PSCI334
+  Public Policy
+  PSCI360
+  Issues in Canadian Politics
+  PSCI362
+  Politics of Indigenous Peoples
+  PSCI363
+  Canadian Constitutional Law
+  PSCI373
+  Political Parties, Elections, and Political Marketing
+  PSCI431
+  Topics in Public Policy
+  PSCI433
+  Topics in Public Administration
+  PSCI461
+  Critical Perspectives on Canadian Politics
+  PSCI462
+  Indigenous Political Theory
+  PSCI463
+  Rights and Public Policy
+  PSCI472
+  Gender and Public Policy
+  SOC334
+  Public Policy
+---
+Complete 2 of the following:
+  ECON241
+  Introduction to Public Economics
+  ECON256
+  Introduction to Health Economics
+  ECON361
+  Cost-Benefit Analysis and Project Evaluation
+  ECON363
+  The Economics of Social Problems
+  ECON366
+  Gender and Economics
+  ECON441
+  Public Economics
+  ECON457
+  Environmental Economics
+  LS273
+  Children's Rights in Canada
+  LS373
+  Indigenous Peoples and Canadian Public Policy
+  SDS210R
+  Children's Rights in Canada
+  SDS231R
+  Introduction to Social Policy Processes
+  SDS310R
+  Disability and Society
+  SDS311R
+  Indigenous Peoples and Canadian Public Policy
+  SDS312R
+  Homelessness and Public Policy
+  SDS331R
+  Social Inequality, Social Justice, and Social Action
+  SDS400R
+  Comparative Social Policy
+
+## PLANNED (every course planned)
+
+✓
+PSCI100
+Power, Politics, and Policy: An Introduction
+planned
+---
+✓
+LS206/PSCI260
+Canadian Government and Politics
+planned
+---
+✓
+Complete 4 of the following:
+  ✓
+  LS363
+  Canadian Constitutional Law
+  planned
+  ✓
+  LS462
+  Indigenous Political Theory
+  planned
+  ✓
+  LS463
+  Rights and Public Policy
+  planned
+  ✓
+  PSCI301
+  Canadian Political Economy
+  planned
+  ✓
+  PSCI302
+  Local Government
+  planned
+  ✓
+  PSCI303
+  Political Economy of the Environment
+  planned
+  ✓
+  PSCI331
+  Public Administration
+  planned
+  ✓
+  PSCI334
+  Public Policy
+  planned
+  ✓
+  PSCI360
+  Issues in Canadian Politics
+  planned
+  ✓
+  PSCI362
+  Politics of Indigenous Peoples
+  planned
+  ✓
+  PSCI363
+  Canadian Constitutional Law
+  planned
+  ✓
+  PSCI373
+  Political Parties, Elections, and Political Marketing
+  planned
+  ✓
+  PSCI431
+  Topics in Public Policy
+  planned
+  ✓
+  PSCI433
+  Topics in Public Administration
+  planned
+  ✓
+  PSCI461
+  Critical Perspectives on Canadian Politics
+  planned
+  ✓
+  PSCI462
+  Indigenous Political Theory
+  planned
+  ✓
+  PSCI463
+  Rights and Public Policy
+  planned
+  ✓
+  PSCI472
+  Gender and Public Policy
+  planned
+  ✓
+  SOC334
+  Public Policy
+  planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  ECON241
+  Introduction to Public Economics
+  planned
+  ✓
+  ECON256
+  Introduction to Health Economics
+  planned
+  ✓
+  ECON361
+  Cost-Benefit Analysis and Project Evaluation
+  planned
+  ✓
+  ECON363
+  The Economics of Social Problems
+  planned
+  ✓
+  ECON366
+  Gender and Economics
+  planned
+  ✓
+  ECON441
+  Public Economics
+  planned
+  ✓
+  ECON457
+  Environmental Economics
+  planned
+  ✓
+  LS273
+  Children's Rights in Canada
+  planned
+  ✓
+  LS373
+  Indigenous Peoples and Canadian Public Policy
+  planned
+  ✓
+  SDS210R
+  Children's Rights in Canada
+  planned
+  ✓
+  SDS231R
+  Introduction to Social Policy Processes
+  planned
+  ✓
+  SDS310R
+  Disability and Society
+  planned
+  ✓
+  SDS311R
+  Indigenous Peoples and Canadian Public Policy
+  planned
+  ✓
+  SDS312R
+  Homelessness and Public Policy
+  planned
+  ✓
+  SDS331R
+  Social Inequality, Social Justice, and Social Action
+  planned
+  ✓
+  SDS400R
+  Comparative Social Policy
+  planned
+
+## DONE (every course completed)
+
+✓
+PSCI100
+Power, Politics, and Policy: An Introduction
+---
+✓
+LS206
+Canadian Government and Politics
+---
+✓
+Complete 4 of the following:
+  ✓
+  LS363
+  Canadian Constitutional Law
+  ✓
+  LS462
+  Indigenous Political Theory
+  ✓
+  LS463
+  Rights and Public Policy
+  ✓
+  PSCI301
+  Canadian Political Economy
+---
+✓
+Complete 2 of the following:
+  ✓
+  ECON241
+  Introduction to Public Economics
+  ✓
+  ECON256
+  Introduction to Health Economics

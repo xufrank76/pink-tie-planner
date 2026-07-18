@@ -1,0 +1,103 @@
+# Chemistry Minor (rJZBJJ00ih)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1 of the following:
+  CHEM120
+  General Chemistry 1
+  CHEM121
+  Physical and Chemical Properties of Matter
+---
+Complete 1 of the following:
+  CHEM120L
+  General Chemistry Laboratory 1
+  CHEM121L
+  Chemical Reaction Laboratory 1
+---
+Complete 1 of the following:
+  CHEM123
+  General Chemistry 2
+  CHEM125
+  Chemical Reactions, Equilibria and Kinetics
+---
+Complete 1 of the following:
+  CHEM123L
+  General Chemistry Laboratory 2
+  CHEM125L
+  Chemical Reaction Laboratory 2
+---
+LECTURE3XX
+---
+Complete 0.5 unit of CHEM laboratory courses, at the 200-level or above.
+
+## PLANNED (every course planned)
+
+✓
+Complete 1 of the following:
+  ✓
+  CHEM120
+  General Chemistry 1
+  planned
+  ✓
+  CHEM121
+  Physical and Chemical Properties of Matter
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CHEM120L
+  General Chemistry Laboratory 1
+  planned
+  ✓
+  CHEM121L
+  Chemical Reaction Laboratory 1
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CHEM123
+  General Chemistry 2
+  planned
+  ✓
+  CHEM125
+  Chemical Reactions, Equilibria and Kinetics
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CHEM123L
+  General Chemistry Laboratory 2
+  planned
+  ✓
+  CHEM125L
+  Chemical Reaction Laboratory 2
+  planned
+---
+LECTURE3XX
+---
+Complete 0.5 unit of CHEM laboratory courses, at the 200-level or above.
+
+## DONE (every course completed)
+
+✓
+CHEM120
+General Chemistry 1
+---
+✓
+CHEM120L
+General Chemistry Laboratory 1
+---
+✓
+CHEM123
+General Chemistry 2
+---
+✓
+CHEM123L
+General Chemistry Laboratory 2
+---
+LECTURE3XX
+---
+Complete 0.5 unit of CHEM laboratory courses, at the 200-level or above.

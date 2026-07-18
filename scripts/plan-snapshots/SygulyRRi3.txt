@@ -1,0 +1,31 @@
+# Sociology Minor (SygulyRRi3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+SOC101/SOC101R
+Introduction to Sociology
+---
+SOC2XX
+---
+SOC3XX
+
+## PLANNED (every course planned)
+
+✓
+SOC101/SOC101R
+Introduction to Sociology
+planned
+---
+SOC2XX
+---
+SOC3XX
+
+## DONE (every course completed)
+
+✓
+SOC101
+Introduction to Sociology
+---
+SOC2XX
+---
+SOC3XX

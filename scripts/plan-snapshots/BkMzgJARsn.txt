@@ -1,0 +1,317 @@
+# East Asian Studies Minor (BkMzgJARsn)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+EASIA100R
+Introduction to East Asia
+---
+Complete 2 language courses from the following subject codes: CHINA, JAPAN, KOREA
+---
+Complete 1.0 unit of additional EASIA courses
+---
+Complete 1.5 units from the following lists of courses or subjects
+  Complete 1 of the following:
+  ANTH382
+  Anthropology of East Asia
+  EASIA120R
+  Monsters and Magic in Japanese Popular Culture
+  EASIA205R
+  Religions of East Asia
+  EASIA206R
+  Japanese Religion and Spirituality
+  EASIA207R
+  Buddhism
+  EASIA220R
+  The History of East Asian Communities in Canada
+  EASIA277R
+  International Relations of East Asia
+  EASIA300R
+  Politics and Diplomacy of Contemporary Japan
+  EASIA302R
+  Chinese Foreign Policy Since 1949
+  EASIA377R
+  Cold War in East Asia
+  EASIA382R
+  Anthropology of East Asia
+  GSJ301
+  Socially Engaged Buddhism
+  HIST231R
+  The History of East Asian Communities in Canada
+  HIST239
+  History of Modern China, 1911 to the Present
+  HIST377R
+  Cold War in East Asia
+  PSCI259
+  Government and Politics of Asia
+  PSCI277
+  International Relations of East Asia
+  PSCI310
+  Politics and Diplomacy of Contemporary Japan
+  PSCI358
+  Political Change in China
+  PSCI385
+  Chinese Foreign Policy Since 1949
+  PSCI405
+  Chinese Political Economy
+  PSCI479
+  International Political Economy of Asia
+  PSCI480
+  China and Global Governance
+  RCS100
+  Religions of Asia
+  RCS123
+  Monsters and Magic in Japanese Popular Culture
+  RCS201
+  Religions of East Asia
+  RCS204
+  Buddhism
+  RCS206
+  Japanese Religion and Spirituality
+  RCS301
+  Socially Engaged Buddhism
+  RCS307
+  Buddhism in North America
+  Choose any additional course from the following subject codes: CHINA, EASIA, JAPAN, KOREA
+
+## PLANNED (every course planned)
+
+✓
+EASIA100R
+Introduction to East Asia
+planned
+---
+Complete 2 language courses from the following subject codes: CHINA, JAPAN, KOREA
+---
+Complete 1.0 unit of additional EASIA courses
+✓
+EASIA100R
+---
+Complete 1.5 units from the following lists of courses or subjects
+  Complete 1 of the following:
+  ✓
+  ANTH382
+  Anthropology of East Asia
+  planned
+  ✓
+  EASIA120R
+  Monsters and Magic in Japanese Popular Culture
+  planned
+  ✓
+  EASIA205R
+  Religions of East Asia
+  planned
+  ✓
+  EASIA206R
+  Japanese Religion and Spirituality
+  planned
+  ✓
+  EASIA207R
+  Buddhism
+  planned
+  ✓
+  EASIA220R
+  The History of East Asian Communities in Canada
+  planned
+  ✓
+  EASIA277R
+  International Relations of East Asia
+  planned
+  ✓
+  EASIA300R
+  Politics and Diplomacy of Contemporary Japan
+  planned
+  ✓
+  EASIA302R
+  Chinese Foreign Policy Since 1949
+  planned
+  ✓
+  EASIA377R
+  Cold War in East Asia
+  planned
+  ✓
+  EASIA382R
+  Anthropology of East Asia
+  planned
+  ✓
+  GSJ301
+  Socially Engaged Buddhism
+  planned
+  ✓
+  HIST231R
+  The History of East Asian Communities in Canada
+  planned
+  ✓
+  HIST239
+  History of Modern China, 1911 to the Present
+  planned
+  ✓
+  HIST377R
+  Cold War in East Asia
+  planned
+  ✓
+  PSCI259
+  Government and Politics of Asia
+  planned
+  ✓
+  PSCI277
+  International Relations of East Asia
+  planned
+  ✓
+  PSCI310
+  Politics and Diplomacy of Contemporary Japan
+  planned
+  ✓
+  PSCI358
+  Political Change in China
+  planned
+  ✓
+  PSCI385
+  Chinese Foreign Policy Since 1949
+  planned
+  ✓
+  PSCI405
+  Chinese Political Economy
+  planned
+  ✓
+  PSCI479
+  International Political Economy of Asia
+  planned
+  ✓
+  PSCI480
+  China and Global Governance
+  planned
+  ✓
+  RCS100
+  Religions of Asia
+  planned
+  ✓
+  RCS123
+  Monsters and Magic in Japanese Popular Culture
+  planned
+  ✓
+  RCS201
+  Religions of East Asia
+  planned
+  ✓
+  RCS204
+  Buddhism
+  planned
+  ✓
+  RCS206
+  Japanese Religion and Spirituality
+  planned
+  ✓
+  RCS301
+  Socially Engaged Buddhism
+  planned
+  ✓
+  RCS307
+  Buddhism in North America
+  planned
+  Choose any additional course from the following subject codes: CHINA, EASIA, JAPAN, KOREA
+
+## DONE (every course completed)
+
+✓
+EASIA100R
+Introduction to East Asia
+---
+Complete 2 language courses from the following subject codes: CHINA, JAPAN, KOREA
+---
+Complete 1.0 unit of additional EASIA courses
+✓
+EASIA100R
+---
+Complete 1.5 units from the following lists of courses or subjects
+  Complete 1 of the following:
+  ✓
+  ANTH382
+  Anthropology of East Asia
+  ✓
+  EASIA120R
+  Monsters and Magic in Japanese Popular Culture
+  ✓
+  EASIA205R
+  Religions of East Asia
+  ✓
+  EASIA206R
+  Japanese Religion and Spirituality
+  ✓
+  EASIA207R
+  Buddhism
+  ✓
+  EASIA220R
+  The History of East Asian Communities in Canada
+  ✓
+  EASIA277R
+  International Relations of East Asia
+  ✓
+  EASIA300R
+  Politics and Diplomacy of Contemporary Japan
+  ✓
+  EASIA302R
+  Chinese Foreign Policy Since 1949
+  ✓
+  EASIA377R
+  Cold War in East Asia
+  ✓
+  EASIA382R
+  Anthropology of East Asia
+  ✓
+  GSJ301
+  Socially Engaged Buddhism
+  ✓
+  HIST231R
+  The History of East Asian Communities in Canada
+  ✓
+  HIST239
+  History of Modern China, 1911 to the Present
+  ✓
+  HIST377R
+  Cold War in East Asia
+  ✓
+  PSCI259
+  Government and Politics of Asia
+  ✓
+  PSCI277
+  International Relations of East Asia
+  ✓
+  PSCI310
+  Politics and Diplomacy of Contemporary Japan
+  ✓
+  PSCI358
+  Political Change in China
+  ✓
+  PSCI385
+  Chinese Foreign Policy Since 1949
+  ✓
+  PSCI405
+  Chinese Political Economy
+  ✓
+  PSCI479
+  International Political Economy of Asia
+  ✓
+  PSCI480
+  China and Global Governance
+  ✓
+  RCS100
+  Religions of Asia
+  ✓
+  RCS123
+  Monsters and Magic in Japanese Popular Culture
+  ✓
+  RCS201
+  Religions of East Asia
+  ✓
+  RCS204
+  Buddhism
+  ✓
+  RCS206
+  Japanese Religion and Spirituality
+  ✓
+  RCS301
+  Socially Engaged Buddhism
+  ✓
+  RCS307
+  Buddhism in North America
+  Choose any additional course from the following subject codes: CHINA, EASIA, JAPAN, KOREA

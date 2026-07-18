@@ -1,0 +1,148 @@
+# Engineering Specialization — Fluids and Heat (HkzBkkCCoh-t1)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AMATH271
+Introduction to Theoretical Mechanics
+AMATH361
+Continuum Mechanics
+AMATH463
+Fluid Mechanics
+ME219
+Mechanics of Deformable Solids 1
+ME250
+Thermodynamics 1
+ME353
+Heat Transfer 1
+ME354
+Thermodynamics 2
+ME456
+Heat Transfer 2
+Complete 1 of the following:
+  CO250/CO255
+  Introduction to Optimization
+  STAT331
+  Applied Linear Models
+  STAT340
+  Stochastic Simulation Methods
+Complete 1 of the following:
+  ECE140
+  Linear Circuits
+  GENE123
+  Electrical Circuits and Instrumentation
+Complete 1 of the following:
+  ME557
+  Combustion 1
+  ME564
+  Aerodynamics
+  ME571
+  Clean Air Technologies
+
+## PLANNED (every course planned)
+
+✓
+AMATH271
+Introduction to Theoretical Mechanics
+planned
+✓
+AMATH361
+Continuum Mechanics
+planned
+✓
+AMATH463
+Fluid Mechanics
+planned
+✓
+ME219
+Mechanics of Deformable Solids 1
+planned
+✓
+ME250
+Thermodynamics 1
+planned
+✓
+ME353
+Heat Transfer 1
+planned
+✓
+ME354
+Thermodynamics 2
+planned
+✓
+ME456
+Heat Transfer 2
+planned
+✓
+Complete 1 of the following:
+  ✓
+  CO250/CO255
+  Introduction to Optimization
+  planned
+  ✓
+  STAT331
+  Applied Linear Models
+  planned
+  ✓
+  STAT340
+  Stochastic Simulation Methods
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  ECE140
+  Linear Circuits
+  planned
+  ✓
+  GENE123
+  Electrical Circuits and Instrumentation
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  ME557
+  Combustion 1
+  planned
+  ✓
+  ME564
+  Aerodynamics
+  planned
+  ✓
+  ME571
+  Clean Air Technologies
+  planned
+
+## DONE (every course completed)
+
+✓
+AMATH271
+Introduction to Theoretical Mechanics
+✓
+AMATH361
+Continuum Mechanics
+✓
+AMATH463
+Fluid Mechanics
+✓
+ME219
+Mechanics of Deformable Solids 1
+✓
+ME250
+Thermodynamics 1
+✓
+ME353
+Heat Transfer 1
+✓
+ME354
+Thermodynamics 2
+✓
+ME456
+Heat Transfer 2
+✓
+CO250
+Introduction to Optimization
+✓
+ECE140
+Linear Circuits
+✓
+ME557
+Combustion 1

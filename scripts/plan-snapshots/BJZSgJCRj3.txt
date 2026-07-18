@@ -1,0 +1,215 @@
+# Management Studies Minor (BJZSgJCRj3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ARBUS200
+Entrepreneurship Principles and Practices
+ARBUS300
+Practical Business Skills
+ARBUS400
+Strategy and Program Integration
+ECON101
+Introduction to Microeconomics
+---
+Complete 1 of the following:
+  Complete all the following:
+    AFM101
+    Introduction to Financial Accounting
+    AFM102
+    Introduction to Managerial Accounting
+  AFM123/ARBUS102
+  Accounting Information for Managers
+---
+ARBUS302/MGMT244
+Principles of Marketing
+---
+Complete 1 of the following:
+  ARTS280
+  Statistics for Arts Students
+  ECON221
+  Statistics for Economists
+  ENVS278
+  Applied Statistics for Environmental Research
+  GBDA205
+  Quantitative Methods
+  HLTH204
+  Quantitative Approaches to Health Science
+  KIN232
+  Research Design and Statistics
+  LS280/SDS250R/SOC280
+  Social Statistics
+  PSCI314
+  Quantitative Analysis
+  PSYCH292
+  Basic Data Analysis
+  REC371
+  Quantitative Data Analysis and Mobilization
+  SRF230
+  Introduction to Statistics
+  STAT202
+  Introductory Statistics for Scientists
+  STAT206
+  Statistics for Software Engineering
+  STAT211
+  Introductory Statistics and Sampling for Accounting
+  STAT221
+  Statistics (Non-Specialist Level)
+  STAT231/STAT241
+  Statistics
+---
+Complete 1 of the following:
+  HRM200
+  Basic Human Resources Management
+  MSE211
+  Organizational Behaviour
+  PSYCH238
+  Organizational Psychology
+
+## PLANNED (every course planned)
+
+✓
+ARBUS200
+Entrepreneurship Principles and Practices
+planned
+✓
+ARBUS300
+Practical Business Skills
+planned
+✓
+ARBUS400
+Strategy and Program Integration
+planned
+✓
+ECON101
+Introduction to Microeconomics
+planned
+---
+✓
+AFM101
+Introduction to Financial Accounting
+planned
+✓
+AFM102
+Introduction to Managerial Accounting
+planned
+---
+✓
+ARBUS302/MGMT244
+Principles of Marketing
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  ARTS280
+  Statistics for Arts Students
+  planned
+  ✓
+  ECON221
+  Statistics for Economists
+  planned
+  ✓
+  ENVS278
+  Applied Statistics for Environmental Research
+  planned
+  ✓
+  GBDA205
+  Quantitative Methods
+  planned
+  ✓
+  HLTH204
+  Quantitative Approaches to Health Science
+  planned
+  ✓
+  KIN232
+  Research Design and Statistics
+  planned
+  ✓
+  LS280/SDS250R/SOC280
+  Social Statistics
+  planned
+  ✓
+  PSCI314
+  Quantitative Analysis
+  planned
+  ✓
+  PSYCH292
+  Basic Data Analysis
+  planned
+  ✓
+  REC371
+  Quantitative Data Analysis and Mobilization
+  planned
+  ✓
+  SRF230
+  Introduction to Statistics
+  planned
+  ✓
+  STAT202
+  Introductory Statistics for Scientists
+  planned
+  ✓
+  STAT206
+  Statistics for Software Engineering
+  planned
+  ✓
+  STAT211
+  Introductory Statistics and Sampling for Accounting
+  planned
+  ✓
+  STAT221
+  Statistics (Non-Specialist Level)
+  planned
+  ✓
+  STAT231/STAT241
+  Statistics
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  HRM200
+  Basic Human Resources Management
+  planned
+  ✓
+  MSE211
+  Organizational Behaviour
+  planned
+  ✓
+  PSYCH238
+  Organizational Psychology
+  planned
+
+## DONE (every course completed)
+
+✓
+ARBUS200
+Entrepreneurship Principles and Practices
+✓
+ARBUS300
+Practical Business Skills
+✓
+ARBUS400
+Strategy and Program Integration
+✓
+ECON101
+Introduction to Microeconomics
+---
+✓
+AFM101
+Introduction to Financial Accounting
+✓
+AFM102
+Introduction to Managerial Accounting
+---
+✓
+ARBUS302
+Principles of Marketing
+---
+✓
+ARTS280
+Statistics for Arts Students
+---
+✓
+HRM200
+Basic Human Resources Management

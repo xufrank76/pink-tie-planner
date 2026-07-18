@@ -1,0 +1,71 @@
+# Visual Culture in a Global Context Minor (HyIvlJCAon)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+VCULT200
+Visual Studies Across the Discipline
+VCULT300
+Visual Culture in Theory
+---
+Complete 1 of the following:
+  VCULT100
+  World Cinema and Visual Culture
+  VCULT101
+  Art History and Visual Culture
+---
+5 additional VCULT courses
+
+## PLANNED (every course planned)
+
+✓
+VCULT200
+Visual Studies Across the Discipline
+planned
+✓
+VCULT300
+Visual Culture in Theory
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  VCULT100
+  World Cinema and Visual Culture
+  planned
+  ✓
+  VCULT101
+  Art History and Visual Culture
+  planned
+---
+5 additional VCULT courses
+✓
+VCULT200
+✓
+VCULT300
+✓
+VCULT100
+✓
+VCULT101
+
+## DONE (every course completed)
+
+✓
+VCULT200
+Visual Studies Across the Discipline
+✓
+VCULT300
+Visual Culture in Theory
+---
+✓
+VCULT100
+World Cinema and Visual Culture
+---
+5 additional VCULT courses
+✓
+VCULT200
+✓
+VCULT300
+✓
+VCULT100
+✓
+VCULT101

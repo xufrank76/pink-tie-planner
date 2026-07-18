@@ -1,0 +1,43 @@
+# Legal Studies Minor (BJHxkCAin)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+LS101
+Introduction to Legal Studies
+---
+SOC101/SOC101R
+Introduction to Sociology
+---
+LS2XX
+---
+LS3XX
+
+## PLANNED (every course planned)
+
+✓
+LS101
+Introduction to Legal Studies
+planned
+---
+✓
+SOC101/SOC101R
+Introduction to Sociology
+planned
+---
+LS2XX
+---
+LS3XX
+
+## DONE (every course completed)
+
+✓
+LS101
+Introduction to Legal Studies
+---
+✓
+SOC101
+Introduction to Sociology
+---
+LS2XX
+---
+LS3XX

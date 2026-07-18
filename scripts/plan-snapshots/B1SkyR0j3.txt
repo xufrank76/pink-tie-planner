@@ -1,0 +1,103 @@
+# Physics Specialization (B1SkyR0j3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AMATH271
+Introduction to Theoretical Mechanics
+---
+AMATH361
+Continuum Mechanics
+---
+AMATH373
+Quantum Theory 1
+---
+AMATH463
+Fluid Mechanics
+---
+AMATH473
+Quantum Theory
+---
+AMATH474
+Advanced Quantum Theory: Quantum Information and Foundations
+---
+AMATH475
+Introduction to General Relativity
+---
+PHYS476
+Introduction to General Relativity
+
+## PLANNED (every course planned)
+
+✓
+AMATH271
+Introduction to Theoretical Mechanics
+planned
+---
+✓
+AMATH361
+Continuum Mechanics
+planned
+---
+✓
+AMATH373
+Quantum Theory 1
+planned
+---
+✓
+AMATH463
+Fluid Mechanics
+planned
+---
+✓
+AMATH473
+Quantum Theory
+planned
+---
+✓
+AMATH474
+Advanced Quantum Theory: Quantum Information and Foundations
+planned
+---
+✓
+AMATH475
+Introduction to General Relativity
+planned
+---
+✓
+PHYS476
+Introduction to General Relativity
+planned
+
+## DONE (every course completed)
+
+✓
+AMATH271
+Introduction to Theoretical Mechanics
+---
+✓
+AMATH361
+Continuum Mechanics
+---
+✓
+AMATH373
+Quantum Theory 1
+---
+✓
+AMATH463
+Fluid Mechanics
+---
+✓
+AMATH473
+Quantum Theory
+---
+✓
+AMATH474
+Advanced Quantum Theory: Quantum Information and Foundations
+---
+✓
+AMATH475
+Introduction to General Relativity
+---
+✓
+PHYS476
+Introduction to General Relativity

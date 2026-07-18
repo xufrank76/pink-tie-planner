@@ -1,0 +1,222 @@
+# Mathematical Optimization - Business Specialization (Bachelor of Mathematics - Honours) (H1gRk1ARih)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AFM101
+Introduction to Financial Accounting
+CO370
+Deterministic OR Models
+ECON101
+Introduction to Microeconomics
+MSE211
+Organizational Behaviour
+STAT340
+Stochastic Simulation Methods
+---
+Complete 1 of the following:
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  CS370
+  Numerical Computation
+---
+CO250/CO255
+Introduction to Optimization
+---
+Complete 3 of the following:
+  CO342
+  Introduction to Graph Theory
+  CO351
+  Network Flow Theory
+  CO353
+  Computational Discrete Optimization
+  CO367
+  Nonlinear Optimization
+  CO372
+  Portfolio Optimization Models
+  CO450
+  Combinatorial Optimization
+  CO452
+  Integer Programming
+  CO454
+  Scheduling
+  CO456
+  Introduction to Game Theory
+  CO463
+  Convex Optimization and Analysis
+  CO466
+  Continuous Optimization
+  CO471
+  Semidefinite Optimization
+---
+Complete 1 of the following:
+  CS330
+  Management Information Systems
+  CS490
+  Information Systems Management
+---
+MATH237/MATH247
+Calculus 3
+---
+MATH239/MATH249
+Introduction to Combinatorics
+
+## PLANNED (every course planned)
+
+✓
+AFM101
+Introduction to Financial Accounting
+planned
+✓
+CO370
+Deterministic OR Models
+planned
+✓
+ECON101
+Introduction to Microeconomics
+planned
+✓
+MSE211
+Organizational Behaviour
+planned
+✓
+STAT340
+Stochastic Simulation Methods
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  planned
+  ✓
+  CS370
+  Numerical Computation
+  planned
+---
+✓
+CO250/CO255
+Introduction to Optimization
+planned
+---
+✓
+Complete 3 of the following:
+  ✓
+  CO342
+  Introduction to Graph Theory
+  planned
+  ✓
+  CO351
+  Network Flow Theory
+  planned
+  ✓
+  CO353
+  Computational Discrete Optimization
+  planned
+  ✓
+  CO367
+  Nonlinear Optimization
+  planned
+  ✓
+  CO372
+  Portfolio Optimization Models
+  planned
+  ✓
+  CO450
+  Combinatorial Optimization
+  planned
+  ✓
+  CO452
+  Integer Programming
+  planned
+  ✓
+  CO454
+  Scheduling
+  planned
+  ✓
+  CO456
+  Introduction to Game Theory
+  planned
+  ✓
+  CO463
+  Convex Optimization and Analysis
+  planned
+  ✓
+  CO466
+  Continuous Optimization
+  planned
+  ✓
+  CO471
+  Semidefinite Optimization
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CS330
+  Management Information Systems
+  planned
+  ✓
+  CS490
+  Information Systems Management
+  planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+✓
+MATH239/MATH249
+Introduction to Combinatorics
+planned
+
+## DONE (every course completed)
+
+✓
+AFM101
+Introduction to Financial Accounting
+✓
+CO370
+Deterministic OR Models
+✓
+ECON101
+Introduction to Microeconomics
+✓
+MSE211
+Organizational Behaviour
+✓
+STAT340
+Stochastic Simulation Methods
+---
+✓
+AMATH242
+Introduction to Computational Mathematics
+---
+✓
+CO250
+Introduction to Optimization
+---
+✓
+Complete 3 of the following:
+  ✓
+  CO342
+  Introduction to Graph Theory
+  ✓
+  CO351
+  Network Flow Theory
+  ✓
+  CO353
+  Computational Discrete Optimization
+---
+✓
+CS330
+Management Information Systems
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+✓
+MATH239
+Introduction to Combinatorics

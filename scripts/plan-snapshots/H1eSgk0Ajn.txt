@@ -1,0 +1,67 @@
+# Global Affairs Minor (H1eSgk0Ajn)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+GA200
+Introduction to Global Affairs
+GA400
+Capstone in Global Affairs
+---
+Complete 1 of the following:
+  PSCI281
+  Introduction to International Relations
+  PSCI282
+  Foreign Policy
+  PSCI283
+  International Political Economy
+---
+Complete 1.0 unit of courses in the same subject from any of the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, RCS, REES, RUSS, SI, SPAN
+---
+Complete 3 additional courses (subject codes: GA, PSCI)
+
+## PLANNED (every course planned)
+
+✓
+GA200
+Introduction to Global Affairs
+planned
+✓
+GA400
+Capstone in Global Affairs
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  PSCI281
+  Introduction to International Relations
+  planned
+  ✓
+  PSCI282
+  Foreign Policy
+  planned
+  ✓
+  PSCI283
+  International Political Economy
+  planned
+---
+Complete 1.0 unit of courses in the same subject from any of the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, RCS, REES, RUSS, SI, SPAN
+---
+Complete 3 additional courses (subject codes: GA, PSCI)
+
+## DONE (every course completed)
+
+✓
+GA200
+Introduction to Global Affairs
+✓
+GA400
+Capstone in Global Affairs
+---
+✓
+PSCI281
+Introduction to International Relations
+---
+Complete 1.0 unit of courses in the same subject from any of the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, RCS, REES, RUSS, SI, SPAN
+---
+Complete 3 additional courses (subject codes: GA, PSCI)

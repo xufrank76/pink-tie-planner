@@ -1,0 +1,774 @@
+# Computational Mathematics Minor (SkZPkyCAjh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1 of the following:
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  CS370
+  Numerical Computation
+Complete 3 courses from the following choices:
+  Complete 1 of the following:
+  AMATH342
+  Computational Methods for Differential Equations
+  CS475
+  Computational Linear Algebra
+  At most 1 of the following:
+  CO250
+  Introduction to Optimization
+  CO255
+  Introduction to Optimization (Advanced Level)
+  At most 1 of the following:
+  CS245
+  Logic and Computation
+  CS245E
+  Logic and Computation (Enriched)
+  PMATH330
+  Introduction to Mathematical Logic
+  PMATH432
+  Mathematical Logic
+  SE212
+  Logic and Computation
+  At most 1 of the following:
+  CS246
+  Object-Oriented Software Development
+  CS246E
+  Object-Oriented Software Development (Enriched)
+  CS247
+  Software Engineering Principles
+  At most 1 of the following:
+  STAT340
+  Stochastic Simulation Methods
+  STAT341
+  Computational Statistics and Data Analysis
+Complete the List 1 requirement below.
+  ACTSC447
+  Numerical Computation for Financial Modelling
+  AMATH343
+  Discrete Models in Applied Mathematics
+  AMATH382
+  Computational Modelling of Cellular Systems
+  AMATH383
+  Introduction to Mathematical Biology
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  AMATH449
+  Neural Networks
+  AMATH455
+  Control Theory
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  BIOL382
+  Computational Modelling of Cellular Systems
+  CO351
+  Network Flow Theory
+  CO353
+  Computational Discrete Optimization
+  CO367
+  Nonlinear Optimization
+  CO370
+  Deterministic OR Models
+  CO372
+  Portfolio Optimization Models
+  CO450
+  Combinatorial Optimization
+  CO452
+  Integer Programming
+  CO454
+  Scheduling
+  CO456
+  Introduction to Game Theory
+  CO463
+  Convex Optimization and Analysis
+  CO466
+  Continuous Optimization
+  CO471
+  Semidefinite Optimization
+  CO485
+  The Mathematics of Public-Key Cryptography
+  CO487
+  Applied Cryptography
+  CS341
+  Algorithms
+  CS431
+  Data-Intensive Distributed Analytics
+  CS451
+  Data-Intensive Distributed Computing
+  CS466
+  Algorithm Design and Analysis
+  CS476
+  Numerical Computation for Financial Modelling
+  CS479
+  Neural Networks
+  CS480
+  Introduction to Machine Learning
+  CS482
+  Computational Techniques in Biological Sequence Analysis
+  CS485
+  Statistical and Computational Foundations of Machine Learning
+  CS487
+  Introduction to Symbolic Computation
+  PMATH370
+  Chaos and Fractals
+  STAT440
+  Computational Inference
+  STAT441
+  Statistical Learning - Classification
+  STAT442
+  Data Visualization
+  STAT444
+  Statistical Learning - Advanced Regression
+---
+Complete 3 of the following:
+  ACTSC447
+  Numerical Computation for Financial Modelling
+  AMATH343
+  Discrete Models in Applied Mathematics
+  AMATH382
+  Computational Modelling of Cellular Systems
+  AMATH383
+  Introduction to Mathematical Biology
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  AMATH449
+  Neural Networks
+  AMATH455
+  Control Theory
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  BIOL382
+  Computational Modelling of Cellular Systems
+  CO351
+  Network Flow Theory
+  CO353
+  Computational Discrete Optimization
+  CO367
+  Nonlinear Optimization
+  CO370
+  Deterministic OR Models
+  CO372
+  Portfolio Optimization Models
+  CO450
+  Combinatorial Optimization
+  CO452
+  Integer Programming
+  CO454
+  Scheduling
+  CO456
+  Introduction to Game Theory
+  CO463
+  Convex Optimization and Analysis
+  CO466
+  Continuous Optimization
+  CO471
+  Semidefinite Optimization
+  CO485
+  The Mathematics of Public-Key Cryptography
+  CO487
+  Applied Cryptography
+  CS341
+  Algorithms
+  CS431
+  Data-Intensive Distributed Analytics
+  CS451
+  Data-Intensive Distributed Computing
+  CS466
+  Algorithm Design and Analysis
+  CS476
+  Numerical Computation for Financial Modelling
+  CS479
+  Neural Networks
+  CS480
+  Introduction to Machine Learning
+  CS482
+  Computational Techniques in Biological Sequence Analysis
+  CS485
+  Statistical and Computational Foundations of Machine Learning
+  CS487
+  Introduction to Symbolic Computation
+  PMATH370
+  Chaos and Fractals
+  STAT440
+  Computational Inference
+  STAT441
+  Statistical Learning - Classification
+  STAT442
+  Data Visualization
+  STAT444
+  Statistical Learning - Advanced Regression
+
+## PLANNED (every course planned)
+
+✓
+Complete 1 of the following:
+  ✓
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  planned
+  ✓
+  CS370
+  Numerical Computation
+  planned
+Complete 3 courses from the following choices:
+  Complete 1 of the following:
+  ✓
+  AMATH342
+  Computational Methods for Differential Equations
+  planned
+  ✓
+  CS475
+  Computational Linear Algebra
+  planned
+  At most 1 of the following:
+  ✓
+  CO250
+  Introduction to Optimization
+  cap exceeded
+  ✓
+  CO255
+  Introduction to Optimization (Advanced Level)
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  CS245
+  Logic and Computation
+  cap exceeded
+  ✓
+  CS245E
+  Logic and Computation (Enriched)
+  cap exceeded
+  ✓
+  PMATH330
+  Introduction to Mathematical Logic
+  cap exceeded
+  ✓
+  PMATH432
+  Mathematical Logic
+  cap exceeded
+  ✓
+  SE212
+  Logic and Computation
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  CS246
+  Object-Oriented Software Development
+  cap exceeded
+  ✓
+  CS246E
+  Object-Oriented Software Development (Enriched)
+  cap exceeded
+  ✓
+  CS247
+  Software Engineering Principles
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  STAT340
+  Stochastic Simulation Methods
+  cap exceeded
+  ✓
+  STAT341
+  Computational Statistics and Data Analysis
+  cap exceeded
+Complete the List 1 requirement below.
+  ✓
+  ACTSC447
+  Numerical Computation for Financial Modelling
+  planned
+  ✓
+  AMATH343
+  Discrete Models in Applied Mathematics
+  planned
+  ✓
+  AMATH382
+  Computational Modelling of Cellular Systems
+  planned
+  ✓
+  AMATH383
+  Introduction to Mathematical Biology
+  planned
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  planned
+  ✓
+  AMATH449
+  Neural Networks
+  planned
+  ✓
+  AMATH455
+  Control Theory
+  planned
+  ✓
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  planned
+  ✓
+  BIOL382
+  Computational Modelling of Cellular Systems
+  planned
+  ✓
+  CO351
+  Network Flow Theory
+  planned
+  ✓
+  CO353
+  Computational Discrete Optimization
+  planned
+  ✓
+  CO367
+  Nonlinear Optimization
+  planned
+  ✓
+  CO370
+  Deterministic OR Models
+  planned
+  ✓
+  CO372
+  Portfolio Optimization Models
+  planned
+  ✓
+  CO450
+  Combinatorial Optimization
+  planned
+  ✓
+  CO452
+  Integer Programming
+  planned
+  ✓
+  CO454
+  Scheduling
+  planned
+  ✓
+  CO456
+  Introduction to Game Theory
+  planned
+  ✓
+  CO463
+  Convex Optimization and Analysis
+  planned
+  ✓
+  CO466
+  Continuous Optimization
+  planned
+  ✓
+  CO471
+  Semidefinite Optimization
+  planned
+  ✓
+  CO485
+  The Mathematics of Public-Key Cryptography
+  planned
+  ✓
+  CO487
+  Applied Cryptography
+  planned
+  ✓
+  CS341
+  Algorithms
+  planned
+  ✓
+  CS431
+  Data-Intensive Distributed Analytics
+  planned
+  ✓
+  CS451
+  Data-Intensive Distributed Computing
+  planned
+  ✓
+  CS466
+  Algorithm Design and Analysis
+  planned
+  ✓
+  CS476
+  Numerical Computation for Financial Modelling
+  planned
+  ✓
+  CS479
+  Neural Networks
+  planned
+  ✓
+  CS480
+  Introduction to Machine Learning
+  planned
+  ✓
+  CS482
+  Computational Techniques in Biological Sequence Analysis
+  planned
+  ✓
+  CS485
+  Statistical and Computational Foundations of Machine Learning
+  planned
+  ✓
+  CS487
+  Introduction to Symbolic Computation
+  planned
+  ✓
+  PMATH370
+  Chaos and Fractals
+  planned
+  ✓
+  STAT440
+  Computational Inference
+  planned
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  planned
+  ✓
+  STAT442
+  Data Visualization
+  planned
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression
+  planned
+---
+✓
+Complete 3 of the following:
+  ✓
+  ACTSC447
+  Numerical Computation for Financial Modelling
+  planned
+  ✓
+  AMATH343
+  Discrete Models in Applied Mathematics
+  planned
+  ✓
+  AMATH382
+  Computational Modelling of Cellular Systems
+  planned
+  ✓
+  AMATH383
+  Introduction to Mathematical Biology
+  planned
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  planned
+  ✓
+  AMATH449
+  Neural Networks
+  planned
+  ✓
+  AMATH455
+  Control Theory
+  planned
+  ✓
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  planned
+  ✓
+  BIOL382
+  Computational Modelling of Cellular Systems
+  planned
+  ✓
+  CO351
+  Network Flow Theory
+  planned
+  ✓
+  CO353
+  Computational Discrete Optimization
+  planned
+  ✓
+  CO367
+  Nonlinear Optimization
+  planned
+  ✓
+  CO370
+  Deterministic OR Models
+  planned
+  ✓
+  CO372
+  Portfolio Optimization Models
+  planned
+  ✓
+  CO450
+  Combinatorial Optimization
+  planned
+  ✓
+  CO452
+  Integer Programming
+  planned
+  ✓
+  CO454
+  Scheduling
+  planned
+  ✓
+  CO456
+  Introduction to Game Theory
+  planned
+  ✓
+  CO463
+  Convex Optimization and Analysis
+  planned
+  ✓
+  CO466
+  Continuous Optimization
+  planned
+  ✓
+  CO471
+  Semidefinite Optimization
+  planned
+  ✓
+  CO485
+  The Mathematics of Public-Key Cryptography
+  planned
+  ✓
+  CO487
+  Applied Cryptography
+  planned
+  ✓
+  CS341
+  Algorithms
+  planned
+  ✓
+  CS431
+  Data-Intensive Distributed Analytics
+  planned
+  ✓
+  CS451
+  Data-Intensive Distributed Computing
+  planned
+  ✓
+  CS466
+  Algorithm Design and Analysis
+  planned
+  ✓
+  CS476
+  Numerical Computation for Financial Modelling
+  planned
+  ✓
+  CS479
+  Neural Networks
+  planned
+  ✓
+  CS480
+  Introduction to Machine Learning
+  planned
+  ✓
+  CS482
+  Computational Techniques in Biological Sequence Analysis
+  planned
+  ✓
+  CS485
+  Statistical and Computational Foundations of Machine Learning
+  planned
+  ✓
+  CS487
+  Introduction to Symbolic Computation
+  planned
+  ✓
+  PMATH370
+  Chaos and Fractals
+  planned
+  ✓
+  STAT440
+  Computational Inference
+  planned
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  planned
+  ✓
+  STAT442
+  Data Visualization
+  planned
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression
+  planned
+
+## DONE (every course completed)
+
+✓
+AMATH242
+Introduction to Computational Mathematics
+Complete 3 courses from the following choices:
+  Complete 1 of the following:
+  ✓
+  AMATH342
+  Computational Methods for Differential Equations
+  ✓
+  CS475
+  Computational Linear Algebra
+  At most 1 of the following:
+  ✓
+  CO250
+  Introduction to Optimization
+  cap exceeded
+  ✓
+  CO255
+  Introduction to Optimization (Advanced Level)
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  CS245
+  Logic and Computation
+  cap exceeded
+  ✓
+  CS245E
+  Logic and Computation (Enriched)
+  cap exceeded
+  ✓
+  PMATH330
+  Introduction to Mathematical Logic
+  cap exceeded
+  ✓
+  PMATH432
+  Mathematical Logic
+  cap exceeded
+  ✓
+  SE212
+  Logic and Computation
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  CS246
+  Object-Oriented Software Development
+  cap exceeded
+  ✓
+  CS246E
+  Object-Oriented Software Development (Enriched)
+  cap exceeded
+  ✓
+  CS247
+  Software Engineering Principles
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  STAT340
+  Stochastic Simulation Methods
+  cap exceeded
+  ✓
+  STAT341
+  Computational Statistics and Data Analysis
+  cap exceeded
+Complete the List 1 requirement below.
+  ✓
+  ACTSC447
+  Numerical Computation for Financial Modelling
+  ✓
+  AMATH343
+  Discrete Models in Applied Mathematics
+  ✓
+  AMATH382
+  Computational Modelling of Cellular Systems
+  ✓
+  AMATH383
+  Introduction to Mathematical Biology
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  ✓
+  AMATH449
+  Neural Networks
+  ✓
+  AMATH455
+  Control Theory
+  ✓
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  ✓
+  BIOL382
+  Computational Modelling of Cellular Systems
+  ✓
+  CO351
+  Network Flow Theory
+  ✓
+  CO353
+  Computational Discrete Optimization
+  ✓
+  CO367
+  Nonlinear Optimization
+  ✓
+  CO370
+  Deterministic OR Models
+  ✓
+  CO372
+  Portfolio Optimization Models
+  ✓
+  CO450
+  Combinatorial Optimization
+  ✓
+  CO452
+  Integer Programming
+  ✓
+  CO454
+  Scheduling
+  ✓
+  CO456
+  Introduction to Game Theory
+  ✓
+  CO463
+  Convex Optimization and Analysis
+  ✓
+  CO466
+  Continuous Optimization
+  ✓
+  CO471
+  Semidefinite Optimization
+  ✓
+  CO485
+  The Mathematics of Public-Key Cryptography
+  ✓
+  CO487
+  Applied Cryptography
+  ✓
+  CS341
+  Algorithms
+  ✓
+  CS431
+  Data-Intensive Distributed Analytics
+  ✓
+  CS451
+  Data-Intensive Distributed Computing
+  ✓
+  CS466
+  Algorithm Design and Analysis
+  ✓
+  CS476
+  Numerical Computation for Financial Modelling
+  ✓
+  CS479
+  Neural Networks
+  ✓
+  CS480
+  Introduction to Machine Learning
+  ✓
+  CS482
+  Computational Techniques in Biological Sequence Analysis
+  ✓
+  CS485
+  Statistical and Computational Foundations of Machine Learning
+  ✓
+  CS487
+  Introduction to Symbolic Computation
+  ✓
+  PMATH370
+  Chaos and Fractals
+  ✓
+  STAT440
+  Computational Inference
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  ✓
+  STAT442
+  Data Visualization
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression
+---
+✓
+Complete 3 of the following:
+  ✓
+  ACTSC447
+  Numerical Computation for Financial Modelling
+  ✓
+  AMATH343
+  Discrete Models in Applied Mathematics
+  ✓
+  AMATH382
+  Computational Modelling of Cellular Systems

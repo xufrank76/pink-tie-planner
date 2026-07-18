@@ -1,0 +1,130 @@
+# Performance Creation Minor (r1lDx1C0i2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+THPERF101
+Theatre and Performance Fundamentals
+THPERF243
+Technical Production 1
+THPERF244
+Technical Production 2
+---
+Complete 1 of the following:
+  COMMST282/THPERF282
+  Gender and Performance
+  COMMST378/THPERF378
+  Race and Performance
+---
+Complete 1 of the following:
+  COMMST220/THPERF220
+  Performance Studies
+  DAC246/THPERF246
+  Fundamentals of Design
+  DAC248/THPERF248
+  Project Management in the Arts
+  THPERF221
+  Performing Text
+  THPERF222
+  Intermediate Performance
+---
+Complete 1 of the following:
+  THPERF301
+  Performance Creation
+  THPERF306/THPERF307
+  Production and Performance Practicum
+  THPERF316/THPERF317
+  Production and Performance Practicum (1.00)
+---
+Complete additional units of COMMST, DAC, THPERF courses at any level to a total of 4.0 units
+
+## PLANNED (every course planned)
+
+✓
+THPERF101
+Theatre and Performance Fundamentals
+planned
+✓
+THPERF243
+Technical Production 1
+planned
+✓
+THPERF244
+Technical Production 2
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  COMMST282/THPERF282
+  Gender and Performance
+  planned
+  ✓
+  COMMST378/THPERF378
+  Race and Performance
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  COMMST220/THPERF220
+  Performance Studies
+  planned
+  ✓
+  DAC246/THPERF246
+  Fundamentals of Design
+  planned
+  ✓
+  DAC248/THPERF248
+  Project Management in the Arts
+  planned
+  ✓
+  THPERF221
+  Performing Text
+  planned
+  ✓
+  THPERF222
+  Intermediate Performance
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  THPERF301
+  Performance Creation
+  planned
+  ✓
+  THPERF306/THPERF307
+  Production and Performance Practicum
+  planned
+  ✓
+  THPERF316/THPERF317
+  Production and Performance Practicum (1.00)
+  planned
+---
+Complete additional units of COMMST, DAC, THPERF courses at any level to a total of 4.0 units
+
+## DONE (every course completed)
+
+✓
+THPERF101
+Theatre and Performance Fundamentals
+✓
+THPERF243
+Technical Production 1
+✓
+THPERF244
+Technical Production 2
+---
+✓
+COMMST282
+Gender and Performance
+---
+✓
+COMMST220
+Performance Studies
+---
+✓
+THPERF301
+Performance Creation
+---
+Complete additional units of COMMST, DAC, THPERF courses at any level to a total of 4.0 units

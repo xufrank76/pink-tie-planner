@@ -1,0 +1,438 @@
+# Applied Mathematics with Scientific Computing and Scientific Machine Learning (Bachelor of Mathematics - Honours) (ByBkJCRs2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AMATH231
+Calculus 4
+AMATH445
+Scientific Machine Learning
+CS234
+Data Types and Structures
+AMATH242/CS371
+Introduction to Computational Mathematics
+AMATH250/AMATH251
+Introduction to Differential Equations
+Complete 1 of the following:
+  AMATH342
+  Computational Methods for Differential Equations
+  AMATH345
+  Data-Driven Mathematical Models
+  AMATH449/CS479
+  Neural Networks
+CO250/CO255
+Introduction to Optimization
+MATH237/MATH247
+Calculus 3
+2 additional AMATH 3XX/4XX courses
+1 additional AMATH 4XX course
+Complete 4 additional courses from the following:
+  AMATH342
+  Computational Methods for Differential Equations
+  AMATH345
+  Data-Driven Mathematical Models
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  AMATH442
+  Computational Methods for Partial Differential Equations
+  AMATH446
+  Introduction to Mathematics of Deep Learning
+  AMATH449
+  Neural Networks
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  CO367
+  Nonlinear Optimization
+  CO466
+  Continuous Optimization
+  CO481
+  Introduction to Quantum Information Processing
+  CS231
+  Algorithmic Problem Solving
+  CS467
+  Introduction to Quantum Information Processing
+  CS475
+  Computational Linear Algebra
+  CS479
+  Neural Networks
+  PHYS467
+  Introduction to Quantum Information Processing
+  PMATH343
+  Introduction to the Mathematics of Quantum Information
+  STAT331
+  Applied Linear Models
+  STAT341
+  Computational Statistics and Data Analysis
+  STAT441
+  Statistical Learning - Classification
+  STAT444
+  Statistical Learning - Advanced Regression
+---
+Complete 4 of the following:
+  AMATH342
+  Computational Methods for Differential Equations
+  AMATH345
+  Data-Driven Mathematical Models
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  AMATH442
+  Computational Methods for Partial Differential Equations
+  AMATH446
+  Introduction to Mathematics of Deep Learning
+  AMATH449
+  Neural Networks
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  CO367
+  Nonlinear Optimization
+  CO466
+  Continuous Optimization
+  CO481
+  Introduction to Quantum Information Processing
+  CS231
+  Algorithmic Problem Solving
+  CS467
+  Introduction to Quantum Information Processing
+  CS475
+  Computational Linear Algebra
+  CS479
+  Neural Networks
+  PHYS467
+  Introduction to Quantum Information Processing
+  PMATH343
+  Introduction to the Mathematics of Quantum Information
+  STAT331
+  Applied Linear Models
+  STAT341
+  Computational Statistics and Data Analysis
+  STAT441
+  Statistical Learning - Classification
+  STAT444
+  Statistical Learning - Advanced Regression
+
+## PLANNED (every course planned)
+
+✓
+AMATH231
+Calculus 4
+planned
+✓
+AMATH445
+Scientific Machine Learning
+planned
+✓
+CS234
+Data Types and Structures
+planned
+✓
+AMATH242/CS371
+Introduction to Computational Mathematics
+planned
+✓
+AMATH250/AMATH251
+Introduction to Differential Equations
+planned
+✓
+Complete 1 of the following:
+  ✓
+  AMATH342
+  Computational Methods for Differential Equations
+  planned
+  ✓
+  AMATH345
+  Data-Driven Mathematical Models
+  planned
+  ✓
+  AMATH449/CS479
+  Neural Networks
+  planned
+✓
+CO250/CO255
+Introduction to Optimization
+planned
+✓
+MATH237/MATH247
+Calculus 3
+planned
+2 additional AMATH 3XX/4XX courses
+✓
+AMATH445
+✓
+AMATH342
+1 additional AMATH 4XX course
+✓
+AMATH445
+Complete 4 additional courses from the following:
+  ✓
+  AMATH342
+  Computational Methods for Differential Equations
+  planned
+  ✓
+  AMATH345
+  Data-Driven Mathematical Models
+  planned
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  planned
+  ✓
+  AMATH442
+  Computational Methods for Partial Differential Equations
+  planned
+  ✓
+  AMATH446
+  Introduction to Mathematics of Deep Learning
+  planned
+  ✓
+  AMATH449
+  Neural Networks
+  planned
+  ✓
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  planned
+  ✓
+  CO367
+  Nonlinear Optimization
+  planned
+  ✓
+  CO466
+  Continuous Optimization
+  planned
+  ✓
+  CO481
+  Introduction to Quantum Information Processing
+  planned
+  ✓
+  CS231
+  Algorithmic Problem Solving
+  planned
+  ✓
+  CS467
+  Introduction to Quantum Information Processing
+  planned
+  ✓
+  CS475
+  Computational Linear Algebra
+  planned
+  ✓
+  CS479
+  Neural Networks
+  planned
+  ✓
+  PHYS467
+  Introduction to Quantum Information Processing
+  planned
+  ✓
+  PMATH343
+  Introduction to the Mathematics of Quantum Information
+  planned
+  ✓
+  STAT331
+  Applied Linear Models
+  planned
+  ✓
+  STAT341
+  Computational Statistics and Data Analysis
+  planned
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  planned
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression
+  planned
+---
+✓
+Complete 4 of the following:
+  ✓
+  AMATH342
+  Computational Methods for Differential Equations
+  planned
+  ✓
+  AMATH345
+  Data-Driven Mathematical Models
+  planned
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  planned
+  ✓
+  AMATH442
+  Computational Methods for Partial Differential Equations
+  planned
+  ✓
+  AMATH446
+  Introduction to Mathematics of Deep Learning
+  planned
+  ✓
+  AMATH449
+  Neural Networks
+  planned
+  ✓
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  planned
+  ✓
+  CO367
+  Nonlinear Optimization
+  planned
+  ✓
+  CO466
+  Continuous Optimization
+  planned
+  ✓
+  CO481
+  Introduction to Quantum Information Processing
+  planned
+  ✓
+  CS231
+  Algorithmic Problem Solving
+  planned
+  ✓
+  CS467
+  Introduction to Quantum Information Processing
+  planned
+  ✓
+  CS475
+  Computational Linear Algebra
+  planned
+  ✓
+  CS479
+  Neural Networks
+  planned
+  ✓
+  PHYS467
+  Introduction to Quantum Information Processing
+  planned
+  ✓
+  PMATH343
+  Introduction to the Mathematics of Quantum Information
+  planned
+  ✓
+  STAT331
+  Applied Linear Models
+  planned
+  ✓
+  STAT341
+  Computational Statistics and Data Analysis
+  planned
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  planned
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression
+  planned
+
+## DONE (every course completed)
+
+✓
+AMATH231
+Calculus 4
+✓
+AMATH445
+Scientific Machine Learning
+✓
+CS234
+Data Types and Structures
+✓
+AMATH242
+Introduction to Computational Mathematics
+✓
+AMATH250
+Introduction to Differential Equations
+✓
+AMATH342
+Computational Methods for Differential Equations
+✓
+CO250
+Introduction to Optimization
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+2 additional AMATH 3XX/4XX courses
+✓
+AMATH445
+✓
+AMATH342
+1 additional AMATH 4XX course
+✓
+AMATH445
+Complete 4 additional courses from the following:
+  ✓
+  AMATH342
+  Computational Methods for Differential Equations
+  ✓
+  AMATH345
+  Data-Driven Mathematical Models
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  ✓
+  AMATH442
+  Computational Methods for Partial Differential Equations
+  ✓
+  AMATH446
+  Introduction to Mathematics of Deep Learning
+  ✓
+  AMATH449
+  Neural Networks
+  ✓
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  ✓
+  CO367
+  Nonlinear Optimization
+  ✓
+  CO466
+  Continuous Optimization
+  ✓
+  CO481
+  Introduction to Quantum Information Processing
+  ✓
+  CS231
+  Algorithmic Problem Solving
+  ✓
+  CS467
+  Introduction to Quantum Information Processing
+  ✓
+  CS475
+  Computational Linear Algebra
+  ✓
+  CS479
+  Neural Networks
+  ✓
+  PHYS467
+  Introduction to Quantum Information Processing
+  ✓
+  PMATH343
+  Introduction to the Mathematics of Quantum Information
+  ✓
+  STAT331
+  Applied Linear Models
+  ✓
+  STAT341
+  Computational Statistics and Data Analysis
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression
+---
+✓
+Complete 4 of the following:
+  ✓
+  AMATH342
+  Computational Methods for Differential Equations
+  ✓
+  AMATH345
+  Data-Driven Mathematical Models
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  ✓
+  AMATH442
+  Computational Methods for Partial Differential Equations

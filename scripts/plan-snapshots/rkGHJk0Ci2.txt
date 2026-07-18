@@ -1,0 +1,190 @@
+# Applied Mathematics Minor (rkGHJk0Ci2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1 of the following:
+  MATH103
+  Introductory Algebra for Arts and Social Science
+  MATH106
+  Applied Linear Algebra 1
+  MATH114
+  Linear Algebra for Science
+  MATH115
+  Linear Algebra for Engineering
+  MATH136/MATH146
+  Linear Algebra 1
+  PHYS249
+  Linear Algebra for Physics and Astronomy
+---
+Complete 1 of the following:
+  MATH104
+  Introductory Calculus for Arts and Social Science
+  MATH116/MATH117
+  Calculus 1 for Engineering
+  MATH127
+  Calculus 1 for the Sciences
+  MATH137/MATH147
+  Calculus 1
+---
+Complete 1 of the following:
+  MATH118/MATH119
+  Calculus 2 for Engineering
+  MATH128
+  Calculus 2 for the Sciences
+  MATH138/MATH148
+  Calculus 2
+---
+Complete 1 of the following:
+  ECE206/MATH212
+  Advanced Calculus 2 for Electrical Engineers
+  MATH217
+  Calculus 3 for Chemical Engineering
+  MATH227
+  Calculus 3 for Honours Physics
+  MATH237/MATH247
+  Calculus 3
+---
+Complete 1 of the following:
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  ECE205/MATH211
+  Advanced Calculus 1 for Electrical and Computer Engineers
+  MATH213
+  Signals, Systems, and Differential Equations
+  MATH218
+  Differential Equations for Engineers
+  MATH228
+  Differential Equations for Physics and Chemistry
+---
+5 additional AMATH 3XX/4XX courses
+
+## PLANNED (every course planned)
+
+✓
+Complete 1 of the following:
+  ✓
+  MATH103
+  Introductory Algebra for Arts and Social Science
+  planned
+  ✓
+  MATH106
+  Applied Linear Algebra 1
+  planned
+  ✓
+  MATH114
+  Linear Algebra for Science
+  planned
+  ✓
+  MATH115
+  Linear Algebra for Engineering
+  planned
+  ✓
+  MATH136/MATH146
+  Linear Algebra 1
+  planned
+  ✓
+  PHYS249
+  Linear Algebra for Physics and Astronomy
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH104
+  Introductory Calculus for Arts and Social Science
+  planned
+  ✓
+  MATH116/MATH117
+  Calculus 1 for Engineering
+  planned
+  ✓
+  MATH127
+  Calculus 1 for the Sciences
+  planned
+  ✓
+  MATH137/MATH147
+  Calculus 1
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH118/MATH119
+  Calculus 2 for Engineering
+  planned
+  ✓
+  MATH128
+  Calculus 2 for the Sciences
+  planned
+  ✓
+  MATH138/MATH148
+  Calculus 2
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  ECE206/MATH212
+  Advanced Calculus 2 for Electrical Engineers
+  planned
+  ✓
+  MATH217
+  Calculus 3 for Chemical Engineering
+  planned
+  ✓
+  MATH227
+  Calculus 3 for Honours Physics
+  planned
+  ✓
+  MATH237/MATH247
+  Calculus 3
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  planned
+  ✓
+  ECE205/MATH211
+  Advanced Calculus 1 for Electrical and Computer Engineers
+  planned
+  ✓
+  MATH213
+  Signals, Systems, and Differential Equations
+  planned
+  ✓
+  MATH218
+  Differential Equations for Engineers
+  planned
+  ✓
+  MATH228
+  Differential Equations for Physics and Chemistry
+  planned
+---
+5 additional AMATH 3XX/4XX courses
+
+## DONE (every course completed)
+
+✓
+MATH103
+Introductory Algebra for Arts and Social Science
+---
+✓
+MATH104
+Introductory Calculus for Arts and Social Science
+---
+✓
+MATH118
+Calculus 2 for Engineering
+---
+✓
+ECE206
+Advanced Calculus 2 for Electrical Engineers
+---
+✓
+AMATH250
+Introduction to Differential Equations
+---
+5 additional AMATH 3XX/4XX courses

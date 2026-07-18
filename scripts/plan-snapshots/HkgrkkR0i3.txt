@@ -1,0 +1,115 @@
+# Astrophysics Minor (HkgrkkR0i3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+PHYS121
+Mechanics
+PHYS122
+Electricity and Magnetism
+PHYS223
+Waves
+---
+Complete 4 of the following:
+  AMATH475
+  Introduction to General Relativity
+  PHYS175
+  Introduction to the Universe
+  PHYS267
+  Probability, Statistics, and Data Analysis for Physics and Astronomy
+  PHYS275
+  Planets
+  PHYS375
+  Stars
+  PHYS474
+  Galaxies
+  PHYS475
+  Cosmology
+  PHYS476
+  Introduction to General Relativity
+---
+Complete 1.5 units of additional PHYS courses
+
+## PLANNED (every course planned)
+
+✓
+PHYS121
+Mechanics
+planned
+✓
+PHYS122
+Electricity and Magnetism
+planned
+✓
+PHYS223
+Waves
+planned
+---
+✓
+Complete 4 of the following:
+  ✓
+  AMATH475
+  Introduction to General Relativity
+  planned
+  ✓
+  PHYS175
+  Introduction to the Universe
+  planned
+  ✓
+  PHYS267
+  Probability, Statistics, and Data Analysis for Physics and Astronomy
+  planned
+  ✓
+  PHYS275
+  Planets
+  planned
+  ✓
+  PHYS375
+  Stars
+  planned
+  ✓
+  PHYS474
+  Galaxies
+  planned
+  ✓
+  PHYS475
+  Cosmology
+  planned
+  ✓
+  PHYS476
+  Introduction to General Relativity
+  planned
+---
+Complete 1.5 units of additional PHYS courses
+✓
+PHYS121
+
+## DONE (every course completed)
+
+✓
+PHYS121
+Mechanics
+✓
+PHYS122
+Electricity and Magnetism
+✓
+PHYS223
+Waves
+---
+✓
+Complete 4 of the following:
+  ✓
+  AMATH475
+  Introduction to General Relativity
+  ✓
+  PHYS175
+  Introduction to the Universe
+  ✓
+  PHYS267
+  Probability, Statistics, and Data Analysis for Physics and Astronomy
+  ✓
+  PHYS275
+  Planets
+---
+Complete 1.5 units of additional PHYS courses
+✓
+PHYS121

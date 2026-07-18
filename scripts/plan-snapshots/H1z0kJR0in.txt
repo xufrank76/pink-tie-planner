@@ -1,0 +1,226 @@
+# Mathematical Studies (Bachelor of Mathematics - Honours) (H1z0kJR0in)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1 of the following:
+  CS115
+  Introduction to Computer Science 1
+  CS135/CS145
+  Designing Functional Programs
+---
+Complete 1 of the following:
+  CS116
+  Introduction to Computer Science 2
+  CS136/CS146
+  Elementary Algorithm Design and Data Abstraction
+---
+Complete 1 of the following:
+  MATH106
+  Applied Linear Algebra 1
+  MATH136/MATH146
+  Linear Algebra 1
+---
+Complete 1 of the following:
+  MATH127
+  Calculus 1 for the Sciences
+  MATH137/MATH147
+  Calculus 1
+---
+Complete 1 of the following:
+  MATH128
+  Calculus 2 for the Sciences
+  MATH138/MATH148
+  Calculus 2
+---
+MATH135/MATH145
+Algebra
+---
+Complete 1 of the following:
+  MATH207
+  Calculus 3 (Non-Specialist Level)
+  MATH229
+  Introduction to Combinatorics (Non-Specialist Level)
+  MATH237/MATH247
+  Calculus 3
+  MATH239/MATH249
+  Introduction to Combinatorics
+---
+Complete 1 of the following:
+  MATH225
+  Applied Linear Algebra 2
+  MATH235/MATH245
+  Linear Algebra 2
+---
+Complete 1 of the following:
+  STAT220
+  Probability (Non-Specialist Level)
+  STAT230/STAT240
+  Probability
+---
+Complete 1 of the following:
+  STAT221
+  Statistics (Non-Specialist Level)
+  STAT231/STAT241
+  Statistics
+---
+10 additional 3XX/4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+
+## PLANNED (every course planned)
+
+✓
+Complete 1 of the following:
+  ✓
+  CS115
+  Introduction to Computer Science 1
+  planned
+  ✓
+  CS135/CS145
+  Designing Functional Programs
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CS116
+  Introduction to Computer Science 2
+  planned
+  ✓
+  CS136/CS146
+  Elementary Algorithm Design and Data Abstraction
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH106
+  Applied Linear Algebra 1
+  planned
+  ✓
+  MATH136/MATH146
+  Linear Algebra 1
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH127
+  Calculus 1 for the Sciences
+  planned
+  ✓
+  MATH137/MATH147
+  Calculus 1
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH128
+  Calculus 2 for the Sciences
+  planned
+  ✓
+  MATH138/MATH148
+  Calculus 2
+  planned
+---
+✓
+MATH135/MATH145
+Algebra
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH207
+  Calculus 3 (Non-Specialist Level)
+  planned
+  ✓
+  MATH229
+  Introduction to Combinatorics (Non-Specialist Level)
+  planned
+  ✓
+  MATH237/MATH247
+  Calculus 3
+  planned
+  ✓
+  MATH239/MATH249
+  Introduction to Combinatorics
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH225
+  Applied Linear Algebra 2
+  planned
+  ✓
+  MATH235/MATH245
+  Linear Algebra 2
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  STAT220
+  Probability (Non-Specialist Level)
+  planned
+  ✓
+  STAT230/STAT240
+  Probability
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  STAT221
+  Statistics (Non-Specialist Level)
+  planned
+  ✓
+  STAT231/STAT241
+  Statistics
+  planned
+---
+10 additional 3XX/4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+
+## DONE (every course completed)
+
+✓
+CS115
+Introduction to Computer Science 1
+---
+✓
+CS116
+Introduction to Computer Science 2
+---
+✓
+MATH106
+Applied Linear Algebra 1
+---
+✓
+MATH127
+Calculus 1 for the Sciences
+---
+✓
+MATH128
+Calculus 2 for the Sciences
+---
+✓
+MATH135
+Algebra for Honours Mathematics
+---
+✓
+MATH207
+Calculus 3 (Non-Specialist Level)
+---
+✓
+MATH225
+Applied Linear Algebra 2
+---
+✓
+STAT220
+Probability (Non-Specialist Level)
+---
+✓
+STAT221
+Statistics (Non-Specialist Level)
+---
+10 additional 3XX/4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT

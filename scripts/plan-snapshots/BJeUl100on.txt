@@ -1,0 +1,19 @@
+# Philosophy Minor (BJeUl100on)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+PHIL3XX
+---
+7 additional PHIL courses
+
+## PLANNED (every course planned)
+
+PHIL3XX
+---
+7 additional PHIL courses
+
+## DONE (every course completed)
+
+PHIL3XX
+---
+7 additional PHIL courses

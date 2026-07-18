@@ -1,0 +1,329 @@
+# Jewish Studies Minor (SkHx1CCo2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 4 of the following:
+  GER283
+  The Holocaust and Film
+  JS203
+  Jewish Responses to the Holocaust
+  JS209
+  Jews and Jewishness
+  JS212
+  Great Jewish Books
+  JS215
+  Visions of Israel in Judaism: From Biblical to Modern Times
+  JS217
+  Judaism
+  JS218
+  Seduction, Rivalry, and Dysfunction in the Bible
+  JS228
+  Big Ideas of the Bible
+  JS231
+  Antisemitism
+  JS233
+  The Holocaust and Film
+  JS234
+  Power and Corruption in the Bible
+  JS235
+  Jesus: Life and Legacy
+  JS236
+  Paul: Life and Letters
+  JS314
+  Secret Teachings and Mysticism in Judaism
+  JS350
+  Special Topics in Jewish Studies
+  JS364
+  Jewish Humour: Laughing Your Way Through History
+  RCS209
+  Jews and Jewishness
+  RCS210
+  Judaism
+  RCS211
+  Jewish Responses to the Holocaust
+  RCS212
+  Great Jewish Books
+  RCS218
+  Seduction, Rivalry, and Dysfunction in the Bible
+  RCS228
+  Big Ideas of the Bible
+  RCS230
+  Visions of Israel in Judaism: From Biblical to Modern Times
+  RCS231
+  Antisemitism
+  RCS234
+  Power and Corruption in the Bible
+  RCS235
+  Jesus: Life and Legacy
+  RCS236
+  Paul: Life and Letters
+  RCS272
+  The Holocaust and Film
+  RCS314
+  Secret Teachings and Mysticism in Judaism
+  RCS364
+  Jewish Humour: Laughing Your Way Through History
+---
+Complete 4 of the following:
+  CLAS210
+  History of Ancient Law
+  CLAS325
+  Greek and Roman Religion
+  CLAS361
+  History of Ancient Philosophy
+  ENGL202A
+  The Bible and Literature 1
+  GSJ261
+  Gender and the Great Religions
+  HIST210
+  History of Ancient Law
+  HIST223
+  The Holocaust in History
+  HIST263
+  The Age of Revolution: Europe in the 19th Century
+  LS235
+  History of Ancient Law
+  PHIL230J
+  God and Philosophy
+  PHIL380
+  History of Ancient Philosophy
+  RCS110
+  Judaism, Christianity, Islam
+  RCS121
+  Evil
+  RCS258
+  God
+  RCS260
+  Religion Matters
+  RCS284
+  Gender and the Great Religions
+  RCS315
+  Greek and Roman Religion
+
+## PLANNED (every course planned)
+
+✓
+Complete 4 of the following:
+  ✓
+  GER283
+  The Holocaust and Film
+  planned
+  ✓
+  JS203
+  Jewish Responses to the Holocaust
+  planned
+  ✓
+  JS209
+  Jews and Jewishness
+  planned
+  ✓
+  JS212
+  Great Jewish Books
+  planned
+  ✓
+  JS215
+  Visions of Israel in Judaism: From Biblical to Modern Times
+  planned
+  ✓
+  JS217
+  Judaism
+  planned
+  ✓
+  JS218
+  Seduction, Rivalry, and Dysfunction in the Bible
+  planned
+  ✓
+  JS228
+  Big Ideas of the Bible
+  planned
+  ✓
+  JS231
+  Antisemitism
+  planned
+  ✓
+  JS233
+  The Holocaust and Film
+  planned
+  ✓
+  JS234
+  Power and Corruption in the Bible
+  planned
+  ✓
+  JS235
+  Jesus: Life and Legacy
+  planned
+  ✓
+  JS236
+  Paul: Life and Letters
+  planned
+  ✓
+  JS314
+  Secret Teachings and Mysticism in Judaism
+  planned
+  ✓
+  JS350
+  Special Topics in Jewish Studies
+  planned
+  ✓
+  JS364
+  Jewish Humour: Laughing Your Way Through History
+  planned
+  ✓
+  RCS209
+  Jews and Jewishness
+  planned
+  ✓
+  RCS210
+  Judaism
+  planned
+  ✓
+  RCS211
+  Jewish Responses to the Holocaust
+  planned
+  ✓
+  RCS212
+  Great Jewish Books
+  planned
+  ✓
+  RCS218
+  Seduction, Rivalry, and Dysfunction in the Bible
+  planned
+  ✓
+  RCS228
+  Big Ideas of the Bible
+  planned
+  ✓
+  RCS230
+  Visions of Israel in Judaism: From Biblical to Modern Times
+  planned
+  ✓
+  RCS231
+  Antisemitism
+  planned
+  ✓
+  RCS234
+  Power and Corruption in the Bible
+  planned
+  ✓
+  RCS235
+  Jesus: Life and Legacy
+  planned
+  ✓
+  RCS236
+  Paul: Life and Letters
+  planned
+  ✓
+  RCS272
+  The Holocaust and Film
+  planned
+  ✓
+  RCS314
+  Secret Teachings and Mysticism in Judaism
+  planned
+  ✓
+  RCS364
+  Jewish Humour: Laughing Your Way Through History
+  planned
+---
+✓
+Complete 4 of the following:
+  ✓
+  CLAS210
+  History of Ancient Law
+  planned
+  ✓
+  CLAS325
+  Greek and Roman Religion
+  planned
+  ✓
+  CLAS361
+  History of Ancient Philosophy
+  planned
+  ✓
+  ENGL202A
+  The Bible and Literature 1
+  planned
+  ✓
+  GSJ261
+  Gender and the Great Religions
+  planned
+  ✓
+  HIST210
+  History of Ancient Law
+  planned
+  ✓
+  HIST223
+  The Holocaust in History
+  planned
+  ✓
+  HIST263
+  The Age of Revolution: Europe in the 19th Century
+  planned
+  ✓
+  LS235
+  History of Ancient Law
+  planned
+  ✓
+  PHIL230J
+  God and Philosophy
+  planned
+  ✓
+  PHIL380
+  History of Ancient Philosophy
+  planned
+  ✓
+  RCS110
+  Judaism, Christianity, Islam
+  planned
+  ✓
+  RCS121
+  Evil
+  planned
+  ✓
+  RCS258
+  God
+  planned
+  ✓
+  RCS260
+  Religion Matters
+  planned
+  ✓
+  RCS284
+  Gender and the Great Religions
+  planned
+  ✓
+  RCS315
+  Greek and Roman Religion
+  planned
+
+## DONE (every course completed)
+
+✓
+Complete 4 of the following:
+  ✓
+  GER283
+  The Holocaust and Film
+  ✓
+  JS203
+  Jewish Responses to the Holocaust
+  ✓
+  JS209
+  Jews and Jewishness
+  ✓
+  JS212
+  Great Jewish Books
+---
+✓
+Complete 4 of the following:
+  ✓
+  CLAS210
+  History of Ancient Law
+  ✓
+  CLAS325
+  Greek and Roman Religion
+  ✓
+  CLAS361
+  History of Ancient Philosophy
+  ✓
+  ENGL202A
+  The Bible and Literature 1

@@ -237,7 +237,7 @@ function CollapsibleSection({ label, done, planned, dim, defaultOpen = true, chi
   );
 }
 
-function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = new Set<string>(), preAllocated, rawHtml }: {
+export function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = new Set<string>(), preAllocated, rawHtml }: {
   node: ReqNode; completedSet: Set<string>; planSet: Set<string>; dim?: boolean; excludeCodes?: Set<string>; preAllocated?: string[];
   rawHtml?: string | null;
 }) {

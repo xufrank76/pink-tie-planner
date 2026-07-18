@@ -1,0 +1,213 @@
+# Canadian Studies Minor (rJ-zgJAAoh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+CDNST101
+Introduction to Canadian Studies
+---
+CDNST201/INDG201
+The Indigenous Experience in Canada
+---
+Complete 1 of the following:
+  CDNST211
+  Canada: Conflict and Unity
+  CDNST212
+  Narratives of Canadian Identity
+---
+Complete 1 of the following:
+  HIST253
+  Canada: Cultures and Conflicts in the Colonial Era
+  HIST254
+  Canada Since 1867: A New Nation
+---
+Complete 4 of the following:
+  ANTH272
+  Issues in Contemporary Indigenous Communities in Canada
+  ENGL313
+  Early Canadian Literatures
+  ENGL315
+  Modern Canadian Literature
+  ENGL316
+  Canadian Drama
+  ENGL318
+  Contemporary Canadian Literature
+  FR276
+  Introduction to French-Language Literatures and Cultures in Canada
+  HIST103
+  Canadian History Through Biography
+  HIST113
+  Canadian Business History: Innovators and Entrepreneurs
+  HIST221
+  Racism and Response in Canadian History
+  HIST226
+  Canada in World War 2
+  HIST305
+  Historical Memory and National Identity
+  HIST351
+  Canada: The Immigrant Experience
+  HIST388
+  Modern Canada
+  INDG216
+  Indigenous Visual Culture in Canada
+  INDG272
+  Issues in Contemporary Indigenous Communities in Canada
+  LS206
+  Canadian Government and Politics
+  PSCI260
+  Canadian Government and Politics
+  PSCI360
+  Issues in Canadian Politics
+  PSCI461
+  Critical Perspectives on Canadian Politics
+  VCULT216
+  Indigenous Visual Culture in Canada
+
+## PLANNED (every course planned)
+
+✓
+CDNST101
+Introduction to Canadian Studies
+planned
+---
+✓
+CDNST201/INDG201
+The Indigenous Experience in Canada
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CDNST211
+  Canada: Conflict and Unity
+  planned
+  ✓
+  CDNST212
+  Narratives of Canadian Identity
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  HIST253
+  Canada: Cultures and Conflicts in the Colonial Era
+  planned
+  ✓
+  HIST254
+  Canada Since 1867: A New Nation
+  planned
+---
+✓
+Complete 4 of the following:
+  ✓
+  ANTH272
+  Issues in Contemporary Indigenous Communities in Canada
+  planned
+  ✓
+  ENGL313
+  Early Canadian Literatures
+  planned
+  ✓
+  ENGL315
+  Modern Canadian Literature
+  planned
+  ✓
+  ENGL316
+  Canadian Drama
+  planned
+  ✓
+  ENGL318
+  Contemporary Canadian Literature
+  planned
+  ✓
+  FR276
+  Introduction to French-Language Literatures and Cultures in Canada
+  planned
+  ✓
+  HIST103
+  Canadian History Through Biography
+  planned
+  ✓
+  HIST113
+  Canadian Business History: Innovators and Entrepreneurs
+  planned
+  ✓
+  HIST221
+  Racism and Response in Canadian History
+  planned
+  ✓
+  HIST226
+  Canada in World War 2
+  planned
+  ✓
+  HIST305
+  Historical Memory and National Identity
+  planned
+  ✓
+  HIST351
+  Canada: The Immigrant Experience
+  planned
+  ✓
+  HIST388
+  Modern Canada
+  planned
+  ✓
+  INDG216
+  Indigenous Visual Culture in Canada
+  planned
+  ✓
+  INDG272
+  Issues in Contemporary Indigenous Communities in Canada
+  planned
+  ✓
+  LS206
+  Canadian Government and Politics
+  planned
+  ✓
+  PSCI260
+  Canadian Government and Politics
+  planned
+  ✓
+  PSCI360
+  Issues in Canadian Politics
+  planned
+  ✓
+  PSCI461
+  Critical Perspectives on Canadian Politics
+  planned
+  ✓
+  VCULT216
+  Indigenous Visual Culture in Canada
+  planned
+
+## DONE (every course completed)
+
+✓
+CDNST101
+Introduction to Canadian Studies
+---
+✓
+CDNST201
+The Indigenous Experience in Canada
+---
+✓
+CDNST211
+Canada: Conflict and Unity
+---
+✓
+HIST253
+Canada: Cultures and Conflicts in the Colonial Era
+---
+✓
+Complete 4 of the following:
+  ✓
+  ANTH272
+  Issues in Contemporary Indigenous Communities in Canada
+  ✓
+  ENGL313
+  Early Canadian Literatures
+  ✓
+  ENGL315
+  Modern Canadian Literature
+  ✓
+  ENGL316
+  Canadian Drama

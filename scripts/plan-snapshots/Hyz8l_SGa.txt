@@ -1,0 +1,61 @@
+# Medieval Studies Minor (Hyz8l_SGa)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1 of the following:
+  CLAS105/MEDVL105
+  Introduction to Medieval Studies
+  HIST115/MEDVL115
+  Crusading in the Middle Ages
+---
+Complete 1 of the following:
+  CLAS205/MEDVL205
+  Medieval Society
+  HIST260/MEDVL260
+  Medieval Europe c.300-c.1500
+  MEDVL252
+  Medieval Monsters
+---
+Complete 3.0 units from the course lists below
+
+## PLANNED (every course planned)
+
+✓
+Complete 1 of the following:
+  ✓
+  CLAS105/MEDVL105
+  Introduction to Medieval Studies
+  planned
+  ✓
+  HIST115/MEDVL115
+  Crusading in the Middle Ages
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CLAS205/MEDVL205
+  Medieval Society
+  planned
+  ✓
+  HIST260/MEDVL260
+  Medieval Europe c.300-c.1500
+  planned
+  ✓
+  MEDVL252
+  Medieval Monsters
+  planned
+---
+Complete 3.0 units from the course lists below
+
+## DONE (every course completed)
+
+✓
+CLAS105
+Introduction to Medieval Studies
+---
+✓
+CLAS205
+Medieval Society
+---
+Complete 3.0 units from the course lists below

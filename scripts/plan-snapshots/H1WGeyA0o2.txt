@@ -1,0 +1,406 @@
+# Cognitive Science Minor (H1WGeyA0o2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+PHIL256/PSYCH256
+Introduction to Cognitive Science
+---
+Complete 1.5 units from List 1, 1.5 units from List 2, and 0.5 unit from List 3.
+  ANTH204
+  Biological Anthropology
+  PHIL255
+  Philosophy of Mind
+  PSYCH207
+  Cognitive Processes
+  PSYCH261
+  Physiological Psychology
+  COGSCI300
+  Intelligence in Machines, Humans, and Other Animals
+  CS105
+  Introduction to Computer Programming 1
+  CS115
+  Introduction to Computer Science 1
+  CS135
+  Designing Functional Programs
+  MSE121
+  Introduction to Computer Programming
+  PHIL356
+  Intelligence in Machines, Humans, and Other Animals
+  PSYCH420
+  An Introduction to Computational Neuroscience Methods
+  SYDE121
+  Digital Computation
+  ENGL306A
+  Introduction to Linguistics
+  FR303
+  Introduction to Linguistics
+---
+Complete 3 of the following:
+  ANTH204
+  Biological Anthropology
+  PHIL255
+  Philosophy of Mind
+  PSYCH207
+  Cognitive Processes
+  PSYCH261
+  Physiological Psychology
+  Complete 1 of the following:
+    COGSCI300/PHIL356
+    Intelligence in Machines, Humans, and Other Animals
+    CS105
+    Introduction to Computer Programming 1
+    CS115
+    Introduction to Computer Science 1
+    CS135
+    Designing Functional Programs
+    MSE121
+    Introduction to Computer Programming
+    PSYCH420
+    An Introduction to Computational Neuroscience Methods
+    SYDE121
+    Digital Computation
+  ENGL306A/FR303
+  Introduction to Linguistics
+---
+Complete 1 of the following:
+  Complete 3 of the following:
+    ANTH105
+    Prehistoric Peoples and Places
+    ANTH365
+    Human Evolution
+    BIOL150
+    Organismal and Evolutionary Ecology
+    COGSCI300
+    Intelligence in Machines, Humans, and Other Animals
+    PHIL356
+    Intelligence in Machines, Humans, and Other Animals
+    PSYCH361
+    Evolutionary Psychology
+  Complete 3 of the following:
+    ANTH221
+    Language and Society
+    COMMST101
+    Theories of Communication
+    ENGL306B
+    How English Grammar Works
+    ENGL306D
+    The History of the English Language
+    ENGL306F
+    Introduction to Semiotics
+    ENGL309A
+    Rhetoric, Classical to Enlightenment
+    ENGL383
+    Phonetics
+    ENGL409A
+    Rhetoric of Argumentation
+    PHIL363
+    Philosophy of Language
+    PSYCH320
+    Language Development
+  Complete 3 of the following:
+    ANTH331
+    Anthropology of Childhood
+    PSYCH314
+    Cognitive Development
+    PSYCH320
+    Language Development
+    PSYCH335
+    Developmental Neuropsychology
+  Complete 3 of the following:
+    BIOL376
+    Cellular Neurophysiology
+    BIOL487
+    Computational Neuroscience
+    KIN255
+    Fundamentals of Neuroscience
+    KIN356
+    Sensory Systems Neuroscience
+    PSYCH307
+    Human Neuropsychology
+    SYDE552
+    Computational Neuroscience
+    SYDE556
+    Simulating Neurobiological Systems
+  Complete 3 of the following:
+    BME522
+    Foundations of Artificial Intelligence
+    CS136L
+    Tools and Techniques for Software Development
+    CS245E
+    Logic and Computation (Enriched)
+    CS479
+    Neural Networks
+    CS480
+    Introduction to Machine Learning
+    CS485
+    Statistical and Computational Foundations of Machine Learning
+    CS486
+    Introduction to Artificial Intelligence
+    ECE457A
+    Artificial and Natural Intelligence
+    MSE446
+    Introduction to Machine Learning
+    MSE546
+    Advanced Machine Learning
+    SYDE522
+    Foundations of Artificial Intelligence
+    SYDE572
+    Introduction to Pattern Recognition
+  Complete 3 of the following:
+    CS449
+    Human-Computer Interaction
+    MSE343
+    Human-Computer Interaction
+    MSE541
+    Search Engines
+    MSE543
+    Analytics and User Experience
+    RCS349
+    The Mystical Imagination
+    SYDE543
+    Cognitive Ergonomics
+    SYDE548
+    User Centred Design Methods
+  Complete 3 of the following:
+    CS484
+    Computational Vision
+    ENGL392B
+    Visual Rhetoric
+    KIN356
+    Sensory Systems Neuroscience
+    MUSIC231
+    Music Cognition
+    PSYCH306
+    Perception
+  Complete 3 of the following:
+    INTEG220
+    Nature of Scientific Knowledge
+    INTEG441
+    Hard Decisions and Wicked Problems
+    LS272
+    Psychology and Law
+    PHIL290
+    Nature of Scientific Knowledge
+    PSYCH353
+    Social Cognition
+  Complete 3 of the following:
+    INTEG251
+    Creativity and Innovation
+    INTEG441
+    Hard Decisions and Wicked Problems
+    MSE454
+    Technical Entrepreneurship
+    PHIL216
+    Probability and Decision Making
+    PHIL416
+    Studies in Probability and Decision Theory
+    PSYCH342
+    The Psychology of Groups and Teams
+    SYDE533
+    Conflict Resolution
+  Complete 3 of the following:
+    KIN354
+    Psychology of Physical Activity
+    KIN357
+    Motor Learning and Neuroplasticity
+    KIN359
+    Cognition, Cognitive Dysfunction, and Movement
+    KIN459
+    Cognitive, Emotional and Motor Assessment
+---
+Complete 1 of the following:
+  PHIL447/PSYCH447
+  Seminar in Cognitive Science
+  Honours seminar in any department
+  Directed studies in any department
+  Honours thesis in any department
+
+## PLANNED (every course planned)
+
+✓
+PHIL256/PSYCH256
+Introduction to Cognitive Science
+planned
+---
+Complete 1.5 units from List 1, 1.5 units from List 2, and 0.5 unit from List 3.
+  ✓
+  ANTH204
+  Biological Anthropology
+  planned
+  ✓
+  PHIL255
+  Philosophy of Mind
+  planned
+  ✓
+  PSYCH207
+  Cognitive Processes
+  planned
+  ✓
+  PSYCH261
+  Physiological Psychology
+  planned
+  ✓
+  COGSCI300
+  Intelligence in Machines, Humans, and Other Animals
+  planned
+  ✓
+  CS105
+  Introduction to Computer Programming 1
+  planned
+  ✓
+  CS115
+  Introduction to Computer Science 1
+  planned
+  ✓
+  CS135
+  Designing Functional Programs
+  planned
+  ✓
+  MSE121
+  Introduction to Computer Programming
+  planned
+  ✓
+  PHIL356
+  Intelligence in Machines, Humans, and Other Animals
+  planned
+  ✓
+  PSYCH420
+  An Introduction to Computational Neuroscience Methods
+  planned
+  ✓
+  SYDE121
+  Digital Computation
+  planned
+  ✓
+  ENGL306A
+  Introduction to Linguistics
+  planned
+  ✓
+  FR303
+  Introduction to Linguistics
+  planned
+---
+✓
+Complete 3 of the following:
+  ✓
+  ANTH204
+  Biological Anthropology
+  planned
+  ✓
+  PHIL255
+  Philosophy of Mind
+  planned
+  ✓
+  PSYCH207
+  Cognitive Processes
+  planned
+---
+✓
+Complete 3 of the following:
+  ✓
+  ANTH105
+  Prehistoric Peoples and Places
+  planned
+  ✓
+  ANTH365
+  Human Evolution
+  planned
+  ✓
+  BIOL150
+  Organismal and Evolutionary Ecology
+  planned
+  ✓
+  COGSCI300
+  Intelligence in Machines, Humans, and Other Animals
+  planned
+  ✓
+  PHIL356
+  Intelligence in Machines, Humans, and Other Animals
+  planned
+  ✓
+  PSYCH361
+  Evolutionary Psychology
+  planned
+---
+✓
+PHIL447/PSYCH447
+Seminar in Cognitive Science
+planned
+
+## DONE (every course completed)
+
+✓
+PHIL256
+Introduction to Cognitive Science
+---
+Complete 1.5 units from List 1, 1.5 units from List 2, and 0.5 unit from List 3.
+  ✓
+  ANTH204
+  Biological Anthropology
+  ✓
+  PHIL255
+  Philosophy of Mind
+  ✓
+  PSYCH207
+  Cognitive Processes
+  ✓
+  PSYCH261
+  Physiological Psychology
+  ✓
+  COGSCI300
+  Intelligence in Machines, Humans, and Other Animals
+  ✓
+  CS105
+  Introduction to Computer Programming 1
+  ✓
+  CS115
+  Introduction to Computer Science 1
+  ✓
+  CS135
+  Designing Functional Programs
+  ✓
+  MSE121
+  Introduction to Computer Programming
+  ✓
+  PHIL356
+  Intelligence in Machines, Humans, and Other Animals
+  ✓
+  PSYCH420
+  An Introduction to Computational Neuroscience Methods
+  ✓
+  SYDE121
+  Digital Computation
+  ✓
+  ENGL306A
+  Introduction to Linguistics
+  ✓
+  FR303
+  Introduction to Linguistics
+---
+✓
+Complete 3 of the following:
+  ✓
+  ANTH204
+  Biological Anthropology
+  ✓
+  PHIL255
+  Philosophy of Mind
+  ✓
+  PSYCH207
+  Cognitive Processes
+---
+✓
+Complete 3 of the following:
+  ✓
+  ANTH105
+  Prehistoric Peoples and Places
+  ✓
+  ANTH365
+  Human Evolution
+  ✓
+  BIOL150
+  Organismal and Evolutionary Ecology
+---
+✓
+PHIL447
+Seminar in Cognitive Science

@@ -1,0 +1,313 @@
+# Business Specialization (rJAkJA0s2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AFM101
+Introduction to Financial Accounting
+AFM102
+Introduction to Managerial Accounting
+BUS121W
+Critical Thinking and Communication Skills (WLU)
+CS330
+Management Information Systems
+ECON101
+Introduction to Microeconomics
+ECON102
+Introduction to Macroeconomics
+Complete 1 of the following:
+  ACTSC221
+  Introductory Financial Mathematics (Non-Specialist Level)
+  ACTSC231
+  Introductory Financial Mathematics
+  ACTSC291/AFM272
+  Global Capital Markets and Financial Analytics
+AFM131/ARBUS101
+Introduction to Business in North America
+ARBUS302/MGMT244
+Principles of Marketing
+Complete 1 of the following:
+  CO227
+  Introduction to Optimization (Non-Specialist Level)
+  CO250/CO255
+  Introduction to Optimization
+Complete 1 of the following:
+  CO327
+  Deterministic OR Models (Non-Specialist Level)
+  CO370
+  Deterministic OR Models
+Complete 2 of the following:
+  CS200
+  Concepts for Advanced Computer Usage
+  CS338
+  Computer Applications in Business: Databases
+  CS430
+  Applications Software Engineering
+  STAT340
+  Stochastic Simulation Methods
+Complete 1 of the following:
+  STAT321
+  Regression and Forecasting (Non-Specialist Level)
+  STAT322
+  Sampling and Experimental Design (Non-Specialist Level)
+  STAT331
+  Applied Linear Models
+  STAT332
+  Sampling and Experimental Design
+Complete the List 1 requirement below
+  LS271
+  Conflict Resolution
+  PACS202
+  Conflict Resolution
+  LS319
+  Negotiation: Theories and Strategies
+  PACS323
+  Negotiation: Theories and Strategies
+---
+Complete 3 additional courses from the following options.
+At most 1 of the following:
+LS271
+Conflict Resolution
+PACS202
+Conflict Resolution
+At most 1 of the following:
+LS319
+Negotiation: Theories and Strategies
+PACS323
+Negotiation: Theories and Strategies
+Choose courses from any of the following subject codes: AFM, BUS, COMM, ECON, HRM, MSE, STV
+
+## PLANNED (every course planned)
+
+✓
+AFM101
+Introduction to Financial Accounting
+planned
+✓
+AFM102
+Introduction to Managerial Accounting
+planned
+✓
+BUS121W
+Critical Thinking and Communication Skills (WLU)
+planned
+✓
+CS330
+Management Information Systems
+planned
+✓
+ECON101
+Introduction to Microeconomics
+planned
+✓
+ECON102
+Introduction to Macroeconomics
+planned
+✓
+Complete 1 of the following:
+  ✓
+  ACTSC221
+  Introductory Financial Mathematics (Non-Specialist Level)
+  planned
+  ✓
+  ACTSC231
+  Introductory Financial Mathematics
+  planned
+  ✓
+  ACTSC291/AFM272
+  Global Capital Markets and Financial Analytics
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  AFM131/ARBUS101
+  Introduction to Business in North America
+  planned
+  ✓
+  BUS111W
+  Understanding the Business Environment (WLU)
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  ARBUS302/MGMT244
+  Principles of Marketing
+  planned
+  ✓
+  BUS252W
+  Introduction to Marketing Management (WLU)
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  CO227
+  Introduction to Optimization (Non-Specialist Level)
+  planned
+  ✓
+  CO250/CO255
+  Introduction to Optimization
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  CO327
+  Deterministic OR Models (Non-Specialist Level)
+  planned
+  ✓
+  CO370
+  Deterministic OR Models
+  planned
+✓
+Complete 2 of the following:
+  ✓
+  CS200
+  Concepts for Advanced Computer Usage
+  planned
+  ✓
+  CS338
+  Computer Applications in Business: Databases
+  planned
+  ✓
+  CS430
+  Applications Software Engineering
+  planned
+  ✓
+  STAT340
+  Stochastic Simulation Methods
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  STAT321
+  Regression and Forecasting (Non-Specialist Level)
+  planned
+  ✓
+  STAT322
+  Sampling and Experimental Design (Non-Specialist Level)
+  planned
+  ✓
+  STAT331
+  Applied Linear Models
+  planned
+  ✓
+  STAT332
+  Sampling and Experimental Design
+  planned
+Complete the List 1 requirement below
+  ✓
+  LS271
+  Conflict Resolution
+  planned
+  ✓
+  PACS202
+  Conflict Resolution
+  planned
+  ✓
+  LS319
+  Negotiation: Theories and Strategies
+  planned
+  ✓
+  PACS323
+  Negotiation: Theories and Strategies
+  planned
+---
+Complete 3 additional courses from the following options.
+At most 1 of the following:
+✓
+LS271
+Conflict Resolution
+cap exceeded
+✓
+PACS202
+Conflict Resolution
+cap exceeded
+At most 1 of the following:
+✓
+LS319
+Negotiation: Theories and Strategies
+cap exceeded
+✓
+PACS323
+Negotiation: Theories and Strategies
+cap exceeded
+Choose courses from any of the following subject codes: AFM, BUS, COMM, ECON, HRM, MSE, STV
+
+## DONE (every course completed)
+
+✓
+AFM101
+Introduction to Financial Accounting
+✓
+AFM102
+Introduction to Managerial Accounting
+✓
+BUS121W
+Critical Thinking and Communication Skills (WLU)
+✓
+CS330
+Management Information Systems
+✓
+ECON101
+Introduction to Microeconomics
+✓
+ECON102
+Introduction to Macroeconomics
+✓
+ACTSC221
+Introductory Financial Mathematics (Non-Specialist Level)
+✓
+AFM131
+Introduction to Business in North America
+✓
+ARBUS302
+Principles of Marketing
+✓
+CO227
+Introduction to Optimization (Non-Specialist Level)
+✓
+CO327
+Deterministic OR Models (Non-Specialist Level)
+✓
+Complete 2 of the following:
+  ✓
+  CS200
+  Concepts for Advanced Computer Usage
+  ✓
+  CS338
+  Computer Applications in Business: Databases
+✓
+STAT321
+Regression and Forecasting (Non-Specialist Level)
+Complete the List 1 requirement below
+  ✓
+  LS271
+  Conflict Resolution
+  ✓
+  PACS202
+  Conflict Resolution
+  ✓
+  LS319
+  Negotiation: Theories and Strategies
+  ✓
+  PACS323
+  Negotiation: Theories and Strategies
+---
+Complete 3 additional courses from the following options.
+At most 1 of the following:
+✓
+LS271
+Conflict Resolution
+cap exceeded
+✓
+PACS202
+Conflict Resolution
+cap exceeded
+At most 1 of the following:
+✓
+LS319
+Negotiation: Theories and Strategies
+cap exceeded
+✓
+PACS323
+Negotiation: Theories and Strategies
+cap exceeded
+Choose courses from any of the following subject codes: AFM, BUS, COMM, ECON, HRM, MSE, STV

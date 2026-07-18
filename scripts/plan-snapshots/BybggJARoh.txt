@@ -1,0 +1,74 @@
+# Statistics (Joint Honours) (BybggJARoh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+STAT330
+Mathematical Statistics
+STAT331
+Applied Linear Models
+STAT333
+Stochastic Processes 1
+---
+MATH237/MATH247
+Calculus 3
+---
+STAT4XX
+---
+1 additional STAT 3XX/4XX course
+
+## PLANNED (every course planned)
+
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+planned
+✓
+STAT330
+Mathematical Statistics
+planned
+✓
+STAT331
+Applied Linear Models
+planned
+✓
+STAT333
+Stochastic Processes 1
+planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+STAT4XX
+---
+1 additional STAT 3XX/4XX course
+✓
+STAT330
+
+## DONE (every course completed)
+
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+✓
+STAT330
+Mathematical Statistics
+✓
+STAT331
+Applied Linear Models
+✓
+STAT333
+Stochastic Processes 1
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+STAT4XX
+---
+1 additional STAT 3XX/4XX course
+✓
+STAT330

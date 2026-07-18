@@ -1,0 +1,50 @@
+# Studies in Islamic and Arab Cultures Minor (BkVwey0Aih)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+SI121R
+Islam in the World
+SI131R
+Arab Culture
+---
+Complete 1.0 unit of ARABIC courses
+---
+Complete 1.0 unit of additional SI courses
+---
+Complete 2 additional courses (subject codes: SI, ARABIC)
+
+## PLANNED (every course planned)
+
+✓
+SI121R
+Islam in the World
+planned
+✓
+SI131R
+Arab Culture
+planned
+---
+Complete 1.0 unit of ARABIC courses
+---
+Complete 1.0 unit of additional SI courses
+✓
+SI121R
+---
+Complete 2 additional courses (subject codes: SI, ARABIC)
+
+## DONE (every course completed)
+
+✓
+SI121R
+Islam in the World
+✓
+SI131R
+Arab Culture
+---
+Complete 1.0 unit of ARABIC courses
+---
+Complete 1.0 unit of additional SI courses
+✓
+SI121R
+---
+Complete 2 additional courses (subject codes: SI, ARABIC)

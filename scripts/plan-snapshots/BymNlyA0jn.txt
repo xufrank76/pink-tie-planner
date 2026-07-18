@@ -1,0 +1,162 @@
+# Indigenous Entrepreneurship Minor (BymNlyA0jn)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+INDENT200
+The Past, Present, and Future of Indigenous Entrepreneurship
+INDENT210
+Fundamentals of Indigenous Entrepreneurship
+INDENT225
+Practicum in Indigenous Entrepreneurship 1
+INDENT310
+Case Studies in Indigenous Venture Creation
+INDENT325
+Practicum in Indigenous Entrepreneurship 2
+---
+Complete 2 of the following:
+  ANTH272
+  Issues in Contemporary Indigenous Communities in Canada
+  CDNST201
+  The Indigenous Experience in Canada
+  ENVS401
+  Canadian Law, Indigenous Peoples, and Natural Resource Development
+  ERS200
+  Indigenous Sustainability Entrepreneurship
+  ERS372
+  First Nations and the Environment
+  HIST269
+  Indigenous Histories in Canada
+  INDG201
+  The Indigenous Experience in Canada
+  INDG272
+  Issues in Contemporary Indigenous Communities in Canada
+  INDG301
+  Critical Theories of Indigeneity in a Global Perspective
+  INDG318
+  Indigenous Worldviews and Spirituality
+  RCS318
+  Indigenous Worldviews and Spirituality
+---
+Complete 1 of the following:
+  COMM103/ECON100
+  Principles of Economics
+  ECON101
+  Introduction to Microeconomics
+  INDENT320
+  Indigenous Economic Development Corporations
+
+## PLANNED (every course planned)
+
+✓
+INDENT200
+The Past, Present, and Future of Indigenous Entrepreneurship
+planned
+✓
+INDENT210
+Fundamentals of Indigenous Entrepreneurship
+planned
+✓
+INDENT225
+Practicum in Indigenous Entrepreneurship 1
+planned
+✓
+INDENT310
+Case Studies in Indigenous Venture Creation
+planned
+✓
+INDENT325
+Practicum in Indigenous Entrepreneurship 2
+planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  ANTH272
+  Issues in Contemporary Indigenous Communities in Canada
+  planned
+  ✓
+  CDNST201
+  The Indigenous Experience in Canada
+  planned
+  ✓
+  ENVS401
+  Canadian Law, Indigenous Peoples, and Natural Resource Development
+  planned
+  ✓
+  ERS200
+  Indigenous Sustainability Entrepreneurship
+  planned
+  ✓
+  ERS372
+  First Nations and the Environment
+  planned
+  ✓
+  HIST269
+  Indigenous Histories in Canada
+  planned
+  ✓
+  INDG201
+  The Indigenous Experience in Canada
+  planned
+  ✓
+  INDG272
+  Issues in Contemporary Indigenous Communities in Canada
+  planned
+  ✓
+  INDG301
+  Critical Theories of Indigeneity in a Global Perspective
+  planned
+  ✓
+  INDG318
+  Indigenous Worldviews and Spirituality
+  planned
+  ✓
+  RCS318
+  Indigenous Worldviews and Spirituality
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  COMM103/ECON100
+  Principles of Economics
+  planned
+  ✓
+  ECON101
+  Introduction to Microeconomics
+  planned
+  ✓
+  INDENT320
+  Indigenous Economic Development Corporations
+  planned
+
+## DONE (every course completed)
+
+✓
+INDENT200
+The Past, Present, and Future of Indigenous Entrepreneurship
+✓
+INDENT210
+Fundamentals of Indigenous Entrepreneurship
+✓
+INDENT225
+Practicum in Indigenous Entrepreneurship 1
+✓
+INDENT310
+Case Studies in Indigenous Venture Creation
+✓
+INDENT325
+Practicum in Indigenous Entrepreneurship 2
+---
+✓
+Complete 2 of the following:
+  ✓
+  ANTH272
+  Issues in Contemporary Indigenous Communities in Canada
+  ✓
+  CDNST201
+  The Indigenous Experience in Canada
+---
+✓
+COMM103
+Principles of Economics

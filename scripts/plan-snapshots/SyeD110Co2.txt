@@ -1,0 +1,544 @@
+# Combinatorics and Optimization (Bachelor of Mathematics - Honours) (SyeD110Co2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+CO250/CO255
+Introduction to Optimization
+---
+Complete 1 of the following:
+  CO330
+  Combinatorial Enumeration
+  CO342
+  Introduction to Graph Theory
+---
+Complete 1 of the following:
+  Complete 1 of the following:
+    CO351
+    Network Flow Theory
+    CO353
+    Computational Discrete Optimization
+    CO367
+    Nonlinear Optimization
+  Complete all the following:
+    If CO255 is taken, the following courses can be used towards this requirement:
+    Complete 1 of the following:
+      CO450
+      Combinatorial Optimization
+      CO452
+      Integer Programming
+      CO454
+      Scheduling
+      CO456
+      Introduction to Game Theory
+      CO459
+      Topics in Optimization
+      CO463
+      Convex Optimization and Analysis
+      CO466
+      Continuous Optimization
+      CO471
+      Semidefinite Optimization
+---
+MATH239/MATH249
+Introduction to Combinatorics
+---
+Complete 1 of the following:
+  PMATH336
+  Introduction to Group Theory with Applications
+  PMATH347
+  Groups and Rings
+---
+Complete 3 of the following:
+  CO330
+  Combinatorial Enumeration
+  CO331
+  Coding Theory
+  CO342
+  Introduction to Graph Theory
+  CO351
+  Network Flow Theory
+  CO353
+  Computational Discrete Optimization
+  CO367
+  Nonlinear Optimization
+  CO430
+  Algebraic Enumeration
+  CO431
+  Symmetric Functions
+  CO432
+  Information Theory and Applications
+  CO434
+  Combinatorial Designs
+  CO439
+  Topics in Combinatorics
+  CO440
+  Topics in Graph Theory
+  CO442
+  Graph Theory
+  CO444
+  Algebraic Graph Theory
+  CO446
+  Matroid Theory
+  CO450
+  Combinatorial Optimization
+  CO452
+  Integer Programming
+  CO454
+  Scheduling
+  CO456
+  Introduction to Game Theory
+  CO459
+  Topics in Optimization
+  CO463
+  Convex Optimization and Analysis
+  CO466
+  Continuous Optimization
+  CO471
+  Semidefinite Optimization
+  CO481
+  Introduction to Quantum Information Processing
+  CO485
+  The Mathematics of Public-Key Cryptography
+  CO486
+  Topics in Quantum Information
+  CO487
+  Applied Cryptography
+  CS467
+  Introduction to Quantum Information Processing
+  PHYS467
+  Introduction to Quantum Information Processing
+---
+2 additional 3XX/4XX courses from: ACTSC, AMATH, CS, MATBUS, MATH, PMATH, STAT
+---
+1 additional 3XX/4XX course from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+---
+Complete 3 courses from the following choices:
+  Complete 1 of the following:
+  CS462
+  Formal Languages and Parsing
+  CS466
+  Algorithm Design and Analysis
+  CS487
+  Introduction to Symbolic Computation
+  At most 1 of the following:
+  AMATH331
+  Applied Real Analysis
+  PMATH331
+  Applied Real Analysis
+  PMATH333
+  Introduction to Real Analysis
+  PMATH351
+  Real Analysis
+  At most 1 of the following:
+  AMATH332
+  Applied Complex Analysis
+  PMATH332
+  Applied Complex Analysis
+  PMATH352
+  Complex Analysis
+  At most 1 of the following:
+  MATH237
+  Calculus 3 for Honours Mathematics
+  MATH247
+  Calculus 3 (Advanced Level)
+  At most 1 of the following:
+  PMATH334
+  Introduction to Rings and Fields with Applications
+  PMATH348
+  Fields and Galois Theory
+  At most 1 of the following:
+  PMATH340
+  Elementary Number Theory
+  PMATH440
+  Analytic Number Theory
+  PMATH441
+  Algebraic Number Theory
+
+## PLANNED (every course planned)
+
+✓
+CO250/CO255
+Introduction to Optimization
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CO330
+  Combinatorial Enumeration
+  planned
+  ✓
+  CO342
+  Introduction to Graph Theory
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CO351
+  Network Flow Theory
+  planned
+  ✓
+  CO353
+  Computational Discrete Optimization
+  planned
+  ✓
+  CO367
+  Nonlinear Optimization
+  planned
+---
+✓
+MATH239/MATH249
+Introduction to Combinatorics
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  PMATH336
+  Introduction to Group Theory with Applications
+  planned
+  ✓
+  PMATH347
+  Groups and Rings
+  planned
+---
+✓
+Complete 3 of the following:
+  ✓
+  CO330
+  Combinatorial Enumeration
+  planned
+  ✓
+  CO331
+  Coding Theory
+  planned
+  ✓
+  CO342
+  Introduction to Graph Theory
+  planned
+  ✓
+  CO351
+  Network Flow Theory
+  planned
+  ✓
+  CO353
+  Computational Discrete Optimization
+  planned
+  ✓
+  CO367
+  Nonlinear Optimization
+  planned
+  ✓
+  CO430
+  Algebraic Enumeration
+  planned
+  ✓
+  CO431
+  Symmetric Functions
+  planned
+  ✓
+  CO432
+  Information Theory and Applications
+  planned
+  ✓
+  CO434
+  Combinatorial Designs
+  planned
+  ✓
+  CO439
+  Topics in Combinatorics
+  planned
+  ✓
+  CO440
+  Topics in Graph Theory
+  planned
+  ✓
+  CO442
+  Graph Theory
+  planned
+  ✓
+  CO444
+  Algebraic Graph Theory
+  planned
+  ✓
+  CO446
+  Matroid Theory
+  planned
+  ✓
+  CO450
+  Combinatorial Optimization
+  planned
+  ✓
+  CO452
+  Integer Programming
+  planned
+  ✓
+  CO454
+  Scheduling
+  planned
+  ✓
+  CO456
+  Introduction to Game Theory
+  planned
+  ✓
+  CO459
+  Topics in Optimization
+  planned
+  ✓
+  CO463
+  Convex Optimization and Analysis
+  planned
+  ✓
+  CO466
+  Continuous Optimization
+  planned
+  ✓
+  CO471
+  Semidefinite Optimization
+  planned
+  ✓
+  CO481
+  Introduction to Quantum Information Processing
+  planned
+  ✓
+  CO485
+  The Mathematics of Public-Key Cryptography
+  planned
+  ✓
+  CO486
+  Topics in Quantum Information
+  planned
+  ✓
+  CO487
+  Applied Cryptography
+  planned
+  ✓
+  CS467
+  Introduction to Quantum Information Processing
+  planned
+  ✓
+  PHYS467
+  Introduction to Quantum Information Processing
+  planned
+---
+2 additional 3XX/4XX courses from: ACTSC, AMATH, CS, MATBUS, MATH, PMATH, STAT
+✓
+PMATH336
+✓
+PMATH347
+---
+1 additional 3XX/4XX course from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+CO330
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+CO250
+✓
+CO255
+✓
+CO330
+---
+Complete 3 courses from the following choices:
+  Complete 1 of the following:
+  ✓
+  CS462
+  Formal Languages and Parsing
+  planned
+  ✓
+  CS466
+  Algorithm Design and Analysis
+  planned
+  ✓
+  CS487
+  Introduction to Symbolic Computation
+  planned
+  At most 1 of the following:
+  ✓
+  AMATH331
+  Applied Real Analysis
+  cap exceeded
+  ✓
+  PMATH331
+  Applied Real Analysis
+  cap exceeded
+  ✓
+  PMATH333
+  Introduction to Real Analysis
+  cap exceeded
+  ✓
+  PMATH351
+  Real Analysis
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  AMATH332
+  Applied Complex Analysis
+  cap exceeded
+  ✓
+  PMATH332
+  Applied Complex Analysis
+  cap exceeded
+  ✓
+  PMATH352
+  Complex Analysis
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  MATH237
+  Calculus 3 for Honours Mathematics
+  cap exceeded
+  ✓
+  MATH247
+  Calculus 3 (Advanced Level)
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  PMATH334
+  Introduction to Rings and Fields with Applications
+  cap exceeded
+  ✓
+  PMATH348
+  Fields and Galois Theory
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  PMATH340
+  Elementary Number Theory
+  cap exceeded
+  ✓
+  PMATH440
+  Analytic Number Theory
+  cap exceeded
+  ✓
+  PMATH441
+  Algebraic Number Theory
+  cap exceeded
+
+## DONE (every course completed)
+
+✓
+CO250
+Introduction to Optimization
+---
+✓
+CO330
+Combinatorial Enumeration
+---
+✓
+CO351
+Network Flow Theory
+---
+✓
+MATH239
+Introduction to Combinatorics
+---
+✓
+PMATH336
+Introduction to Group Theory with Applications
+---
+✓
+Complete 3 of the following:
+  ✓
+  CO330
+  Combinatorial Enumeration
+  ✓
+  CO331
+  Coding Theory
+  ✓
+  CO342
+  Introduction to Graph Theory
+---
+2 additional 3XX/4XX courses from: ACTSC, AMATH, CS, MATBUS, MATH, PMATH, STAT
+✓
+PMATH336
+✓
+PMATH347
+---
+1 additional 3XX/4XX course from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+CO330
+---
+3 additional courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+CO250
+✓
+CO255
+✓
+CO330
+---
+Complete 3 courses from the following choices:
+  Complete 1 of the following:
+  ✓
+  CS462
+  Formal Languages and Parsing
+  ✓
+  CS466
+  Algorithm Design and Analysis
+  ✓
+  CS487
+  Introduction to Symbolic Computation
+  At most 1 of the following:
+  ✓
+  AMATH331
+  Applied Real Analysis
+  cap exceeded
+  ✓
+  PMATH331
+  Applied Real Analysis
+  cap exceeded
+  ✓
+  PMATH333
+  Introduction to Real Analysis
+  cap exceeded
+  ✓
+  PMATH351
+  Real Analysis
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  AMATH332
+  Applied Complex Analysis
+  cap exceeded
+  ✓
+  PMATH332
+  Applied Complex Analysis
+  cap exceeded
+  ✓
+  PMATH352
+  Complex Analysis
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  MATH237
+  Calculus 3 for Honours Mathematics
+  cap exceeded
+  ✓
+  MATH247
+  Calculus 3 (Advanced Level)
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  PMATH334
+  Introduction to Rings and Fields with Applications
+  cap exceeded
+  ✓
+  PMATH348
+  Fields and Galois Theory
+  cap exceeded
+  At most 1 of the following:
+  ✓
+  PMATH340
+  Elementary Number Theory
+  cap exceeded
+  ✓
+  PMATH440
+  Analytic Number Theory
+  cap exceeded
+  ✓
+  PMATH441
+  Algebraic Number Theory
+  cap exceeded

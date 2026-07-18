@@ -1,0 +1,93 @@
+# French Minor (rk4ekARsh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+FR276
+Introduction to French-Language Literatures and Cultures in Canada
+FR296
+French Culture and Literature: Origins to 1715
+FR297
+French Culture and Literature: 1715 to the Present
+---
+Complete 2.5 additional units of FR courses
+---
+The following cannot be used towards this academic plan:
+  FR101
+  Beginner French
+  FR151
+  Basic French 1
+  FR152
+  Basic French 2
+  FR220
+  French and Francophone Pop Culture
+  FR291
+  French Civilization 1
+  FR292
+  French Civilization 2
+
+## PLANNED (every course planned)
+
+✓
+FR276
+Introduction to French-Language Literatures and Cultures in Canada
+planned
+✓
+FR296
+French Culture and Literature: Origins to 1715
+planned
+✓
+FR297
+French Culture and Literature: 1715 to the Present
+planned
+---
+Complete 2.5 additional units of FR courses
+✓
+FR276
+✓
+FR296
+---
+The following cannot be used towards this academic plan:
+  FR101
+  Beginner French
+  FR151
+  Basic French 1
+  FR152
+  Basic French 2
+  FR220
+  French and Francophone Pop Culture
+  FR291
+  French Civilization 1
+  FR292
+  French Civilization 2
+
+## DONE (every course completed)
+
+✓
+FR276
+Introduction to French-Language Literatures and Cultures in Canada
+✓
+FR296
+French Culture and Literature: Origins to 1715
+✓
+FR297
+French Culture and Literature: 1715 to the Present
+---
+Complete 2.5 additional units of FR courses
+✓
+FR276
+✓
+FR296
+---
+The following cannot be used towards this academic plan:
+  FR101
+  Beginner French
+  FR151
+  Basic French 1
+  FR152
+  Basic French 2
+  FR220
+  French and Francophone Pop Culture
+  FR291
+  French Civilization 1
+  FR292
+  French Civilization 2

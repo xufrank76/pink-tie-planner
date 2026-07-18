@@ -1,0 +1,291 @@
+# Actuarial Science (Bachelor of Mathematics - Honours) (HkeH1JRCjh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ACTSC231
+Introductory Financial Mathematics
+ACTSC232
+Life Contingencies 1
+ACTSC331
+Life Contingencies 2
+ACTSC363
+Casualty and Health Insurance Mathematics 1
+ACTSC372
+Investment Science and Corporate Finance
+ACTSC431
+Casualty and Health Insurance Mathematics 2
+ACTSC446
+Mathematics of Financial Markets
+AFM101
+Introduction to Financial Accounting
+ECON101
+Introduction to Microeconomics
+ECON102
+Introduction to Macroeconomics
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+MTHEL131
+Introduction to Actuarial Practice
+STAT330
+Mathematical Statistics
+STAT331
+Applied Linear Models
+STAT333
+Stochastic Processes 1
+STAT341
+Computational Statistics and Data Analysis
+---
+Complete 1 of the following:
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  AMATH350
+  Differential Equations for Business and Economics
+---
+MATH237/MATH247
+Calculus 3
+---
+2 additional ACTSC 4XX courses
+---
+1 additional 3XX/4XX course from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+---
+2 additional ACTSC 3XX/4XX courses
+  or from
+  AFM424
+  Equity Investments
+  STAT431
+  Generalized Linear Models and their Applications
+  STAT433
+  Stochastic Processes 2
+  STAT440
+  Computational Inference
+  STAT441
+  Statistical Learning - Classification
+  STAT443
+  Forecasting
+  STAT444
+  Statistical Learning - Advanced Regression
+
+## PLANNED (every course planned)
+
+✓
+ACTSC231
+Introductory Financial Mathematics
+planned
+✓
+ACTSC232
+Life Contingencies 1
+planned
+✓
+ACTSC331
+Life Contingencies 2
+planned
+✓
+ACTSC363
+Casualty and Health Insurance Mathematics 1
+planned
+✓
+ACTSC372
+Investment Science and Corporate Finance
+planned
+✓
+ACTSC431
+Casualty and Health Insurance Mathematics 2
+planned
+✓
+ACTSC446
+Mathematics of Financial Markets
+planned
+✓
+AFM101
+Introduction to Financial Accounting
+planned
+✓
+ECON101
+Introduction to Microeconomics
+planned
+✓
+ECON102
+Introduction to Macroeconomics
+planned
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+planned
+✓
+MTHEL131
+Introduction to Actuarial Practice
+planned
+✓
+STAT330
+Mathematical Statistics
+planned
+✓
+STAT331
+Applied Linear Models
+planned
+✓
+STAT333
+Stochastic Processes 1
+planned
+✓
+STAT341
+Computational Statistics and Data Analysis
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  planned
+  ✓
+  AMATH350
+  Differential Equations for Business and Economics
+  planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+2 additional ACTSC 4XX courses
+✓
+ACTSC431
+✓
+ACTSC446
+---
+1 additional 3XX/4XX course from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+ACTSC331
+---
+✓
+2 additional ACTSC 3XX/4XX courses
+  ACTSC331
+  ACTSC363
+  or from
+  ✓
+  AFM424
+  Equity Investments
+  planned
+  ✓
+  STAT431
+  Generalized Linear Models and their Applications
+  planned
+  ✓
+  STAT433
+  Stochastic Processes 2
+  planned
+  ✓
+  STAT440
+  Computational Inference
+  planned
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  planned
+  ✓
+  STAT443
+  Forecasting
+  planned
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression
+  planned
+
+## DONE (every course completed)
+
+✓
+ACTSC231
+Introductory Financial Mathematics
+✓
+ACTSC232
+Life Contingencies 1
+✓
+ACTSC331
+Life Contingencies 2
+✓
+ACTSC363
+Casualty and Health Insurance Mathematics 1
+✓
+ACTSC372
+Investment Science and Corporate Finance
+✓
+ACTSC431
+Casualty and Health Insurance Mathematics 2
+✓
+ACTSC446
+Mathematics of Financial Markets
+✓
+AFM101
+Introduction to Financial Accounting
+✓
+ECON101
+Introduction to Microeconomics
+✓
+ECON102
+Introduction to Macroeconomics
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+✓
+MTHEL131
+Introduction to Actuarial Practice
+✓
+STAT330
+Mathematical Statistics
+✓
+STAT331
+Applied Linear Models
+✓
+STAT333
+Stochastic Processes 1
+✓
+STAT341
+Computational Statistics and Data Analysis
+---
+✓
+AMATH250
+Introduction to Differential Equations
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+2 additional ACTSC 4XX courses
+✓
+ACTSC431
+✓
+ACTSC446
+---
+1 additional 3XX/4XX course from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+ACTSC331
+---
+✓
+2 additional ACTSC 3XX/4XX courses
+  ✓
+  ACTSC331
+  ✓
+  ACTSC363
+  or from
+  ✓
+  AFM424
+  Equity Investments
+  ✓
+  STAT431
+  Generalized Linear Models and their Applications
+  ✓
+  STAT433
+  Stochastic Processes 2
+  ✓
+  STAT440
+  Computational Inference
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  ✓
+  STAT443
+  Forecasting
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression

@@ -1,0 +1,13 @@
+# Aviation Minor (B1hZAZNSel)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 8 courses (subject codes: AVIA, EARTH, GEOG)
+
+## PLANNED (every course planned)
+
+Complete 8 courses (subject codes: AVIA, EARTH, GEOG)
+
+## DONE (every course completed)
+
+Complete 8 courses (subject codes: AVIA, EARTH, GEOG)

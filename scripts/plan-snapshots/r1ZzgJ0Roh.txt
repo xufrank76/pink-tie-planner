@@ -1,0 +1,227 @@
+# Digital Arts Communication Minor (r1ZzgJ0Roh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 2.5 units of DAC courses
+---
+At most 3 of the following:
+COMMST220
+Performance Studies
+COMMST440
+Performative Inquiry and Practice
+DAC246
+Fundamentals of Design
+DAC248
+Project Management in the Arts
+ENGL392A
+Information Design
+ENGL392B
+Visual Rhetoric
+ENGL408A
+Writing for the Media
+ENGL408B
+The Discourse of Advertising
+ERS318
+Photography for Sustainability
+FINE130
+Introduction to Digital Imaging
+FINE228
+Design and Imaging
+FINE232
+Video and Sound
+MUSIC275
+Music and Technology
+THPERF220
+Performance Studies
+THPERF243
+Technical Production 1
+THPERF246
+Fundamentals of Design
+THPERF248
+Project Management in the Arts
+THPERF374
+Sustainability in Design
+THPERF379
+Mixed Reality Design
+THPERF440
+Performative Inquiry and Practice
+
+## PLANNED (every course planned)
+
+Complete 2.5 units of DAC courses
+✓
+DAC246
+✓
+DAC248
+---
+At most 3 of the following:
+✓
+COMMST220
+Performance Studies
+cap exceeded
+✓
+COMMST440
+Performative Inquiry and Practice
+cap exceeded
+✓
+DAC246
+Fundamentals of Design
+cap exceeded
+✓
+DAC248
+Project Management in the Arts
+cap exceeded
+✓
+ENGL392A
+Information Design
+cap exceeded
+✓
+ENGL392B
+Visual Rhetoric
+cap exceeded
+✓
+ENGL408A
+Writing for the Media
+cap exceeded
+✓
+ENGL408B
+The Discourse of Advertising
+cap exceeded
+✓
+ERS318
+Photography for Sustainability
+cap exceeded
+✓
+FINE130
+Introduction to Digital Imaging
+cap exceeded
+✓
+FINE228
+Design and Imaging
+cap exceeded
+✓
+FINE232
+Video and Sound
+cap exceeded
+✓
+MUSIC275
+Music and Technology
+cap exceeded
+✓
+THPERF220
+Performance Studies
+cap exceeded
+✓
+THPERF243
+Technical Production 1
+cap exceeded
+✓
+THPERF246
+Fundamentals of Design
+cap exceeded
+✓
+THPERF248
+Project Management in the Arts
+cap exceeded
+✓
+THPERF374
+Sustainability in Design
+cap exceeded
+✓
+THPERF379
+Mixed Reality Design
+cap exceeded
+✓
+THPERF440
+Performative Inquiry and Practice
+cap exceeded
+
+## DONE (every course completed)
+
+Complete 2.5 units of DAC courses
+✓
+DAC246
+✓
+DAC248
+---
+At most 3 of the following:
+✓
+COMMST220
+Performance Studies
+cap exceeded
+✓
+COMMST440
+Performative Inquiry and Practice
+cap exceeded
+✓
+DAC246
+Fundamentals of Design
+cap exceeded
+✓
+DAC248
+Project Management in the Arts
+cap exceeded
+✓
+ENGL392A
+Information Design
+cap exceeded
+✓
+ENGL392B
+Visual Rhetoric
+cap exceeded
+✓
+ENGL408A
+Writing for the Media
+cap exceeded
+✓
+ENGL408B
+The Discourse of Advertising
+cap exceeded
+✓
+ERS318
+Photography for Sustainability
+cap exceeded
+✓
+FINE130
+Introduction to Digital Imaging
+cap exceeded
+✓
+FINE228
+Design and Imaging
+cap exceeded
+✓
+FINE232
+Video and Sound
+cap exceeded
+✓
+MUSIC275
+Music and Technology
+cap exceeded
+✓
+THPERF220
+Performance Studies
+cap exceeded
+✓
+THPERF243
+Technical Production 1
+cap exceeded
+✓
+THPERF246
+Fundamentals of Design
+cap exceeded
+✓
+THPERF248
+Project Management in the Arts
+cap exceeded
+✓
+THPERF374
+Sustainability in Design
+cap exceeded
+✓
+THPERF379
+Mixed Reality Design
+cap exceeded
+✓
+THPERF440
+Performative Inquiry and Practice
+cap exceeded

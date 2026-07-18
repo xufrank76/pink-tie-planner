@@ -1,0 +1,99 @@
+# Spanish Minor (HyzDeyCCj3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete at least 3.0 units of SPAN courses
+---
+At most 2 of the following:
+CI100
+Cultural Identities Today
+CI155
+Topics in Cultural Identities
+CI200
+Transcultural Studies
+CI250
+Truth - Reconciliation - Story
+CI255
+Topics in Cultural Identities
+CI267
+Exploring Cultural Identities Through Experiential Learning
+CI300
+Unravelling Cultural Identities
+CI400
+Cultural Identities Seminar
+
+## PLANNED (every course planned)
+
+Complete at least 3.0 units of SPAN courses
+---
+At most 2 of the following:
+✓
+CI100
+Cultural Identities Today
+cap exceeded
+✓
+CI155
+Topics in Cultural Identities
+cap exceeded
+✓
+CI200
+Transcultural Studies
+cap exceeded
+✓
+CI250
+Truth - Reconciliation - Story
+cap exceeded
+✓
+CI255
+Topics in Cultural Identities
+cap exceeded
+✓
+CI267
+Exploring Cultural Identities Through Experiential Learning
+cap exceeded
+✓
+CI300
+Unravelling Cultural Identities
+cap exceeded
+✓
+CI400
+Cultural Identities Seminar
+cap exceeded
+
+## DONE (every course completed)
+
+Complete at least 3.0 units of SPAN courses
+---
+At most 2 of the following:
+✓
+CI100
+Cultural Identities Today
+cap exceeded
+✓
+CI155
+Topics in Cultural Identities
+cap exceeded
+✓
+CI200
+Transcultural Studies
+cap exceeded
+✓
+CI250
+Truth - Reconciliation - Story
+cap exceeded
+✓
+CI255
+Topics in Cultural Identities
+cap exceeded
+✓
+CI267
+Exploring Cultural Identities Through Experiential Learning
+cap exceeded
+✓
+CI300
+Unravelling Cultural Identities
+cap exceeded
+✓
+CI400
+Cultural Identities Seminar
+cap exceeded

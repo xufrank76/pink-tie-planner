@@ -1,0 +1,43 @@
+# Biology Specialization (S1eBJkCRo3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AMATH382
+Computational Modelling of Cellular Systems
+---
+AMATH383
+Introduction to Mathematical Biology
+---
+BIOL382
+Computational Modelling of Cellular Systems
+
+## PLANNED (every course planned)
+
+✓
+AMATH382
+Computational Modelling of Cellular Systems
+planned
+---
+✓
+AMATH383
+Introduction to Mathematical Biology
+planned
+---
+✓
+BIOL382
+Computational Modelling of Cellular Systems
+planned
+
+## DONE (every course completed)
+
+✓
+AMATH382
+Computational Modelling of Cellular Systems
+---
+✓
+AMATH383
+Introduction to Mathematical Biology
+---
+✓
+BIOL382
+Computational Modelling of Cellular Systems

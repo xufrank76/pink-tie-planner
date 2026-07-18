@@ -53,7 +53,10 @@ for (let i = 0; i < programs.length; i++) {
   const label = `[${i + 1}/${programs.length}] ${entry.name ?? id}`;
 
   try {
-    const raw = execSync(`curl -s "${API_BASE}/${id}"`, { timeout: 15000 }).toString();
+    // Theme entries (e.g. HkzBkkCCoh-t1) are synthetic splits of one Kuali program —
+    // fetch the base pid; reparse-requirements.mjs narrows each to its theme via overlay.
+    const pid = id.replace(/-t\d+$/, '');
+    const raw = execSync(`curl -s "${API_BASE}/${pid}"`, { timeout: 15000 }).toString();
     const json = JSON.parse(raw);
     const html = json.courseRequirementsNoUnits ?? '';
     const gradHtml = json.graduationRequirements ?? '';

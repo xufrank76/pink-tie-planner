@@ -1,0 +1,264 @@
+# Mathematical Physics (Bachelor of Mathematics - Honours) (ByzRyy0Rj2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AMATH231
+Calculus 4
+AMATH271
+Introduction to Theoretical Mechanics
+AMATH353
+Partial Differential Equations 1
+AMATH361
+Continuum Mechanics
+AMATH473
+Quantum Theory
+PHYS122
+Electricity and Magnetism
+PHYS223
+Waves
+PHYS234
+Quantum Physics 1
+PHYS242
+Electricity and Magnetism 1
+---
+Complete 1 of the following:
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  AMATH345
+  Data-Driven Mathematical Models
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  AMATH445
+  Scientific Machine Learning
+---
+AMATH250/AMATH251
+Introduction to Differential Equations
+---
+Complete 1 of the following:
+  AMATH331/PMATH331
+  Applied Real Analysis
+  PMATH333
+  Introduction to Real Analysis
+  PMATH351
+  Real Analysis
+---
+Complete 1 of the following:
+  AMATH332/PMATH332
+  Applied Complex Analysis
+  PMATH352
+  Complex Analysis
+---
+Complete 4 of the following:
+  AMATH333
+  Calculus on Manifolds for Applied Mathematics and Physics
+  AMATH474
+  Advanced Quantum Theory: Quantum Information and Foundations
+  PHYS342
+  Electricity and Magnetism 2
+  PHYS357
+  Statistical Mechanics and Thermodynamics
+  PHYS363
+  Intermediate Classical Mechanics
+---
+AMATH475/PHYS476
+Introduction to General Relativity
+---
+MATH237/MATH247
+Calculus 3
+---
+PHYS3XX/4XX
+
+## PLANNED (every course planned)
+
+✓
+AMATH231
+Calculus 4
+planned
+✓
+AMATH271
+Introduction to Theoretical Mechanics
+planned
+✓
+AMATH353
+Partial Differential Equations 1
+planned
+✓
+AMATH361
+Continuum Mechanics
+planned
+✓
+AMATH473
+Quantum Theory
+planned
+✓
+PHYS122
+Electricity and Magnetism
+planned
+✓
+PHYS223
+Waves
+planned
+✓
+PHYS234
+Quantum Physics 1
+planned
+✓
+PHYS242
+Electricity and Magnetism 1
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  planned
+  ✓
+  AMATH345
+  Data-Driven Mathematical Models
+  planned
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  planned
+  ✓
+  AMATH445
+  Scientific Machine Learning
+  planned
+---
+✓
+AMATH250/AMATH251
+Introduction to Differential Equations
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH331/PMATH331
+  Applied Real Analysis
+  planned
+  ✓
+  PMATH333
+  Introduction to Real Analysis
+  planned
+  ✓
+  PMATH351
+  Real Analysis
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH332/PMATH332
+  Applied Complex Analysis
+  planned
+  ✓
+  PMATH352
+  Complex Analysis
+  planned
+---
+✓
+Complete 4 of the following:
+  ✓
+  AMATH333
+  Calculus on Manifolds for Applied Mathematics and Physics
+  planned
+  ✓
+  AMATH474
+  Advanced Quantum Theory: Quantum Information and Foundations
+  planned
+  ✓
+  PHYS342
+  Electricity and Magnetism 2
+  planned
+  ✓
+  PHYS357
+  Statistical Mechanics and Thermodynamics
+  planned
+  ✓
+  PHYS363
+  Intermediate Classical Mechanics
+  planned
+---
+✓
+AMATH475/PHYS476
+Introduction to General Relativity
+planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+PHYS3XX/4XX
+
+## DONE (every course completed)
+
+✓
+AMATH231
+Calculus 4
+✓
+AMATH271
+Introduction to Theoretical Mechanics
+✓
+AMATH353
+Partial Differential Equations 1
+✓
+AMATH361
+Continuum Mechanics
+✓
+AMATH473
+Quantum Theory
+✓
+PHYS122
+Electricity and Magnetism
+✓
+PHYS223
+Waves
+✓
+PHYS234
+Quantum Physics 1
+✓
+PHYS242
+Electricity and Magnetism 1
+---
+✓
+AMATH242
+Introduction to Computational Mathematics
+---
+✓
+AMATH250
+Introduction to Differential Equations
+---
+✓
+AMATH331
+Applied Real Analysis
+---
+✓
+AMATH332
+Applied Complex Analysis
+---
+✓
+Complete 4 of the following:
+  ✓
+  AMATH333
+  Calculus on Manifolds for Applied Mathematics and Physics
+  ✓
+  AMATH474
+  Advanced Quantum Theory: Quantum Information and Foundations
+  ✓
+  PHYS342
+  Electricity and Magnetism 2
+  ✓
+  PHYS357
+  Statistical Mechanics and Thermodynamics
+---
+✓
+AMATH475
+Introduction to General Relativity
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+PHYS3XX/4XX

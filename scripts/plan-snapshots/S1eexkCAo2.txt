@@ -1,0 +1,120 @@
+# Pure Mathematics (Bachelor of Mathematics - Honours) (S1eexkCAo2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+PMATH347
+Groups and Rings
+PMATH348
+Fields and Galois Theory
+PMATH351
+Real Analysis
+PMATH352
+Complex Analysis
+PMATH450
+Measure Theory
+---
+MATH237/MATH247
+Calculus 3
+---
+MATH239/MATH249
+Introduction to Combinatorics
+---
+Complete 1 of the following:
+  PMATH365
+  Differential Geometry
+  PMATH367
+  Topology
+---
+3 additional PMATH 4XX courses
+---
+2 additional 4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+
+## PLANNED (every course planned)
+
+✓
+PMATH347
+Groups and Rings
+planned
+✓
+PMATH348
+Fields and Galois Theory
+planned
+✓
+PMATH351
+Real Analysis
+planned
+✓
+PMATH352
+Complex Analysis
+planned
+✓
+PMATH450
+Measure Theory
+planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+✓
+MATH239/MATH249
+Introduction to Combinatorics
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  PMATH365
+  Differential Geometry
+  planned
+  ✓
+  PMATH367
+  Topology
+  planned
+---
+3 additional PMATH 4XX courses
+✓
+PMATH450
+---
+2 additional 4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+PMATH450
+
+## DONE (every course completed)
+
+✓
+PMATH347
+Groups and Rings
+✓
+PMATH348
+Fields and Galois Theory
+✓
+PMATH351
+Real Analysis
+✓
+PMATH352
+Complex Analysis
+✓
+PMATH450
+Measure Theory
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+✓
+MATH239
+Introduction to Combinatorics
+---
+✓
+PMATH365
+Differential Geometry
+---
+3 additional PMATH 4XX courses
+✓
+PMATH450
+---
+2 additional 4XX courses from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+PMATH450

@@ -1,0 +1,317 @@
+# Information Technology Management (Bachelor of Mathematics - Honours) (BJx01yRCin)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+AFM101
+Introduction to Financial Accounting
+AFM102
+Introduction to Managerial Accounting
+BUS111W
+Understanding the Business Environment (WLU)
+BUS121W
+Critical Thinking and Communication Skills (WLU)
+BUS381W
+Strategic Management I (WLU)
+COMM431
+Project Management
+COMM432
+Electronic Business
+CS230
+Introduction to Computers and Computer Systems
+CS330
+Management Information Systems
+CS338
+Computer Applications in Business: Databases
+CS430
+Applications Software Engineering
+CS436
+Networks and Distributed Computer Systems
+ECON101
+Introduction to Microeconomics
+ECON102
+Introduction to Macroeconomics
+MSE211
+Organizational Behaviour
+MSE311
+Organizational Design and Technology
+STAT371
+Applied Linear Models and Process Improvement for Business
+STAT372
+Survey Sampling and Experimental Design Techniques for Business
+STV202
+Design and Society
+---
+Complete 1 of the following:
+  ACTSC221
+  Introductory Financial Mathematics (Non-Specialist Level)
+  ACTSC231
+  Introductory Financial Mathematics
+---
+AFM231/LS283
+Business Law
+---
+ARBUS302/MGMT244
+Principles of Marketing
+---
+CO250/CO255
+Introduction to Optimization
+---
+MATH239/MATH249
+Introduction to Combinatorics
+---
+Complete 1 of the following:
+  STV302
+  Information Technology and Society
+  STV304
+  Technology in Canadian Society
+  STV305
+  Technology, Society and the Modern City
+  STV306
+  Biotechnology and Society
+  STV400
+  Society, Technology and Values: Senior Project
+  STV401
+  Society, Technology and Values: Advanced Topics
+---
+1 additional 3XX/4XX course from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+---
+Complete 3 additional courses
+
+## PLANNED (every course planned)
+
+✓
+AFM101
+Introduction to Financial Accounting
+planned
+✓
+AFM102
+Introduction to Managerial Accounting
+planned
+✓
+BUS111W
+Understanding the Business Environment (WLU)
+planned
+✓
+BUS121W
+Critical Thinking and Communication Skills (WLU)
+planned
+✓
+BUS381W
+Strategic Management I (WLU)
+planned
+✓
+COMM431
+Project Management
+planned
+✓
+COMM432
+Electronic Business
+planned
+✓
+CS230
+Introduction to Computers and Computer Systems
+planned
+✓
+CS330
+Management Information Systems
+planned
+✓
+CS338
+Computer Applications in Business: Databases
+planned
+✓
+CS430
+Applications Software Engineering
+planned
+✓
+CS436
+Networks and Distributed Computer Systems
+planned
+✓
+ECON101
+Introduction to Microeconomics
+planned
+✓
+ECON102
+Introduction to Macroeconomics
+planned
+✓
+MSE211
+Organizational Behaviour
+planned
+✓
+MSE311
+Organizational Design and Technology
+planned
+✓
+STAT371
+Applied Linear Models and Process Improvement for Business
+planned
+✓
+STAT372
+Survey Sampling and Experimental Design Techniques for Business
+planned
+✓
+STV202
+Design and Society
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  ACTSC221
+  Introductory Financial Mathematics (Non-Specialist Level)
+  planned
+  ✓
+  ACTSC231
+  Introductory Financial Mathematics
+  planned
+---
+✓
+AFM231/LS283
+Business Law
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  ARBUS302/MGMT244
+  Principles of Marketing
+  planned
+  ✓
+  BUS252W
+  Introduction to Marketing Management (WLU)
+  planned
+---
+✓
+CO250/CO255
+Introduction to Optimization
+planned
+---
+✓
+MATH239/MATH249
+Introduction to Combinatorics
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  STV302
+  Information Technology and Society
+  planned
+  ✓
+  STV304
+  Technology in Canadian Society
+  planned
+  ✓
+  STV305
+  Technology, Society and the Modern City
+  planned
+  ✓
+  STV306
+  Biotechnology and Society
+  planned
+  ✓
+  STV400
+  Society, Technology and Values: Senior Project
+  planned
+  ✓
+  STV401
+  Society, Technology and Values: Advanced Topics
+  planned
+---
+1 additional 3XX/4XX course from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+CS330
+---
+Complete 3 additional courses
+
+## DONE (every course completed)
+
+✓
+AFM101
+Introduction to Financial Accounting
+✓
+AFM102
+Introduction to Managerial Accounting
+✓
+BUS111W
+Understanding the Business Environment (WLU)
+✓
+BUS121W
+Critical Thinking and Communication Skills (WLU)
+✓
+BUS381W
+Strategic Management I (WLU)
+✓
+COMM431
+Project Management
+✓
+COMM432
+Electronic Business
+✓
+CS230
+Introduction to Computers and Computer Systems
+✓
+CS330
+Management Information Systems
+✓
+CS338
+Computer Applications in Business: Databases
+✓
+CS430
+Applications Software Engineering
+✓
+CS436
+Networks and Distributed Computer Systems
+✓
+ECON101
+Introduction to Microeconomics
+✓
+ECON102
+Introduction to Macroeconomics
+✓
+MSE211
+Organizational Behaviour
+✓
+MSE311
+Organizational Design and Technology
+✓
+STAT371
+Applied Linear Models and Process Improvement for Business
+✓
+STAT372
+Survey Sampling and Experimental Design Techniques for Business
+✓
+STV202
+Design and Society
+---
+✓
+ACTSC221
+Introductory Financial Mathematics (Non-Specialist Level)
+---
+✓
+AFM231
+Business Law
+---
+✓
+ARBUS302
+Principles of Marketing
+---
+✓
+CO250
+Introduction to Optimization
+---
+✓
+MATH239
+Introduction to Combinatorics
+---
+✓
+STV302
+Information Technology and Society
+---
+1 additional 3XX/4XX course from: ACTSC, AMATH, CO, CS, MATBUS, MATH, PMATH, STAT
+✓
+CS330
+---
+Complete 3 additional courses

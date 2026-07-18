@@ -1,0 +1,272 @@
+# Catholic Studies Minor (SyxMeJCCsn)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+RCS110
+Judaism, Christianity, Islam
+RCS150
+Christian Ethics
+RCS225
+Sacred Beauty: Religion and the Arts
+RCS348
+The Catholic Church and Change
+---
+Complete 2 of the following:
+  HIST235
+  History of Christianity
+  RCS240
+  History of Christianity
+  RCS251
+  Catholic Social Thought
+  RCS283
+  Religion and Ethics
+---
+Complete 2 of the following:
+  HIST115
+  Crusading in the Middle Ages
+  HIST235
+  History of Christianity
+  HIST236
+  Law and Society in the Middle Ages
+  HIST304
+  Heresy and Religious Crises in Late Medieval Europe
+  HUMSC101
+  Great Dialogues: Reflection and Action
+  HUMSC102
+  Great Dialogues: Politics and Morality
+  HUMSC201
+  Great Dialogues: Reason and Faith
+  HUMSC301
+  Great Dialogues: The Sacred and the Profane
+  HUMSC401
+  Great Dialogues: Athens, Jerusalem, and Technological Society
+  HUMSC490
+  Great Dialogues: Medical Humanities on Health and Life
+  JS228
+  Big Ideas of the Bible
+  LS236
+  Law and Society in the Middle Ages
+  MEDVL115
+  Crusading in the Middle Ages
+  MEDVL304
+  Heresy and Religious Crises in Late Medieval Europe
+  PHIL204J
+  Philosophy and Culture
+  PHIL210J
+  Human Nature
+  PHIL218J
+  Foundations of Ethics
+  PHIL219J
+  Practical Ethics
+  PHIL230J
+  God and Philosophy
+  PHIL305J
+  Philosophy of Nature
+  PHIL319J
+  Ethics of End-of-Life Care
+  PHIL382
+  Medieval Philosophy
+  PHIL384
+  History of Modern Philosophy
+  PHIL450J
+  Being and Existence
+  PHIL451J
+  Thomas Aquinas
+  RCS228
+  Big Ideas of the Bible
+  RCS240
+  History of Christianity
+  RCS253
+  Christianity's Big Questions
+  RCS342
+  Heresy and Religious Crises in Late Medieval Europe
+
+## PLANNED (every course planned)
+
+✓
+RCS110
+Judaism, Christianity, Islam
+planned
+✓
+RCS150
+Christian Ethics
+planned
+✓
+RCS225
+Sacred Beauty: Religion and the Arts
+planned
+✓
+RCS348
+The Catholic Church and Change
+planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  HIST235
+  History of Christianity
+  planned
+  ✓
+  RCS240
+  History of Christianity
+  planned
+  ✓
+  RCS251
+  Catholic Social Thought
+  planned
+  ✓
+  RCS283
+  Religion and Ethics
+  planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  HIST115
+  Crusading in the Middle Ages
+  planned
+  ✓
+  HIST235
+  History of Christianity
+  planned
+  ✓
+  HIST236
+  Law and Society in the Middle Ages
+  planned
+  ✓
+  HIST304
+  Heresy and Religious Crises in Late Medieval Europe
+  planned
+  ✓
+  HUMSC101
+  Great Dialogues: Reflection and Action
+  planned
+  ✓
+  HUMSC102
+  Great Dialogues: Politics and Morality
+  planned
+  ✓
+  HUMSC201
+  Great Dialogues: Reason and Faith
+  planned
+  ✓
+  HUMSC301
+  Great Dialogues: The Sacred and the Profane
+  planned
+  ✓
+  HUMSC401
+  Great Dialogues: Athens, Jerusalem, and Technological Society
+  planned
+  ✓
+  HUMSC490
+  Great Dialogues: Medical Humanities on Health and Life
+  planned
+  ✓
+  JS228
+  Big Ideas of the Bible
+  planned
+  ✓
+  LS236
+  Law and Society in the Middle Ages
+  planned
+  ✓
+  MEDVL115
+  Crusading in the Middle Ages
+  planned
+  ✓
+  MEDVL304
+  Heresy and Religious Crises in Late Medieval Europe
+  planned
+  ✓
+  PHIL204J
+  Philosophy and Culture
+  planned
+  ✓
+  PHIL210J
+  Human Nature
+  planned
+  ✓
+  PHIL218J
+  Foundations of Ethics
+  planned
+  ✓
+  PHIL219J
+  Practical Ethics
+  planned
+  ✓
+  PHIL230J
+  God and Philosophy
+  planned
+  ✓
+  PHIL305J
+  Philosophy of Nature
+  planned
+  ✓
+  PHIL319J
+  Ethics of End-of-Life Care
+  planned
+  ✓
+  PHIL382
+  Medieval Philosophy
+  planned
+  ✓
+  PHIL384
+  History of Modern Philosophy
+  planned
+  ✓
+  PHIL450J
+  Being and Existence
+  planned
+  ✓
+  PHIL451J
+  Thomas Aquinas
+  planned
+  ✓
+  RCS228
+  Big Ideas of the Bible
+  planned
+  ✓
+  RCS240
+  History of Christianity
+  planned
+  ✓
+  RCS253
+  Christianity's Big Questions
+  planned
+  ✓
+  RCS342
+  Heresy and Religious Crises in Late Medieval Europe
+  planned
+
+## DONE (every course completed)
+
+✓
+RCS110
+Judaism, Christianity, Islam
+✓
+RCS150
+Christian Ethics
+✓
+RCS225
+Sacred Beauty: Religion and the Arts
+✓
+RCS348
+The Catholic Church and Change
+---
+✓
+Complete 2 of the following:
+  ✓
+  HIST235
+  History of Christianity
+  ✓
+  RCS240
+  History of Christianity
+---
+✓
+Complete 2 of the following:
+  ✓
+  HIST115
+  Crusading in the Middle Ages
+  ✓
+  HIST235
+  History of Christianity

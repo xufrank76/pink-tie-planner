@@ -1,0 +1,13 @@
+# Biophysics Minor (SkeByyRAon)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 10 courses (subject codes: BIOL, PHYS)
+
+## PLANNED (every course planned)
+
+Complete 10 courses (subject codes: BIOL, PHYS)
+
+## DONE (every course completed)
+
+Complete 10 courses (subject codes: BIOL, PHYS)

@@ -1,0 +1,82 @@
+# Finance Specialization (SJSk100i2)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ACTSC445
+Quantitative Enterprise Risk Management
+STAT340
+Stochastic Simulation Methods
+---
+Complete 1 of the following:
+  ACTSC423/AFM423
+  Topics in Financial Econometrics
+  AFM424
+  Equity Investments
+---
+ACTSC447/CS476
+Numerical Computation for Financial Modelling
+---
+Complete 1 of the following:
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  CS370
+  Numerical Computation
+
+## PLANNED (every course planned)
+
+✓
+ACTSC445
+Quantitative Enterprise Risk Management
+planned
+✓
+STAT340
+Stochastic Simulation Methods
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  ACTSC423/AFM423
+  Topics in Financial Econometrics
+  planned
+  ✓
+  AFM424
+  Equity Investments
+  planned
+---
+✓
+ACTSC447/CS476
+Numerical Computation for Financial Modelling
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  planned
+  ✓
+  CS370
+  Numerical Computation
+  planned
+
+## DONE (every course completed)
+
+✓
+ACTSC445
+Quantitative Enterprise Risk Management
+✓
+STAT340
+Stochastic Simulation Methods
+---
+✓
+ACTSC423
+Topics in Financial Econometrics
+---
+✓
+ACTSC447
+Numerical Computation for Financial Modelling
+---
+✓
+AMATH242
+Introduction to Computational Mathematics

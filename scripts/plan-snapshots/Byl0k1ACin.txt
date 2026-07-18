@@ -1,0 +1,381 @@
+# Mathematics/Teaching (Bachelor of Mathematics - Honours) (Byl0k1ACin)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ACTSC221
+Introductory Financial Mathematics (Non-Specialist Level)
+CS234
+Data Types and Structures
+MTHEL206
+Introduction to Mathematics Education
+---
+Complete 1 of the following:
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  AMATH343
+  Discrete Models in Applied Mathematics
+---
+Complete 1 of the following:
+  AMATH331/PMATH331
+  Applied Real Analysis
+  AMATH332/PMATH332
+  Applied Complex Analysis
+  PMATH333
+  Introduction to Real Analysis
+  PMATH351
+  Real Analysis
+  PMATH352
+  Complex Analysis
+---
+CO250/CO255
+Introduction to Optimization
+---
+Complete 1 of the following:
+  CO380
+  Mathematical Discovery and Invention
+  CO480
+  History of Mathematics
+---
+Complete 1 of the following:
+  CS230
+  Introduction to Computers and Computer Systems
+  CS330
+  Management Information Systems
+  CS338
+  Computer Applications in Business: Databases
+  CS370
+  Numerical Computation
+  CS371
+  Introduction to Computational Mathematics
+  CS430
+  Applications Software Engineering
+  CS436
+  Networks and Distributed Computer Systems
+---
+MATH237/MATH247
+Calculus 3
+---
+MATH239/MATH249
+Introduction to Combinatorics
+---
+Complete 1 of the following:
+  PMATH320
+  Euclidean Geometry
+  PMATH321
+  Non-Euclidean Geometry
+  PMATH330
+  Introduction to Mathematical Logic
+  PMATH340
+  Elementary Number Theory
+  PMATH432
+  Mathematical Logic
+  PMATH440
+  Analytic Number Theory
+---
+Complete 1 of the following:
+  PMATH334
+  Introduction to Rings and Fields with Applications
+  PMATH336
+  Introduction to Group Theory with Applications
+  PMATH347
+  Groups and Rings
+  PMATH348
+  Fields and Galois Theory
+---
+PSYCH101/PSYCH101R
+Introductory Psychology
+---
+Complete 1 of the following:
+  PSYCH211
+  Developmental Psychology
+  PSYCH212/PSYCH212R
+  Educational Psychology
+---
+Complete 1 of the following:
+  STAT331
+  Applied Linear Models
+  STAT332
+  Sampling and Experimental Design
+  STAT333
+  Stochastic Processes 1
+---
+MATH3XX/4XX
+
+## PLANNED (every course planned)
+
+✓
+ACTSC221
+Introductory Financial Mathematics (Non-Specialist Level)
+planned
+✓
+CS234
+Data Types and Structures
+planned
+✓
+MTHEL206
+Introduction to Mathematics Education
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  planned
+  ✓
+  AMATH343
+  Discrete Models in Applied Mathematics
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH331/PMATH331
+  Applied Real Analysis
+  planned
+  ✓
+  AMATH332/PMATH332
+  Applied Complex Analysis
+  planned
+  ✓
+  PMATH333
+  Introduction to Real Analysis
+  planned
+  ✓
+  PMATH351
+  Real Analysis
+  planned
+  ✓
+  PMATH352
+  Complex Analysis
+  planned
+---
+✓
+CO250/CO255
+Introduction to Optimization
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CO380
+  Mathematical Discovery and Invention
+  planned
+  ✓
+  CO480
+  History of Mathematics
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CS230
+  Introduction to Computers and Computer Systems
+  planned
+  ✓
+  CS330
+  Management Information Systems
+  planned
+  ✓
+  CS338
+  Computer Applications in Business: Databases
+  planned
+  ✓
+  CS370
+  Numerical Computation
+  planned
+  ✓
+  CS371
+  Introduction to Computational Mathematics
+  planned
+  ✓
+  CS430
+  Applications Software Engineering
+  planned
+  ✓
+  CS436
+  Networks and Distributed Computer Systems
+  planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+✓
+MATH239/MATH249
+Introduction to Combinatorics
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  PMATH320
+  Euclidean Geometry
+  planned
+  ✓
+  PMATH321
+  Non-Euclidean Geometry
+  planned
+  ✓
+  PMATH330
+  Introduction to Mathematical Logic
+  planned
+  ✓
+  PMATH340
+  Elementary Number Theory
+  planned
+  ✓
+  PMATH432
+  Mathematical Logic
+  planned
+  ✓
+  PMATH440
+  Analytic Number Theory
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  PMATH334
+  Introduction to Rings and Fields with Applications
+  planned
+  ✓
+  PMATH336
+  Introduction to Group Theory with Applications
+  planned
+  ✓
+  PMATH347
+  Groups and Rings
+  planned
+  ✓
+  PMATH348
+  Fields and Galois Theory
+  planned
+---
+✓
+PSYCH101/PSYCH101R
+Introductory Psychology
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  PSYCH211
+  Developmental Psychology
+  planned
+  ✓
+  PSYCH212/PSYCH212R
+  Educational Psychology
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  STAT331
+  Applied Linear Models
+  planned
+  ✓
+  STAT332
+  Sampling and Experimental Design
+  planned
+  ✓
+  STAT333
+  Stochastic Processes 1
+  planned
+---
+MATH3XX/4XX
+✓
+AMATH343
+✓
+AMATH331
+✓
+AMATH332
+✓
+PMATH331
+✓
+PMATH332
+✓
+PMATH333
+✓
+PMATH351
+✓
+PMATH352
+
+## DONE (every course completed)
+
+✓
+ACTSC221
+Introductory Financial Mathematics (Non-Specialist Level)
+✓
+CS234
+Data Types and Structures
+✓
+MTHEL206
+Introduction to Mathematics Education
+---
+✓
+AMATH250
+Introduction to Differential Equations
+---
+✓
+AMATH331
+Applied Real Analysis
+---
+✓
+CO250
+Introduction to Optimization
+---
+✓
+CO380
+Mathematical Discovery and Invention
+---
+✓
+CS230
+Introduction to Computers and Computer Systems
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+✓
+MATH239
+Introduction to Combinatorics
+---
+✓
+PMATH320
+Euclidean Geometry
+---
+✓
+PMATH334
+Introduction to Rings and Fields with Applications
+---
+✓
+PSYCH101
+Introductory Psychology
+---
+✓
+PSYCH211
+Developmental Psychology
+---
+✓
+STAT331
+Applied Linear Models
+---
+MATH3XX/4XX
+✓
+AMATH343
+✓
+AMATH331
+✓
+AMATH332
+✓
+PMATH331
+✓
+PMATH332
+✓
+PMATH333
+✓
+PMATH351
+✓
+PMATH352

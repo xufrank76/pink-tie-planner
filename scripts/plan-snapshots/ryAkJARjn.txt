@@ -1,0 +1,292 @@
+# Mathematical Finance (Bachelor of Mathematics - Honours) (ryAkJARjn)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ACTSC231
+Introductory Financial Mathematics
+ACTSC372
+Investment Science and Corporate Finance
+ACTSC445
+Quantitative Enterprise Risk Management
+ACTSC446
+Mathematics of Financial Markets
+PMATH351
+Real Analysis
+PMATH450
+Measure Theory
+STAT330
+Mathematical Statistics
+STAT331
+Applied Linear Models
+STAT333
+Stochastic Processes 1
+STAT443
+Forecasting
+---
+AFM101
+Introduction to Financial Accounting
+---
+AFM102
+Introduction to Managerial Accounting
+---
+AFM131/ARBUS101
+Introduction to Business in North America
+---
+Complete 1 of the following:
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  CS335
+  Computational Methods in Business and Finance
+---
+Complete 1 of the following:
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  AMATH350
+  Differential Equations for Business and Economics
+---
+Complete 1 of the following:
+  AMATH351
+  Ordinary Differential Equations
+  CO250/CO255
+  Introduction to Optimization
+  PMATH352
+  Complex Analysis
+---
+Complete 1 of the following:
+  ACTSC447/CS476
+  Numerical Computation for Financial Modelling
+  AMATH353
+  Partial Differential Equations 1
+  CO372
+  Portfolio Optimization Models
+  PMATH453
+  Functional Analysis
+---
+ECON101
+Introduction to Microeconomics
+---
+ECON102
+Introduction to Macroeconomics
+---
+ECON201
+Microeconomic Theory for Business and Policy
+---
+Complete 1 of the following:
+  MATH247
+  Calculus 3 (Advanced Level)
+  Complete all the following:
+    MATH237
+    Calculus 3 for Honours Mathematics
+    PMATH333
+    Introduction to Real Analysis
+
+## PLANNED (every course planned)
+
+✓
+ACTSC231
+Introductory Financial Mathematics
+planned
+✓
+ACTSC372
+Investment Science and Corporate Finance
+planned
+✓
+ACTSC445
+Quantitative Enterprise Risk Management
+planned
+✓
+ACTSC446
+Mathematics of Financial Markets
+planned
+✓
+PMATH351
+Real Analysis
+planned
+✓
+PMATH450
+Measure Theory
+planned
+✓
+STAT330
+Mathematical Statistics
+planned
+✓
+STAT331
+Applied Linear Models
+planned
+✓
+STAT333
+Stochastic Processes 1
+planned
+✓
+STAT443
+Forecasting
+planned
+---
+✓
+AFM101
+Introduction to Financial Accounting
+planned
+---
+✓
+AFM102
+Introduction to Managerial Accounting
+planned
+---
+✓
+AFM131/ARBUS101
+Introduction to Business in North America
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH242/CS371
+  Introduction to Computational Mathematics
+  planned
+  ✓
+  CS335
+  Computational Methods in Business and Finance
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH250/AMATH251
+  Introduction to Differential Equations
+  planned
+  ✓
+  AMATH350
+  Differential Equations for Business and Economics
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AMATH351
+  Ordinary Differential Equations
+  planned
+  ✓
+  CO250/CO255
+  Introduction to Optimization
+  planned
+  ✓
+  PMATH352
+  Complex Analysis
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  ACTSC447/CS476
+  Numerical Computation for Financial Modelling
+  planned
+  ✓
+  AMATH353
+  Partial Differential Equations 1
+  planned
+  ✓
+  CO372
+  Portfolio Optimization Models
+  planned
+  ✓
+  PMATH453
+  Functional Analysis
+  planned
+---
+✓
+ECON101
+Introduction to Microeconomics
+planned
+---
+✓
+ECON102
+Introduction to Macroeconomics
+planned
+---
+✓
+ECON201
+Microeconomic Theory for Business and Policy
+planned
+---
+✓
+MATH247
+Calculus 3 (Advanced Level)
+planned
+
+## DONE (every course completed)
+
+✓
+ACTSC231
+Introductory Financial Mathematics
+✓
+ACTSC372
+Investment Science and Corporate Finance
+✓
+ACTSC445
+Quantitative Enterprise Risk Management
+✓
+ACTSC446
+Mathematics of Financial Markets
+✓
+PMATH351
+Real Analysis
+✓
+PMATH450
+Measure Theory
+✓
+STAT330
+Mathematical Statistics
+✓
+STAT331
+Applied Linear Models
+✓
+STAT333
+Stochastic Processes 1
+✓
+STAT443
+Forecasting
+---
+✓
+AFM101
+Introduction to Financial Accounting
+---
+✓
+AFM102
+Introduction to Managerial Accounting
+---
+✓
+AFM131
+Introduction to Business in North America
+---
+✓
+AMATH242
+Introduction to Computational Mathematics
+---
+✓
+AMATH250
+Introduction to Differential Equations
+---
+✓
+AMATH351
+Ordinary Differential Equations
+---
+✓
+ACTSC447
+Numerical Computation for Financial Modelling
+---
+✓
+ECON101
+Introduction to Microeconomics
+---
+✓
+ECON102
+Introduction to Macroeconomics
+---
+✓
+ECON201
+Microeconomic Theory for Business and Policy
+---
+✓
+MATH247
+Calculus 3 (Advanced Level)

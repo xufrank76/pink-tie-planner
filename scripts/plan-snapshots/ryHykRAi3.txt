@@ -1,0 +1,140 @@
+# Actuarial Science (Joint Honours) (ryHykRAi3)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+ACTSC231
+Introductory Financial Mathematics
+ACTSC232
+Life Contingencies 1
+ACTSC331
+Life Contingencies 2
+ACTSC363
+Casualty and Health Insurance Mathematics 1
+ACTSC372
+Investment Science and Corporate Finance
+ACTSC431
+Casualty and Health Insurance Mathematics 2
+ACTSC446
+Mathematics of Financial Markets
+AFM101
+Introduction to Financial Accounting
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+MTHEL131
+Introduction to Actuarial Practice
+STAT330
+Mathematical Statistics
+STAT333
+Stochastic Processes 1
+---
+MATH237/MATH247
+Calculus 3
+---
+1 additional ACTSC 4XX course
+
+## PLANNED (every course planned)
+
+✓
+ACTSC231
+Introductory Financial Mathematics
+planned
+✓
+ACTSC232
+Life Contingencies 1
+planned
+✓
+ACTSC331
+Life Contingencies 2
+planned
+✓
+ACTSC363
+Casualty and Health Insurance Mathematics 1
+planned
+✓
+ACTSC372
+Investment Science and Corporate Finance
+planned
+✓
+ACTSC431
+Casualty and Health Insurance Mathematics 2
+planned
+✓
+ACTSC446
+Mathematics of Financial Markets
+planned
+✓
+AFM101
+Introduction to Financial Accounting
+planned
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+planned
+✓
+MTHEL131
+Introduction to Actuarial Practice
+planned
+✓
+STAT330
+Mathematical Statistics
+planned
+✓
+STAT333
+Stochastic Processes 1
+planned
+---
+✓
+MATH237/MATH247
+Calculus 3
+planned
+---
+1 additional ACTSC 4XX course
+✓
+ACTSC431
+
+## DONE (every course completed)
+
+✓
+ACTSC231
+Introductory Financial Mathematics
+✓
+ACTSC232
+Life Contingencies 1
+✓
+ACTSC331
+Life Contingencies 2
+✓
+ACTSC363
+Casualty and Health Insurance Mathematics 1
+✓
+ACTSC372
+Investment Science and Corporate Finance
+✓
+ACTSC431
+Casualty and Health Insurance Mathematics 2
+✓
+ACTSC446
+Mathematics of Financial Markets
+✓
+AFM101
+Introduction to Financial Accounting
+✓
+ENGL378
+Professional Communications in Statistics and Actuarial Science
+✓
+MTHEL131
+Introduction to Actuarial Practice
+✓
+STAT330
+Mathematical Statistics
+✓
+STAT333
+Stochastic Processes 1
+---
+✓
+MATH237
+Calculus 3 for Honours Mathematics
+---
+1 additional ACTSC 4XX course
+✓
+ACTSC431

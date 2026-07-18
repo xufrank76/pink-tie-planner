@@ -1,0 +1,176 @@
+# Human Resources Management Minor (ByM4xyARoh)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+HRM200
+Basic Human Resources Management
+---
+Complete 1 of the following:
+  AFM102
+  Introduction to Managerial Accounting
+  AFM123/ARBUS102
+  Accounting Information for Managers
+---
+Complete 3 of the following:
+  HRM301
+  Strategic Human Resources Management
+  HRM303
+  Compensation
+  HRM305
+  Health and Safety
+  HRM307
+  Labour Relations
+---
+Complete 2 of the following:
+  PSYCH238
+  Organizational Psychology
+  PSYCH339
+  Personnel Psychology
+  PSYCH340
+  Training and Development
+---
+1 additional THE course
+Complete 1 of the following:
+HRM400
+Honours Seminar in Human Resources Management - Special Topics
+LS271
+Conflict Resolution
+MSE311
+Organizational Design and Technology
+PACS202
+Conflict Resolution
+PSYCH439
+Negotiation in the Workplace: Theory and Practice
+PSYCH467
+Human Resources Apprenticeship
+
+## PLANNED (every course planned)
+
+✓
+HRM200
+Basic Human Resources Management
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  AFM102
+  Introduction to Managerial Accounting
+  planned
+  ✓
+  AFM123/ARBUS102
+  Accounting Information for Managers
+  planned
+---
+✓
+Complete 3 of the following:
+  ✓
+  HRM301
+  Strategic Human Resources Management
+  planned
+  ✓
+  HRM303
+  Compensation
+  planned
+  ✓
+  HRM305
+  Health and Safety
+  planned
+  ✓
+  HRM307
+  Labour Relations
+  planned
+---
+✓
+Complete 2 of the following:
+  ✓
+  PSYCH238
+  Organizational Psychology
+  planned
+  ✓
+  PSYCH339
+  Personnel Psychology
+  planned
+  ✓
+  PSYCH340
+  Training and Development
+  planned
+---
+1 additional THE course
+Complete 1 of the following:
+✓
+HRM400
+Honours Seminar in Human Resources Management - Special Topics
+planned
+✓
+LS271
+Conflict Resolution
+planned
+✓
+MSE311
+Organizational Design and Technology
+planned
+✓
+PACS202
+Conflict Resolution
+planned
+✓
+PSYCH439
+Negotiation in the Workplace: Theory and Practice
+planned
+✓
+PSYCH467
+Human Resources Apprenticeship
+planned
+
+## DONE (every course completed)
+
+✓
+HRM200
+Basic Human Resources Management
+---
+✓
+AFM102
+Introduction to Managerial Accounting
+---
+✓
+Complete 3 of the following:
+  ✓
+  HRM301
+  Strategic Human Resources Management
+  ✓
+  HRM303
+  Compensation
+  ✓
+  HRM305
+  Health and Safety
+---
+✓
+Complete 2 of the following:
+  ✓
+  PSYCH238
+  Organizational Psychology
+  ✓
+  PSYCH339
+  Personnel Psychology
+---
+1 additional THE course
+Complete 1 of the following:
+✓
+HRM400
+Honours Seminar in Human Resources Management - Special Topics
+✓
+LS271
+Conflict Resolution
+✓
+MSE311
+Organizational Design and Technology
+✓
+PACS202
+Conflict Resolution
+✓
+PSYCH439
+Negotiation in the Workplace: Theory and Practice
+✓
+PSYCH467
+Human Resources Apprenticeship
