@@ -68,7 +68,7 @@ function TooltipButton({ planned, total }: { planned: number; total: number }) {
           pointerEvents: 'none', textTransform: 'none',
         }}>
           <div><span style={{ color: '#858080' }}>numerator: </span>{planned} — unique requirement slots filled, counting shared courses once, not including pd or labs</div>
-          <div><span style={{ color: '#858080' }}>denominator: </span>{total} — core bmath + major + non-math electives, counting shared courses once, not including pd or labs</div>
+          <div><span style={{ color: '#858080' }}>denominator: </span>{total} — core bmath + major + minor/specializations (if any) + non-math electives, counting shared courses once, not including pd or labs</div>
         </div>
       )}
     </>

@@ -14,30 +14,9 @@ MATH239/MATH249
 Introduction to Combinatorics
 Complete 3 non-math courses (≥1 at 200-level or above, all same subject code) AE, BIOL, BME, CHE, CHEM, CIVE, EARTH, ECE, ECON, ENVE, GEOE, ME, MNS, MSE, MTE, NE, PHYS, SYDE
 Complete the List 1 and List 2 requirements below
-  AMATH250
-  Introduction to Differential Equations
-  AMATH251
-  Introduction to Differential Equations (Advanced Level)
-  AMATH350
-  Differential Equations for Business and Economics
-  CO250
-  Introduction to Optimization
-  CO255
-  Introduction to Optimization (Advanced Level)
-  CS245
-  Logic and Computation
-  CS245E
-  Logic and Computation (Enriched)
-  PMATH330
-  Introduction to Mathematical Logic
-  PMATH432
-  Mathematical Logic
-  CS246
-  Object-Oriented Software Development
-  CS246E
-  Object-Oriented Software Development (Enriched)
 4 additional 4XX courses from: AMATH, CO, CS, PMATH, STAT
 ---
+List 1
 Complete 2 of the following:
   Complete 1 of the following:
     AMATH250/AMATH251
@@ -56,8 +35,9 @@ Complete 2 of the following:
   CS246/CS246E
   Object-Oriented Software Development
 ---
+List 2
 Complete 2 courses from the following choices:
-  Complete 1 of the following:
+  Choose any of the following:
   AMATH342
   Computational Methods for Differential Equations
   CS475
@@ -75,7 +55,8 @@ Complete 2 courses from the following choices:
   STAT341
   Computational Statistics and Data Analysis
 ---
-Complete 1 of the following:
+List 3
+Choose any of the following:
 ACTSC447
 Numerical Computation for Financial Modelling
 AMATH343
@@ -174,50 +155,6 @@ planned
 Complete 3 non-math courses (≥1 at 200-level or above, all same subject code) AE, BIOL, BME, CHE, CHEM, CIVE, EARTH, ECE, ECON, ENVE, GEOE, ME, MNS, MSE, MTE, NE, PHYS, SYDE
   BIOL382
 Complete the List 1 and List 2 requirements below
-  ✓
-  AMATH250
-  Introduction to Differential Equations
-  planned
-  ✓
-  AMATH251
-  Introduction to Differential Equations (Advanced Level)
-  planned
-  ✓
-  AMATH350
-  Differential Equations for Business and Economics
-  planned
-  ✓
-  CO250
-  Introduction to Optimization
-  planned
-  ✓
-  CO255
-  Introduction to Optimization (Advanced Level)
-  planned
-  ✓
-  CS245
-  Logic and Computation
-  planned
-  ✓
-  CS245E
-  Logic and Computation (Enriched)
-  planned
-  ✓
-  PMATH330
-  Introduction to Mathematical Logic
-  planned
-  ✓
-  PMATH432
-  Mathematical Logic
-  planned
-  ✓
-  CS246
-  Object-Oriented Software Development
-  planned
-  ✓
-  CS246E
-  Object-Oriented Software Development (Enriched)
-  planned
 4 additional 4XX courses from: AMATH, CO, CS, PMATH, STAT
 ✓
 PMATH432
@@ -228,6 +165,7 @@ AMATH442
 ✓
 AMATH449
 ---
+List 1
 ✓
 Complete 2 of the following:
   ✓
@@ -244,9 +182,29 @@ Complete 2 of the following:
   CO250/CO255
   Introduction to Optimization
   planned
----
-Complete 2 courses from the following choices:
+  ✓
   Complete 1 of the following:
+    ✓
+    CS245/CS245E
+    Logic and Computation
+    planned
+    ✓
+    PMATH330
+    Introduction to Mathematical Logic
+    planned
+    ✓
+    PMATH432
+    Mathematical Logic
+    planned
+  ✓
+  CS246/CS246E
+  Object-Oriented Software Development
+  planned
+---
+List 2
+✓
+Complete 2 courses from the following choices:
+  Choose any of the following:
   ✓
   AMATH342
   Computational Methods for Differential Equations
@@ -278,7 +236,9 @@ Complete 2 courses from the following choices:
   Computational Statistics and Data Analysis
   cap exceeded
 ---
-Complete 1 of the following:
+List 3
+✓
+Choose any of the following:
 ✓
 ACTSC447
 Numerical Computation for Financial Modelling
@@ -445,39 +405,6 @@ Complete 3 non-math courses (≥1 at 200-level or above, all same subject code) 
   ✓
   BIOL382
 Complete the List 1 and List 2 requirements below
-  ✓
-  AMATH250
-  Introduction to Differential Equations
-  ✓
-  AMATH251
-  Introduction to Differential Equations (Advanced Level)
-  ✓
-  AMATH350
-  Differential Equations for Business and Economics
-  ✓
-  CO250
-  Introduction to Optimization
-  ✓
-  CO255
-  Introduction to Optimization (Advanced Level)
-  ✓
-  CS245
-  Logic and Computation
-  ✓
-  CS245E
-  Logic and Computation (Enriched)
-  ✓
-  PMATH330
-  Introduction to Mathematical Logic
-  ✓
-  PMATH432
-  Mathematical Logic
-  ✓
-  CS246
-  Object-Oriented Software Development
-  ✓
-  CS246E
-  Object-Oriented Software Development (Enriched)
 4 additional 4XX courses from: AMATH, CO, CS, PMATH, STAT
 ✓
 PMATH432
@@ -488,6 +415,7 @@ AMATH442
 ✓
 AMATH449
 ---
+List 1
 ✓
 Complete 2 of the following:
   ✓
@@ -496,9 +424,17 @@ Complete 2 of the following:
   ✓
   CO250
   Introduction to Optimization
+  ✓
+  CS245
+  Logic and Computation
+  ✓
+  CS246
+  Object-Oriented Software Development
 ---
+List 2
+✓
 Complete 2 courses from the following choices:
-  Complete 1 of the following:
+  Choose any of the following:
   ✓
   AMATH342
   Computational Methods for Differential Equations
@@ -527,7 +463,9 @@ Complete 2 courses from the following choices:
   Computational Statistics and Data Analysis
   cap exceeded
 ---
-Complete 1 of the following:
+List 3
+✓
+Choose any of the following:
 ✓
 ACTSC447
 Numerical Computation for Financial Modelling

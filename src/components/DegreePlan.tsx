@@ -386,8 +386,12 @@ export function ReqNodeView({ node, completedSet, planSet, dim = false, excludeC
     const levelNums = [...text.matchAll(/\b([1-4])00[-–]/g)].map(m => parseInt(m[1]));
     const nFromText = text.match(/Complete\s+(\d+)/i)?.[1];
     const n = node.n ?? (nFromText ? parseInt(nFromText) : null);
-    const listMatch = text.match(/\bList\s*(\d+)\b/i);
-    const listNum = listMatch ? parseInt(listMatch[1], 10) : NaN;
+    // Only treat as a pointer to a list when exactly ONE list is referenced ("Complete 2
+    // courses from the options in List 2"). Summary rows referencing several lists
+    // ("Complete 1.5 units from List 1, 1.5 units from List 2, ...") are informational —
+    // each list renders as its own labeled group.
+    const listMentions = [...new Set([...text.matchAll(/\bList\s*(\d+)\b/gi)].map(m => m[1]))];
+    const listNum = listMentions.length === 1 ? parseInt(listMentions[0], 10) : NaN;
     const parsedListCourses =
       Number.isFinite(listNum) && rawHtml ? parseListSectionFromRawHtml(rawHtml, listNum) : [];
     const listRefNodes: ReqNode[] = parsedListCourses.map(({ code, title }) => ({
@@ -515,6 +519,14 @@ export function ReqNodeView({ node, completedSet, planSet, dim = false, excludeC
       }
     }
 
+    // Summary row referencing multiple lists — informational only, no checkbox: the
+    // lists themselves render as labeled groups with their own progress.
+    if (listMentions.length > 1) {
+      return (
+        <span style={{ fontFamily: SANS, fontSize: '14px', color: dim ? fgDone : '#555', fontStyle: 'italic' }}>{label}</span>
+      );
+    }
+
     // Fallback for credit-based or unparseable requirements
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -535,11 +547,23 @@ export function ReqNodeView({ node, completedSet, planSet, dim = false, excludeC
   }
 
   const sharedChildProps = { completedSet, planSet, excludeCodes, rawHtml };
-  const listSectionMatch = (node.text ?? '').match(/^(List\s*\d+):\s*/i);
+  // Calendar sub-section heading ("List 1") — set by the parser as a separate field so
+  // text-based rule matching elsewhere is unaffected.
+  const listSectionLabel = node.label ?? null;
 
   // AND: render children flat — no header, no AND-level checkbox
   if (node.type === 'AND') {
     const andText = node.text ?? '';
+
+    // Calendar sub-section heading ("List 1") — wrap the normal AND rendering (pools,
+    // caps, etc. below) in a labeled section; the recursive call clears the label.
+    if (listSectionLabel) {
+      return (
+        <CollapsibleSection label={listSectionLabel} done={done} planned={inPlan} dim={dim}>
+          <ReqNodeView node={{ ...node, label: undefined }} dim={dim} {...sharedChildProps} />
+        </CollapsibleSection>
+      );
+    }
 
     // "Complete no more than N from the following:" AND — render as capped group using children
     const andNoMoreMatch = andText.match(/no\s+more\s+than\s+(\d+)\s+from/i);
@@ -572,11 +596,11 @@ export function ReqNodeView({ node, completedSet, planSet, dim = false, excludeC
       );
     }
 
-    // "Choose any of the following:" AND — render as "Complete 1 of the following:" list
+    // "Choose any of the following:" AND — an options pool; use the calendar's own wording
     if (/^choose\s+any/i.test(andText.trimStart()) && children.length > 0) {
       return (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-          <span style={{ fontFamily: SANS, fontSize: '13px', color: dim ? fgDone : '#888', fontStyle: 'italic' }}>Complete 1 of the following:</span>
+          <span style={{ fontFamily: SANS, fontSize: '13px', color: dim ? fgDone : '#888', fontStyle: 'italic' }}>Choose any of the following:</span>
           {children.map((c, i) => (
             <ReqNodeView key={i} node={c} {...sharedChildProps} dim={dim} />
           ))}
@@ -645,17 +669,6 @@ export function ReqNodeView({ node, completedSet, planSet, dim = false, excludeC
         </div>
       );
     }
-    if (listSectionMatch) {
-      return (
-        <CollapsibleSection label={listSectionMatch[1]} done={done} planned={inPlan} dim={dim}>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-            {children.map((c, i) => (
-              <ReqNodeView key={i} node={unwrapSingle(c)} dim={dim} {...sharedChildProps} />
-            ))}
-          </div>
-        </CollapsibleSection>
-      );
-    }
     // Leading descriptive ADDITIONAL (no n, no courses) — use as header, indent siblings
     const leadingLabel = children[0]?.type === 'ADDITIONAL' && children[0].n == null && courseCodes(children[0]).length === 0 ? children[0] : null;
     if (leadingLabel && children.length > 1) {
@@ -680,15 +693,27 @@ export function ReqNodeView({ node, completedSet, planSet, dim = false, excludeC
     );
   }
 
+  // OR with a list section heading (e.g. List 2 = "Complete 1 of the following" cluster
+  // choice) — wrap the normal OR rendering in a labeled section. The recursive call
+  // clears the label so it takes the generic OR path.
+  if (node.type === 'OR' && listSectionLabel) {
+    const inner: ReqNode = { ...node, label: undefined };
+    return (
+      <CollapsibleSection label={listSectionLabel} done={done} planned={inPlan} dim={dim}>
+        <ReqNodeView node={inner} dim={dim} {...sharedChildProps} />
+      </CollapsibleSection>
+    );
+  }
+
   // N_OF with list section header (e.g. "List 1: Complete 2 of the following...")
-  if (node.type === 'N_OF' && listSectionMatch) {
+  if (node.type === 'N_OF' && listSectionLabel) {
     const n = node.n ?? 1;
     const visChildren = children.filter(c => !isWluOnly(c, planSet));
     const dispChildren = done
       ? visChildren.filter(c => satisfies(c, completedSet))
       : visChildren;
     return (
-      <CollapsibleSection label={listSectionMatch[1]} done={done} planned={inPlan} dim={dim}>
+      <CollapsibleSection label={listSectionLabel} done={done} planned={inPlan} dim={dim}>
         {dispChildren.length > 0 && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
@@ -1616,8 +1641,8 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
         {/* Stats */}
         <div style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
           {[
-            { num: Math.round(requirementsMetBeforeCurrent), den: degreeTotalSlots, l: 'COURSES DONE', tooltip: { num: 'unique requirement slots filled by completed courses, counting shared courses once, not including pd or labs', den: 'core bmath + major + non-math electives, counting shared courses once, not including pd or labs' } },
-            { num: degreePlannedSum, den: degreeTotalSlots, l: 'COURSES PLANNED', tooltip: { num: 'unique requirement slots filled, counting shared courses once, not including pd or labs', den: 'core bmath + major + non-math electives, counting shared courses once, not including pd or labs' } },
+            { num: Math.round(requirementsMetBeforeCurrent), den: degreeTotalSlots, l: 'COURSES DONE', tooltip: { num: 'unique requirement slots filled by completed courses, counting shared courses once, not including pd or labs', den: 'core bmath + major + minor/specializations (if any) + non-math electives, counting shared courses once, not including pd or labs' } },
+            { num: degreePlannedSum, den: degreeTotalSlots, l: 'COURSES PLANNED', tooltip: { num: 'unique requirement slots filled, counting shared courses once, not including pd or labs', den: 'core bmath + major + minor/specializations (if any) + non-math electives, counting shared courses once, not including pd or labs' } },
             { num: null, den: null, l: 'GRAD TARGET', plain: gradTarget, tooltip: null },
           ].map((s) => (
             <div key={s.l} style={{ flex: 1, background: '#d9d9d9', borderRadius: '15px', padding: isMobile ? '12px 10px' : '16px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>

@@ -6,35 +6,8 @@ PHIL256/PSYCH256
 Introduction to Cognitive Science
 ---
 Complete 1.5 units from List 1, 1.5 units from List 2, and 0.5 unit from List 3.
-  ANTH204
-  Biological Anthropology
-  PHIL255
-  Philosophy of Mind
-  PSYCH207
-  Cognitive Processes
-  PSYCH261
-  Physiological Psychology
-  COGSCI300
-  Intelligence in Machines, Humans, and Other Animals
-  CS105
-  Introduction to Computer Programming 1
-  CS115
-  Introduction to Computer Science 1
-  CS135
-  Designing Functional Programs
-  MSE121
-  Introduction to Computer Programming
-  PHIL356
-  Intelligence in Machines, Humans, and Other Animals
-  PSYCH420
-  An Introduction to Computational Neuroscience Methods
-  SYDE121
-  Digital Computation
-  ENGL306A
-  Introduction to Linguistics
-  FR303
-  Introduction to Linguistics
 ---
+List 1
 Complete 3 of the following:
   ANTH204
   Biological Anthropology
@@ -62,6 +35,7 @@ Complete 3 of the following:
   ENGL306A/FR303
   Introduction to Linguistics
 ---
+List 2
 Complete 1 of the following:
   Complete 3 of the following:
     ANTH105
@@ -208,6 +182,7 @@ Complete 1 of the following:
     KIN459
     Cognitive, Emotional and Motor Assessment
 ---
+List 3
 Complete 1 of the following:
   PHIL447/PSYCH447
   Seminar in Cognitive Science
@@ -223,6 +198,10 @@ Introduction to Cognitive Science
 planned
 ---
 Complete 1.5 units from List 1, 1.5 units from List 2, and 0.5 unit from List 3.
+---
+List 1
+✓
+Complete 3 of the following:
   ✓
   ANTH204
   Biological Anthropology
@@ -240,61 +219,42 @@ Complete 1.5 units from List 1, 1.5 units from List 2, and 0.5 unit from List 3.
   Physiological Psychology
   planned
   ✓
-  COGSCI300
-  Intelligence in Machines, Humans, and Other Animals
-  planned
+  Complete 1 of the following:
+    ✓
+    COGSCI300/PHIL356
+    Intelligence in Machines, Humans, and Other Animals
+    planned
+    ✓
+    CS105
+    Introduction to Computer Programming 1
+    planned
+    ✓
+    CS115
+    Introduction to Computer Science 1
+    planned
+    ✓
+    CS135
+    Designing Functional Programs
+    planned
+    ✓
+    MSE121
+    Introduction to Computer Programming
+    planned
+    ✓
+    PSYCH420
+    An Introduction to Computational Neuroscience Methods
+    planned
+    ✓
+    SYDE121
+    Digital Computation
+    planned
   ✓
-  CS105
-  Introduction to Computer Programming 1
-  planned
-  ✓
-  CS115
-  Introduction to Computer Science 1
-  planned
-  ✓
-  CS135
-  Designing Functional Programs
-  planned
-  ✓
-  MSE121
-  Introduction to Computer Programming
-  planned
-  ✓
-  PHIL356
-  Intelligence in Machines, Humans, and Other Animals
-  planned
-  ✓
-  PSYCH420
-  An Introduction to Computational Neuroscience Methods
-  planned
-  ✓
-  SYDE121
-  Digital Computation
-  planned
-  ✓
-  ENGL306A
-  Introduction to Linguistics
-  planned
-  ✓
-  FR303
+  ENGL306A/FR303
   Introduction to Linguistics
   planned
 ---
+List 2
 ✓
-Complete 3 of the following:
-  ✓
-  ANTH204
-  Biological Anthropology
-  planned
-  ✓
-  PHIL255
-  Philosophy of Mind
-  planned
-  ✓
-  PSYCH207
-  Cognitive Processes
-  planned
----
 ✓
 Complete 3 of the following:
   ✓
@@ -322,6 +282,8 @@ Complete 3 of the following:
   Evolutionary Psychology
   planned
 ---
+List 3
+✓
 ✓
 PHIL447/PSYCH447
 Seminar in Cognitive Science
@@ -334,6 +296,10 @@ PHIL256
 Introduction to Cognitive Science
 ---
 Complete 1.5 units from List 1, 1.5 units from List 2, and 0.5 unit from List 3.
+---
+List 1
+✓
+Complete 3 of the following:
   ✓
   ANTH204
   Biological Anthropology
@@ -350,45 +316,11 @@ Complete 1.5 units from List 1, 1.5 units from List 2, and 0.5 unit from List 3.
   COGSCI300
   Intelligence in Machines, Humans, and Other Animals
   ✓
-  CS105
-  Introduction to Computer Programming 1
-  ✓
-  CS115
-  Introduction to Computer Science 1
-  ✓
-  CS135
-  Designing Functional Programs
-  ✓
-  MSE121
-  Introduction to Computer Programming
-  ✓
-  PHIL356
-  Intelligence in Machines, Humans, and Other Animals
-  ✓
-  PSYCH420
-  An Introduction to Computational Neuroscience Methods
-  ✓
-  SYDE121
-  Digital Computation
-  ✓
   ENGL306A
   Introduction to Linguistics
-  ✓
-  FR303
-  Introduction to Linguistics
 ---
+List 2
 ✓
-Complete 3 of the following:
-  ✓
-  ANTH204
-  Biological Anthropology
-  ✓
-  PHIL255
-  Philosophy of Mind
-  ✓
-  PSYCH207
-  Cognitive Processes
----
 ✓
 Complete 3 of the following:
   ✓
@@ -401,6 +333,8 @@ Complete 3 of the following:
   BIOL150
   Organismal and Evolutionary Ecology
 ---
+List 3
+✓
 ✓
 PHIL447
 Seminar in Cognitive Science

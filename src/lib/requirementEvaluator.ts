@@ -4,6 +4,8 @@ export interface ReqNode {
   code?: string;
   n?: number;
   children?: ReqNode[];
+  /** Calendar sub-section heading (e.g. "List 1") — display only, never matched against. */
+  label?: string;
 }
 
 // ── helpers ──────────────────────────────────────────────────────────────────
@@ -293,8 +295,26 @@ export function nodeProgress(node: ReqNode, completed: Set<string>): { done: num
     case 'COURSE':
       if (!node.code) return { done: 0, total: 0 };
       return { done: completed.has(node.code) ? 1 : 0, total: 1 };
-    case 'OR':
+    case 'OR': {
+      const children = node.children ?? [];
+      // Pick-a-cluster OR ("1.5 units from List 2" = one of several 3-course clusters):
+      // every branch is an N_OF, so the OR is worth a full cluster's slots, not 1.
+      // ORs with COURSE/AND/ADDITIONAL branches keep the classic 1-slot semantics.
+      if (children.length > 0 && children.every(c => c.type === 'N_OF')) {
+        const sat = children.find(c => satisfies(c, completed));
+        if (sat) return nodeProgress(sat, completed);
+        let total = Infinity;
+        let done = 0;
+        for (const c of children) {
+          const p = nodeProgress(c, completed);
+          total = Math.min(total, p.total);
+          done = Math.max(done, p.done);
+        }
+        if (!Number.isFinite(total) || total <= 0) total = 1;
+        return { done: Math.min(done, total), total };
+      }
       return { done: satisfies(node, completed) ? 1 : 0, total: 1 };
+    }
     case 'AND': {
       if (isStatActsciCommBlock(node)) return nodeProgressStatActsciComm(node, completed);
       if (isMathUndergradCommBlock(node)) return nodeProgressMathUndergradComm(node, completed);

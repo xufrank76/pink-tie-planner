@@ -75,7 +75,7 @@ Complete 4 of the following:
   Introduction to Quantum Information Processing
 ---
 Complete 3 courses from the following choices:
-  Complete 1 of the following:
+  Choose any of the following:
   CS341
   Algorithms
   CS466
@@ -264,7 +264,7 @@ Complete 4 of the following:
   planned
 ---
 Complete 3 courses from the following choices:
-  Complete 1 of the following:
+  Choose any of the following:
   ✓
   CS341
   Algorithms
@@ -378,7 +378,7 @@ Complete 4 of the following:
   Network Flow Theory
 ---
 Complete 3 courses from the following choices:
-  Complete 1 of the following:
+  Choose any of the following:
   ✓
   CS341
   Algorithms

@@ -63,6 +63,7 @@ Complete the List 1 requirement below
   PACS323
   Negotiation: Theories and Strategies
 ---
+List 1
 Complete 3 additional courses from the following options.
 At most 1 of the following:
 LS271
@@ -210,6 +211,8 @@ Complete the List 1 requirement below
   Negotiation: Theories and Strategies
   planned
 ---
+List 1
+✓
 Complete 3 additional courses from the following options.
 At most 1 of the following:
 ✓
@@ -291,6 +294,8 @@ Complete the List 1 requirement below
   PACS323
   Negotiation: Theories and Strategies
 ---
+List 1
+✓
 Complete 3 additional courses from the following options.
 At most 1 of the following:
 ✓

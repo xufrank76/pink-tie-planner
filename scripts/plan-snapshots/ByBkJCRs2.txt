@@ -67,6 +67,7 @@ Complete 4 additional courses from the following:
   STAT444
   Statistical Learning - Advanced Regression
 ---
+List 1
 Complete 4 of the following:
   AMATH342
   Computational Methods for Differential Equations
@@ -243,6 +244,7 @@ Complete 4 additional courses from the following:
   Statistical Learning - Advanced Regression
   planned
 ---
+List 1
 ✓
 Complete 4 of the following:
   ✓
@@ -422,6 +424,7 @@ Complete 4 additional courses from the following:
   STAT444
   Statistical Learning - Advanced Regression
 ---
+List 1
 ✓
 Complete 4 of the following:
   ✓
@@ -436,3 +439,51 @@ Complete 4 of the following:
   ✓
   AMATH442
   Computational Methods for Partial Differential Equations
+  ✓
+  AMATH446
+  Introduction to Mathematics of Deep Learning
+  ✓
+  AMATH449
+  Neural Networks
+  ✓
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  ✓
+  CO367
+  Nonlinear Optimization
+  ✓
+  CO466
+  Continuous Optimization
+  ✓
+  CO481
+  Introduction to Quantum Information Processing
+  ✓
+  CS231
+  Algorithmic Problem Solving
+  ✓
+  CS467
+  Introduction to Quantum Information Processing
+  ✓
+  CS475
+  Computational Linear Algebra
+  ✓
+  CS479
+  Neural Networks
+  ✓
+  PHYS467
+  Introduction to Quantum Information Processing
+  ✓
+  PMATH343
+  Introduction to the Mathematics of Quantum Information
+  ✓
+  STAT331
+  Applied Linear Models
+  ✓
+  STAT341
+  Computational Statistics and Data Analysis
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression

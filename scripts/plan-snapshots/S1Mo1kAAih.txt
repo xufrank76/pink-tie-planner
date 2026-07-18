@@ -9,102 +9,9 @@ GERON400/HLTH400
 Interdisciplinary Perspectives on Aging
 ---
 Complete 8 courses from List 1 and List 2, with no more than 1 course from List 2.
-  BIOL355
-  Biology of Human Aging
-  GEOG432
-  Health and the Built Environment
-  GERON218
-  Psychology of Death and Dying
-  GERON220
-  Psychosocial Perspectives on Lifespan Development and Health
-  GERON245
-  Canadian Health Systems
-  GERON310
-  Development, Aging, and Health
-  GERON352
-  Sociology of Aging
-  GERON355
-  Biology of Human Aging
-  GERON401A
-  Independent Study in Aging
-  GERON401B
-  Independent Study in Aging
-  GSJ380
-  Applied Public Health Ethics
-  HLTH218
-  Psychology of Death and Dying
-  HLTH220
-  Psychosocial Perspectives on Lifespan Development and Health
-  HLTH245
-  Canadian Health Systems
-  HLTH253
-  Demographic Change in Canada
-  HLTH310
-  Development, Aging, and Health
-  HLTH352
-  Sociology of Aging
-  HLTH380
-  Applied Public Health Ethics
-  HLTH420
-  Health and the Built Environment
-  HLTH427
-  Dementia Care
-  HLTH430
-  Geriatric Medicine and Health Care
-  HLTH451
-  Analysis and Management of Health Information in Aging Populations
-  KIN310
-  Development, Aging, and Health
-  KIN342
-  Nutrition and Aging
-  KIN343
-  Micronutrient Metabolism
-  KIN352
-  Sociology of Aging
-  KIN359
-  Cognition, Cognitive Dysfunction, and Movement
-  KIN406
-  Physiology of Muscle Aging and Disease
-  KIN407
-  Cardiovascular Pathophysiology
-  KIN418
-  Physical Activity and Aging
-  KIN422
-  Human Posture, Balance and Gait
-  KIN429
-  Bone and Joint Health
-  PHIL226
-  Biomedical Ethics
-  PHIL319J
-  Ethics of End-of-Life Care
-  PHIL321J
-  The Philosophy of Palliative Care
-  PLAN432
-  Health and the Built Environment
-  PSYCH218
-  Psychology of Death and Dying
-  PSYCH398
-  Research in Memory
-  RCS266
-  Death and Dying
-  RCS387
-  Aging and the Spiritual Life
-  REC361
-  Aging and Leisure
-  REC362
-  Sociology of Aging
-  SDS245R
-  Dying and Bereavement
-  SDS367R
-  Aging and Social Development
-  SOC248
-  Health, Illness, and Society
-  SOC253
-  Demographic Change in Canada
-  SOC352
-  Sociology of Aging
 ---
-Complete 1 of the following:
+List 1
+Choose any of the following:
 BIOL355
 Biology of Human Aging
 GEOG432
@@ -200,6 +107,7 @@ Demographic Change in Canada
 SOC352
 Sociology of Aging
 ---
+List 2
 At most 1 of the following:
 ARTS280
 Statistics for Arts Students
@@ -237,196 +145,10 @@ Interdisciplinary Perspectives on Aging
 planned
 ---
 Complete 8 courses from List 1 and List 2, with no more than 1 course from List 2.
-  ✓
-  BIOL355
-  Biology of Human Aging
-  planned
-  ✓
-  GEOG432
-  Health and the Built Environment
-  planned
-  ✓
-  GERON218
-  Psychology of Death and Dying
-  planned
-  ✓
-  GERON220
-  Psychosocial Perspectives on Lifespan Development and Health
-  planned
-  ✓
-  GERON245
-  Canadian Health Systems
-  planned
-  ✓
-  GERON310
-  Development, Aging, and Health
-  planned
-  ✓
-  GERON352
-  Sociology of Aging
-  planned
-  ✓
-  GERON355
-  Biology of Human Aging
-  planned
-  ✓
-  GERON401A
-  Independent Study in Aging
-  planned
-  ✓
-  GERON401B
-  Independent Study in Aging
-  planned
-  ✓
-  GSJ380
-  Applied Public Health Ethics
-  planned
-  ✓
-  HLTH218
-  Psychology of Death and Dying
-  planned
-  ✓
-  HLTH220
-  Psychosocial Perspectives on Lifespan Development and Health
-  planned
-  ✓
-  HLTH245
-  Canadian Health Systems
-  planned
-  ✓
-  HLTH253
-  Demographic Change in Canada
-  planned
-  ✓
-  HLTH310
-  Development, Aging, and Health
-  planned
-  ✓
-  HLTH352
-  Sociology of Aging
-  planned
-  ✓
-  HLTH380
-  Applied Public Health Ethics
-  planned
-  ✓
-  HLTH420
-  Health and the Built Environment
-  planned
-  ✓
-  HLTH427
-  Dementia Care
-  planned
-  ✓
-  HLTH430
-  Geriatric Medicine and Health Care
-  planned
-  ✓
-  HLTH451
-  Analysis and Management of Health Information in Aging Populations
-  planned
-  ✓
-  KIN310
-  Development, Aging, and Health
-  planned
-  ✓
-  KIN342
-  Nutrition and Aging
-  planned
-  ✓
-  KIN343
-  Micronutrient Metabolism
-  planned
-  ✓
-  KIN352
-  Sociology of Aging
-  planned
-  ✓
-  KIN359
-  Cognition, Cognitive Dysfunction, and Movement
-  planned
-  ✓
-  KIN406
-  Physiology of Muscle Aging and Disease
-  planned
-  ✓
-  KIN407
-  Cardiovascular Pathophysiology
-  planned
-  ✓
-  KIN418
-  Physical Activity and Aging
-  planned
-  ✓
-  KIN422
-  Human Posture, Balance and Gait
-  planned
-  ✓
-  KIN429
-  Bone and Joint Health
-  planned
-  ✓
-  PHIL226
-  Biomedical Ethics
-  planned
-  ✓
-  PHIL319J
-  Ethics of End-of-Life Care
-  planned
-  ✓
-  PHIL321J
-  The Philosophy of Palliative Care
-  planned
-  ✓
-  PLAN432
-  Health and the Built Environment
-  planned
-  ✓
-  PSYCH218
-  Psychology of Death and Dying
-  planned
-  ✓
-  PSYCH398
-  Research in Memory
-  planned
-  ✓
-  RCS266
-  Death and Dying
-  planned
-  ✓
-  RCS387
-  Aging and the Spiritual Life
-  planned
-  ✓
-  REC361
-  Aging and Leisure
-  planned
-  ✓
-  REC362
-  Sociology of Aging
-  planned
-  ✓
-  SDS245R
-  Dying and Bereavement
-  planned
-  ✓
-  SDS367R
-  Aging and Social Development
-  planned
-  ✓
-  SOC248
-  Health, Illness, and Society
-  planned
-  ✓
-  SOC253
-  Demographic Change in Canada
-  planned
-  ✓
-  SOC352
-  Sociology of Aging
-  planned
 ---
-Complete 1 of the following:
+List 1
+✓
+Choose any of the following:
 ✓
 BIOL355
 Biology of Human Aging
@@ -616,6 +338,8 @@ SOC352
 Sociology of Aging
 planned
 ---
+List 2
+✓
 At most 1 of the following:
 ✓
 ARTS280
@@ -673,149 +397,10 @@ GERON400
 Interdisciplinary Perspectives on Aging
 ---
 Complete 8 courses from List 1 and List 2, with no more than 1 course from List 2.
-  ✓
-  BIOL355
-  Biology of Human Aging
-  ✓
-  GEOG432
-  Health and the Built Environment
-  ✓
-  GERON218
-  Psychology of Death and Dying
-  ✓
-  GERON220
-  Psychosocial Perspectives on Lifespan Development and Health
-  ✓
-  GERON245
-  Canadian Health Systems
-  ✓
-  GERON310
-  Development, Aging, and Health
-  ✓
-  GERON352
-  Sociology of Aging
-  ✓
-  GERON355
-  Biology of Human Aging
-  ✓
-  GERON401A
-  Independent Study in Aging
-  ✓
-  GERON401B
-  Independent Study in Aging
-  ✓
-  GSJ380
-  Applied Public Health Ethics
-  ✓
-  HLTH218
-  Psychology of Death and Dying
-  ✓
-  HLTH220
-  Psychosocial Perspectives on Lifespan Development and Health
-  ✓
-  HLTH245
-  Canadian Health Systems
-  ✓
-  HLTH253
-  Demographic Change in Canada
-  ✓
-  HLTH310
-  Development, Aging, and Health
-  ✓
-  HLTH352
-  Sociology of Aging
-  ✓
-  HLTH380
-  Applied Public Health Ethics
-  ✓
-  HLTH420
-  Health and the Built Environment
-  ✓
-  HLTH427
-  Dementia Care
-  ✓
-  HLTH430
-  Geriatric Medicine and Health Care
-  ✓
-  HLTH451
-  Analysis and Management of Health Information in Aging Populations
-  ✓
-  KIN310
-  Development, Aging, and Health
-  ✓
-  KIN342
-  Nutrition and Aging
-  ✓
-  KIN343
-  Micronutrient Metabolism
-  ✓
-  KIN352
-  Sociology of Aging
-  ✓
-  KIN359
-  Cognition, Cognitive Dysfunction, and Movement
-  ✓
-  KIN406
-  Physiology of Muscle Aging and Disease
-  ✓
-  KIN407
-  Cardiovascular Pathophysiology
-  ✓
-  KIN418
-  Physical Activity and Aging
-  ✓
-  KIN422
-  Human Posture, Balance and Gait
-  ✓
-  KIN429
-  Bone and Joint Health
-  ✓
-  PHIL226
-  Biomedical Ethics
-  ✓
-  PHIL319J
-  Ethics of End-of-Life Care
-  ✓
-  PHIL321J
-  The Philosophy of Palliative Care
-  ✓
-  PLAN432
-  Health and the Built Environment
-  ✓
-  PSYCH218
-  Psychology of Death and Dying
-  ✓
-  PSYCH398
-  Research in Memory
-  ✓
-  RCS266
-  Death and Dying
-  ✓
-  RCS387
-  Aging and the Spiritual Life
-  ✓
-  REC361
-  Aging and Leisure
-  ✓
-  REC362
-  Sociology of Aging
-  ✓
-  SDS245R
-  Dying and Bereavement
-  ✓
-  SDS367R
-  Aging and Social Development
-  ✓
-  SOC248
-  Health, Illness, and Society
-  ✓
-  SOC253
-  Demographic Change in Canada
-  ✓
-  SOC352
-  Sociology of Aging
 ---
-Complete 1 of the following:
+List 1
+✓
+Choose any of the following:
 ✓
 BIOL355
 Biology of Human Aging
@@ -958,6 +543,8 @@ Demographic Change in Canada
 SOC352
 Sociology of Aging
 ---
+List 2
+✓
 At most 1 of the following:
 ✓
 ARTS280

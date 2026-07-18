@@ -209,6 +209,17 @@ function minorNonMathRedundancy(
       return;
     }
     if (node.type === 'OR') {
+      const orChildren = node.children ?? [];
+      // Pick-a-cluster OR (all branches N_OF) counts min-cluster-size slots in the minor
+      // row (see nodeProgress) — deduct the same number of potentially-overlapping slots.
+      if (orChildren.length > 0 && orChildren.every(c => c.type === 'N_OF')) {
+        const n = Math.min(...orChildren.map(c => c.n ?? 1));
+        const nonMathOpts = courseCodes(node).filter(isNonMathElective);
+        const covered = Math.min(n, nonMathOpts.length);
+        deltaTotal += covered;
+        deltaDone += Math.min(covered, nonMathOpts.filter(c => nonMathPlanned.has(c)).length);
+        return;
+      }
       // Count as 1 slot only if ALL options are non-math (avoids double-counting each child).
       const opts = courseCodes(node);
       if (opts.length > 0 && opts.every(isNonMathElective)) {
@@ -225,6 +236,15 @@ function minorNonMathRedundancy(
         deltaTotal += p.total;
         deltaDone += nodeProgress(node, nonMathPlanned).done;
       }
+      return;
+    }
+    if (node.type === 'N_OF' && node.n != null) {
+      // A pick-n group occupies only n slots — deduct at most n, not every non-math
+      // option it lists (recursing counted each course and sub-OR separately).
+      const nonMathOpts = courseCodes(node).filter(isNonMathElective);
+      const covered = Math.min(node.n, nonMathOpts.length);
+      deltaTotal += covered;
+      deltaDone += Math.min(covered, nonMathOpts.filter(c => nonMathPlanned.has(c)).length);
       return;
     }
     for (const child of node.children ?? []) walk(child);

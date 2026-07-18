@@ -8,7 +8,7 @@ Complete 1 of the following:
   CS370
   Numerical Computation
 Complete 3 courses from the following choices:
-  Complete 1 of the following:
+  Choose any of the following:
   AMATH342
   Computational Methods for Differential Equations
   CS475
@@ -119,6 +119,7 @@ Complete the List 1 requirement below.
   STAT444
   Statistical Learning - Advanced Regression
 ---
+List 1
 Complete 3 of the following:
   ACTSC447
   Numerical Computation for Financial Modelling
@@ -210,7 +211,7 @@ Complete 1 of the following:
   Numerical Computation
   planned
 Complete 3 courses from the following choices:
-  Complete 1 of the following:
+  Choose any of the following:
   ✓
   AMATH342
   Computational Methods for Differential Equations
@@ -425,6 +426,7 @@ Complete the List 1 requirement below.
   Statistical Learning - Advanced Regression
   planned
 ---
+List 1
 ✓
 Complete 3 of the following:
   ✓
@@ -586,7 +588,7 @@ Complete 3 of the following:
 AMATH242
 Introduction to Computational Mathematics
 Complete 3 courses from the following choices:
-  Complete 1 of the following:
+  Choose any of the following:
   ✓
   AMATH342
   Computational Methods for Differential Equations
@@ -761,6 +763,7 @@ Complete the List 1 requirement below.
   STAT444
   Statistical Learning - Advanced Regression
 ---
+List 1
 ✓
 Complete 3 of the following:
   ✓
@@ -772,3 +775,108 @@ Complete 3 of the following:
   ✓
   AMATH382
   Computational Modelling of Cellular Systems
+  ✓
+  AMATH383
+  Introduction to Mathematical Biology
+  ✓
+  AMATH391
+  Data Analysis with Fourier and Wavelet Methods
+  ✓
+  AMATH449
+  Neural Networks
+  ✓
+  AMATH455
+  Control Theory
+  ✓
+  AMATH477
+  Stochastic Processes for Applied Mathematics
+  ✓
+  BIOL382
+  Computational Modelling of Cellular Systems
+  ✓
+  CO351
+  Network Flow Theory
+  ✓
+  CO353
+  Computational Discrete Optimization
+  ✓
+  CO367
+  Nonlinear Optimization
+  ✓
+  CO370
+  Deterministic OR Models
+  ✓
+  CO372
+  Portfolio Optimization Models
+  ✓
+  CO450
+  Combinatorial Optimization
+  ✓
+  CO452
+  Integer Programming
+  ✓
+  CO454
+  Scheduling
+  ✓
+  CO456
+  Introduction to Game Theory
+  ✓
+  CO463
+  Convex Optimization and Analysis
+  ✓
+  CO466
+  Continuous Optimization
+  ✓
+  CO471
+  Semidefinite Optimization
+  ✓
+  CO485
+  The Mathematics of Public-Key Cryptography
+  ✓
+  CO487
+  Applied Cryptography
+  ✓
+  CS341
+  Algorithms
+  ✓
+  CS431
+  Data-Intensive Distributed Analytics
+  ✓
+  CS451
+  Data-Intensive Distributed Computing
+  ✓
+  CS466
+  Algorithm Design and Analysis
+  ✓
+  CS476
+  Numerical Computation for Financial Modelling
+  ✓
+  CS479
+  Neural Networks
+  ✓
+  CS480
+  Introduction to Machine Learning
+  ✓
+  CS482
+  Computational Techniques in Biological Sequence Analysis
+  ✓
+  CS485
+  Statistical and Computational Foundations of Machine Learning
+  ✓
+  CS487
+  Introduction to Symbolic Computation
+  ✓
+  PMATH370
+  Chaos and Fractals
+  ✓
+  STAT440
+  Computational Inference
+  ✓
+  STAT441
+  Statistical Learning - Classification
+  ✓
+  STAT442
+  Data Visualization
+  ✓
+  STAT444
+  Statistical Learning - Advanced Regression

@@ -160,6 +160,12 @@ function parseProgram(rawHtml) {
         const subUl = subSect.querySelector('ul');
         if (!subUl) continue;
         const subChildren = parseUl(subUl);
+        // Keep "List N" sub-section labels on a separate field — text stays untouched
+        // because several evaluator/display rules match ^-anchored patterns against it.
+        const subLabel = subSect.querySelector('h2')?.text?.trim() ?? '';
+        if (/^List\b/i.test(subLabel)) {
+          for (const c of subChildren) c.label = subLabel;
+        }
         children.push(...subChildren);
       }
     }
