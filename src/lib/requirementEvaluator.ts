@@ -257,7 +257,7 @@ export function satisfies(node: ReqNode, completed: Set<string>): boolean {
       return (node.children ?? []).every(c => satisfies(c, completed));
     }
     case 'OR':
-      return (node.children ?? []).some(c => satisfies(c, completed));
+      return (node.children ?? []).some(c => satisfiesOrBranch(c, completed));
     case 'N_OF': {
       if (isCompMathAdditionalBlock(node)) return satisfiesCompMathAdditional(node, completed);
       const done = (node.children ?? []).filter(c => satisfies(c, completed)).length;
@@ -273,6 +273,19 @@ export function satisfies(node: ReqNode, completed: Set<string>): boolean {
     default:
       return false;
   }
+}
+
+// How an OR evaluates a child branch. Generic ADDITIONAL nodes return true from
+// satisfies() so they don't block parent ANDs — but as an OR branch that would make
+// the OR trivially satisfied (hiding real choices like MATH239/249 in PMATH Joint).
+export function satisfiesOrBranch(node: ReqNode, completed: Set<string>): boolean {
+  if (node.type !== 'ADDITIONAL' || isCompMathNonMathBlock(node) || isAmathSubjectConcentration(node))
+    return satisfies(node, completed);
+  const mentioned = [...(node.text ?? '').matchAll(/\b([A-Z]{2,8}\d{3}[A-Z]?)\b/g)].map(m => m[1]);
+  // Explicit course codes (e.g. WLU alternates "Complete all the following: BUS127W")
+  if (mentioned.length > 0) return mentioned.every(c => completed.has(c));
+  // Subject pools ("1 additional PMATH course") / free-form — not verifiable from a set
+  return false;
 }
 
 export function nodeProgress(node: ReqNode, completed: Set<string>): { done: number; total: number } {

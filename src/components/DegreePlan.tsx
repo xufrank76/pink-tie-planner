@@ -5,7 +5,7 @@ import SlidingToggle from '@/src/components/SlidingToggle';
 import { useApp } from '@/src/context/AppContext';
 import rawPrograms from '@/src/data/requirements-filtered.json';
 import rawAntireqs from '@/src/data/antireqs.json';
-import { satisfies, nodeProgress, courseCodes, type ReqNode, isMathUndergradCommBlock, nodeProgressMathUndergradComm, isStatActsciCommBlock, nodeProgressStatActsciComm, isCompMathAdditionalBlock, isCompMathNonMathBlock, nodeProgressCompMathNonMath, isAmathSubjectConcentration, nodeProgressAmathConcentration, parseConcentrationSubjects, extractSubjectsFromText } from '@/src/lib/requirementEvaluator';
+import { satisfies, satisfiesOrBranch, nodeProgress, courseCodes, type ReqNode, isMathUndergradCommBlock, nodeProgressMathUndergradComm, isStatActsciCommBlock, nodeProgressStatActsciComm, isCompMathAdditionalBlock, isCompMathNonMathBlock, nodeProgressCompMathNonMath, isAmathSubjectConcentration, nodeProgressAmathConcentration, parseConcentrationSubjects, extractSubjectsFromText } from '@/src/lib/requirementEvaluator';
 import { patchCoreBmathRequirements, adjustUndergradCommList2ForPlanDisplay } from '@/src/lib/coreBmathCommPatch';
 import { getMissingPrereqs, formatPrereqForDisplay, isMathRestricted, parseRequiredLevel, levelNum, expandWithLabCourses } from '@/src/lib/prereqCheck';
 import { getCurrentTerm, termToNum } from '@/src/lib/termUtils';
@@ -74,7 +74,7 @@ function nodeProgressAware(node: ReqNode, completedSet: Set<string>, planSet: Se
     }
     case 'OR': {
       const children = node.children ?? [];
-      const branch = children.find(c => satisfies(c, completedSet)) ?? children.find(c => satisfies(c, planSet));
+      const branch = children.find(c => satisfiesOrBranch(c, completedSet)) ?? children.find(c => satisfiesOrBranch(c, planSet));
       if (branch) return nodeProgressAware(branch, completedSet, planSet);
       const minTotal = Math.min(...children.map(c => nodeProgressAware(c, completedSet, planSet).total));
       return { done: 0, total: minTotal || 1 };
@@ -671,21 +671,6 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
       );
     }
 
-    // Undergraduate Communication Requirement: List 2 also accepts a second different List 1 course
-    if (isMathUndergradCommBlock(node) && children.length === 2) {
-      const [l1Node, l2Node] = children;
-      const l2Combined: ReqNode = {
-        ...l2Node,
-        children: [...(l1Node.children ?? []), ...(l2Node.children ?? [])],
-      };
-      return (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-          <ReqNodeView node={l1Node} dim={dim} {...sharedChildProps} />
-          <ReqNodeView node={l2Combined} dim={dim} {...sharedChildProps} />
-        </div>
-      );
-    }
-
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
         {children.map((c, i) => (
@@ -822,9 +807,9 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
     return u.type === 'AND' || u.type === 'N_OF' || u.type === 'OR';
   });
   const displayChildren = done
-    ? visibleChildren.filter(c => satisfies(c, completedSet)).slice(0, nOf)
+    ? visibleChildren.filter(c => satisfiesOrBranch(c, completedSet)).slice(0, nOf)
     : (inPlan && hasComplexChildren)
-      ? visibleChildren.filter(c => satisfies(c, planSet)).slice(0, nOf)
+      ? visibleChildren.filter(c => satisfiesOrBranch(c, planSet)).slice(0, nOf)
       : visibleChildren;
 
   // For OR nodes with all-course children: group advanced/enriched variants by matching base name.
@@ -890,7 +875,7 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
   if (displayChildren.length <= 1) {
     const only = displayChildren[0] ?? visibleChildren[0];
     if (!only) return null;
-    const childDim = dim || (!done && satisfies(node, planSet) && !satisfies(only, planSet));
+    const childDim = dim || (!done && satisfies(node, planSet) && !satisfiesOrBranch(only, planSet));
     return <ReqNodeView node={unwrapSingle(only)} dim={childDim} {...sharedChildProps} />;
   }
 
@@ -906,8 +891,8 @@ function ReqNodeView({ node, completedSet, planSet, dim = false, excludeCodes = 
       <div style={{ marginLeft: '32px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
         {displayChildren.map((c, i) => {
           const childDim = dim
-            || (done && !satisfies(c, completedSet))
-            || (!done && satisfies(node, planSet) && !satisfies(c, planSet));
+            || (done && !satisfiesOrBranch(c, completedSet))
+            || (!done && satisfies(node, planSet) && !satisfiesOrBranch(c, planSet));
           const unwrapped = unwrapSingle(c);
           // AND with multiple courses inside an OR — render with "Complete all the following:" header
           if (unwrapped.type === 'AND' && (unwrapped.children?.length ?? 0) > 1) {
