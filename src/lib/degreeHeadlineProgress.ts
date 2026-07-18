@@ -200,6 +200,26 @@ function minorNonMathRedundancy(
   let deltaTotal = 0;
   let deltaDone = 0;
 
+  /**
+   * Allocation-aware overlap for a pick-n group with mixed options. A slot actually
+   * filled with a Math-faculty course (e.g. CS115 in Cog Sci List 1) cannot double as
+   * a non-math elective, so it is not deducted — the denominator grows to match the
+   * real cost of that choice. Unfilled slots keep the optimistic assumption: deduct
+   * them while a non-math option could still fill them.
+   */
+  function pickN(n: number, options: string[]) {
+    const nonMathOpts = options.filter(isNonMathElective);
+    const chosenNonMath = Math.min(nonMathOpts.filter(c => plannedOrCompleted.has(c)).length, n);
+    const chosenMath = Math.min(
+      options.filter(c => !isNonMathElective(c) && plannedOrCompleted.has(c)).length,
+      n - chosenNonMath,
+    );
+    const unfilled = n - chosenNonMath - chosenMath;
+    const assumed = Math.min(unfilled, Math.max(nonMathOpts.length - chosenNonMath, 0));
+    deltaTotal += chosenNonMath + assumed;
+    deltaDone += chosenNonMath;
+  }
+
   function walk(node: ReqNode) {
     if (node.type === 'COURSE' && node.code) {
       if (isNonMathElective(node.code)) {
@@ -213,18 +233,20 @@ function minorNonMathRedundancy(
       // Pick-a-cluster OR (all branches N_OF) counts min-cluster-size slots in the minor
       // row (see nodeProgress) — deduct the same number of potentially-overlapping slots.
       if (orChildren.length > 0 && orChildren.every(c => c.type === 'N_OF')) {
-        const n = Math.min(...orChildren.map(c => c.n ?? 1));
-        const nonMathOpts = courseCodes(node).filter(isNonMathElective);
-        const covered = Math.min(n, nonMathOpts.length);
-        deltaTotal += covered;
-        deltaDone += Math.min(covered, nonMathOpts.filter(c => nonMathPlanned.has(c)).length);
+        pickN(Math.min(...orChildren.map(c => c.n ?? 1)), courseCodes(node));
         return;
       }
-      // Count as 1 slot only if ALL options are non-math (avoids double-counting each child).
       const opts = courseCodes(node);
+      // All options non-math: the slot always overlaps an elective.
       if (opts.length > 0 && opts.every(isNonMathElective)) {
         deltaTotal++;
         if (opts.some(c => plannedOrCompleted.has(c))) deltaDone++;
+        return;
+      }
+      // Mixed options: overlap only once the slot is actually filled with a non-math course.
+      if (opts.some(c => isNonMathElective(c) && plannedOrCompleted.has(c))) {
+        deltaTotal++;
+        deltaDone++;
       }
       return;
     }
@@ -239,12 +261,8 @@ function minorNonMathRedundancy(
       return;
     }
     if (node.type === 'N_OF' && node.n != null) {
-      // A pick-n group occupies only n slots — deduct at most n, not every non-math
-      // option it lists (recursing counted each course and sub-OR separately).
-      const nonMathOpts = courseCodes(node).filter(isNonMathElective);
-      const covered = Math.min(node.n, nonMathOpts.length);
-      deltaTotal += covered;
-      deltaDone += Math.min(covered, nonMathOpts.filter(c => nonMathPlanned.has(c)).length);
+      // A pick-n group occupies only n slots — deduct at most n, allocation-aware.
+      pickN(node.n, courseCodes(node));
       return;
     }
     for (const child of node.children ?? []) walk(child);
