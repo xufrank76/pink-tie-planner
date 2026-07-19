@@ -131,48 +131,116 @@ function splitAtTopLevelOr(str: string): string[] {
   return parts.filter(Boolean);
 }
 
-// Returns missing course groups for a single AND-branch (may be wrapped in parens).
-function getMissingFromBranch(branch: string, available: Set<string>): string[][] {
-  const inner = branch.replace(/^\(|\)$/g, '').trim();
-  const missing: string[][] = [];
-  const segments = inner.split(/\band\b/i).map(s => s.trim()).filter(Boolean);
-  for (const seg of segments) {
-    if (EXCLUSION_RE.test(seg)) continue;
-    const codes = extractCourseCodes(seg);
-    if (codes.length === 0) continue;
-    if (/\bor\b|\bone\s+of\b/i.test(seg)) {
-      if (codes.some(c => has(available, c))) continue;
-      missing.push(codes);
-    } else {
-      for (const code of codes) {
-        if (has(available, code)) continue;
-        missing.push([code]);
-      }
+// Depth-aware split on ";" — semicolons inside parens stay put.
+function splitTopLevelSemicolons(str: string): string[] {
+  const out: string[] = [];
+  let depth = 0, start = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === '(') depth++;
+    else if (str[i] === ')') depth--;
+    else if (str[i] === ';' && depth === 0) { out.push(str.slice(start, i)); start = i + 1; }
+  }
+  out.push(str.slice(start));
+  return out.map(s => s.trim()).filter(Boolean);
+}
+
+// Splits an AND-level string into its groups: top-level "and", plus top-level commas
+// that introduce a new group — "(CS 245 or SE 212), (one of CS 241, 246, 247)" is two
+// AND groups, while the commas inside "one of CS 241, 246, 247" stay in their group.
+function splitAndGroups(str: string): string[] {
+  const out: string[] = [];
+  let depth = 0, start = 0;
+  for (let i = 0; i < str.length; i++) {
+    const ch = str[i];
+    if (ch === '(') { depth++; continue; }
+    if (ch === ')') { depth--; continue; }
+    if (depth !== 0) continue;
+    if (/^and\b/i.test(str.slice(i)) && /[\s),]/.test(str[i - 1] ?? ' ')) {
+      out.push(str.slice(start, i));
+      start = i + 3;
+      i += 2;
+    } else if (ch === ',' && /^\s*(\(|one\s+of\b)/i.test(str.slice(i + 1))) {
+      out.push(str.slice(start, i));
+      start = i + 1;
     }
+  }
+  out.push(str.slice(start));
+  return out.map(s => s.trim()).filter(Boolean);
+}
+
+// Strip one pair of outer parens only when they wrap the whole (balanced) string.
+function stripBalancedOuterParens(str: string): string {
+  const s = str.trim().replace(/[.,]\s*$/, '');
+  if (!s.startsWith('(') || !s.endsWith(')')) return s;
+  let depth = 0;
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === '(') depth++;
+    else if (s[i] === ')') { depth--; if (depth === 0 && i < s.length - 1) return s; }
+  }
+  return s.slice(1, -1).trim();
+}
+
+// Missing groups for an AND-level string: each and/comma group resolves independently.
+function missingFromAnd(str: string, available: Set<string>): string[][] {
+  const groups = splitAndGroups(str);
+  if (groups.length > 1) return groups.flatMap(g => missingFromOr(g, available));
+  return missingFromOr(groups[0] ?? '', available);
+}
+
+// Missing groups for an OR-level string: satisfied if any branch fully resolves.
+function missingFromOr(str: string, available: Set<string>): string[][] {
+  const branches = splitAtTopLevelOr(str);
+  if (branches.length > 1) {
+    const branchMissing = branches.map(b => missingFromBase(b, available));
+    if (branchMissing.some(m => m.length === 0)) return [];
+    // All branches are single groups ("PSYCH 211 or 207"): one OR group of alternatives.
+    if (branchMissing.every(m => m.length === 1)) return [[...new Set(branchMissing.flat(2))]];
+    // Complex branches: report the branch with fewest missing courses
+    return branchMissing.reduce((best, cur) => (cur.flat().length < best.flat().length ? cur : best));
+  }
+  return missingFromBase(str, available);
+}
+
+// Base unit: unwrap parens (recursing if structure remains), else extract codes.
+function missingFromBase(branch: string, available: Set<string>): string[][] {
+  const inner = stripBalancedOuterParens(branch);
+  if (inner !== branch.trim().replace(/[.,]\s*$/, '')) return missingFromAnd(inner, available);
+  const seg = inner;
+  if (!seg || EXCLUSION_RE.test(seg)) return [];
+  const codes = extractCourseCodes(seg);
+  if (codes.length === 0) return [];
+  // "/" joins alternatives the same way "or" does ("CS 245/245E")
+  if (/\bor\b|\bone\s+of\b|\//i.test(seg)) {
+    if (codes.some(c => has(available, c))) return [];
+    return [codes];
+  }
+  const missing: string[][] = [];
+  for (const code of codes) {
+    if (has(available, code)) continue;
+    missing.push([code]);
   }
   return missing;
 }
 
+// "PSYCH 211 or 207" → "PSYCH 211 or PSYCH 207": expand standalone numbers with the
+// last-seen subject BEFORE any splitting, so an OR branch like "207" isn't orphaned
+// into a codeless (and therefore trivially-satisfied) branch.
+function expandAbbreviatedCodes(str: string): string {
+  let lastSubject = '';
+  return str.replace(/\b([A-Z]{2,8})\s+(\d{1,3}[A-Z]?)\b|\b(\d{3}[A-Z]?)\b/g, (m, subj, _num, lone) => {
+    if (subj) { lastSubject = subj; return m; }
+    return lone && lastSubject ? `${lastSubject} ${lone}` : m;
+  });
+}
+
 export function getMissingPrereqs(prereqStr: string, available: Set<string>): string[][] {
   if (!prereqStr) return [];
-  // Strip everything after the first semicolon (enrollment restrictions, notes)
-  const main = prereqStr.split(';')[0].trim();
-
-  const orBranches = splitAtTopLevelOr(main);
-
-  if (orBranches.length > 1) {
-    // Top-level OR: satisfied if any branch has zero missing
-    const branchMissing = orBranches.map(b => getMissingFromBranch(b, available));
-    const satisfied = branchMissing.find(m => m.length === 0);
-    if (satisfied !== undefined) return [];
-    // Return missing from the branch with fewest missing courses
-    return branchMissing.reduce((best, cur) =>
-      cur.flat().length < best.flat().length ? cur : best
-    );
-  }
-
-  // Single branch (no top-level OR) — fall through to AND logic
-  return getMissingFromBranch(main, available);
+  // Semicolons separate independent requirements ("Any UW statistics; BUS 121W; One of
+  // AFM 131, BUS 111W") as well as restrictions/notes — keep the requirement segments,
+  // drop restriction ones.
+  const segments = splitTopLevelSemicolons(expandAbbreviatedCodes(prereqStr))
+    .filter(s => !EXCLUSION_RE.test(s) && !/consent of/i.test(s));
+  return segments.flatMap(seg => missingFromAnd(seg, available));
 }
 
 export function formatMissingPrereqGroups(groups: string[][]): string {
@@ -192,7 +260,7 @@ export function formatMissingPrereqLines(groups: string[][]): string[] {
 // and formats each branch cleanly for display.
 export function formatPrereqForDisplay(prereqStr: string): string[] {
   if (!prereqStr) return [];
-  const main = prereqStr.split(';')[0].trim();
+  const main = expandAbbreviatedCodes(prereqStr.split(';')[0].trim());
 
   // Split on top-level " or "
   const parts: string[] = [];

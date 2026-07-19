@@ -9,7 +9,8 @@
     "lint": "eslint",
     "refresh-data": "node scripts/refresh-requirements.mjs && node scripts/reparse-requirements.mjs",
     "snapshot": "tsx scripts/render-snapshot.ts",
-    "snapshot:check": "tsx scripts/render-snapshot.ts --check"
+    "snapshot:check": "tsx scripts/render-snapshot.ts --check",
+    "prereq-snapshot": "tsx scripts/prereq-snapshot.ts"
   },
   "dependencies": {
     "@fontsource/dm-mono": "^5.2.7",
