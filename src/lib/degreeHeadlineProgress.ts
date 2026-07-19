@@ -195,29 +195,64 @@ function minorMajorRedundancy(
 function minorNonMathRedundancy(
   minorNodes: ReqNode[],
   plannedOrCompleted: Set<string>,
+  sharedElsewhere: (code: string) => boolean = () => false,
 ): { deltaTotal: number; deltaDone: number } {
   const nonMathPlanned = new Set([...plannedOrCompleted].filter(isNonMathElective));
   let deltaTotal = 0;
   let deltaDone = 0;
 
   /**
-   * Allocation-aware overlap for a pick-n group with mixed options. A slot actually
-   * filled with a Math-faculty course (e.g. CS115 in Cog Sci List 1) cannot double as
-   * a non-math elective, so it is not deducted — the denominator grows to match the
-   * real cost of that choice. Unfilled slots keep the optimistic assumption: deduct
-   * them while a non-math option could still fill them.
+   * Allocation-aware overlap for a pick-n group with mixed options.
+   * - A slot filled with a non-math course shares with the Non-Math Electives row.
+   * - A slot filled with a Math course another row credits (core pools, a major's
+   *   additional-courses pool — `sharedElsewhere` mirrors row crediting exactly)
+   *   shares with that row instead — either way the slot is deducted.
+   * - A slot filled with a Math course nothing else credits shares with nothing —
+   *   no deduction, and the denominator grows to the real cost of that choice.
+   * - Unfilled slots keep the optimistic assumption while a non-math option remains.
+   *
+   * Slots follow the group's children (a child OR like Cog Sci List 1's computation
+   * choice is ONE slot no matter how many of its options are planned); a flat
+   * all-course group falls back to counting options directly.
    */
-  function pickN(n: number, options: string[]) {
-    const nonMathOpts = options.filter(isNonMathElective);
-    const chosenNonMath = Math.min(nonMathOpts.filter(c => plannedOrCompleted.has(c)).length, n);
-    const chosenMath = Math.min(
-      options.filter(c => !isNonMathElective(c) && plannedOrCompleted.has(c)).length,
-      n - chosenNonMath,
-    );
-    const unfilled = n - chosenNonMath - chosenMath;
-    const assumed = Math.min(unfilled, Math.max(nonMathOpts.length - chosenNonMath, 0));
-    deltaTotal += chosenNonMath + assumed;
-    deltaDone += chosenNonMath;
+  function pickN(n: number, group: ReqNode) {
+    const children = group.children ?? [];
+    let filledNonMath = 0;
+    let filledShared = 0;
+    let filledUnshared = 0;
+    let assumable = 0;
+
+    if (children.length > 0 && children.some(c => c.type !== 'COURSE')) {
+      // One slot per child group.
+      for (const child of children) {
+        const opts = courseCodes(child);
+        const chosen = opts.filter(c => plannedOrCompleted.has(c));
+        if (chosen.length > 0) {
+          if (chosen.some(isNonMathElective)) filledNonMath++;
+          else if (chosen.some(sharedElsewhere)) filledShared++;
+          else filledUnshared++;
+        } else if (opts.some(isNonMathElective)) {
+          assumable++;
+        }
+      }
+    } else {
+      // Flat pick-n from courses: each chosen course occupies its own slot.
+      const opts = courseCodes(group);
+      for (const c of opts.filter(o => plannedOrCompleted.has(o))) {
+        if (isNonMathElective(c)) filledNonMath++;
+        else if (sharedElsewhere(c)) filledShared++;
+        else filledUnshared++;
+      }
+      assumable = opts.filter(c => isNonMathElective(c) && !plannedOrCompleted.has(c)).length;
+    }
+
+    filledNonMath = Math.min(filledNonMath, n);
+    filledShared = Math.min(filledShared, n - filledNonMath);
+    filledUnshared = Math.min(filledUnshared, n - filledNonMath - filledShared);
+    const unfilled = n - filledNonMath - filledShared - filledUnshared;
+    const assumed = Math.min(unfilled, assumable);
+    deltaTotal += filledNonMath + filledShared + assumed;
+    deltaDone += filledNonMath + filledShared;
   }
 
   function walk(node: ReqNode) {
@@ -230,10 +265,17 @@ function minorNonMathRedundancy(
     }
     if (node.type === 'OR') {
       const orChildren = node.children ?? [];
-      // Pick-a-cluster OR (all branches N_OF) counts min-cluster-size slots in the minor
-      // row (see nodeProgress) — deduct the same number of potentially-overlapping slots.
+      // Pick-a-cluster OR (all branches N_OF) counts the chosen cluster's slots in the
+      // minor row (see nodeProgress) — deduct against the same cluster.
       if (orChildren.length > 0 && orChildren.every(c => c.type === 'N_OF')) {
-        pickN(Math.min(...orChildren.map(c => c.n ?? 1)), courseCodes(node));
+        let active = orChildren[0];
+        let bestDone = 0;
+        for (const c of orChildren) {
+          const p = nodeProgress(c, plannedOrCompleted);
+          if (p.done > bestDone) { bestDone = p.done; active = c; }
+        }
+        if (bestDone > 0) pickN(active.n ?? 1, active);
+        else pickN(Math.min(...orChildren.map(c => c.n ?? 1)), node);
         return;
       }
       const opts = courseCodes(node);
@@ -243,10 +285,14 @@ function minorNonMathRedundancy(
         if (opts.some(c => plannedOrCompleted.has(c))) deltaDone++;
         return;
       }
-      // Mixed options: overlap only once the slot is actually filled with a non-math course.
-      if (opts.some(c => isNonMathElective(c) && plannedOrCompleted.has(c))) {
-        deltaTotal++;
-        deltaDone++;
+      // Mixed options (all-math ORs are coreGroupRedundancy's job): overlap only once the
+      // slot is actually filled — by a non-math course, or by a math course another row credits.
+      if (opts.some(isNonMathElective)) {
+        const chosen = opts.filter(c => plannedOrCompleted.has(c));
+        if (chosen.some(isNonMathElective) || chosen.some(c => !isNonMathElective(c) && sharedElsewhere(c))) {
+          deltaTotal++;
+          deltaDone++;
+        }
       }
       return;
     }
@@ -262,7 +308,7 @@ function minorNonMathRedundancy(
     }
     if (node.type === 'N_OF' && node.n != null) {
       // A pick-n group occupies only n slots — deduct at most n, allocation-aware.
-      pickN(node.n, courseCodes(node));
+      pickN(node.n, node);
       return;
     }
     for (const child of node.children ?? []) walk(child);
@@ -383,6 +429,31 @@ export function computeDegreeHeadlineMetrics(
     });
   }
 
+  // A math course "shares elsewhere" when another row would credit it: it's in a core
+  // pool, or it fits one of the majors' additional-courses pools (checked with the same
+  // nodeProgress matching the Major row uses, so dedup and crediting always agree).
+  const majorAdditionalNodes: ReqNode[] = [];
+  {
+    const collect = (n: ReqNode) => {
+      if (n.type === 'ADDITIONAL') majorAdditionalNodes.push(n);
+      (n.children ?? []).forEach(collect);
+    };
+    for (const { id } of majorCandidates) {
+      const e = programs[id];
+      if (e) topLevelRequirementNodes(e).forEach(collect);
+    }
+  }
+  const sharedCache = new Map<string, boolean>();
+  const sharedElsewhere = (code: string): boolean => {
+    let v = sharedCache.get(code);
+    if (v === undefined) {
+      v = coreAllCodes.has(code)
+        || majorAdditionalNodes.some(a => nodeProgress(a, new Set([code])).done > 0);
+      sharedCache.set(code, v);
+    }
+    return v;
+  };
+
   const minorEntry = program.minorId ? programs[program.minorId] : null;
   const minorProgress = minorEntry ? entryProgress(program.minorId!, coreAllCodes) : null;
   const minorFloor = minorEntry?.minCourses ?? 8;
@@ -395,7 +466,7 @@ export function computeDegreeHeadlineMetrics(
     });
     const minorCore = coreGroupRedundancy(coreOrSets, minorNodes, plannedOrCompleted);
     const minorMajor = minorMajorRedundancy(allMajorNodes, minorNodes, plannedOrCompleted, coreOrSets);
-    const minorNonMath = minorNonMathRedundancy(minorNodes, plannedOrCompleted);
+    const minorNonMath = minorNonMathRedundancy(minorNodes, plannedOrCompleted, sharedElsewhere);
     overlapDeltaTotal += minorCore.deltaTotal + minorMajor.deltaTotal + minorNonMath.deltaTotal;
     overlapDeltaDone += minorCore.deltaDone + minorMajor.deltaDone + minorNonMath.deltaDone;
   }
@@ -418,7 +489,7 @@ export function computeDegreeHeadlineMetrics(
       // Deduct spec slots that overlap with core, major/minor, or non-math electives.
       const specCore = coreGroupRedundancy(coreOrSets, specNodes, plannedOrCompleted);
       const specMajorMinor = minorMajorRedundancy(allMajorAndMinorNodes, specNodes, plannedOrCompleted, coreOrSets);
-      const specNonMath = minorNonMathRedundancy(specNodes, plannedOrCompleted);
+      const specNonMath = minorNonMathRedundancy(specNodes, plannedOrCompleted, sharedElsewhere);
       overlapDeltaTotal += specCore.deltaTotal + specMajorMinor.deltaTotal + specNonMath.deltaTotal;
       overlapDeltaDone += specCore.deltaDone + specMajorMinor.deltaDone + specNonMath.deltaDone;
       return { name: e.name, current: p.done, max: specMin > 0 ? Math.max(p.total, specMin) : p.total };
