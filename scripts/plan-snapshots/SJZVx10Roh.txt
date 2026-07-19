@@ -5,15 +5,195 @@
 Complete 2.5 units of GER courses
 ---
 Complete 1.5 additional unit of GER courses or from the Approved Courses List below
+---
+CI100
+Cultural Identities Today
+---
+CI200
+Transcultural Studies
+---
+CI250
+Truth - Reconciliation - Story
+---
+DUTCH101
+Elementary Dutch 1
+---
+DUTCH102
+Elementary Dutch 2
+---
+HIST223
+The Holocaust in History
+---
+HIST247
+Mennonite History: A Survey
+---
+HIST265
+Eastern Europe Since 1945
+---
+HIST358
+Nazi Germany
+---
+JS203
+Jewish Responses to the Holocaust
+---
+MUSIC250
+European Music History 1: Middle Ages to Classical Period
+---
+MUSIC251
+European Music History 2: Romantic and Modern Eras
+---
+MUSIC260
+Music for Orchestra
+---
+MUSIC261
+Opera and Musical Theatre
+---
+RCS211
+Jewish Responses to the Holocaust
 
 ## PLANNED (every course planned)
 
 Complete 2.5 units of GER courses
 ---
 Complete 1.5 additional unit of GER courses or from the Approved Courses List below
+---
+✓
+CI100
+Cultural Identities Today
+planned
+---
+✓
+CI200
+Transcultural Studies
+planned
+---
+✓
+CI250
+Truth - Reconciliation - Story
+planned
+---
+✓
+DUTCH101
+Elementary Dutch 1
+planned
+---
+✓
+DUTCH102
+Elementary Dutch 2
+planned
+---
+✓
+HIST223
+The Holocaust in History
+planned
+---
+✓
+HIST247
+Mennonite History: A Survey
+planned
+---
+✓
+HIST265
+Eastern Europe Since 1945
+planned
+---
+✓
+HIST358
+Nazi Germany
+planned
+---
+✓
+JS203
+Jewish Responses to the Holocaust
+planned
+---
+✓
+MUSIC250
+European Music History 1: Middle Ages to Classical Period
+planned
+---
+✓
+MUSIC251
+European Music History 2: Romantic and Modern Eras
+planned
+---
+✓
+MUSIC260
+Music for Orchestra
+planned
+---
+✓
+MUSIC261
+Opera and Musical Theatre
+planned
+---
+✓
+RCS211
+Jewish Responses to the Holocaust
+planned
 
 ## DONE (every course completed)
 
 Complete 2.5 units of GER courses
 ---
 Complete 1.5 additional unit of GER courses or from the Approved Courses List below
+---
+✓
+CI100
+Cultural Identities Today
+---
+✓
+CI200
+Transcultural Studies
+---
+✓
+CI250
+Truth - Reconciliation - Story
+---
+✓
+DUTCH101
+Elementary Dutch 1
+---
+✓
+DUTCH102
+Elementary Dutch 2
+---
+✓
+HIST223
+The Holocaust in History
+---
+✓
+HIST247
+Mennonite History: A Survey
+---
+✓
+HIST265
+Eastern Europe Since 1945
+---
+✓
+HIST358
+Nazi Germany
+---
+✓
+JS203
+Jewish Responses to the Holocaust
+---
+✓
+MUSIC250
+European Music History 1: Middle Ages to Classical Period
+---
+✓
+MUSIC251
+European Music History 2: Romantic and Modern Eras
+---
+✓
+MUSIC260
+Music for Orchestra
+---
+✓
+MUSIC261
+Opera and Musical Theatre
+---
+✓
+RCS211
+Jewish Responses to the Holocaust

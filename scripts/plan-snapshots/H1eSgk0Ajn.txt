@@ -17,7 +17,242 @@ Complete 1 of the following:
 ---
 Complete 1.0 unit of courses in the same subject from any of the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, RCS, REES, RUSS, SI, SPAN
 ---
-Complete 3 additional courses (subject codes: GA, PSCI)
+Complete 1.5 units from the following lists of courses (see Additional Constraints)
+---
+Approved Courses
+Choose any of the following:
+ANTH447
+Global Health and Medical Anthropology
+---
+Approved Courses
+Choose any of the following:
+ARTS450
+Global Engagement Seminar
+---
+Approved Courses
+Choose any of the following:
+BLKST304
+Pan-African Global Politics
+PSCI304
+Pan-African Global Politics
+---
+Approved Courses
+Choose any of the following:
+EASIA277R
+International Relations of East Asia
+EASIA302R
+Chinese Foreign Policy Since 1949
+PSCI277
+International Relations of East Asia
+PSCI385
+Chinese Foreign Policy Since 1949
+---
+Approved Courses
+Choose any of the following:
+ECON207
+Economic Growth and Development 1
+ECON231
+Introduction to International Economics
+ECON332
+International Finance
+ECON436
+International Trade
+---
+Approved Courses
+Choose any of the following:
+ERS222
+War and the Environment
+ERS404
+Global Environmental Governance
+ERS462
+Global Food and Agricultural Politics
+GEOG462
+Global Food and Agricultural Politics
+PSCI432
+Global Environmental Governance
+PSCI488
+Global Food and Agricultural Politics
+---
+Approved Courses
+Choose any of the following:
+ERS404
+Global Environmental Governance
+ERS462
+Global Food and Agricultural Politics
+GEOG462
+Global Food and Agricultural Politics
+HIST369
+The Politics of Decolonization
+PSCI150
+Introduction to Global Politics
+PSCI252
+Global South
+PSCI257
+Introduction to Middle East Politics
+PSCI281
+Introduction to International Relations
+PSCI282
+Foreign Policy
+PSCI283
+International Political Economy
+PSCI284
+Introduction to Security Studies
+PSCI355
+Russia and its Neighbours
+PSCI359
+Politics of South Asia
+PSCI368
+Global Discourses on Colonialism
+PSCI369
+The Politics of Decolonization
+PSCI375
+Transnational Migration
+PSCI380
+Political Economy of International Trade
+PSCI382
+Canada in Global Context
+PSCI384
+Technology and International Security
+PSCI387
+Globalization
+PSCI389
+Global Governance
+PSCI404
+Globalization, International Business, and Development
+PSCI408
+The Politics of Global Money and Finance
+PSCI420
+Gender and Global Politics
+PSCI432
+Global Environmental Governance
+PSCI439
+Global Social Policy
+PSCI479
+International Political Economy of Asia
+PSCI480
+China and Global Governance
+PSCI481
+Interstate War
+PSCI482
+Advanced Issues in Security Studies
+PSCI485
+Selected Topics in International Political Economy
+PSCI486
+Special Topics in International Diplomacy
+PSCI488
+Global Food and Agricultural Politics
+---
+Approved Courses
+Choose any of the following:
+ERS462
+Global Food and Agricultural Politics
+GEOG202
+Economy and Development: Spaces of Global Transformation
+GEOG225
+Global Environment and Health
+GEOG326
+Environment and Development in a Global Perspective
+GEOG426
+Development and Global Change: Worlds in Transition
+GEOG462
+Global Food and Agricultural Politics
+PSCI488
+Global Food and Agricultural Politics
+---
+Approved Courses
+Choose any of the following:
+GA390
+Special Topics in Global Affairs
+GA490
+Special Topics in Global Affairs
+---
+Approved Courses
+Choose any of the following:
+GSJ331
+Gender in War and Peace
+GSJ401
+Global Health
+HLTH401
+Global Health
+PACS321
+Gender in War and Peace
+---
+Approved Courses
+Choose any of the following:
+GSJ331
+Gender in War and Peace
+HIST232
+A History of Peace Movements
+PACS203
+A History of Peace Movements
+PACS318
+Peacebuilding in Divided Societies
+PACS321
+Gender in War and Peace
+PACS325
+Refugees and Forced Migration
+---
+Approved Courses
+Choose any of the following:
+HIST101
+Modern Global History
+HIST232
+A History of Peace Movements
+HIST268
+A Global History of Empires
+HIST275
+The Modern World in Historical Perspective
+HIST311
+International Relations, 1890-1951
+HIST315
+U.S. and the World
+HIST369
+The Politics of Decolonization
+HIST389
+Canada in World Affairs
+PACS203
+A History of Peace Movements
+PSCI369
+The Politics of Decolonization
+---
+Approved Courses
+Choose any of the following:
+HRTS301
+Human Rights and the United Nations
+HRTS305
+Indigenous Rights in Global Context
+INDG305
+Indigenous Rights in Global Context
+---
+Approved Courses
+Choose any of the following:
+LS352
+Human Rights
+LS425
+Crossing Borders: Law and Global Deviance
+LS426
+Criminology of Mobility
+LS461
+Transnational Organized Crime
+PHIL328
+Human Rights
+PSCI375
+Transnational Migration
+SOC270
+International Migration
+SOC425
+Crossing Borders: Law and Global Deviance
+SOC426
+Criminology of Mobility
+SOC461
+Transnational Organized Crime
+---
+Approved Courses
+Choose any of the following:
+LS352
+Human Rights
+PHIL328
+Human Rights
 
 ## PLANNED (every course planned)
 
@@ -46,8 +281,450 @@ Complete 1 of the following:
   planned
 ---
 Complete 1.0 unit of courses in the same subject from any of the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, RCS, REES, RUSS, SI, SPAN
+✓
+EASIA277R
 ---
-Complete 3 additional courses (subject codes: GA, PSCI)
+Complete 1.5 units from the following lists of courses (see Additional Constraints)
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ANTH447
+Global Health and Medical Anthropology
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ARTS450
+Global Engagement Seminar
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+BLKST304
+Pan-African Global Politics
+planned
+✓
+PSCI304
+Pan-African Global Politics
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+EASIA277R
+International Relations of East Asia
+planned
+✓
+EASIA302R
+Chinese Foreign Policy Since 1949
+planned
+✓
+PSCI277
+International Relations of East Asia
+planned
+✓
+PSCI385
+Chinese Foreign Policy Since 1949
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ECON207
+Economic Growth and Development 1
+planned
+✓
+ECON231
+Introduction to International Economics
+planned
+✓
+ECON332
+International Finance
+planned
+✓
+ECON436
+International Trade
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ERS222
+War and the Environment
+planned
+✓
+ERS404
+Global Environmental Governance
+planned
+✓
+ERS462
+Global Food and Agricultural Politics
+planned
+✓
+GEOG462
+Global Food and Agricultural Politics
+planned
+✓
+PSCI432
+Global Environmental Governance
+planned
+✓
+PSCI488
+Global Food and Agricultural Politics
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ERS404
+Global Environmental Governance
+planned
+✓
+ERS462
+Global Food and Agricultural Politics
+planned
+✓
+GEOG462
+Global Food and Agricultural Politics
+planned
+✓
+HIST369
+The Politics of Decolonization
+planned
+✓
+PSCI150
+Introduction to Global Politics
+planned
+✓
+PSCI252
+Global South
+planned
+✓
+PSCI257
+Introduction to Middle East Politics
+planned
+✓
+PSCI281
+Introduction to International Relations
+planned
+✓
+PSCI282
+Foreign Policy
+planned
+✓
+PSCI283
+International Political Economy
+planned
+✓
+PSCI284
+Introduction to Security Studies
+planned
+✓
+PSCI355
+Russia and its Neighbours
+planned
+✓
+PSCI359
+Politics of South Asia
+planned
+✓
+PSCI368
+Global Discourses on Colonialism
+planned
+✓
+PSCI369
+The Politics of Decolonization
+planned
+✓
+PSCI375
+Transnational Migration
+planned
+✓
+PSCI380
+Political Economy of International Trade
+planned
+✓
+PSCI382
+Canada in Global Context
+planned
+✓
+PSCI384
+Technology and International Security
+planned
+✓
+PSCI387
+Globalization
+planned
+✓
+PSCI389
+Global Governance
+planned
+✓
+PSCI404
+Globalization, International Business, and Development
+planned
+✓
+PSCI408
+The Politics of Global Money and Finance
+planned
+✓
+PSCI420
+Gender and Global Politics
+planned
+✓
+PSCI432
+Global Environmental Governance
+planned
+✓
+PSCI439
+Global Social Policy
+planned
+✓
+PSCI479
+International Political Economy of Asia
+planned
+✓
+PSCI480
+China and Global Governance
+planned
+✓
+PSCI481
+Interstate War
+planned
+✓
+PSCI482
+Advanced Issues in Security Studies
+planned
+✓
+PSCI485
+Selected Topics in International Political Economy
+planned
+✓
+PSCI486
+Special Topics in International Diplomacy
+planned
+✓
+PSCI488
+Global Food and Agricultural Politics
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ERS462
+Global Food and Agricultural Politics
+planned
+✓
+GEOG202
+Economy and Development: Spaces of Global Transformation
+planned
+✓
+GEOG225
+Global Environment and Health
+planned
+✓
+GEOG326
+Environment and Development in a Global Perspective
+planned
+✓
+GEOG426
+Development and Global Change: Worlds in Transition
+planned
+✓
+GEOG462
+Global Food and Agricultural Politics
+planned
+✓
+PSCI488
+Global Food and Agricultural Politics
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GA390
+Special Topics in Global Affairs
+planned
+✓
+GA490
+Special Topics in Global Affairs
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GSJ331
+Gender in War and Peace
+planned
+✓
+GSJ401
+Global Health
+planned
+✓
+HLTH401
+Global Health
+planned
+✓
+PACS321
+Gender in War and Peace
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GSJ331
+Gender in War and Peace
+planned
+✓
+HIST232
+A History of Peace Movements
+planned
+✓
+PACS203
+A History of Peace Movements
+planned
+✓
+PACS318
+Peacebuilding in Divided Societies
+planned
+✓
+PACS321
+Gender in War and Peace
+planned
+✓
+PACS325
+Refugees and Forced Migration
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+HIST101
+Modern Global History
+planned
+✓
+HIST232
+A History of Peace Movements
+planned
+✓
+HIST268
+A Global History of Empires
+planned
+✓
+HIST275
+The Modern World in Historical Perspective
+planned
+✓
+HIST311
+International Relations, 1890-1951
+planned
+✓
+HIST315
+U.S. and the World
+planned
+✓
+HIST369
+The Politics of Decolonization
+planned
+✓
+HIST389
+Canada in World Affairs
+planned
+✓
+PACS203
+A History of Peace Movements
+planned
+✓
+PSCI369
+The Politics of Decolonization
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+HRTS301
+Human Rights and the United Nations
+planned
+✓
+HRTS305
+Indigenous Rights in Global Context
+planned
+✓
+INDG305
+Indigenous Rights in Global Context
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+LS352
+Human Rights
+planned
+✓
+LS425
+Crossing Borders: Law and Global Deviance
+planned
+✓
+LS426
+Criminology of Mobility
+planned
+✓
+LS461
+Transnational Organized Crime
+planned
+✓
+PHIL328
+Human Rights
+planned
+✓
+PSCI375
+Transnational Migration
+planned
+✓
+SOC270
+International Migration
+planned
+✓
+SOC425
+Crossing Borders: Law and Global Deviance
+planned
+✓
+SOC426
+Criminology of Mobility
+planned
+✓
+SOC461
+Transnational Organized Crime
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+LS352
+Human Rights
+planned
+✓
+PHIL328
+Human Rights
+planned
 
 ## DONE (every course completed)
 
@@ -63,5 +740,352 @@ PSCI281
 Introduction to International Relations
 ---
 Complete 1.0 unit of courses in the same subject from any of the following language and culture subject codes: ARABIC, ASL, CHINA, CI, CROAT, DUTCH, EASIA, FR, GER, GRK, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MOHAWK, PORT, RCS, REES, RUSS, SI, SPAN
+✓
+EASIA277R
 ---
-Complete 3 additional courses (subject codes: GA, PSCI)
+Complete 1.5 units from the following lists of courses (see Additional Constraints)
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ANTH447
+Global Health and Medical Anthropology
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ARTS450
+Global Engagement Seminar
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+BLKST304
+Pan-African Global Politics
+✓
+PSCI304
+Pan-African Global Politics
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+EASIA277R
+International Relations of East Asia
+✓
+EASIA302R
+Chinese Foreign Policy Since 1949
+✓
+PSCI277
+International Relations of East Asia
+✓
+PSCI385
+Chinese Foreign Policy Since 1949
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ECON207
+Economic Growth and Development 1
+✓
+ECON231
+Introduction to International Economics
+✓
+ECON332
+International Finance
+✓
+ECON436
+International Trade
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ERS222
+War and the Environment
+✓
+ERS404
+Global Environmental Governance
+✓
+ERS462
+Global Food and Agricultural Politics
+✓
+GEOG462
+Global Food and Agricultural Politics
+✓
+PSCI432
+Global Environmental Governance
+✓
+PSCI488
+Global Food and Agricultural Politics
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ERS404
+Global Environmental Governance
+✓
+ERS462
+Global Food and Agricultural Politics
+✓
+GEOG462
+Global Food and Agricultural Politics
+✓
+HIST369
+The Politics of Decolonization
+✓
+PSCI150
+Introduction to Global Politics
+✓
+PSCI252
+Global South
+✓
+PSCI257
+Introduction to Middle East Politics
+✓
+PSCI281
+Introduction to International Relations
+✓
+PSCI282
+Foreign Policy
+✓
+PSCI283
+International Political Economy
+✓
+PSCI284
+Introduction to Security Studies
+✓
+PSCI355
+Russia and its Neighbours
+✓
+PSCI359
+Politics of South Asia
+✓
+PSCI368
+Global Discourses on Colonialism
+✓
+PSCI369
+The Politics of Decolonization
+✓
+PSCI375
+Transnational Migration
+✓
+PSCI380
+Political Economy of International Trade
+✓
+PSCI382
+Canada in Global Context
+✓
+PSCI384
+Technology and International Security
+✓
+PSCI387
+Globalization
+✓
+PSCI389
+Global Governance
+✓
+PSCI404
+Globalization, International Business, and Development
+✓
+PSCI408
+The Politics of Global Money and Finance
+✓
+PSCI420
+Gender and Global Politics
+✓
+PSCI432
+Global Environmental Governance
+✓
+PSCI439
+Global Social Policy
+✓
+PSCI479
+International Political Economy of Asia
+✓
+PSCI480
+China and Global Governance
+✓
+PSCI481
+Interstate War
+✓
+PSCI482
+Advanced Issues in Security Studies
+✓
+PSCI485
+Selected Topics in International Political Economy
+✓
+PSCI486
+Special Topics in International Diplomacy
+✓
+PSCI488
+Global Food and Agricultural Politics
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ERS462
+Global Food and Agricultural Politics
+✓
+GEOG202
+Economy and Development: Spaces of Global Transformation
+✓
+GEOG225
+Global Environment and Health
+✓
+GEOG326
+Environment and Development in a Global Perspective
+✓
+GEOG426
+Development and Global Change: Worlds in Transition
+✓
+GEOG462
+Global Food and Agricultural Politics
+✓
+PSCI488
+Global Food and Agricultural Politics
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GA390
+Special Topics in Global Affairs
+✓
+GA490
+Special Topics in Global Affairs
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GSJ331
+Gender in War and Peace
+✓
+GSJ401
+Global Health
+✓
+HLTH401
+Global Health
+✓
+PACS321
+Gender in War and Peace
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GSJ331
+Gender in War and Peace
+✓
+HIST232
+A History of Peace Movements
+✓
+PACS203
+A History of Peace Movements
+✓
+PACS318
+Peacebuilding in Divided Societies
+✓
+PACS321
+Gender in War and Peace
+✓
+PACS325
+Refugees and Forced Migration
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+HIST101
+Modern Global History
+✓
+HIST232
+A History of Peace Movements
+✓
+HIST268
+A Global History of Empires
+✓
+HIST275
+The Modern World in Historical Perspective
+✓
+HIST311
+International Relations, 1890-1951
+✓
+HIST315
+U.S. and the World
+✓
+HIST369
+The Politics of Decolonization
+✓
+HIST389
+Canada in World Affairs
+✓
+PACS203
+A History of Peace Movements
+✓
+PSCI369
+The Politics of Decolonization
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+HRTS301
+Human Rights and the United Nations
+✓
+HRTS305
+Indigenous Rights in Global Context
+✓
+INDG305
+Indigenous Rights in Global Context
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+LS352
+Human Rights
+✓
+LS425
+Crossing Borders: Law and Global Deviance
+✓
+LS426
+Criminology of Mobility
+✓
+LS461
+Transnational Organized Crime
+✓
+PHIL328
+Human Rights
+✓
+PSCI375
+Transnational Migration
+✓
+SOC270
+International Migration
+✓
+SOC425
+Crossing Borders: Law and Global Deviance
+✓
+SOC426
+Criminology of Mobility
+✓
+SOC461
+Transnational Organized Crime
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+LS352
+Human Rights
+✓
+PHIL328
+Human Rights

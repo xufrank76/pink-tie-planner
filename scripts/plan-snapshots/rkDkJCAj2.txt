@@ -36,6 +36,7 @@ Complete 2 of the following:
   Object-Oriented Software Development
 ---
 List 2
+✓
 Complete 2 courses from the following choices:
   Choose any of the following:
   AMATH342

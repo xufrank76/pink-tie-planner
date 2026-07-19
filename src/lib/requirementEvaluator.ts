@@ -6,6 +6,9 @@ export interface ReqNode {
   children?: ReqNode[];
   /** Calendar sub-section heading (e.g. "List 1") — display only, never matched against. */
   label?: string;
+  /** For pointer rows ("Complete N from the course lists below"): the course codes of
+   * the referenced sibling pools, wired at reparse time. */
+  pool?: string[];
 }
 
 // ── helpers ──────────────────────────────────────────────────────────────────
@@ -41,14 +44,16 @@ export function extractSubjectsFromText(text: string): Set<string> {
     const codes = raw.split(/[,\s/]+/).map(s => s.trim().toUpperCase()).filter(s => /^[A-Z]{2,8}$/.test(s));
     return codes.length > 0 ? new Set(codes) : null;
   };
-  // "subject codes (...): X, Y, Z" — list follows colon after optional parenthetical
-  const afterParen = text.match(/subject\s+codes?\s*(?:\([^)]*\))?\s*:\s*([A-Z][A-Z0-9,\s/]+?)(?:[;.\n]|$)/i);
+  // "subject codes (...): X, Y, Z" or "(subject codes: X, Y, Z)" — list follows the colon;
+  // a closing paren also terminates it (the whole phrase is often parenthesized).
+  const afterParen = text.match(/subject\s+codes?\s*(?:\([^)]*\))?\s*:\s*([A-Z][A-Z0-9,\s/]+?)(?:[;.)\n]|$)/i);
   if (afterParen) { const r = tryParse(afterParen[1]); if (r) return r; }
   // "from: X, Y, Z" or "subject codes (X, Y, Z)" — list is inline or parenthesized; semicolon ends the list
   const inline = text.match(/(?:from:|subject\s+codes?\s*\()\s*([A-Z][A-Z0-9,\s/]+?)(?:[);.\n]|$)/i);
   if (inline) { const r = tryParse(inline[1]); if (r) return r; }
-  // Single subject: "X courses" — only when no "from:" list was found above
-  const single = text.match(/\b([A-Z]{2,8})\s+courses?/i)?.[1]?.toUpperCase();
+  // Single subject: "CHEM courses" / "CHEM lecture courses". Case-sensitive capture so prose
+  // words never masquerade as subjects ("Complete 10 courses", "lecture courses").
+  const single = text.match(/\b([A-Z]{2,8})\s+(?:[a-z]+\s+)?courses?\b/)?.[1];
   if (single) return new Set([single]);
   return new Set();
 }
@@ -57,10 +62,25 @@ function nodeProgressAdditionalGeneral(node: ReqNode, completed: Set<string>): {
   const text = node.text ?? '';
   const n = node.n != null ? node.n : extractAdditionalN(text);
   if (n == null) return { done: 0, total: 0 };
+  // Pointer row wired to sibling pools at reparse ("Complete 8 courses from List 1 and
+  // List 2" over choose-any pools): count planned courses from the referenced lists.
+  // Hybrid rows ("2.0 units of additional PACS courses or from the following list")
+  // also accept subject matches alongside the pool.
+  if (node.pool?.length) {
+    const pool = new Set(node.pool);
+    const poolSubjects = extractSubjectsFromText(text);
+    const done = [...completed].filter(c => pool.has(c) || poolSubjects.has(courseSubject(c))).length;
+    return { done: Math.min(done, n), total: n };
+  }
   const subjects = extractSubjectsFromText(text);
-  // "Complete N courses from the options in List X" — this is a stub pointer to a sibling N_OF
-  // node that already counts these slots; return 0 to avoid double-counting.
+  // "Complete N courses from the options in List X" — a stub pointer whose sibling groups
+  // already count these slots (no pool was wired); return 0 to avoid double-counting.
   if (subjects.size === 0 && /\bList\s+\d+\b/i.test(text)) return { done: 0, total: 0 };
+  // Free-choice electives ("Complete 3 additional courses", no subject/list restriction):
+  // any course counts. Callers pass an exclusion-filtered set, so required courses don't.
+  if (subjects.size === 0 && /^Complete\s+\d+\s+additional\s+courses?\.?$/i.test(text.trim())) {
+    return { done: Math.min(completed.size, n), total: n };
+  }
   if (subjects.size === 0) return { done: 0, total: n };
   const levels = [...text.matchAll(/\b([1-4])00[-–]/g)].map(m => parseInt(m[1]));
   const orHigher = /or\s+higher/i.test(text);
@@ -249,6 +269,12 @@ export function nodeProgressCompMathAdditional(node: ReqNode, completed: Set<str
 
 // ── Core evaluator ────────────────────────────────────────────────────────────
 
+/** Option pool: an AND that just lists choices for a sibling pointer row. */
+export function isPoolAnd(node: ReqNode): boolean {
+  return node.type === 'AND'
+    && /^(choose\s+any|complete\s+no\s+more\s+than)/i.test((node.text ?? '').trimStart());
+}
+
 export function satisfies(node: ReqNode, completed: Set<string>): boolean {
   switch (node.type) {
     case 'COURSE':
@@ -256,7 +282,10 @@ export function satisfies(node: ReqNode, completed: Set<string>): boolean {
     case 'AND': {
       if (isStatActsciCommBlock(node)) return satisfiesStatActsciComm(node, completed);
       if (isMathUndergradCommBlock(node)) return satisfiesMathUndergradComm(node, completed);
-      return (node.children ?? []).every(c => satisfies(c, completed));
+      // Skip option-pool children ("Choose any…" / "no more than…") — they are lists
+      // for a sibling pointer row; requiring every pool course would block the parent
+      // forever. The pool node itself still reads unsatisfied (it's not a requirement).
+      return (node.children ?? []).every(c => isPoolAnd(c) || satisfies(c, completed));
     }
     case 'OR':
       return (node.children ?? []).some(c => satisfiesOrBranch(c, completed));
@@ -357,19 +386,19 @@ export function nodeProgress(node: ReqNode, completed: Set<string>): { done: num
       const nonAdditional = (node.children ?? []).filter(c => c.type !== 'ADDITIONAL');
       const additional = (node.children ?? []).filter(c => c.type === 'ADDITIONAL');
       // Nested AND children (required course blocks) must be recursed — counting as 1 slot
-      // would under-count. Pool/constraint ANDs (choose any / no more than) still count as 1.
+      // would under-count. Pool/constraint ANDs (choose any / no more than) are option
+      // lists for a sibling pointer row, not requirements — 0 slots.
       let nonAddDone = 0;
       let nonAddTotal = 0;
       for (const c of nonAdditional) {
         if (c.type === 'AND') {
           const ct = (c.text ?? '').trimStart();
           const isPool = /^choose\s+any/i.test(ct) || /^complete\s+no\s+more\s+than/i.test(ct);
-          if (!isPool) {
-            const p = nodeProgress(c, completed);
-            nonAddDone += p.done;
-            nonAddTotal += p.total;
-            continue;
-          }
+          if (isPool) continue;
+          const p = nodeProgress(c, completed);
+          nonAddDone += p.done;
+          nonAddTotal += p.total;
+          continue;
         }
         nonAddDone += satisfies(c, completed) ? 1 : 0;
         nonAddTotal += 1;

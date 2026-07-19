@@ -32,26 +32,8 @@ export const overlays = {
   'HJNg100jh': { // Gender and Social Justice Minor
     append: [{ type: 'ADDITIONAL', text: 'Complete 7 additional GSJ courses', n: 7, code: '' }],
   },
-  'H1eSgk0Ajn': { // Global Affairs Minor
-    append: [{ type: 'ADDITIONAL', text: 'Complete 3 additional courses (subject codes: GA, PSCI)', n: 3, code: '' }],
-  },
-  'BJmYWDzrT': { // Neuroscience Minor
-    append: [{ type: 'ADDITIONAL', text: 'Complete 5 additional courses (subject codes: BIOL, HLTH, KIN, PSYCH)', n: 5, code: '' }],
-  },
-  'rkxrgJ0Coh': { // Peace and Conflict Studies Minor
-    append: [{ type: 'ADDITIONAL', text: 'Complete 4 additional PACS courses', n: 4, code: '' }],
-  },
   'BJeUl100on': { // Philosophy Minor
     append: [{ type: 'ADDITIONAL', text: 'Complete 7 additional PHIL courses', n: 7, code: '' }],
-  },
-  'S1gDeyACs2': { // Sexualities, Relationships, and Families Minor
-    append: [{ type: 'ADDITIONAL', text: 'Complete 3 additional SRF courses', n: 3, code: '' }],
-  },
-  'BkVwey0Aih': { // Studies in Islamic and Arab Cultures Minor
-    append: [{ type: 'ADDITIONAL', text: 'Complete 2 additional courses (subject codes: SI, ARABIC)', n: 2, code: '' }],
-  },
-  'HyIvlJCAon': { // Visual Culture in a Global Context Minor
-    append: [{ type: 'ADDITIONAL', text: 'Complete 5 additional VCULT courses', n: 5, code: '' }],
   },
 
   // ── Statistics: "Complete 2 STAT courses at the 400-level" has no parsed n ──

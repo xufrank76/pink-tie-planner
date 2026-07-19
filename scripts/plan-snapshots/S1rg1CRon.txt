@@ -5,15 +5,207 @@
 Complete 1.0 unit of ITAL courses
 ---
 Complete 3.0 units of ITALST courses (see Additional Constraints)
+---
+ARCH428
+Rome and the Campagna (Rome)
+---
+ARCH446
+Italian Urban History (Rome)
+---
+ARCH449
+The Development of Modern Italian Architecture (Rome)
+---
+CLAS205
+Medieval Society
+---
+CLAS242
+Survey of Roman Art and Architecture
+---
+CLAS252
+Roman History
+---
+CLAS390
+Classical Studies Abroad
+---
+FINE212
+Renaissance Art: 1300-1500
+---
+FINE213
+Art of the 16th Century in Europe
+---
+HIST252
+Roman History
+---
+HIST351
+Canada: The Immigrant Experience
+---
+LAT101
+Introductory Latin 1
+---
+LAT102
+Introductory Latin 2
+---
+MEDVL205
+Medieval Society
+---
+MUSIC261
+Opera and Musical Theatre
+---
+VCULT242
+Survey of Roman Art and Architecture
 
 ## PLANNED (every course planned)
 
 Complete 1.0 unit of ITAL courses
 ---
 Complete 3.0 units of ITALST courses (see Additional Constraints)
+---
+✓
+ARCH428
+Rome and the Campagna (Rome)
+planned
+---
+✓
+ARCH446
+Italian Urban History (Rome)
+planned
+---
+✓
+ARCH449
+The Development of Modern Italian Architecture (Rome)
+planned
+---
+✓
+CLAS205
+Medieval Society
+planned
+---
+✓
+CLAS242
+Survey of Roman Art and Architecture
+planned
+---
+✓
+CLAS252
+Roman History
+planned
+---
+✓
+CLAS390
+Classical Studies Abroad
+planned
+---
+✓
+FINE212
+Renaissance Art: 1300-1500
+planned
+---
+✓
+FINE213
+Art of the 16th Century in Europe
+planned
+---
+✓
+HIST252
+Roman History
+planned
+---
+✓
+HIST351
+Canada: The Immigrant Experience
+planned
+---
+✓
+LAT101
+Introductory Latin 1
+planned
+---
+✓
+LAT102
+Introductory Latin 2
+planned
+---
+✓
+MEDVL205
+Medieval Society
+planned
+---
+✓
+MUSIC261
+Opera and Musical Theatre
+planned
+---
+✓
+VCULT242
+Survey of Roman Art and Architecture
+planned
 
 ## DONE (every course completed)
 
 Complete 1.0 unit of ITAL courses
 ---
 Complete 3.0 units of ITALST courses (see Additional Constraints)
+---
+✓
+ARCH428
+Rome and the Campagna (Rome)
+---
+✓
+ARCH446
+Italian Urban History (Rome)
+---
+✓
+ARCH449
+The Development of Modern Italian Architecture (Rome)
+---
+✓
+CLAS205
+Medieval Society
+---
+✓
+CLAS242
+Survey of Roman Art and Architecture
+---
+✓
+CLAS252
+Roman History
+---
+✓
+CLAS390
+Classical Studies Abroad
+---
+✓
+FINE212
+Renaissance Art: 1300-1500
+---
+✓
+FINE213
+Art of the 16th Century in Europe
+---
+✓
+HIST252
+Roman History
+---
+✓
+HIST351
+Canada: The Immigrant Experience
+---
+✓
+LAT101
+Introductory Latin 1
+---
+✓
+LAT102
+Introductory Latin 2
+---
+✓
+MEDVL205
+Medieval Society
+---
+✓
+MUSIC261
+Opera and Musical Theatre
+---
+✓
+VCULT242
+Survey of Roman Art and Architecture

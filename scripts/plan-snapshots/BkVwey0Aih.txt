@@ -11,7 +11,80 @@ Complete 1.0 unit of ARABIC courses
 ---
 Complete 1.0 unit of additional SI courses
 ---
-Complete 2 additional courses (subject codes: SI, ARABIC)
+Complete 1.0 additional unit from the courses listed above or from the following list of courses.
+---
+Approved Courses
+Choose any of the following:
+ANTH311
+Anthropology of Religion
+ANTH312
+Muslim Lives and Practices Worldwide
+ANTH350
+Anthropology of Gender
+CO480
+History of Mathematics
+ERS404
+Global Environmental Governance
+FINE214
+Visual Culture of Medieval Europe
+GEOG101
+Changing Human Environments
+GEOG326
+Environment and Development in a Global Perspective
+GSJ261
+Gender and the Great Religions
+GSJ350
+Anthropology of Gender
+HIST115
+Crusading in the Middle Ages
+HIST230
+Introduction to the Modern Middle East
+HIST260
+Medieval Europe c.300-c.1500
+HLTH253
+Demographic Change in Canada
+INDEV100
+Introduction to International Development
+INDEV300
+Culture and Ethics
+MEDVL115
+Crusading in the Middle Ages
+MEDVL260
+Medieval Europe c.300-c.1500
+MUSIC232
+Music as a Global Phenomenon
+MUSIC233
+Musical Rhythms of the World
+PACS326
+Religion and Peacebuilding
+PHIL227
+Culture and Ethics
+PSCI252
+Global South
+PSCI257
+Introduction to Middle East Politics
+PSCI432
+Global Environmental Governance
+RCS110
+Judaism, Christianity, Islam
+RCS216
+Islam
+RCS284
+Gender and the Great Religions
+RCS312
+Muslim Lives and Practices Worldwide
+RCS361
+Anthropology of Religion
+RCS380
+Religion and Peacebuilding
+SI216R
+Islam
+SI312
+Muslim Lives and Practices Worldwide
+SOC253
+Demographic Change in Canada
+---
+Choose from any additional ARABIC and/or SI courses
 
 ## PLANNED (every course planned)
 
@@ -30,7 +103,149 @@ Complete 1.0 unit of additional SI courses
 ✓
 SI121R
 ---
-Complete 2 additional courses (subject codes: SI, ARABIC)
+Complete 1.0 additional unit from the courses listed above or from the following list of courses.
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ANTH311
+Anthropology of Religion
+planned
+✓
+ANTH312
+Muslim Lives and Practices Worldwide
+planned
+✓
+ANTH350
+Anthropology of Gender
+planned
+✓
+CO480
+History of Mathematics
+planned
+✓
+ERS404
+Global Environmental Governance
+planned
+✓
+FINE214
+Visual Culture of Medieval Europe
+planned
+✓
+GEOG101
+Changing Human Environments
+planned
+✓
+GEOG326
+Environment and Development in a Global Perspective
+planned
+✓
+GSJ261
+Gender and the Great Religions
+planned
+✓
+GSJ350
+Anthropology of Gender
+planned
+✓
+HIST115
+Crusading in the Middle Ages
+planned
+✓
+HIST230
+Introduction to the Modern Middle East
+planned
+✓
+HIST260
+Medieval Europe c.300-c.1500
+planned
+✓
+HLTH253
+Demographic Change in Canada
+planned
+✓
+INDEV100
+Introduction to International Development
+planned
+✓
+INDEV300
+Culture and Ethics
+planned
+✓
+MEDVL115
+Crusading in the Middle Ages
+planned
+✓
+MEDVL260
+Medieval Europe c.300-c.1500
+planned
+✓
+MUSIC232
+Music as a Global Phenomenon
+planned
+✓
+MUSIC233
+Musical Rhythms of the World
+planned
+✓
+PACS326
+Religion and Peacebuilding
+planned
+✓
+PHIL227
+Culture and Ethics
+planned
+✓
+PSCI252
+Global South
+planned
+✓
+PSCI257
+Introduction to Middle East Politics
+planned
+✓
+PSCI432
+Global Environmental Governance
+planned
+✓
+RCS110
+Judaism, Christianity, Islam
+planned
+✓
+RCS216
+Islam
+planned
+✓
+RCS284
+Gender and the Great Religions
+planned
+✓
+RCS312
+Muslim Lives and Practices Worldwide
+planned
+✓
+RCS361
+Anthropology of Religion
+planned
+✓
+RCS380
+Religion and Peacebuilding
+planned
+✓
+SI216R
+Islam
+planned
+✓
+SI312
+Muslim Lives and Practices Worldwide
+planned
+✓
+SOC253
+Demographic Change in Canada
+planned
+---
+Choose from any additional ARABIC and/or SI courses
 
 ## DONE (every course completed)
 
@@ -47,4 +262,112 @@ Complete 1.0 unit of additional SI courses
 ✓
 SI121R
 ---
-Complete 2 additional courses (subject codes: SI, ARABIC)
+Complete 1.0 additional unit from the courses listed above or from the following list of courses.
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ANTH311
+Anthropology of Religion
+✓
+ANTH312
+Muslim Lives and Practices Worldwide
+✓
+ANTH350
+Anthropology of Gender
+✓
+CO480
+History of Mathematics
+✓
+ERS404
+Global Environmental Governance
+✓
+FINE214
+Visual Culture of Medieval Europe
+✓
+GEOG101
+Changing Human Environments
+✓
+GEOG326
+Environment and Development in a Global Perspective
+✓
+GSJ261
+Gender and the Great Religions
+✓
+GSJ350
+Anthropology of Gender
+✓
+HIST115
+Crusading in the Middle Ages
+✓
+HIST230
+Introduction to the Modern Middle East
+✓
+HIST260
+Medieval Europe c.300-c.1500
+✓
+HLTH253
+Demographic Change in Canada
+✓
+INDEV100
+Introduction to International Development
+✓
+INDEV300
+Culture and Ethics
+✓
+MEDVL115
+Crusading in the Middle Ages
+✓
+MEDVL260
+Medieval Europe c.300-c.1500
+✓
+MUSIC232
+Music as a Global Phenomenon
+✓
+MUSIC233
+Musical Rhythms of the World
+✓
+PACS326
+Religion and Peacebuilding
+✓
+PHIL227
+Culture and Ethics
+✓
+PSCI252
+Global South
+✓
+PSCI257
+Introduction to Middle East Politics
+✓
+PSCI432
+Global Environmental Governance
+✓
+RCS110
+Judaism, Christianity, Islam
+✓
+RCS216
+Islam
+✓
+RCS284
+Gender and the Great Religions
+✓
+RCS312
+Muslim Lives and Practices Worldwide
+✓
+RCS361
+Anthropology of Religion
+✓
+RCS380
+Religion and Peacebuilding
+✓
+SI216R
+Islam
+✓
+SI312
+Muslim Lives and Practices Worldwide
+✓
+SOC253
+Demographic Change in Canada
+---
+Choose from any additional ARABIC and/or SI courses

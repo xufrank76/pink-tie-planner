@@ -61,6 +61,11 @@ for (let i = 0; i < programs.length; i++) {
     const html = json.courseRequirementsNoUnits ?? '';
     const gradHtml = json.graduationRequirements ?? '';
     const constraintsHtml = json.additionalConstraints ?? '';
+    // Approved-course lists live in a separate field for some programs (e.g. Medieval
+    // Studies) — without it, "from the course lists below" rows point at nothing.
+    const listsHtml = json.courseListsNew ?? '';
+    if (listsHtml.trim()) data[id].courseListsHtml = listsHtml;
+    else delete data[id].courseListsHtml;
 
     // Always store graduation requirements and additional constraints for display.
     if (gradHtml.trim()) {

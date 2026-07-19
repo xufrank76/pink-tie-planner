@@ -13,7 +13,139 @@ Complete 1 of the following:
   VCULT101
   Art History and Visual Culture
 ---
-5 additional VCULT courses
+Complete 2.5 additional units from the following lists of courses (see Additional Constraints)
+---
+Approved Courses
+Choose any of the following:
+CLAS241
+Survey of Greek Art and Architecture
+CLAS242
+Survey of Roman Art and Architecture
+CLAS341
+Advanced Studies in Greek Art and Architecture
+---
+Approved Courses
+Choose any of the following:
+EASIA231R
+Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts
+EASIA275R
+Religion and Japanese Film
+---
+Approved Courses
+Choose any of the following:
+FINE243
+Topics in Fine Arts Experiential Learning
+FINE343
+Topics in Fine Arts Experiential Learning
+FINE344
+Fine Arts Internship
+VCULT209
+Global Modernisms: 1940-1970
+VCULT216
+Indigenous Visual Culture in Canada
+VCULT241
+Survey of Greek Art and Architecture
+VCULT242
+Survey of Roman Art and Architecture
+VCULT244
+History of Visual Media to 1910
+VCULT245
+History of Film and Visual Media from 1900 to Today
+VCULT252
+Religion in Popular Film
+VCULT256
+Experimental Film
+VCULT257
+Video, New Media and the Digital Turn
+VCULT262
+Global Queer Cinema
+VCULT275
+Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts
+VCULT281
+Art and Gender
+VCULT282
+Canadian Art from the 17th Century to 1940
+VCULT293
+Fine Arts Abroad
+VCULT319
+Contemporary Art
+VCULT330
+Topics Course in Museums, Galleries, Curatorship
+VCULT338
+Philosophy of Art
+VCULT341
+Advanced Studies in Greek Art and Architecture
+VCULT342
+Advanced Studies in Roman Art and Architecture
+VCULT393
+Fine Arts Abroad
+---
+Approved Courses
+Choose any of the following:
+GBDA101
+Introduction to Digital Media Design
+GBDA201
+Digital Media Project 1
+GBDA202
+Digital Media Project 2
+---
+Approved Courses
+Choose any of the following:
+GER283
+The Holocaust and Film
+---
+Approved Courses
+Choose any of the following:
+GSJ262
+Global Queer Cinema
+---
+Approved Courses
+Choose any of the following:
+INDG216
+Indigenous Visual Culture in Canada
+---
+Approved Courses
+Choose any of the following:
+JS233
+The Holocaust and Film
+---
+Approved Courses
+Choose any of the following:
+PHIL331
+Philosophy of Art
+---
+Approved Courses
+Choose any of the following:
+RCS270
+Religion in Popular Film
+RCS272
+The Holocaust and Film
+RCS275
+Religion and Japanese Film
+---
+Approved Courses
+Choose any of the following:
+SI230R
+Islamic Visual Culture: Art, Architecture, and Aesthetics
+SI231R
+Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts
+---
+Approved Courses
+Choose any of the following:
+VCULT201
+Global Histories of Art 1500-1800 C.E.
+VCULT204
+Art Institutions
+VCULT205
+Topics in Visual Culture
+VCULT208
+Global Modern Art: 1800-1940
+VCULT305
+Topics in Visual Culture
+---
+Choose any FINE course, to a maximum of 1.0 unit
+---
+Choose any DAC course, to a maximum of 0.5 unit
 
 ## PLANNED (every course planned)
 
@@ -37,15 +169,243 @@ Complete 1 of the following:
   Art History and Visual Culture
   planned
 ---
-5 additional VCULT courses
+Complete 2.5 additional units from the following lists of courses (see Additional Constraints)
+---
+Approved Courses
 ✓
-VCULT200
+Choose any of the following:
 ✓
-VCULT300
+CLAS241
+Survey of Greek Art and Architecture
+planned
 ✓
-VCULT100
+CLAS242
+Survey of Roman Art and Architecture
+planned
 ✓
-VCULT101
+CLAS341
+Advanced Studies in Greek Art and Architecture
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+EASIA231R
+Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts
+planned
+✓
+EASIA275R
+Religion and Japanese Film
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+FINE243
+Topics in Fine Arts Experiential Learning
+planned
+✓
+FINE343
+Topics in Fine Arts Experiential Learning
+planned
+✓
+FINE344
+Fine Arts Internship
+planned
+✓
+VCULT209
+Global Modernisms: 1940-1970
+planned
+✓
+VCULT216
+Indigenous Visual Culture in Canada
+planned
+✓
+VCULT241
+Survey of Greek Art and Architecture
+planned
+✓
+VCULT242
+Survey of Roman Art and Architecture
+planned
+✓
+VCULT244
+History of Visual Media to 1910
+planned
+✓
+VCULT245
+History of Film and Visual Media from 1900 to Today
+planned
+✓
+VCULT252
+Religion in Popular Film
+planned
+✓
+VCULT256
+Experimental Film
+planned
+✓
+VCULT257
+Video, New Media and the Digital Turn
+planned
+✓
+VCULT262
+Global Queer Cinema
+planned
+✓
+VCULT275
+Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts
+planned
+✓
+VCULT281
+Art and Gender
+planned
+✓
+VCULT282
+Canadian Art from the 17th Century to 1940
+planned
+✓
+VCULT293
+Fine Arts Abroad
+planned
+✓
+VCULT319
+Contemporary Art
+planned
+✓
+VCULT330
+Topics Course in Museums, Galleries, Curatorship
+planned
+✓
+VCULT338
+Philosophy of Art
+planned
+✓
+VCULT341
+Advanced Studies in Greek Art and Architecture
+planned
+✓
+VCULT342
+Advanced Studies in Roman Art and Architecture
+planned
+✓
+VCULT393
+Fine Arts Abroad
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GBDA101
+Introduction to Digital Media Design
+planned
+✓
+GBDA201
+Digital Media Project 1
+planned
+✓
+GBDA202
+Digital Media Project 2
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GER283
+The Holocaust and Film
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GSJ262
+Global Queer Cinema
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+INDG216
+Indigenous Visual Culture in Canada
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+JS233
+The Holocaust and Film
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+PHIL331
+Philosophy of Art
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+RCS270
+Religion in Popular Film
+planned
+✓
+RCS272
+The Holocaust and Film
+planned
+✓
+RCS275
+Religion and Japanese Film
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+SI230R
+Islamic Visual Culture: Art, Architecture, and Aesthetics
+planned
+✓
+SI231R
+Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+VCULT201
+Global Histories of Art 1500-1800 C.E.
+planned
+✓
+VCULT204
+Art Institutions
+planned
+✓
+VCULT205
+Topics in Visual Culture
+planned
+✓
+VCULT208
+Global Modern Art: 1800-1940
+planned
+✓
+VCULT305
+Topics in Visual Culture
+planned
+---
+Choose any FINE course, to a maximum of 1.0 unit
+---
+Choose any DAC course, to a maximum of 0.5 unit
 
 ## DONE (every course completed)
 
@@ -60,12 +420,194 @@ Visual Culture in Theory
 VCULT100
 World Cinema and Visual Culture
 ---
-5 additional VCULT courses
+Complete 2.5 additional units from the following lists of courses (see Additional Constraints)
+---
+Approved Courses
 ✓
-VCULT200
+Choose any of the following:
 ✓
-VCULT300
+CLAS241
+Survey of Greek Art and Architecture
 ✓
-VCULT100
+CLAS242
+Survey of Roman Art and Architecture
 ✓
-VCULT101
+CLAS341
+Advanced Studies in Greek Art and Architecture
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+EASIA231R
+Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts
+✓
+EASIA275R
+Religion and Japanese Film
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+FINE243
+Topics in Fine Arts Experiential Learning
+✓
+FINE343
+Topics in Fine Arts Experiential Learning
+✓
+FINE344
+Fine Arts Internship
+✓
+VCULT209
+Global Modernisms: 1940-1970
+✓
+VCULT216
+Indigenous Visual Culture in Canada
+✓
+VCULT241
+Survey of Greek Art and Architecture
+✓
+VCULT242
+Survey of Roman Art and Architecture
+✓
+VCULT244
+History of Visual Media to 1910
+✓
+VCULT245
+History of Film and Visual Media from 1900 to Today
+✓
+VCULT252
+Religion in Popular Film
+✓
+VCULT256
+Experimental Film
+✓
+VCULT257
+Video, New Media and the Digital Turn
+✓
+VCULT262
+Global Queer Cinema
+✓
+VCULT275
+Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts
+✓
+VCULT281
+Art and Gender
+✓
+VCULT282
+Canadian Art from the 17th Century to 1940
+✓
+VCULT293
+Fine Arts Abroad
+✓
+VCULT319
+Contemporary Art
+✓
+VCULT330
+Topics Course in Museums, Galleries, Curatorship
+✓
+VCULT338
+Philosophy of Art
+✓
+VCULT341
+Advanced Studies in Greek Art and Architecture
+✓
+VCULT342
+Advanced Studies in Roman Art and Architecture
+✓
+VCULT393
+Fine Arts Abroad
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GBDA101
+Introduction to Digital Media Design
+✓
+GBDA201
+Digital Media Project 1
+✓
+GBDA202
+Digital Media Project 2
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GER283
+The Holocaust and Film
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+GSJ262
+Global Queer Cinema
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+INDG216
+Indigenous Visual Culture in Canada
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+JS233
+The Holocaust and Film
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+PHIL331
+Philosophy of Art
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+RCS270
+Religion in Popular Film
+✓
+RCS272
+The Holocaust and Film
+✓
+RCS275
+Religion and Japanese Film
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+SI230R
+Islamic Visual Culture: Art, Architecture, and Aesthetics
+✓
+SI231R
+Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+VCULT201
+Global Histories of Art 1500-1800 C.E.
+✓
+VCULT204
+Art Institutions
+✓
+VCULT205
+Topics in Visual Culture
+✓
+VCULT208
+Global Modern Art: 1800-1940
+✓
+VCULT305
+Topics in Visual Culture
+---
+Choose any FINE course, to a maximum of 1.0 unit
+---
+Choose any DAC course, to a maximum of 0.5 unit

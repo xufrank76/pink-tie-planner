@@ -26,7 +26,81 @@ Complete 5 of the following:
   PSYCH335
   Developmental Neuropsychology
 ---
-Complete 5 additional courses (subject codes: BIOL, HLTH, KIN, PSYCH)
+Complete 5 courses from List 1 and/or List 2.
+---
+List 1
+Choose any of the following:
+BIOL472
+Cell Biology of Human Disease
+BIOL476
+Systems Neuroscience: From Neurons to Behaviour
+BIOL477L
+Techniques in Animal Physiology
+BIOL487
+Computational Neuroscience
+HLTH358
+Social Neuroscience 1: Mental Health and Addiction
+HLTH458
+Social Neuroscience 2: Lifestyle and Chronic Illness
+HLTH459
+Social Neurobiology of Eating
+HLTH461
+Experimental Methods in Behavioural Neuroscience
+HLTH471
+Neuropharmacology
+KIN356
+Sensory Systems Neuroscience
+KIN357
+Motor Learning and Neuroplasticity
+KIN359
+Cognition, Cognitive Dysfunction, and Movement
+KIN360
+Concussion
+KIN415
+Clinical Neurophysiology
+KIN416
+Neuromuscular Integration
+KIN459
+Cognitive, Emotional and Motor Assessment
+PSYCH390
+Natural Science Advanced Research Methods Topics
+PSYCH420
+An Introduction to Computational Neuroscience Methods
+SYDE552
+Computational Neuroscience
+---
+List 2
+Choose any of the following:
+BIOL499A
+Senior Honours Project
+BIOL499B
+Senior Honours Project
+HLTH432A
+Honours Thesis (A)
+HLTH432B
+Honours Thesis (B)
+HLTH472
+Independent Study
+KIN431
+Research Proposal
+KIN432
+Research Project
+KIN433
+Senior Essay
+KIN472
+Directed Study in Special Topics
+PSYCH461
+Honours Seminar in Cognitive Neuroscience
+PSYCH481
+Directed Studies - Natural Science Advanced Psychology
+PSYCH483
+Directed Studies - Natural Science Research
+PSYCH499A
+Honours Thesis - Part 1
+PSYCH499B
+Honours Thesis - Part 2
+PSYCH499C
+Honours Thesis - Part 3
 
 ## PLANNED (every course planned)
 
@@ -77,7 +151,151 @@ Complete 5 of the following:
   Developmental Neuropsychology
   planned
 ---
-Complete 5 additional courses (subject codes: BIOL, HLTH, KIN, PSYCH)
+Complete 5 courses from List 1 and/or List 2.
+---
+List 1
+✓
+Choose any of the following:
+✓
+BIOL472
+Cell Biology of Human Disease
+planned
+✓
+BIOL476
+Systems Neuroscience: From Neurons to Behaviour
+planned
+✓
+BIOL477L
+Techniques in Animal Physiology
+planned
+✓
+BIOL487
+Computational Neuroscience
+planned
+✓
+HLTH358
+Social Neuroscience 1: Mental Health and Addiction
+planned
+✓
+HLTH458
+Social Neuroscience 2: Lifestyle and Chronic Illness
+planned
+✓
+HLTH459
+Social Neurobiology of Eating
+planned
+✓
+HLTH461
+Experimental Methods in Behavioural Neuroscience
+planned
+✓
+HLTH471
+Neuropharmacology
+planned
+✓
+KIN356
+Sensory Systems Neuroscience
+planned
+✓
+KIN357
+Motor Learning and Neuroplasticity
+planned
+✓
+KIN359
+Cognition, Cognitive Dysfunction, and Movement
+planned
+✓
+KIN360
+Concussion
+planned
+✓
+KIN415
+Clinical Neurophysiology
+planned
+✓
+KIN416
+Neuromuscular Integration
+planned
+✓
+KIN459
+Cognitive, Emotional and Motor Assessment
+planned
+✓
+PSYCH390
+Natural Science Advanced Research Methods Topics
+planned
+✓
+PSYCH420
+An Introduction to Computational Neuroscience Methods
+planned
+✓
+SYDE552
+Computational Neuroscience
+planned
+---
+List 2
+✓
+Choose any of the following:
+✓
+BIOL499A
+Senior Honours Project
+planned
+✓
+BIOL499B
+Senior Honours Project
+planned
+✓
+HLTH432A
+Honours Thesis (A)
+planned
+✓
+HLTH432B
+Honours Thesis (B)
+planned
+✓
+HLTH472
+Independent Study
+planned
+✓
+KIN431
+Research Proposal
+planned
+✓
+KIN432
+Research Project
+planned
+✓
+KIN433
+Senior Essay
+planned
+✓
+KIN472
+Directed Study in Special Topics
+planned
+✓
+PSYCH461
+Honours Seminar in Cognitive Neuroscience
+planned
+✓
+PSYCH481
+Directed Studies - Natural Science Advanced Psychology
+planned
+✓
+PSYCH483
+Directed Studies - Natural Science Research
+planned
+✓
+PSYCH499A
+Honours Thesis - Part 1
+planned
+✓
+PSYCH499B
+Honours Thesis - Part 2
+planned
+✓
+PSYCH499C
+Honours Thesis - Part 3
+planned
 
 ## DONE (every course completed)
 
@@ -99,4 +317,114 @@ Complete 5 of the following:
   KIN255
   Fundamentals of Neuroscience
 ---
-Complete 5 additional courses (subject codes: BIOL, HLTH, KIN, PSYCH)
+Complete 5 courses from List 1 and/or List 2.
+---
+List 1
+✓
+Choose any of the following:
+✓
+BIOL472
+Cell Biology of Human Disease
+✓
+BIOL476
+Systems Neuroscience: From Neurons to Behaviour
+✓
+BIOL477L
+Techniques in Animal Physiology
+✓
+BIOL487
+Computational Neuroscience
+✓
+HLTH358
+Social Neuroscience 1: Mental Health and Addiction
+✓
+HLTH458
+Social Neuroscience 2: Lifestyle and Chronic Illness
+✓
+HLTH459
+Social Neurobiology of Eating
+✓
+HLTH461
+Experimental Methods in Behavioural Neuroscience
+✓
+HLTH471
+Neuropharmacology
+✓
+KIN356
+Sensory Systems Neuroscience
+✓
+KIN357
+Motor Learning and Neuroplasticity
+✓
+KIN359
+Cognition, Cognitive Dysfunction, and Movement
+✓
+KIN360
+Concussion
+✓
+KIN415
+Clinical Neurophysiology
+✓
+KIN416
+Neuromuscular Integration
+✓
+KIN459
+Cognitive, Emotional and Motor Assessment
+✓
+PSYCH390
+Natural Science Advanced Research Methods Topics
+✓
+PSYCH420
+An Introduction to Computational Neuroscience Methods
+✓
+SYDE552
+Computational Neuroscience
+---
+List 2
+✓
+Choose any of the following:
+✓
+BIOL499A
+Senior Honours Project
+✓
+BIOL499B
+Senior Honours Project
+✓
+HLTH432A
+Honours Thesis (A)
+✓
+HLTH432B
+Honours Thesis (B)
+✓
+HLTH472
+Independent Study
+✓
+KIN431
+Research Proposal
+✓
+KIN432
+Research Project
+✓
+KIN433
+Senior Essay
+✓
+KIN472
+Directed Study in Special Topics
+✓
+PSYCH461
+Honours Seminar in Cognitive Neuroscience
+✓
+PSYCH481
+Directed Studies - Natural Science Advanced Psychology
+✓
+PSYCH483
+Directed Studies - Natural Science Research
+✓
+PSYCH499A
+Honours Thesis - Part 1
+✓
+PSYCH499B
+Honours Thesis - Part 2
+✓
+PSYCH499C
+Honours Thesis - Part 3

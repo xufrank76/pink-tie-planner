@@ -12,6 +12,86 @@ Introduction to Social Work
 SDS2XX
 ---
 Complete 1.5 additional units from the approved courses list
+---
+Approved Courses
+Choose any of the following:
+LS223
+Deviance: Perspectives and Processes
+SOC204R
+Sociology of Adolescence
+SOC207
+Sociology of Education
+SOC207R
+Sociology of Education
+SOC223
+Deviance: Perspectives and Processes
+SOC223R
+Deviance: Perspectives and Processes
+SOC224R
+Poverty in Canada and its Social Consequences
+SOC375R
+Studies in Sociology
+SOC398R
+Independent Study
+SOC399R
+Independent Study
+SOC450R
+Senior Seminar in Special Topics
+SOC490R
+Special Studies
+---
+Approved Courses
+Choose any of the following:
+PSYCH212
+Educational Psychology
+PSYCH212R
+Educational Psychology
+PSYCH213R
+Exceptional Children
+PSYCH226R
+Positive Psychology
+PSYCH253
+Social Psychology
+PSYCH253R
+Social Psychology
+PSYCH257
+Psychopathology
+PSYCH257R
+Psychopathology
+PSYCH312
+Learning Disabilities
+PSYCH312R
+Learning Disabilities
+PSYCH334R
+Theories of Individual Counselling Psychology
+PSYCH352
+Culture and Psychology
+PSYCH352R
+Culture and Psychology
+PSYCH354
+Interpersonal Relations
+PSYCH354R
+Interpersonal Relations
+PSYCH356
+Personality
+PSYCH356R
+Personality
+PSYCH375R
+Studies in Psychology
+PSYCH398R
+Independent Study
+PSYCH399R
+Independent Study
+PSYCH444R
+Psychological Interventions
+PSYCH448R
+Close Relationships
+PSYCH450R
+Senior Seminar in Special Topics
+PSYCH490R
+Special Studies
+---
+SOCWK2XX
 
 ## PLANNED (every course planned)
 
@@ -31,6 +111,160 @@ planned
 SDS2XX
 ---
 Complete 1.5 additional units from the approved courses list
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+LS223
+Deviance: Perspectives and Processes
+planned
+✓
+SOC204R
+Sociology of Adolescence
+planned
+✓
+SOC207
+Sociology of Education
+planned
+✓
+SOC207R
+Sociology of Education
+planned
+✓
+SOC223
+Deviance: Perspectives and Processes
+planned
+✓
+SOC223R
+Deviance: Perspectives and Processes
+planned
+✓
+SOC224R
+Poverty in Canada and its Social Consequences
+planned
+✓
+SOC375R
+Studies in Sociology
+planned
+✓
+SOC398R
+Independent Study
+planned
+✓
+SOC399R
+Independent Study
+planned
+✓
+SOC450R
+Senior Seminar in Special Topics
+planned
+✓
+SOC490R
+Special Studies
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+PSYCH212
+Educational Psychology
+planned
+✓
+PSYCH212R
+Educational Psychology
+planned
+✓
+PSYCH213R
+Exceptional Children
+planned
+✓
+PSYCH226R
+Positive Psychology
+planned
+✓
+PSYCH253
+Social Psychology
+planned
+✓
+PSYCH253R
+Social Psychology
+planned
+✓
+PSYCH257
+Psychopathology
+planned
+✓
+PSYCH257R
+Psychopathology
+planned
+✓
+PSYCH312
+Learning Disabilities
+planned
+✓
+PSYCH312R
+Learning Disabilities
+planned
+✓
+PSYCH334R
+Theories of Individual Counselling Psychology
+planned
+✓
+PSYCH352
+Culture and Psychology
+planned
+✓
+PSYCH352R
+Culture and Psychology
+planned
+✓
+PSYCH354
+Interpersonal Relations
+planned
+✓
+PSYCH354R
+Interpersonal Relations
+planned
+✓
+PSYCH356
+Personality
+planned
+✓
+PSYCH356R
+Personality
+planned
+✓
+PSYCH375R
+Studies in Psychology
+planned
+✓
+PSYCH398R
+Independent Study
+planned
+✓
+PSYCH399R
+Independent Study
+planned
+✓
+PSYCH444R
+Psychological Interventions
+planned
+✓
+PSYCH448R
+Close Relationships
+planned
+✓
+PSYCH450R
+Senior Seminar in Special Topics
+planned
+✓
+PSYCH490R
+Special Studies
+planned
+---
+SOCWK2XX
 
 ## DONE (every course completed)
 
@@ -47,3 +281,121 @@ Introduction to Social Work
 SDS2XX
 ---
 Complete 1.5 additional units from the approved courses list
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+LS223
+Deviance: Perspectives and Processes
+✓
+SOC204R
+Sociology of Adolescence
+✓
+SOC207
+Sociology of Education
+✓
+SOC207R
+Sociology of Education
+✓
+SOC223
+Deviance: Perspectives and Processes
+✓
+SOC223R
+Deviance: Perspectives and Processes
+✓
+SOC224R
+Poverty in Canada and its Social Consequences
+✓
+SOC375R
+Studies in Sociology
+✓
+SOC398R
+Independent Study
+✓
+SOC399R
+Independent Study
+✓
+SOC450R
+Senior Seminar in Special Topics
+✓
+SOC490R
+Special Studies
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+PSYCH212
+Educational Psychology
+✓
+PSYCH212R
+Educational Psychology
+✓
+PSYCH213R
+Exceptional Children
+✓
+PSYCH226R
+Positive Psychology
+✓
+PSYCH253
+Social Psychology
+✓
+PSYCH253R
+Social Psychology
+✓
+PSYCH257
+Psychopathology
+✓
+PSYCH257R
+Psychopathology
+✓
+PSYCH312
+Learning Disabilities
+✓
+PSYCH312R
+Learning Disabilities
+✓
+PSYCH334R
+Theories of Individual Counselling Psychology
+✓
+PSYCH352
+Culture and Psychology
+✓
+PSYCH352R
+Culture and Psychology
+✓
+PSYCH354
+Interpersonal Relations
+✓
+PSYCH354R
+Interpersonal Relations
+✓
+PSYCH356
+Personality
+✓
+PSYCH356R
+Personality
+✓
+PSYCH375R
+Studies in Psychology
+✓
+PSYCH398R
+Independent Study
+✓
+PSYCH399R
+Independent Study
+✓
+PSYCH444R
+Psychological Interventions
+✓
+PSYCH448R
+Close Relationships
+✓
+PSYCH450R
+Senior Seminar in Special Topics
+✓
+PSYCH490R
+Special Studies
+---
+SOCWK2XX

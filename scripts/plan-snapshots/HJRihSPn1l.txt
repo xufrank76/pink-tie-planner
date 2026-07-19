@@ -82,6 +82,42 @@ Complete 3 of the following:
   Machine Learning in Economics
   ECON425
   Topics in Econometrics
+---
+ECON201
+Microeconomic Theory for Business and Policy
+---
+ECON206
+Money and Banking 1
+---
+ECON207
+Economic Growth and Development 1
+---
+ECON212
+Introduction to Game Theory
+---
+ECON231
+Introduction to International Economics
+---
+ECON241
+Introduction to Public Economics
+---
+ECON255
+Introduction to Environmental and Natural Resource Economics
+---
+ECON256
+Introduction to Health Economics
+---
+ECON261
+Philosophy of Economics
+---
+ECON262
+History of Economic Thought
+---
+ECON351
+Labour Economics
+---
+ECON366
+Gender and Economics
 
 ## PLANNED (every course planned)
 
@@ -220,6 +256,66 @@ Complete 3 of the following:
   ECON425
   Topics in Econometrics
   planned
+---
+✓
+ECON201
+Microeconomic Theory for Business and Policy
+planned
+---
+✓
+ECON206
+Money and Banking 1
+planned
+---
+✓
+ECON207
+Economic Growth and Development 1
+planned
+---
+✓
+ECON212
+Introduction to Game Theory
+planned
+---
+✓
+ECON231
+Introduction to International Economics
+planned
+---
+✓
+ECON241
+Introduction to Public Economics
+planned
+---
+✓
+ECON255
+Introduction to Environmental and Natural Resource Economics
+planned
+---
+✓
+ECON256
+Introduction to Health Economics
+planned
+---
+✓
+ECON261
+Philosophy of Economics
+planned
+---
+✓
+ECON262
+History of Economic Thought
+planned
+---
+✓
+ECON351
+Labour Economics
+planned
+---
+✓
+ECON366
+Gender and Economics
+planned
 
 ## DONE (every course completed)
 
@@ -251,3 +347,51 @@ Complete 3 of the following:
   ✓
   ECON423
   Time Series Econometrics
+---
+✓
+ECON201
+Microeconomic Theory for Business and Policy
+---
+✓
+ECON206
+Money and Banking 1
+---
+✓
+ECON207
+Economic Growth and Development 1
+---
+✓
+ECON212
+Introduction to Game Theory
+---
+✓
+ECON231
+Introduction to International Economics
+---
+✓
+ECON241
+Introduction to Public Economics
+---
+✓
+ECON255
+Introduction to Environmental and Natural Resource Economics
+---
+✓
+ECON256
+Introduction to Health Economics
+---
+✓
+ECON261
+Philosophy of Economics
+---
+✓
+ECON262
+History of Economic Thought
+---
+✓
+ECON351
+Labour Economics
+---
+✓
+ECON366
+Gender and Economics

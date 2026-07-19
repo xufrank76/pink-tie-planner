@@ -42,7 +42,40 @@ Complete 1 of the following:
   MATBUS470
   Derivatives
 ---
-Complete 4 additional courses (subject codes: ECON, COMM, MSE, AFM, ACTSC, MATBUS)
+ARBUS200
+Entrepreneurship Principles and Practices
+---
+ECON206
+Money and Banking 1
+---
+ECON212
+Introduction to Game Theory
+---
+ECON231
+Introduction to International Economics
+---
+ECON254
+Economics of Sport
+---
+ECON332
+International Finance
+---
+ECON361
+Cost-Benefit Analysis and Project Evaluation
+---
+ENBUS203
+Green Entrepreneurship
+---
+MGMT220
+Entrepreneurship and the Creative Workplace
+---
+MGMT244
+Principles of Marketing
+---
+MGMT345
+Marketing Strategy
+---
+4 additional courses from: ACTSC, AFM, COMM, ECON, MATBUS, MSE
 
 ## PLANNED (every course planned)
 
@@ -99,7 +132,70 @@ Complete 1 of the following:
   Derivatives
   planned
 ---
-Complete 4 additional courses (subject codes: ECON, COMM, MSE, AFM, ACTSC, MATBUS)
+✓
+ARBUS200
+Entrepreneurship Principles and Practices
+planned
+---
+✓
+ECON206
+Money and Banking 1
+planned
+---
+✓
+ECON212
+Introduction to Game Theory
+planned
+---
+✓
+ECON231
+Introduction to International Economics
+planned
+---
+✓
+ECON254
+Economics of Sport
+planned
+---
+✓
+ECON332
+International Finance
+planned
+---
+✓
+ECON361
+Cost-Benefit Analysis and Project Evaluation
+planned
+---
+✓
+ENBUS203
+Green Entrepreneurship
+planned
+---
+✓
+MGMT220
+Entrepreneurship and the Creative Workplace
+planned
+---
+✓
+MGMT244
+Principles of Marketing
+planned
+---
+✓
+MGMT345
+Marketing Strategy
+planned
+---
+4 additional courses from: ACTSC, AFM, COMM, ECON, MATBUS, MSE
+✓
+ECON201
+✓
+COMM103
+✓
+ECON100
+✓
+ECON101
 
 ## DONE (every course completed)
 
@@ -120,4 +216,56 @@ Global Capital Markets and Financial Analytics
 ACTSC446
 Mathematics of Financial Markets
 ---
-Complete 4 additional courses (subject codes: ECON, COMM, MSE, AFM, ACTSC, MATBUS)
+✓
+ARBUS200
+Entrepreneurship Principles and Practices
+---
+✓
+ECON206
+Money and Banking 1
+---
+✓
+ECON212
+Introduction to Game Theory
+---
+✓
+ECON231
+Introduction to International Economics
+---
+✓
+ECON254
+Economics of Sport
+---
+✓
+ECON332
+International Finance
+---
+✓
+ECON361
+Cost-Benefit Analysis and Project Evaluation
+---
+✓
+ENBUS203
+Green Entrepreneurship
+---
+✓
+MGMT220
+Entrepreneurship and the Creative Workplace
+---
+✓
+MGMT244
+Principles of Marketing
+---
+✓
+MGMT345
+Marketing Strategy
+---
+4 additional courses from: ACTSC, AFM, COMM, ECON, MATBUS, MSE
+✓
+ECON201
+✓
+COMM103
+✓
+ECON100
+✓
+ECON101

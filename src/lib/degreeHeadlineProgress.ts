@@ -1,5 +1,5 @@
 import type { UserProgram } from '@/src/types/program';
-import { nodeProgress, courseCodes, extractSubjectsFromText, type ReqNode } from '@/src/lib/requirementEvaluator';
+import { nodeProgress, courseCodes, extractSubjectsFromText, extractAdditionalN, type ReqNode } from '@/src/lib/requirementEvaluator';
 import { patchCoreBmathRequirements } from '@/src/lib/coreBmathCommPatch';
 
 const MATH_FACULTY_SUBJECTS = new Set([
@@ -297,6 +297,12 @@ function minorNonMathRedundancy(
       return;
     }
     if (node.type === 'ADDITIONAL') {
+      // Pool-wired pointer rows count like a flat pick-n over the referenced lists.
+      if (node.pool?.length) {
+        const n = node.n ?? extractAdditionalN(node.text ?? '');
+        if (n != null) pickN(n, { type: 'N_OF', text: '', children: node.pool.map(code => ({ type: 'COURSE' as const, text: '', code })) });
+        return;
+      }
       const subjects = extractSubjectsFromText(node.text ?? '');
       // Only deduct slots whose subjects are exclusively non-Math.
       if (subjects.size > 0 && [...subjects].every(s => !MATH_FACULTY_SUBJECTS.has(s))) {
@@ -354,7 +360,11 @@ export function computeDegreeHeadlineMetrics(
   // non-ADDITIONAL sibling nodes in the same list (plus any caller-supplied extras), so that
   // core/required courses don't double-count into elective slots.
   function sumProgress(nodes: ReqNode[], additionalExclude: ReadonlySet<string> = new Set()): { done: number; total: number } {
-    const ownRequired = new Set<string>(nodes.filter(n => n.type !== 'ADDITIONAL').flatMap(n => courseCodes(n)));
+    // Pool nodes ("Choose any…" / "no more than…") are option lists, not requirements —
+    // their codes must stay countable by pointer ADDITIONALs that reference them.
+    const isPoolNode = (n: ReqNode) =>
+      n.type === 'AND' && /^(choose\s+any|complete\s+no\s+more\s+than)/i.test((n.text ?? '').trimStart());
+    const ownRequired = new Set<string>(nodes.filter(n => n.type !== 'ADDITIONAL' && !isPoolNode(n)).flatMap(n => courseCodes(n)));
     const exclude = additionalExclude.size > 0 ? new Set([...ownRequired, ...additionalExclude]) : ownRequired;
     let done = 0;
     let total = 0;

@@ -31,7 +31,106 @@ Complete 1 of the following:
   SRF366
   Special Topics in Relationships and Families
 ---
-3 additional SRF courses
+Approved Courses
+Complete 1 of the following:
+  CLAS311
+  Sex and Gender in the Ancient World
+  ENGL108E/GSJ108
+  Gender and Representation
+  ENGL208C
+  Studies in Children's Literature
+  ENGL208E/GSJ208E
+  Women's Writing
+  ENGL217
+  Canadian Children's Literature
+  GSJ222/PHIL202
+  Gender Issues
+  GSJ262/VCULT262
+  Global Queer Cinema
+  HIST213
+  A History of Popular Culture
+  HIST255/SDS220R
+  Changing Concepts of Childhood
+  HIST277/LS237
+  Canadian Legal History
+  HIST313
+  Modern Family
+  ITALST111/SRF111
+  Women, Sex, Marriage, and Family Traditions in Italy
+  ITALST112/SRF112
+  Women, Sexual Identities, and Relationships in Italy
+  JS218/RCS218
+  Seduction, Rivalry, and Dysfunction in the Bible
+  PHIL121
+  Moral Issues
+  PHIL201
+  Philosophy of Sex and Love
+  PHIL210J
+  Human Nature
+  PHIL219J
+  Practical Ethics
+  RCS150
+  Christian Ethics
+  RCS180
+  Love and Friendship
+  RCS241
+  Sex, Politics, and Religion in the U.S. and Canada
+  RCS254
+  Christian Sexual Ethics
+  RCS259
+  Gender, Sexuality, and Christianity
+---
+Approved Courses
+✓
+Complete 1.0 additional unit of SRF courses or from the following list of courses.
+  Choose any of the following:
+  ANTH350
+  Anthropology of Gender
+  GERON220
+  Psychosocial Perspectives on Lifespan Development and Health
+  GSJ302
+  Thinking Through Gender: Feminist Perspectives
+  GSJ326
+  Sexuality and the Law
+  GSJ350
+  Anthropology of Gender
+  HLTH220
+  Psychosocial Perspectives on Lifespan Development and Health
+  LS273
+  Children's Rights in Canada
+  LS325
+  Sexuality and the Law
+  LS374
+  The Evolution of Family Law in Canadian Society
+  PSYCH235
+  Psychological Perspectives on Gender and Sex
+  PSYCH318
+  Psychosexual Organization
+  SDS210R
+  Children's Rights in Canada
+  SDS353R
+  The Evolution of Family Law in Canadian Society
+  SDS354R
+  Values and Contemporary Families
+  SOC200
+  Sociology of Marriage and Family
+  SOC325
+  Sexuality and the Law
+  SOC355J
+  Power and Parenting
+  SOC369J
+  The Sociology of Community
+  SOCWK321R
+  Social Work with Families
+  At most 1 of the following:
+  SDS357R
+  Family Violence
+  SDS358R
+  Child Maltreatment: Identification and Prevention
+  SOCWK355R
+  Child Maltreatment: Identification and Prevention
+  SOCWK357R
+  Family Violence
 
 ## PLANNED (every course planned)
 
@@ -90,13 +189,200 @@ Complete 1 of the following:
   Special Topics in Relationships and Families
   planned
 ---
-3 additional SRF courses
+Approved Courses
 ✓
-SRF101
 ✓
-SRF207
+Complete 1 of the following:
+  ✓
+  CLAS311
+  Sex and Gender in the Ancient World
+  planned
+  ✓
+  ENGL108E/GSJ108
+  Gender and Representation
+  planned
+  ✓
+  ENGL208C
+  Studies in Children's Literature
+  planned
+  ✓
+  ENGL208E/GSJ208E
+  Women's Writing
+  planned
+  ✓
+  ENGL217
+  Canadian Children's Literature
+  planned
+  ✓
+  GSJ222/PHIL202
+  Gender Issues
+  planned
+  ✓
+  GSJ262/VCULT262
+  Global Queer Cinema
+  planned
+  ✓
+  HIST213
+  A History of Popular Culture
+  planned
+  ✓
+  HIST255/SDS220R
+  Changing Concepts of Childhood
+  planned
+  ✓
+  HIST277/LS237
+  Canadian Legal History
+  planned
+  ✓
+  HIST313
+  Modern Family
+  planned
+  ✓
+  ITALST111/SRF111
+  Women, Sex, Marriage, and Family Traditions in Italy
+  planned
+  ✓
+  ITALST112/SRF112
+  Women, Sexual Identities, and Relationships in Italy
+  planned
+  ✓
+  JS218/RCS218
+  Seduction, Rivalry, and Dysfunction in the Bible
+  planned
+  ✓
+  PHIL121
+  Moral Issues
+  planned
+  ✓
+  PHIL201
+  Philosophy of Sex and Love
+  planned
+  ✓
+  PHIL210J
+  Human Nature
+  planned
+  ✓
+  PHIL219J
+  Practical Ethics
+  planned
+  ✓
+  RCS150
+  Christian Ethics
+  planned
+  ✓
+  RCS180
+  Love and Friendship
+  planned
+  ✓
+  RCS241
+  Sex, Politics, and Religion in the U.S. and Canada
+  planned
+  ✓
+  RCS254
+  Christian Sexual Ethics
+  planned
+  ✓
+  RCS259
+  Gender, Sexuality, and Christianity
+  planned
+---
+Approved Courses
 ✓
-SRF310
+Complete 1.0 additional unit of SRF courses or from the following list of courses.
+  Choose any of the following:
+  ✓
+  ANTH350
+  Anthropology of Gender
+  planned
+  ✓
+  GERON220
+  Psychosocial Perspectives on Lifespan Development and Health
+  planned
+  ✓
+  GSJ302
+  Thinking Through Gender: Feminist Perspectives
+  planned
+  ✓
+  GSJ326
+  Sexuality and the Law
+  planned
+  ✓
+  GSJ350
+  Anthropology of Gender
+  planned
+  ✓
+  HLTH220
+  Psychosocial Perspectives on Lifespan Development and Health
+  planned
+  ✓
+  LS273
+  Children's Rights in Canada
+  planned
+  ✓
+  LS325
+  Sexuality and the Law
+  planned
+  ✓
+  LS374
+  The Evolution of Family Law in Canadian Society
+  planned
+  ✓
+  PSYCH235
+  Psychological Perspectives on Gender and Sex
+  planned
+  ✓
+  PSYCH318
+  Psychosexual Organization
+  planned
+  ✓
+  SDS210R
+  Children's Rights in Canada
+  planned
+  ✓
+  SDS353R
+  The Evolution of Family Law in Canadian Society
+  planned
+  ✓
+  SDS354R
+  Values and Contemporary Families
+  planned
+  ✓
+  SOC200
+  Sociology of Marriage and Family
+  planned
+  ✓
+  SOC325
+  Sexuality and the Law
+  planned
+  ✓
+  SOC355J
+  Power and Parenting
+  planned
+  ✓
+  SOC369J
+  The Sociology of Community
+  planned
+  ✓
+  SOCWK321R
+  Social Work with Families
+  planned
+  At most 1 of the following:
+  ✓
+  SDS357R
+  Family Violence
+  cap exceeded
+  ✓
+  SDS358R
+  Child Maltreatment: Identification and Prevention
+  cap exceeded
+  ✓
+  SOCWK355R
+  Child Maltreatment: Identification and Prevention
+  cap exceeded
+  ✓
+  SOCWK357R
+  Family Violence
+  cap exceeded
 
 ## DONE (every course completed)
 
@@ -118,10 +404,87 @@ A Psychological Analysis of Human Sexuality
 PSYCH354
 Interpersonal Relations
 ---
-3 additional SRF courses
+Approved Courses
 ✓
-SRF101
 ✓
-SRF207
+CLAS311
+Sex and Gender in the Ancient World
+---
+Approved Courses
 ✓
-SRF310
+Complete 1.0 additional unit of SRF courses or from the following list of courses.
+  Choose any of the following:
+  ✓
+  ANTH350
+  Anthropology of Gender
+  ✓
+  GERON220
+  Psychosocial Perspectives on Lifespan Development and Health
+  ✓
+  GSJ302
+  Thinking Through Gender: Feminist Perspectives
+  ✓
+  GSJ326
+  Sexuality and the Law
+  ✓
+  GSJ350
+  Anthropology of Gender
+  ✓
+  HLTH220
+  Psychosocial Perspectives on Lifespan Development and Health
+  ✓
+  LS273
+  Children's Rights in Canada
+  ✓
+  LS325
+  Sexuality and the Law
+  ✓
+  LS374
+  The Evolution of Family Law in Canadian Society
+  ✓
+  PSYCH235
+  Psychological Perspectives on Gender and Sex
+  ✓
+  PSYCH318
+  Psychosexual Organization
+  ✓
+  SDS210R
+  Children's Rights in Canada
+  ✓
+  SDS353R
+  The Evolution of Family Law in Canadian Society
+  ✓
+  SDS354R
+  Values and Contemporary Families
+  ✓
+  SOC200
+  Sociology of Marriage and Family
+  ✓
+  SOC325
+  Sexuality and the Law
+  ✓
+  SOC355J
+  Power and Parenting
+  ✓
+  SOC369J
+  The Sociology of Community
+  ✓
+  SOCWK321R
+  Social Work with Families
+  At most 1 of the following:
+  ✓
+  SDS357R
+  Family Violence
+  cap exceeded
+  ✓
+  SDS358R
+  Child Maltreatment: Identification and Prevention
+  cap exceeded
+  ✓
+  SOCWK355R
+  Child Maltreatment: Identification and Prevention
+  cap exceeded
+  ✓
+  SOCWK357R
+  Family Violence
+  cap exceeded

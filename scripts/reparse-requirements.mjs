@@ -188,6 +188,36 @@ function parseProgram(rawHtml) {
   return nodes;
 }
 
+// ── approved-course lists & pointer pools ────────────────────────────────────
+
+// Pool-like nodes contribute 0 slots themselves ("Choose any…" / "Complete no more
+// than…" option pools); pointer rows draw their courses from them.
+function isPoolNode(node) {
+  return node.type === 'AND' && /^(choose\s+any|complete\s+no\s+more\s+than)/i.test((node.text ?? '').trimStart());
+}
+
+function nodeCodes(node) {
+  if (node.code) return [node.code];
+  return (node.children ?? []).flatMap(nodeCodes);
+}
+
+// A pointer row: "Complete N … from the course lists below / approved courses list /
+// courses listed above / List 1 and List 2" — an ADDITIONAL with a count but no
+// courses or subjects of its own. Wire it to its pool-like siblings via `pool` so the
+// evaluator can count planned courses against the referenced lists.
+const POINTER_RE = /course\s+lists?\s+below|approved\s+courses?\s+list|courses?\s+listed\s+(?:above|below)|following\s+list\s+of\s+courses|lists?\s+of\s+courses|from\s+List\s+\d/i;
+
+function wirePointerPools(siblings) {
+  const poolCodes = [...new Set(siblings.filter(isPoolNode).flatMap(nodeCodes))];
+  for (const node of siblings) {
+    if (node.type === 'ADDITIONAL' && poolCodes.length > 0
+      && POINTER_RE.test(node.text ?? '') && nodeCodes(node).length === 0) {
+      node.pool = poolCodes;
+    }
+    if (node.children?.length) wirePointerPools(node.children);
+  }
+}
+
 // ── main ─────────────────────────────────────────────────────────────────────
 
 const data = JSON.parse(readFileSync(DATA, 'utf8'));
@@ -198,6 +228,14 @@ for (const [id, entry] of Object.entries(data)) {
   try {
     const requirements = parseProgram(entry.rawHtml);
     if (requirements.length > 0) {
+      // Approved-course lists from the separate Kuali field: append as labeled groups
+      // (they render under their headings and provide pools for pointer rows).
+      if (entry.courseListsHtml?.trim()) {
+        const listNodes = parseProgram(entry.courseListsHtml);
+        for (const n of listNodes) if (!n.label) n.label = 'Approved Courses';
+        requirements.push(...listNodes);
+      }
+      wirePointerPools(requirements);
       entry.requirements = applyOverlay(id, requirements);
       updated++;
     }

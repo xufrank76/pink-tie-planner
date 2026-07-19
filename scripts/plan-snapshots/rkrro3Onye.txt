@@ -26,7 +26,49 @@ Complete 1 of the following:
     Introduction to Macroeconomics (WLU)
     Complete 1.5 units from the Approved Courses list
 ---
-Complete 4 additional courses (subject codes: ECON, COMM, MSE)
+ECON206
+Money and Banking 1
+---
+ECON231
+Introduction to International Economics
+---
+ECON254
+Economics of Sport
+---
+ECON255
+Introduction to Environmental and Natural Resource Economics
+---
+ECON256
+Introduction to Health Economics
+---
+ECON261
+Philosophy of Economics
+---
+ECON262
+History of Economic Thought
+---
+ECON351
+Labour Economics
+---
+ECON361
+Cost-Benefit Analysis and Project Evaluation
+---
+ECON363
+The Economics of Social Problems
+---
+ECON366
+Gender and Economics
+---
+ECON437
+Urban Economics
+---
+ECON458
+Water Resource Economics
+---
+ECON467
+Canadian Economic History
+---
+4 additional courses from: COMM, ECON, MSE
 
 ## PLANNED (every course planned)
 
@@ -49,7 +91,85 @@ Principles of Economics
 planned
 Complete 2.0 units from the Approved Courses list
 ---
-Complete 4 additional courses (subject codes: ECON, COMM, MSE)
+✓
+ECON206
+Money and Banking 1
+planned
+---
+✓
+ECON231
+Introduction to International Economics
+planned
+---
+✓
+ECON254
+Economics of Sport
+planned
+---
+✓
+ECON255
+Introduction to Environmental and Natural Resource Economics
+planned
+---
+✓
+ECON256
+Introduction to Health Economics
+planned
+---
+✓
+ECON261
+Philosophy of Economics
+planned
+---
+✓
+ECON262
+History of Economic Thought
+planned
+---
+✓
+ECON351
+Labour Economics
+planned
+---
+✓
+ECON361
+Cost-Benefit Analysis and Project Evaluation
+planned
+---
+✓
+ECON363
+The Economics of Social Problems
+planned
+---
+✓
+ECON366
+Gender and Economics
+planned
+---
+✓
+ECON437
+Urban Economics
+planned
+---
+✓
+ECON458
+Water Resource Economics
+planned
+---
+✓
+ECON467
+Canadian Economic History
+planned
+---
+4 additional courses from: COMM, ECON, MSE
+✓
+ECON201
+✓
+ECON207
+✓
+ECON241
+✓
+COMM103
 
 ## DONE (every course completed)
 
@@ -68,4 +188,68 @@ COMM103
 Principles of Economics
 Complete 2.0 units from the Approved Courses list
 ---
-Complete 4 additional courses (subject codes: ECON, COMM, MSE)
+✓
+ECON206
+Money and Banking 1
+---
+✓
+ECON231
+Introduction to International Economics
+---
+✓
+ECON254
+Economics of Sport
+---
+✓
+ECON255
+Introduction to Environmental and Natural Resource Economics
+---
+✓
+ECON256
+Introduction to Health Economics
+---
+✓
+ECON261
+Philosophy of Economics
+---
+✓
+ECON262
+History of Economic Thought
+---
+✓
+ECON351
+Labour Economics
+---
+✓
+ECON361
+Cost-Benefit Analysis and Project Evaluation
+---
+✓
+ECON363
+The Economics of Social Problems
+---
+✓
+ECON366
+Gender and Economics
+---
+✓
+ECON437
+Urban Economics
+---
+✓
+ECON458
+Water Resource Economics
+---
+✓
+ECON467
+Canadian Economic History
+---
+4 additional courses from: COMM, ECON, MSE
+✓
+ECON201
+✓
+ECON207
+✓
+ECON241
+✓
+COMM103

@@ -38,6 +38,36 @@ Complete 1 of the following:
     Introduction to Macroeconomics
     Complete 1.0 units from the Approved Courses List
 ---
+ECON306
+Macroeconomics
+---
+ECON311
+Mathematical Economics
+---
+ECON392
+Strategic Situations and Welfare Economics
+---
+ECON406
+Money and Banking 2
+---
+ECON407
+Economic Growth and Development 2
+---
+ECON408
+Business Cycles
+---
+ECON409
+Workers, Jobs, and Wages
+---
+ECON412
+Topics in Game Theory
+---
+ECON491
+Advanced Microeconomics
+---
+ECON496
+Advanced Macroeconomics
+---
 3 additional ECON courses
 
 ## PLANNED (every course planned)
@@ -88,6 +118,56 @@ Principles of Economics
 planned
 Complete 1.5 units from the Approved Courses List
 ---
+✓
+ECON306
+Macroeconomics
+planned
+---
+✓
+ECON311
+Mathematical Economics
+planned
+---
+✓
+ECON392
+Strategic Situations and Welfare Economics
+planned
+---
+✓
+ECON406
+Money and Banking 2
+planned
+---
+✓
+ECON407
+Economic Growth and Development 2
+planned
+---
+✓
+ECON408
+Business Cycles
+planned
+---
+✓
+ECON409
+Workers, Jobs, and Wages
+planned
+---
+✓
+ECON412
+Topics in Game Theory
+planned
+---
+✓
+ECON491
+Advanced Microeconomics
+planned
+---
+✓
+ECON496
+Advanced Macroeconomics
+planned
+---
 3 additional ECON courses
 ✓
 ECON290
@@ -116,6 +196,46 @@ Advanced Calculus
 ECON100
 Principles of Economics
 Complete 1.5 units from the Approved Courses List
+---
+✓
+ECON306
+Macroeconomics
+---
+✓
+ECON311
+Mathematical Economics
+---
+✓
+ECON392
+Strategic Situations and Welfare Economics
+---
+✓
+ECON406
+Money and Banking 2
+---
+✓
+ECON407
+Economic Growth and Development 2
+---
+✓
+ECON408
+Business Cycles
+---
+✓
+ECON409
+Workers, Jobs, and Wages
+---
+✓
+ECON412
+Topics in Game Theory
+---
+✓
+ECON491
+Advanced Microeconomics
+---
+✓
+ECON496
+Advanced Macroeconomics
 ---
 3 additional ECON courses
 ✓

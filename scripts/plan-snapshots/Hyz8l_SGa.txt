@@ -17,6 +17,289 @@ Complete 1 of the following:
   Medieval Monsters
 ---
 Complete 3.0 units from the course lists below
+---
+Approved Courses
+Choose any of the following:
+ANTH201
+Introduction to Archaeology
+CLAS104
+Classical Mythology
+CLAS202
+Love, Life, and Death in Rome
+CLAS205
+Medieval Society
+CLAS220
+Philosophy of Friendship
+CLAS221
+Introduction to Archaeology
+CLAS242
+Survey of Roman Art and Architecture
+CLAS261
+Great Works: Ancient and Medieval
+CLAS325
+Greek and Roman Religion
+CLAS326
+The Body, Dress, and Religion
+CLAS327
+Astrology and Magic
+CLAS361
+History of Ancient Philosophy
+CLAS390
+Classical Studies Abroad
+CLAS461
+Studies in Ancient Philosophy
+CMW363
+The Church's Song
+DUTCH271
+Dutch Culture and Society
+ENGL200A
+English Literatures 1
+ENGL310A
+Middle English Literature
+ENGL310B
+Chaucer
+ENGL361
+Early Modern Worlds on Stage
+FINE212
+Renaissance Art: 1300-1500
+FINE214
+Visual Culture of Medieval Europe
+FR291
+French Civilization 1
+FR296
+French Culture and Literature: Origins to 1715
+FR410
+Medieval French Literature
+FR424
+16th-Century French Literature
+GER130
+Norse Mythology
+GER271
+German Thought and Culture: Objects
+GER298
+Topics in Cultural Studies
+GER330
+Infamous Lovers
+GSJ327
+The Body, Dress, and Religion
+ITALST291
+Italian Culture and Civilization 1
+ITALST311
+Medieval Italian Literature
+ITALST360
+Dante's Divine Comedy
+JS314
+Secret Teachings and Mysticism in Judaism
+MEDVL130
+Norse Mythology
+MEDVL205
+Medieval Society
+MEDVL305
+Medieval Death and Dying
+MEDVL330
+Infamous Lovers
+MEDVL492
+Medieval Archaeology Field School (1.00)
+MUSIC363
+The Church's Song
+PHIL207J
+Philosophy and J.R.R. Tolkien
+PHIL220J
+Philosophy of Friendship
+PHIL283
+Great Works: Ancient and Medieval
+PHIL380
+History of Ancient Philosophy
+PHIL382
+Medieval Philosophy
+PHIL403
+Studies in Ancient Philosophy
+PHIL404
+Studies in Medieval Philosophy
+PHIL451J
+Thomas Aquinas
+RCS110
+Judaism, Christianity, Islam
+RCS314
+Secret Teachings and Mysticism in Judaism
+RCS315
+Greek and Roman Religion
+RCS327
+The Body, Dress, and Religion
+RCS357
+The Church's Song
+SI230R
+Islamic Visual Culture: Art, Architecture, and Aesthetics
+VCULT242
+Survey of Roman Art and Architecture
+---
+Approved Courses
+Choose any of the following:
+CLAS242
+Survey of Roman Art and Architecture
+CLAS252
+Roman History
+FINE212
+Renaissance Art: 1300-1500
+FINE214
+Visual Culture of Medieval Europe
+GER230
+Vikings!
+GSJ347
+Witches, Wives, and Whores
+HHUM306
+Public Health in Medieval Society
+HHUM307
+Concepts of Health and Disease in Western Medical History
+HIST110
+A History of the Western World 1
+HIST115
+Crusading in the Middle Ages
+HIST235
+History of Christianity
+HIST236
+Law and Society in the Middle Ages
+HIST252
+Roman History
+HIST262
+Early Modern Europe 1450-1700
+HIST304
+Heresy and Religious Crises in Late Medieval Europe
+HIST317
+History of Sexuality: The Pre-Modern Period
+HIST329
+Origins of the Common Law
+HIST347
+Witches, Wives, and Whores
+HIST379
+Reformation History
+HIST422
+Special Topics in History
+LS236
+Law and Society in the Middle Ages
+MEDVL115
+Crusading in the Middle Ages
+MEDVL230
+Vikings!
+MEDVL250R
+The History of Islamic Civilization from Late Antiquity to 1300
+MEDVL251R
+The History of Islamic Civilization from 1300-1800: The Islamic Gunpowder Empires
+MEDVL304
+Heresy and Religious Crises in Late Medieval Europe
+MEDVL305
+Medieval Death and Dying
+MEDVL306
+Public Health in Medieval Society
+MEDVL307
+Concepts of Health and Disease in Western Medical History
+MEDVL492
+Medieval Archaeology Field School (1.00)
+RCS240
+History of Christianity
+RCS342
+Heresy and Religious Crises in Late Medieval Europe
+RCS343
+Reformation History
+SI250R
+The History of Islamic Civilization from Late Antiquity to 1300
+SI251R
+The History of Islamic Civilization from 1300-1800: The Islamic Gunpowder Empires
+SRF317
+History of Sexuality: The Pre-Modern Period
+VCULT242
+Survey of Roman Art and Architecture
+---
+Approved Courses
+Choose any of the following:
+ARABIC101R
+Introduction to Arabic 1
+ARABIC102R
+Introduction to Arabic 2
+ARABIC120R
+Literary Arabic for Heritage Speakers
+ENGL305A
+Old English Language and Literature
+ENGL305B
+The Age of Beowulf
+FR101
+Beginner French
+FR151
+Basic French 1
+FR152
+Basic French 2
+FR192A
+French Language 1: Module 1
+FR192B
+French Language 1: Module 2
+FR410
+Medieval French Literature
+FR424
+16th-Century French Literature
+GER101
+Elementary German 1
+GER102
+Elementary German 2
+GRK101
+Introductory Ancient Greek 1
+GRK102
+Introductory Ancient Greek 2
+GRK201
+Intermediate Greek
+GRK202
+Selections from Greek Authors
+ITAL101
+Introduction to Italian Language 1
+ITAL102
+Introduction to Italian Language 2
+ITAL155
+Intensive Introductory Italian Language
+ITAL201
+Intermediate Italian 1
+ITAL202
+Intermediate Italian 2
+LAT101
+Introductory Latin 1
+LAT102
+Introductory Latin 2
+LAT201
+Intermediate Latin
+LAT202
+Selections from Latin Authors
+LAT331
+Advanced Readings in Latin: Prose
+LAT332
+Advanced Readings in Latin: Poetry
+LAT341
+Advanced Studies in Latin: Selected Topics
+LAT351
+Latin Composition, Grammar, and Reading
+LAT381
+Medieval Latin
+LAT422
+Latin Palaeography
+LAT451
+Senior Latin Composition, Grammar, and Reading
+MEDVL492
+Medieval Archaeology Field School (1.00)
+RCS101
+Introductory Ancient Greek 1
+RCS102
+Introductory Ancient Greek 2
+RCS223
+Intermediate Greek
+RCS224
+Selections from Greek Authors
+RUSS101
+Elementary Russian 1
+RUSS102
+Elementary Russian 2
+SPAN101
+Introduction to Spanish 1
+SPAN102
+Introduction to Spanish 2
+SPAN446W
+Love in Medieval Spanish Literature (WLU)
 
 ## PLANNED (every course planned)
 
@@ -47,6 +330,566 @@ Complete 1 of the following:
   planned
 ---
 Complete 3.0 units from the course lists below
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ANTH201
+Introduction to Archaeology
+planned
+✓
+CLAS104
+Classical Mythology
+planned
+✓
+CLAS202
+Love, Life, and Death in Rome
+planned
+✓
+CLAS205
+Medieval Society
+planned
+✓
+CLAS220
+Philosophy of Friendship
+planned
+✓
+CLAS221
+Introduction to Archaeology
+planned
+✓
+CLAS242
+Survey of Roman Art and Architecture
+planned
+✓
+CLAS261
+Great Works: Ancient and Medieval
+planned
+✓
+CLAS325
+Greek and Roman Religion
+planned
+✓
+CLAS326
+The Body, Dress, and Religion
+planned
+✓
+CLAS327
+Astrology and Magic
+planned
+✓
+CLAS361
+History of Ancient Philosophy
+planned
+✓
+CLAS390
+Classical Studies Abroad
+planned
+✓
+CLAS461
+Studies in Ancient Philosophy
+planned
+✓
+CMW363
+The Church's Song
+planned
+✓
+DUTCH271
+Dutch Culture and Society
+planned
+✓
+ENGL200A
+English Literatures 1
+planned
+✓
+ENGL310A
+Middle English Literature
+planned
+✓
+ENGL310B
+Chaucer
+planned
+✓
+ENGL361
+Early Modern Worlds on Stage
+planned
+✓
+FINE212
+Renaissance Art: 1300-1500
+planned
+✓
+FINE214
+Visual Culture of Medieval Europe
+planned
+✓
+FR291
+French Civilization 1
+planned
+✓
+FR296
+French Culture and Literature: Origins to 1715
+planned
+✓
+FR410
+Medieval French Literature
+planned
+✓
+FR424
+16th-Century French Literature
+planned
+✓
+GER130
+Norse Mythology
+planned
+✓
+GER271
+German Thought and Culture: Objects
+planned
+✓
+GER298
+Topics in Cultural Studies
+planned
+✓
+GER330
+Infamous Lovers
+planned
+✓
+GSJ327
+The Body, Dress, and Religion
+planned
+✓
+ITALST291
+Italian Culture and Civilization 1
+planned
+✓
+ITALST311
+Medieval Italian Literature
+planned
+✓
+ITALST360
+Dante's Divine Comedy
+planned
+✓
+JS314
+Secret Teachings and Mysticism in Judaism
+planned
+✓
+MEDVL130
+Norse Mythology
+planned
+✓
+MEDVL205
+Medieval Society
+planned
+✓
+MEDVL305
+Medieval Death and Dying
+planned
+✓
+MEDVL330
+Infamous Lovers
+planned
+✓
+MEDVL492
+Medieval Archaeology Field School (1.00)
+planned
+✓
+MUSIC363
+The Church's Song
+planned
+✓
+PHIL207J
+Philosophy and J.R.R. Tolkien
+planned
+✓
+PHIL220J
+Philosophy of Friendship
+planned
+✓
+PHIL283
+Great Works: Ancient and Medieval
+planned
+✓
+PHIL380
+History of Ancient Philosophy
+planned
+✓
+PHIL382
+Medieval Philosophy
+planned
+✓
+PHIL403
+Studies in Ancient Philosophy
+planned
+✓
+PHIL404
+Studies in Medieval Philosophy
+planned
+✓
+PHIL451J
+Thomas Aquinas
+planned
+✓
+RCS110
+Judaism, Christianity, Islam
+planned
+✓
+RCS314
+Secret Teachings and Mysticism in Judaism
+planned
+✓
+RCS315
+Greek and Roman Religion
+planned
+✓
+RCS327
+The Body, Dress, and Religion
+planned
+✓
+RCS357
+The Church's Song
+planned
+✓
+SI230R
+Islamic Visual Culture: Art, Architecture, and Aesthetics
+planned
+✓
+VCULT242
+Survey of Roman Art and Architecture
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+CLAS242
+Survey of Roman Art and Architecture
+planned
+✓
+CLAS252
+Roman History
+planned
+✓
+FINE212
+Renaissance Art: 1300-1500
+planned
+✓
+FINE214
+Visual Culture of Medieval Europe
+planned
+✓
+GER230
+Vikings!
+planned
+✓
+GSJ347
+Witches, Wives, and Whores
+planned
+✓
+HHUM306
+Public Health in Medieval Society
+planned
+✓
+HHUM307
+Concepts of Health and Disease in Western Medical History
+planned
+✓
+HIST110
+A History of the Western World 1
+planned
+✓
+HIST115
+Crusading in the Middle Ages
+planned
+✓
+HIST235
+History of Christianity
+planned
+✓
+HIST236
+Law and Society in the Middle Ages
+planned
+✓
+HIST252
+Roman History
+planned
+✓
+HIST262
+Early Modern Europe 1450-1700
+planned
+✓
+HIST304
+Heresy and Religious Crises in Late Medieval Europe
+planned
+✓
+HIST317
+History of Sexuality: The Pre-Modern Period
+planned
+✓
+HIST329
+Origins of the Common Law
+planned
+✓
+HIST347
+Witches, Wives, and Whores
+planned
+✓
+HIST379
+Reformation History
+planned
+✓
+HIST422
+Special Topics in History
+planned
+✓
+LS236
+Law and Society in the Middle Ages
+planned
+✓
+MEDVL115
+Crusading in the Middle Ages
+planned
+✓
+MEDVL230
+Vikings!
+planned
+✓
+MEDVL250R
+The History of Islamic Civilization from Late Antiquity to 1300
+planned
+✓
+MEDVL251R
+The History of Islamic Civilization from 1300-1800: The Islamic Gunpowder Empires
+planned
+✓
+MEDVL304
+Heresy and Religious Crises in Late Medieval Europe
+planned
+✓
+MEDVL305
+Medieval Death and Dying
+planned
+✓
+MEDVL306
+Public Health in Medieval Society
+planned
+✓
+MEDVL307
+Concepts of Health and Disease in Western Medical History
+planned
+✓
+MEDVL492
+Medieval Archaeology Field School (1.00)
+planned
+✓
+RCS240
+History of Christianity
+planned
+✓
+RCS342
+Heresy and Religious Crises in Late Medieval Europe
+planned
+✓
+RCS343
+Reformation History
+planned
+✓
+SI250R
+The History of Islamic Civilization from Late Antiquity to 1300
+planned
+✓
+SI251R
+The History of Islamic Civilization from 1300-1800: The Islamic Gunpowder Empires
+planned
+✓
+SRF317
+History of Sexuality: The Pre-Modern Period
+planned
+✓
+VCULT242
+Survey of Roman Art and Architecture
+planned
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ARABIC101R
+Introduction to Arabic 1
+planned
+✓
+ARABIC102R
+Introduction to Arabic 2
+planned
+✓
+ARABIC120R
+Literary Arabic for Heritage Speakers
+planned
+✓
+ENGL305A
+Old English Language and Literature
+planned
+✓
+ENGL305B
+The Age of Beowulf
+planned
+✓
+FR101
+Beginner French
+planned
+✓
+FR151
+Basic French 1
+planned
+✓
+FR152
+Basic French 2
+planned
+✓
+FR192A
+French Language 1: Module 1
+planned
+✓
+FR192B
+French Language 1: Module 2
+planned
+✓
+FR410
+Medieval French Literature
+planned
+✓
+FR424
+16th-Century French Literature
+planned
+✓
+GER101
+Elementary German 1
+planned
+✓
+GER102
+Elementary German 2
+planned
+✓
+GRK101
+Introductory Ancient Greek 1
+planned
+✓
+GRK102
+Introductory Ancient Greek 2
+planned
+✓
+GRK201
+Intermediate Greek
+planned
+✓
+GRK202
+Selections from Greek Authors
+planned
+✓
+ITAL101
+Introduction to Italian Language 1
+planned
+✓
+ITAL102
+Introduction to Italian Language 2
+planned
+✓
+ITAL155
+Intensive Introductory Italian Language
+planned
+✓
+ITAL201
+Intermediate Italian 1
+planned
+✓
+ITAL202
+Intermediate Italian 2
+planned
+✓
+LAT101
+Introductory Latin 1
+planned
+✓
+LAT102
+Introductory Latin 2
+planned
+✓
+LAT201
+Intermediate Latin
+planned
+✓
+LAT202
+Selections from Latin Authors
+planned
+✓
+LAT331
+Advanced Readings in Latin: Prose
+planned
+✓
+LAT332
+Advanced Readings in Latin: Poetry
+planned
+✓
+LAT341
+Advanced Studies in Latin: Selected Topics
+planned
+✓
+LAT351
+Latin Composition, Grammar, and Reading
+planned
+✓
+LAT381
+Medieval Latin
+planned
+✓
+LAT422
+Latin Palaeography
+planned
+✓
+LAT451
+Senior Latin Composition, Grammar, and Reading
+planned
+✓
+MEDVL492
+Medieval Archaeology Field School (1.00)
+planned
+✓
+RCS101
+Introductory Ancient Greek 1
+planned
+✓
+RCS102
+Introductory Ancient Greek 2
+planned
+✓
+RCS223
+Intermediate Greek
+planned
+✓
+RCS224
+Selections from Greek Authors
+planned
+✓
+RUSS101
+Elementary Russian 1
+planned
+✓
+RUSS102
+Elementary Russian 2
+planned
+✓
+SPAN101
+Introduction to Spanish 1
+planned
+✓
+SPAN102
+Introduction to Spanish 2
+planned
+✓
+SPAN446W
+Love in Medieval Spanish Literature (WLU)
+planned
 
 ## DONE (every course completed)
 
@@ -59,3 +902,426 @@ CLAS205
 Medieval Society
 ---
 Complete 3.0 units from the course lists below
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ANTH201
+Introduction to Archaeology
+✓
+CLAS104
+Classical Mythology
+✓
+CLAS202
+Love, Life, and Death in Rome
+✓
+CLAS205
+Medieval Society
+✓
+CLAS220
+Philosophy of Friendship
+✓
+CLAS221
+Introduction to Archaeology
+✓
+CLAS242
+Survey of Roman Art and Architecture
+✓
+CLAS261
+Great Works: Ancient and Medieval
+✓
+CLAS325
+Greek and Roman Religion
+✓
+CLAS326
+The Body, Dress, and Religion
+✓
+CLAS327
+Astrology and Magic
+✓
+CLAS361
+History of Ancient Philosophy
+✓
+CLAS390
+Classical Studies Abroad
+✓
+CLAS461
+Studies in Ancient Philosophy
+✓
+CMW363
+The Church's Song
+✓
+DUTCH271
+Dutch Culture and Society
+✓
+ENGL200A
+English Literatures 1
+✓
+ENGL310A
+Middle English Literature
+✓
+ENGL310B
+Chaucer
+✓
+ENGL361
+Early Modern Worlds on Stage
+✓
+FINE212
+Renaissance Art: 1300-1500
+✓
+FINE214
+Visual Culture of Medieval Europe
+✓
+FR291
+French Civilization 1
+✓
+FR296
+French Culture and Literature: Origins to 1715
+✓
+FR410
+Medieval French Literature
+✓
+FR424
+16th-Century French Literature
+✓
+GER130
+Norse Mythology
+✓
+GER271
+German Thought and Culture: Objects
+✓
+GER298
+Topics in Cultural Studies
+✓
+GER330
+Infamous Lovers
+✓
+GSJ327
+The Body, Dress, and Religion
+✓
+ITALST291
+Italian Culture and Civilization 1
+✓
+ITALST311
+Medieval Italian Literature
+✓
+ITALST360
+Dante's Divine Comedy
+✓
+JS314
+Secret Teachings and Mysticism in Judaism
+✓
+MEDVL130
+Norse Mythology
+✓
+MEDVL205
+Medieval Society
+✓
+MEDVL305
+Medieval Death and Dying
+✓
+MEDVL330
+Infamous Lovers
+✓
+MEDVL492
+Medieval Archaeology Field School (1.00)
+✓
+MUSIC363
+The Church's Song
+✓
+PHIL207J
+Philosophy and J.R.R. Tolkien
+✓
+PHIL220J
+Philosophy of Friendship
+✓
+PHIL283
+Great Works: Ancient and Medieval
+✓
+PHIL380
+History of Ancient Philosophy
+✓
+PHIL382
+Medieval Philosophy
+✓
+PHIL403
+Studies in Ancient Philosophy
+✓
+PHIL404
+Studies in Medieval Philosophy
+✓
+PHIL451J
+Thomas Aquinas
+✓
+RCS110
+Judaism, Christianity, Islam
+✓
+RCS314
+Secret Teachings and Mysticism in Judaism
+✓
+RCS315
+Greek and Roman Religion
+✓
+RCS327
+The Body, Dress, and Religion
+✓
+RCS357
+The Church's Song
+✓
+SI230R
+Islamic Visual Culture: Art, Architecture, and Aesthetics
+✓
+VCULT242
+Survey of Roman Art and Architecture
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+CLAS242
+Survey of Roman Art and Architecture
+✓
+CLAS252
+Roman History
+✓
+FINE212
+Renaissance Art: 1300-1500
+✓
+FINE214
+Visual Culture of Medieval Europe
+✓
+GER230
+Vikings!
+✓
+GSJ347
+Witches, Wives, and Whores
+✓
+HHUM306
+Public Health in Medieval Society
+✓
+HHUM307
+Concepts of Health and Disease in Western Medical History
+✓
+HIST110
+A History of the Western World 1
+✓
+HIST115
+Crusading in the Middle Ages
+✓
+HIST235
+History of Christianity
+✓
+HIST236
+Law and Society in the Middle Ages
+✓
+HIST252
+Roman History
+✓
+HIST262
+Early Modern Europe 1450-1700
+✓
+HIST304
+Heresy and Religious Crises in Late Medieval Europe
+✓
+HIST317
+History of Sexuality: The Pre-Modern Period
+✓
+HIST329
+Origins of the Common Law
+✓
+HIST347
+Witches, Wives, and Whores
+✓
+HIST379
+Reformation History
+✓
+HIST422
+Special Topics in History
+✓
+LS236
+Law and Society in the Middle Ages
+✓
+MEDVL115
+Crusading in the Middle Ages
+✓
+MEDVL230
+Vikings!
+✓
+MEDVL250R
+The History of Islamic Civilization from Late Antiquity to 1300
+✓
+MEDVL251R
+The History of Islamic Civilization from 1300-1800: The Islamic Gunpowder Empires
+✓
+MEDVL304
+Heresy and Religious Crises in Late Medieval Europe
+✓
+MEDVL305
+Medieval Death and Dying
+✓
+MEDVL306
+Public Health in Medieval Society
+✓
+MEDVL307
+Concepts of Health and Disease in Western Medical History
+✓
+MEDVL492
+Medieval Archaeology Field School (1.00)
+✓
+RCS240
+History of Christianity
+✓
+RCS342
+Heresy and Religious Crises in Late Medieval Europe
+✓
+RCS343
+Reformation History
+✓
+SI250R
+The History of Islamic Civilization from Late Antiquity to 1300
+✓
+SI251R
+The History of Islamic Civilization from 1300-1800: The Islamic Gunpowder Empires
+✓
+SRF317
+History of Sexuality: The Pre-Modern Period
+✓
+VCULT242
+Survey of Roman Art and Architecture
+---
+Approved Courses
+✓
+Choose any of the following:
+✓
+ARABIC101R
+Introduction to Arabic 1
+✓
+ARABIC102R
+Introduction to Arabic 2
+✓
+ARABIC120R
+Literary Arabic for Heritage Speakers
+✓
+ENGL305A
+Old English Language and Literature
+✓
+ENGL305B
+The Age of Beowulf
+✓
+FR101
+Beginner French
+✓
+FR151
+Basic French 1
+✓
+FR152
+Basic French 2
+✓
+FR192A
+French Language 1: Module 1
+✓
+FR192B
+French Language 1: Module 2
+✓
+FR410
+Medieval French Literature
+✓
+FR424
+16th-Century French Literature
+✓
+GER101
+Elementary German 1
+✓
+GER102
+Elementary German 2
+✓
+GRK101
+Introductory Ancient Greek 1
+✓
+GRK102
+Introductory Ancient Greek 2
+✓
+GRK201
+Intermediate Greek
+✓
+GRK202
+Selections from Greek Authors
+✓
+ITAL101
+Introduction to Italian Language 1
+✓
+ITAL102
+Introduction to Italian Language 2
+✓
+ITAL155
+Intensive Introductory Italian Language
+✓
+ITAL201
+Intermediate Italian 1
+✓
+ITAL202
+Intermediate Italian 2
+✓
+LAT101
+Introductory Latin 1
+✓
+LAT102
+Introductory Latin 2
+✓
+LAT201
+Intermediate Latin
+✓
+LAT202
+Selections from Latin Authors
+✓
+LAT331
+Advanced Readings in Latin: Prose
+✓
+LAT332
+Advanced Readings in Latin: Poetry
+✓
+LAT341
+Advanced Studies in Latin: Selected Topics
+✓
+LAT351
+Latin Composition, Grammar, and Reading
+✓
+LAT381
+Medieval Latin
+✓
+LAT422
+Latin Palaeography
+✓
+LAT451
+Senior Latin Composition, Grammar, and Reading
+✓
+MEDVL492
+Medieval Archaeology Field School (1.00)
+✓
+RCS101
+Introductory Ancient Greek 1
+✓
+RCS102
+Introductory Ancient Greek 2
+✓
+RCS223
+Intermediate Greek
+✓
+RCS224
+Selections from Greek Authors
+✓
+RUSS101
+Elementary Russian 1
+✓
+RUSS102
+Elementary Russian 2
+✓
+SPAN101
+Introduction to Spanish 1
+✓
+SPAN102
+Introduction to Spanish 2
+✓
+SPAN446W
+Love in Medieval Spanish Literature (WLU)
