@@ -1,5 +1,5 @@
 import type { UserProgram } from '@/src/types/program';
-import { nodeProgress, courseCodes, extractSubjectsFromText, extractAdditionalN, type ReqNode } from '@/src/lib/requirementEvaluator';
+import { nodeProgress, courseCodes, requiredCourseCodes, extractSubjectsFromText, extractAdditionalN, type ReqNode } from '@/src/lib/requirementEvaluator';
 import { patchCoreBmathRequirements } from '@/src/lib/coreBmathCommPatch';
 
 const MATH_FACULTY_SUBJECTS = new Set([
@@ -35,6 +35,20 @@ function collectOrCodeSets(nodes: ReqNode[]): Set<string>[] {
   return result;
 }
 
+/** Collect N_OF option sets (pick-n pools) by recursing into AND (not OR/N_OF children). */
+function collectNofCodeSets(nodes: ReqNode[]): Set<string>[] {
+  const result: Set<string>[] = [];
+  for (const n of nodes) {
+    if (n.type === 'N_OF') {
+      const codes = courseCodes(n);
+      if (codes.length > 0) result.push(new Set(codes));
+    } else if (n.type === 'AND') {
+      result.push(...collectNofCodeSets(n.children ?? []));
+    }
+  }
+  return result;
+}
+
 /** Collect course codes that are mandatory (inside AND nodes, not inside OR). */
 function collectMandatoryCodes(nodes: ReqNode[]): Set<string> {
   const codes = new Set<string>();
@@ -53,12 +67,13 @@ function collectMandatoryCodes(nodes: ReqNode[]): Set<string> {
  * (b) a mandatory course in the major that is also an option in a core OR.
  * Returns {deltaTotal, deltaDone} to subtract from the core row.
  */
-function coreGroupRedundancy(
+export function coreGroupRedundancy(
   coreOrSets: Set<string>[],
   majorNodes: ReqNode[],
   plannedOrCompleted: Set<string>,
 ): { deltaTotal: number; deltaDone: number } {
   const majorOrSets = collectOrCodeSets(majorNodes);
+  const majorNofSets = collectNofCodeSets(majorNodes);
   const majorMandatory = collectMandatoryCodes(majorNodes);
   let deltaTotal = 0;
   let deltaDone = 0;
@@ -68,6 +83,13 @@ function coreGroupRedundancy(
     for (const mSet of majorOrSets) {
       if (mSet.size > 0 && mSet.size <= coreSet.size && [...mSet].every(c => coreSet.has(c))) {
         counted.add(i); break;
+      }
+    }
+    if (!counted.has(i)) {
+      // A major pick-n pool overlapping this core choice ("2 of CS115/CS135/…" vs the
+      // core intro-CS slot): the same course can fill both.
+      for (const mSet of majorNofSets) {
+        if ([...coreSet].some(c => mSet.has(c))) { counted.add(i); break; }
       }
     }
     if (!counted.has(i)) {
@@ -83,7 +105,7 @@ function coreGroupRedundancy(
   return { deltaTotal, deltaDone };
 }
 
-function majorNonMathRedundancy(
+export function majorNonMathRedundancy(
   majorNodes: ReqNode[],
   plannedOrCompleted: Set<string>,
 ): { deltaTotal: number; deltaDone: number } {
@@ -122,7 +144,7 @@ function majorNonMathRedundancy(
  * and non-Math COURSE slots already deducted by NonMathRedundancy — both prevent
  * triple-counting when a course satisfies three rows at once.
  */
-function minorMajorRedundancy(
+export function minorMajorRedundancy(
   primaryNodes: ReqNode[],
   secondaryNodes: ReqNode[],
   plannedOrCompleted: Set<string>,
@@ -130,6 +152,9 @@ function minorMajorRedundancy(
 ): { deltaTotal: number; deltaDone: number } {
   const primaryMandatory = collectMandatoryCodes(primaryNodes);
   const primaryOrSets = collectOrCodeSets(primaryNodes);
+  // Choice sets for OR↔OR pairing: ORs plus N_OF pools (each usable once).
+  const primaryChoiceSets = [...primaryOrSets, ...collectNofCodeSets(primaryNodes)];
+  const usedPrimaryChoiceSets = new Set<number>();
 
   function claimedByPrimary(code: string): boolean {
     if (primaryMandatory.has(code)) return true;
@@ -162,12 +187,25 @@ function minorMajorRedundancy(
       if (coreAlreadyHandles(options)) return;
       // All-non-math ORs are handled by majorNonMathRedundancy / minorNonMathRedundancy — skip
       if (options.length > 0 && options.every(isNonMathElective)) return;
-      // Only deduct if a primary MANDATORY course appears as an option in this secondary OR.
-      // Using primaryOrSets here would cause OR→OR false deductions: a primary OR claims
-      // only one course, so it can't guarantee multiple secondary OR slots are covered.
+      // Deduct if a primary MANDATORY course appears as an option in this secondary OR.
       if (options.length > 0 && options.some(c => primaryMandatory.has(c))) {
         deltaTotal++;
         if (options.some(c => plannedOrCompleted.has(c))) deltaDone++;
+        return;
+      }
+      // OR↔OR overlap ("1 of AMATH250/251" in both majors): one course satisfies both
+      // slots. Pair each secondary OR with at most one unused primary choice set so a
+      // single primary OR can't be claimed by several secondary ORs.
+      const optSet = new Set(options);
+      for (let i = 0; i < primaryChoiceSets.length; i++) {
+        if (usedPrimaryChoiceSets.has(i)) continue;
+        const ps = primaryChoiceSets[i];
+        const overlap = [...optSet].filter(c => !isNonMathElective(c) && ps.has(c));
+        if (overlap.length === 0) continue;
+        usedPrimaryChoiceSets.add(i);
+        deltaTotal++;
+        if (overlap.some(c => plannedOrCompleted.has(c))) deltaDone++;
+        return;
       }
       return;
     }
@@ -192,7 +230,7 @@ function minorMajorRedundancy(
  * by the Non-Math Electives row — those slots are double-counted in the headline.
  * Handles both specific COURSE nodes and subject-restricted ADDITIONAL nodes.
  */
-function minorNonMathRedundancy(
+export function minorNonMathRedundancy(
   minorNodes: ReqNode[],
   plannedOrCompleted: Set<string>,
   sharedElsewhere: (code: string) => boolean = () => false,
@@ -360,19 +398,16 @@ export function computeDegreeHeadlineMetrics(
   // non-ADDITIONAL sibling nodes in the same list (plus any caller-supplied extras), so that
   // core/required courses don't double-count into elective slots.
   function sumProgress(nodes: ReqNode[], additionalExclude: ReadonlySet<string> = new Set()): { done: number; total: number } {
-    // Pool nodes ("Choose any…" / "no more than…") are option lists, not requirements —
-    // their codes must stay countable by pointer ADDITIONALs that reference them.
-    const isPoolNode = (n: ReqNode) =>
-      n.type === 'AND' && /^(choose\s+any|complete\s+no\s+more\s+than)/i.test((n.text ?? '').trimStart());
-    const ownRequired = new Set<string>(nodes.filter(n => n.type !== 'ADDITIONAL' && !isPoolNode(n)).flatMap(n => courseCodes(n)));
+    // Pool codes ("Choose any…" lists) are skipped at any depth — they are options for
+    // pointer ADDITIONALs, not requirements.
+    const ownRequired = new Set<string>(nodes.filter(n => n.type !== 'ADDITIONAL').flatMap(n => requiredCourseCodes(n)));
     const exclude = additionalExclude.size > 0 ? new Set([...ownRequired, ...additionalExclude]) : ownRequired;
     let done = 0;
     let total = 0;
     for (const n of nodes) {
-      const base = n.type === 'ADDITIONAL' && exclude.size > 0
-        ? new Set([...plannedOrCompleted].filter(c => !exclude.has(c)))
-        : plannedOrCompleted;
-      const p = nodeProgress(n, base);
+      // The exclusion travels through nodeProgress so ADDITIONAL rows at any depth
+      // (not just top level) never re-count required/core courses.
+      const p = nodeProgress(n, plannedOrCompleted, exclude);
       done += p.done;
       total += p.total;
     }

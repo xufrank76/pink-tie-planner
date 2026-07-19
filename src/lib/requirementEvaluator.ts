@@ -58,40 +58,45 @@ export function extractSubjectsFromText(text: string): Set<string> {
   return new Set();
 }
 
-function nodeProgressAdditionalGeneral(node: ReqNode, completed: Set<string>): { done: number; total: number } {
+/** Courses in `completed` that this general ADDITIONAL row would accept (uncapped),
+ * or null when the row is a zero-slot stub. Shared by counting and by sequential
+ * claiming so sibling "additional" pools can't all count the same course. */
+export function additionalMatchedCodes(node: ReqNode, completed: Set<string>): string[] | null {
   const text = node.text ?? '';
   const n = node.n != null ? node.n : extractAdditionalN(text);
-  if (n == null) return { done: 0, total: 0 };
-  // Pointer row wired to sibling pools at reparse ("Complete 8 courses from List 1 and
-  // List 2" over choose-any pools): count planned courses from the referenced lists.
-  // Hybrid rows ("2.0 units of additional PACS courses or from the following list")
-  // also accept subject matches alongside the pool.
+  if (n == null) return null;
   if (node.pool?.length) {
     const pool = new Set(node.pool);
     const poolSubjects = extractSubjectsFromText(text);
-    const done = [...completed].filter(c => pool.has(c) || poolSubjects.has(courseSubject(c))).length;
-    return { done: Math.min(done, n), total: n };
+    return [...completed].filter(c => pool.has(c) || poolSubjects.has(courseSubject(c)));
   }
   const subjects = extractSubjectsFromText(text);
   // "Complete N courses from the options in List X" — a stub pointer whose sibling groups
-  // already count these slots (no pool was wired); return 0 to avoid double-counting.
-  if (subjects.size === 0 && /\bList\s+\d+\b/i.test(text)) return { done: 0, total: 0 };
-  // Free-choice electives ("Complete 3 additional courses", no subject/list restriction):
-  // any course counts. Callers pass an exclusion-filtered set, so required courses don't.
+  // already count these slots (no pool was wired); zero-slot.
+  if (subjects.size === 0 && /\bList\s+\d+\b/i.test(text)) return null;
+  // Free-choice electives ("Complete 3 additional courses"): any course counts.
   if (subjects.size === 0 && /^Complete\s+\d+\s+additional\s+courses?\.?$/i.test(text.trim())) {
-    return { done: Math.min(completed.size, n), total: n };
+    return [...completed];
   }
-  if (subjects.size === 0) return { done: 0, total: n };
+  if (subjects.size === 0) return [];
   const levels = [...text.matchAll(/\b([1-4])00[-–]/g)].map(m => parseInt(m[1]));
   const orHigher = /or\s+higher/i.test(text);
-  const done = [...completed].filter(code => {
+  return [...completed].filter(code => {
     const subj = courseSubject(code);
     if (!subjects.has(subj)) return false;
     if (levels.length === 0) return true;
     const lvl = Math.floor(courseLevel(code) / 100);
     return orHigher ? lvl >= levels[0] : levels.includes(lvl);
-  }).length;
-  return { done: Math.min(done, n), total: n };
+  });
+}
+
+function nodeProgressAdditionalGeneral(node: ReqNode, completed: Set<string>): { done: number; total: number } {
+  const text = node.text ?? '';
+  const n = node.n != null ? node.n : extractAdditionalN(text);
+  if (n == null) return { done: 0, total: 0 };
+  const matched = additionalMatchedCodes(node, completed);
+  if (matched == null) return { done: 0, total: 0 };
+  return { done: Math.min(matched.length, n), total: n };
 }
 
 // ── BMath Undergrad Communication Requirement ─────────────────────────────────
@@ -319,7 +324,14 @@ export function satisfiesOrBranch(node: ReqNode, completed: Set<string>): boolea
   return false;
 }
 
-export function nodeProgress(node: ReqNode, completed: Set<string>): { done: number; total: number } {
+const EMPTY_SET: ReadonlySet<string> = new Set();
+
+/**
+ * Slot progress for a node. `additionalExclude` carries course codes already claimed by
+ * required rules elsewhere (program-wide required + core) so that "additional courses"
+ * rows at ANY depth never re-count them; AND recursion extends it with local siblings.
+ */
+export function nodeProgress(node: ReqNode, completed: Set<string>, additionalExclude: ReadonlySet<string> = EMPTY_SET): { done: number; total: number } {
   switch (node.type) {
     case 'COURSE':
       if (!node.code) return { done: 0, total: 0 };
@@ -395,7 +407,7 @@ export function nodeProgress(node: ReqNode, completed: Set<string>): { done: num
           const ct = (c.text ?? '').trimStart();
           const isPool = /^choose\s+any/i.test(ct) || /^complete\s+no\s+more\s+than/i.test(ct);
           if (isPool) continue;
-          const p = nodeProgress(c, completed);
+          const p = nodeProgress(c, completed, additionalExclude);
           nonAddDone += p.done;
           nonAddTotal += p.total;
           continue;
@@ -403,10 +415,19 @@ export function nodeProgress(node: ReqNode, completed: Set<string>): { done: num
         nonAddDone += satisfies(c, completed) ? 1 : 0;
         nonAddTotal += 1;
       }
-      const addProgress = additional.reduce(
-        (acc, c) => { const p = nodeProgress(c, completed); return { done: acc.done + p.done, total: acc.total + p.total }; },
-        { done: 0, total: 0 }
-      );
+      // "Additional" siblings mean additional: courses already claimed by the required
+      // siblings must not also fill the additional slots (MATH237 satisfying its OR must
+      // not count again toward "7 additional math courses" in the same block).
+      const siblingRequired = new Set(nonAdditional.flatMap(c => requiredCourseCodes(c)));
+      const childExclude = siblingRequired.size > 0 || additionalExclude.size > 0
+        ? new Set([...additionalExclude, ...siblingRequired])
+        : additionalExclude;
+      const addProgress = { done: 0, total: 0 };
+      for (const c of additional) {
+        const p = nodeProgress(c, completed, childExclude);
+        addProgress.done += p.done;
+        addProgress.total += p.total;
+      }
       return { done: nonAddDone + addProgress.done, total: nonAddTotal + addProgress.total };
     }
     case 'N_OF': {
@@ -417,13 +438,25 @@ export function nodeProgress(node: ReqNode, completed: Set<string>): { done: num
         total: n,
       };
     }
-    case 'ADDITIONAL':
-      if (isCompMathNonMathBlock(node)) return nodeProgressCompMathNonMath(node, completed);
-      if (isAmathSubjectConcentration(node)) return nodeProgressAmathConcentration(node, completed);
-      return nodeProgressAdditionalGeneral(node, completed);
+    case 'ADDITIONAL': {
+      const base = additionalExclude.size > 0
+        ? new Set([...completed].filter(c => !additionalExclude.has(c)))
+        : completed;
+      if (isCompMathNonMathBlock(node)) return nodeProgressCompMathNonMath(node, base);
+      if (isAmathSubjectConcentration(node)) return nodeProgressAmathConcentration(node, base);
+      return nodeProgressAdditionalGeneral(node, base);
+    }
     default:
       return { done: 0, total: 0 };
   }
+}
+
+/** Course codes of required rules only — option pools ("Choose any…") are skipped, so
+ * exclusion sets never swallow the very courses a pointer row must count. */
+export function requiredCourseCodes(node: ReqNode): string[] {
+  if (isPoolAnd(node)) return [];
+  if (node.type === 'COURSE' && node.code) return [node.code];
+  return (node.children ?? []).flatMap(requiredCourseCodes);
 }
 
 export function courseCodes(node: ReqNode): string[] {
