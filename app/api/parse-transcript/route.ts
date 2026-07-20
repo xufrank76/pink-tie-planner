@@ -22,7 +22,8 @@ export async function POST(request: Request) {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     const pdfParse = require('pdf-parse') as (buf: Buffer) => Promise<{ text: string }>;
     ({ text } = await pdfParse(buffer));
-  } catch {
+  } catch (err) {
+    console.error('parse-transcript: pdf-parse failed', err);
     return NextResponse.json({ error: 'Could not read PDF' }, { status: 400 });
   }
 
