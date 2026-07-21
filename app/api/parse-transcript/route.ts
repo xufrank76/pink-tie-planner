@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { extractText, getDocumentProxy } from 'unpdf';
 
 export const runtime = 'nodejs';
 
@@ -16,14 +17,18 @@ export async function POST(request: Request) {
   if (!file) return NextResponse.json({ error: 'No file' }, { status: 400 });
   if (!file.name.endsWith('.pdf')) return NextResponse.json({ error: 'Must be a PDF' }, { status: 400 });
 
+  // unpdf wraps a current, serverless-safe build of pdf.js. We used to use
+  // pdf-parse, but it bundles pdf.js v1.10.100 (2018) which throws
+  // "FormatError: bad XRef entry" on many real PDFs — including UW Quest
+  // transcripts — while parsing fine in local dev, so the breakage only showed
+  // up once deployed.
   let text: string;
   try {
-    const buffer = Buffer.from(await file.arrayBuffer());
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const pdfParse = require('pdf-parse') as (buf: Buffer) => Promise<{ text: string }>;
-    ({ text } = await pdfParse(buffer));
+    const data = new Uint8Array(await file.arrayBuffer());
+    const pdf = await getDocumentProxy(data);
+    ({ text } = await extractText(pdf, { mergePages: true }));
   } catch (err) {
-    console.error('parse-transcript: pdf-parse failed', err);
+    console.error('parse-transcript: PDF text extraction failed', err);
     return NextResponse.json({ error: 'Could not read PDF' }, { status: 400 });
   }
 

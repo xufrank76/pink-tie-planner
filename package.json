@@ -15,15 +15,14 @@
   "dependencies": {
     "@fontsource/dm-mono": "^5.2.7",
     "@fontsource/dm-sans": "^5.2.8",
-    "@types/pdf-parse": "^1.1.5",
     "@vercel/analytics": "^2.0.1",
     "framer-motion": "^12.39.0",
     "fuzzysort": "^3.1.0",
     "next": "16.2.4",
-    "pdf-parse": "^1.1.4",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "resend": "^6.12.4"
+    "resend": "^6.12.4",
+    "unpdf": "^1.6.2"
   },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
