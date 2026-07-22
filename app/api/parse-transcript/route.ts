@@ -40,6 +40,9 @@ export async function POST(request: Request) {
   // if it's NOT followed by a lowercase letter (which would mean it starts a title word).
   const coursePattern = /\b([A-Z]{2,8})\s{1,8}(\d{1,3}(?:[A-Z](?![a-z]))?)(?!\d)/g;
   const termPattern = /\b(Fall|Winter|Spring)\s+(\d{4})\b/gi;
+  // Quest transcripts print summary lines like "Term GPA 86.xxx" / "Cumulative GPA 79.xxx"
+  // right in the term section, which the pattern above can't distinguish from a course row.
+  const NON_COURSE_SUBJECTS = new Set(['GPA', 'AVG', 'CUM']);
 
   const termMatches = [...text.matchAll(termPattern)];
   const termCourses: Record<string, string[]> = {};
@@ -57,7 +60,7 @@ export async function POST(request: Request) {
       coursePattern.lastIndex = 0;
       while ((cm = coursePattern.exec(section)) !== null) {
         const courseCode = `${cm[1]}${cm[2]}`;
-        if (!courseCode.startsWith('COOP')) seen.add(courseCode);
+        if (!courseCode.startsWith('COOP') && !NON_COURSE_SUBJECTS.has(cm[1])) seen.add(courseCode);
       }
       if (seen.size > 0) termCourses[code] = [...seen].sort();
     }
@@ -68,7 +71,7 @@ export async function POST(request: Request) {
     coursePattern.lastIndex = 0;
     while ((cm = coursePattern.exec(text)) !== null) {
       const courseCode = `${cm[1]}${cm[2]}`;
-      if (!courseCode.startsWith('COOP')) seen.add(courseCode);
+      if (!courseCode.startsWith('COOP') && !NON_COURSE_SUBJECTS.has(cm[1])) seen.add(courseCode);
     }
     if (seen.size > 0) termCourses['unknown'] = [...seen].sort();
   }
