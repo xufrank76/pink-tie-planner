@@ -12,6 +12,7 @@ import { getCurrentTerm, termToNum } from '@/src/lib/termUtils';
 import { getStudyLabel, computeGradTerm } from '@/src/data/coopSequences';
 import { parseListSectionFromRawHtml } from '@/src/lib/parseRequirementListHtml';
 import { computeDegreeHeadlineMetrics, isNonMathElective } from '@/src/lib/degreeHeadlineProgress';
+import { resolveCoreId, getCredential } from '@/src/lib/credential';
 import {
   effectivePlanEndTerm,
   effectivePlanTerms,
@@ -948,11 +949,12 @@ export function ReqNodeView({ node, completedSet, planSet, dim = false, excludeC
 
 type PlanIssue = { antireqs: string[]; prereqs: string[][]; restricted: boolean; requiredLevel: string | null; notOffered: boolean; retaking: boolean; capViolation: string | null; duplicate: boolean };
 
-function ValidatePanel({ groups, planIssues, completedSet, planSet, onClose }: {
+function ValidatePanel({ groups, planIssues, completedSet, planSet, hasNonMathElectives, onClose }: {
   groups: ReqGroup[];
   planIssues: Map<string, PlanIssue>;
   completedSet: Set<string>;
   planSet: Set<string>;
+  hasNonMathElectives: boolean;
   onClose: () => void;
 }) {
   const issueList = useMemo(() => {
@@ -982,8 +984,12 @@ function ValidatePanel({ groups, planIssues, completedSet, planSet, onClose }: {
       const total = parseFloat(totalStr ?? '0');
       return { title: g.title, done, total, ok: done >= total };
     });
-    const nonMathDone = Math.min([...planSet].filter(isNonMathElective).length, NON_MATH_TOTAL);
-    items.push({ title: 'Non-Math Electives', done: nonMathDone, total: NON_MATH_TOTAL, ok: nonMathDone >= NON_MATH_TOTAL });
+    // BMath requires 10 non-Math-Faculty electives; BCS folds electives into its
+    // degree-total floor (see degreeHeadlineProgress), so it has no fixed bucket here.
+    if (hasNonMathElectives) {
+      const nonMathDone = Math.min([...planSet].filter(isNonMathElective).length, NON_MATH_TOTAL);
+      items.push({ title: 'Non-Math Electives', done: nonMathDone, total: NON_MATH_TOTAL, ok: nonMathDone >= NON_MATH_TOTAL });
+    }
     return items;
   })();
 
@@ -1378,8 +1384,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
       }
       for (const child of node.children ?? []) extractCaps(child);
     }
-    const isMathStudiesInline = (rawPrograms as Record<string, { name: string }>)[program.id ?? '']?.name.includes('Mathematical Studies') ?? false;
-    const coreIdInline = isMathStudiesInline ? 'core-bmath-mathstudies' : 'core-bmath';
+    const coreIdInline = resolveCoreId(program, rawPrograms as Record<string, { name: string }>);
     const scanIds = [coreIdInline, program.id, program.doubleMajorId, program.minorId, ...program.extras.map(e => e.id)].filter(Boolean) as string[];
     for (const id of scanIds) {
       for (const node of (rawPrograms as Record<string, { requirements?: ReqNode[] }>)[id]?.requirements ?? []) extractCaps(node);
@@ -1532,9 +1537,6 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
     };
   };
 
-  const progEntryForCore = program.id ? programs[program.id] : null;
-  const isMathStudies = progEntryForCore?.name.includes('Mathematical Studies') ?? false;
-
   const makePdCoopGroup = (): ReqGroup | null => {
     const isCoop = program.coopStream !== null && program.coopStream !== 'none';
     if (!isCoop) return null;
@@ -1566,7 +1568,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
     };
   };
 
-  const coreId = isMathStudies ? 'core-bmath-mathstudies' : 'core-bmath';
+  const coreId = resolveCoreId(program, programs);
   const coreName = programs[coreId]?.name ?? 'Core BMath';
   const extrasKey = program.extras.map(e => `${e.type}:${e.id}`).join('|');
 
@@ -1641,8 +1643,8 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
         {/* Stats */}
         <div style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
           {[
-            { num: Math.round(requirementsMetBeforeCurrent), den: degreeTotalSlots, l: 'COURSES DONE', tooltip: { num: 'unique requirement slots filled by completed courses, counting shared courses once, not including pd or labs', den: 'core bmath + major + minor/specializations (if any) + non-math electives, counting shared courses once, not including pd or labs' } },
-            { num: degreePlannedSum, den: degreeTotalSlots, l: 'COURSES PLANNED', tooltip: { num: 'unique requirement slots filled, counting shared courses once, not including pd or labs', den: 'core bmath + major + minor/specializations (if any) + non-math electives, counting shared courses once, not including pd or labs' } },
+            { num: Math.round(requirementsMetBeforeCurrent), den: degreeTotalSlots, l: 'COURSES DONE', tooltip: { num: 'unique requirement slots filled by completed courses, counting shared courses once, not including pd or labs', den: 'core + major + minor/specializations (if any) + electives, counting shared courses once, not including pd or labs' } },
+            { num: degreePlannedSum, den: degreeTotalSlots, l: 'COURSES PLANNED', tooltip: { num: 'unique requirement slots filled, counting shared courses once, not including pd or labs', den: 'core + major + minor/specializations (if any) + electives, counting shared courses once, not including pd or labs' } },
             { num: null, den: null, l: 'GRAD TARGET', plain: gradTarget, tooltip: null },
           ].map((s) => (
             <div key={s.l} style={{ flex: 1, background: '#d9d9d9', borderRadius: '15px', padding: isMobile ? '12px 10px' : '16px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>
@@ -1895,7 +1897,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
           <NonMathElectivesGroup completedSet={completedSet} planSet={planSet} />
         </div>
 
-      {showValidate && <ValidatePanel groups={REQUIREMENT_GROUPS} planIssues={planIssues} completedSet={completedSet} planSet={planSet} onClose={() => setShowValidate(false)} />}
+      {showValidate && <ValidatePanel groups={REQUIREMENT_GROUPS} planIssues={planIssues} completedSet={completedSet} planSet={planSet} hasNonMathElectives={getCredential(program, programs) !== 'bcs'} onClose={() => setShowValidate(false)} />}
     </div>
   );
 }

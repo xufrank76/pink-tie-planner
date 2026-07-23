@@ -1,6 +1,7 @@
 import type { UserProgram } from '@/src/types/program';
 import { nodeProgress, courseCodes, requiredCourseCodes, extractSubjectsFromText, extractAdditionalN, type ReqNode } from '@/src/lib/requirementEvaluator';
 import { patchCoreBmathRequirements } from '@/src/lib/coreBmathCommPatch';
+import { getCredential, resolveCoreId, getDegreeConfig } from '@/src/lib/credential';
 
 const MATH_FACULTY_SUBJECTS = new Set([
   'ACTSC', 'AMATH', 'CO', 'CS', 'MATBUS', 'MATH', 'PMATH', 'STAT',
@@ -415,13 +416,20 @@ export function computeDegreeHeadlineMetrics(
   }
 
   const progEntry = program.id ? programs[program.id] : null;
-  const isMathStudies = progEntry?.name.includes('Mathematical Studies') ?? false;
-  const coreId = isMathStudies ? 'core-bmath-mathstudies' : 'core-bmath';
+  const credential = getCredential(program, programs);
+  const config = getDegreeConfig(credential);
+  const coreId = resolveCoreId(program, programs);
   const coreEntry = programs[coreId];
+  // patchCoreBmathRequirements is a no-op unless the plan is a BMath stat/actsci/biostat
+  // major, so it's safe to call on core-bcs (it just deep-clones).
   const coreReqPatched = patchCoreBmathRequirements(coreEntry?.requirements ?? [], program);
   const allCoreNodes: ReqNode[] = coreReqPatched[0]?.children ?? [];
-  // Exclude the comm requirement group — comm courses are already counted in non-math electives.
-  const coreNodes = allCoreNodes.filter(n => !/communication/i.test(n.text ?? ''));
+  // BMath counts the 2 comm courses inside its 10 non-math electives, so the comm group is
+  // excluded from the core row to avoid double-counting. BCS has no such elective bucket, so
+  // its (comm-only) core keeps the group.
+  const coreNodes = config.commInCore
+    ? allCoreNodes
+    : allCoreNodes.filter(n => !/communication/i.test(n.text ?? ''));
   // All course codes mentioned in core BMath — used to prevent core courses from inflating
   // ADDITIONAL elective slots in non-core programs (majors, minors, specializations).
   const coreAllCodes = new Set<string>(coreNodes.flatMap(n => courseCodes(n)));
@@ -451,7 +459,7 @@ export function computeDegreeHeadlineMetrics(
     const entry = programs[id];
     const majorNodes = entry ? topLevelRequirementNodes(entry) : [];
     const core = entry ? coreGroupRedundancy(coreOrSets, majorNodes, plannedOrCompleted) : { deltaTotal: 0, deltaDone: 0 };
-    const nonMath = entry ? majorNonMathRedundancy(majorNodes, plannedOrCompleted) : { deltaTotal: 0, deltaDone: 0 };
+    const nonMath = entry && config.dedupNonMath ? majorNonMathRedundancy(majorNodes, plannedOrCompleted) : { deltaTotal: 0, deltaDone: 0 };
     overlapDeltaTotal += core.deltaTotal + nonMath.deltaTotal;
     overlapDeltaDone += core.deltaDone + nonMath.deltaDone;
     // Double-major inter-overlap: deduct slots of this major already covered by any prior major.
@@ -511,7 +519,9 @@ export function computeDegreeHeadlineMetrics(
     });
     const minorCore = coreGroupRedundancy(coreOrSets, minorNodes, plannedOrCompleted);
     const minorMajor = minorMajorRedundancy(allMajorNodes, minorNodes, plannedOrCompleted, coreOrSets);
-    const minorNonMath = minorNonMathRedundancy(minorNodes, plannedOrCompleted, sharedElsewhere);
+    const minorNonMath = config.dedupNonMath
+      ? minorNonMathRedundancy(minorNodes, plannedOrCompleted, sharedElsewhere)
+      : { deltaTotal: 0, deltaDone: 0 };
     overlapDeltaTotal += minorCore.deltaTotal + minorMajor.deltaTotal + minorNonMath.deltaTotal;
     overlapDeltaDone += minorCore.deltaDone + minorMajor.deltaDone + minorNonMath.deltaDone;
   }
@@ -534,7 +544,9 @@ export function computeDegreeHeadlineMetrics(
       // Deduct spec slots that overlap with core, major/minor, or non-math electives.
       const specCore = coreGroupRedundancy(coreOrSets, specNodes, plannedOrCompleted);
       const specMajorMinor = minorMajorRedundancy(allMajorAndMinorNodes, specNodes, plannedOrCompleted, coreOrSets);
-      const specNonMath = minorNonMathRedundancy(specNodes, plannedOrCompleted, sharedElsewhere);
+      const specNonMath = config.dedupNonMath
+        ? minorNonMathRedundancy(specNodes, plannedOrCompleted, sharedElsewhere)
+        : { deltaTotal: 0, deltaDone: 0 };
       overlapDeltaTotal += specCore.deltaTotal + specMajorMinor.deltaTotal + specNonMath.deltaTotal;
       overlapDeltaDone += specCore.deltaDone + specMajorMinor.deltaDone + specNonMath.deltaDone;
       return { name: e.name, current: p.done, max: specMin > 0 ? Math.max(p.total, specMin) : p.total };
@@ -544,12 +556,11 @@ export function computeDegreeHeadlineMetrics(
   const pdDone = [...plannedOrCompleted].filter(c => /^PD\d/i.test(c)).length;
   const isCoop = program.coopStream !== null && program.coopStream !== 'none';
 
-  const nonMathElectiveCount = [...plannedOrCompleted].filter(isNonMathElective).length;
-
-  const degreeRows: DegreeProgressRow[] = [
+  const coreLabel = credential === 'bcs' ? 'Core BCS' : 'Core BMath';
+  const componentRows: DegreeProgressRow[] = [
     ...(progEntry ? [{
-      name: 'Core BMath', current: coreDoneRaw, max: coreTotalRaw,
-      tooltip: { num: 'core math/CS requirement slots filled by planned courses', den: `${coreTotalRaw} core BMath slots required` },
+      name: coreLabel, current: coreDoneRaw, max: coreTotalRaw,
+      tooltip: { num: 'core requirement slots filled by planned courses', den: `${coreTotalRaw} ${coreLabel} slots required` },
     }] : []),
     ...majorRows,
     ...(minorProgress ? [{
@@ -559,18 +570,48 @@ export function computeDegreeHeadlineMetrics(
       tooltip: { num: 'minor requirement slots filled by planned courses', den: `${Math.max(minorProgress.total, minorFloor)} slots required by the minor` },
     }] : []),
     ...specRows,
-    {
-      name: 'Non-Math Electives', current: Math.min(nonMathElectiveCount, 10), max: 10,
-      tooltip: { num: 'non-Math Faculty courses planned across all terms (incl. comm)', den: '10 required (incl. 2 comm)' },
-    },
   ];
-  const degreeTotalSlots = degreeRows.reduce((s, r) => s + r.max, 0) - overlapDeltaTotal;
-  const degreePlannedSum = degreeRows.reduce((s, r) => s + r.current, 0) - overlapDeltaDone;
+
+  // Elective row differs by credential:
+  //  - BMath: a fixed 10-slot bucket that must be non-Math-Faculty courses (incl. the 2 comm).
+  //    Components that are themselves non-math are deducted via the *NonMath redundancy passes.
+  //  - BCS: free electives (any subject) that balance the plan up to the degree's course floor.
+  //    They're the leftover after components, so there's nothing to dedup.
+  let electiveRow: DegreeProgressRow;
+  let degreeTotalSlots: number;
+  let degreePlannedSum: number;
+  if (config.elective.mode === 'non-math-fixed') {
+    const slots = config.elective.slots;
+    const nonMathElectiveCount = [...plannedOrCompleted].filter(isNonMathElective).length;
+    electiveRow = {
+      name: config.elective.name, current: Math.min(nonMathElectiveCount, slots), max: slots,
+      tooltip: { num: 'non-Math Faculty courses planned across all terms (incl. comm)', den: `${slots} required (incl. 2 comm)` },
+    };
+    const degreeRows = [...componentRows, electiveRow];
+    degreeTotalSlots = degreeRows.reduce((s, r) => s + r.max, 0) - overlapDeltaTotal;
+    degreePlannedSum = degreeRows.reduce((s, r) => s + r.current, 0) - overlapDeltaDone;
+  } else {
+    const floor = config.elective.floor;
+    const componentMax = componentRows.reduce((s, r) => s + r.max, 0) - overlapDeltaTotal;
+    const componentDone = componentRows.reduce((s, r) => s + r.current, 0) - overlapDeltaDone;
+    const freeMax = Math.max(0, floor - componentMax);
+    // Distinct planned courses not already accounted for by a component slot become free
+    // electives (PD is tracked in its own co-op row, so exclude it here).
+    const academicPlanned = [...plannedOrCompleted].filter(c => !/^PD\d/i.test(c) && !c.startsWith('COOP')).length;
+    const freeCurrent = Math.min(freeMax, Math.max(0, academicPlanned - componentDone));
+    electiveRow = {
+      name: config.elective.name, current: freeCurrent, max: freeMax,
+      tooltip: { num: 'planned courses beyond core/major requirements', den: `${freeMax} to reach the ${floor}-course degree` },
+    };
+    degreeTotalSlots = componentMax + freeMax;
+    degreePlannedSum = componentDone + freeCurrent;
+  }
   const degreePct =
     degreeTotalSlots > 0 ? Math.min(100, Math.round((degreePlannedSum / degreeTotalSlots) * 100)) : 0;
 
   const progressRows: DegreeProgressRow[] = [
-    ...degreeRows,
+    ...componentRows,
+    electiveRow,
     ...(isCoop ? [{ name: 'PD courses', current: Math.min(pdDone, 5), max: 5, tooltip: { num: 'PD courses planned across all terms', den: '5 required for co-op' } }] : []),
   ];
 
