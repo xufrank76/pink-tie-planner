@@ -30,7 +30,7 @@ const CATALOG_ID = '67e557ed6ed2fe2bd3a38956'; // 2025-2026 academic year
 const API_BASE = `https://uwaterloocm.kuali.co/api/v1/catalog/program/${CATALOG_ID}`;
 
 // IDs that are synthetic (not real Kuali PIDs) — skip these
-const SKIP_IDS = new Set(['core-bmath', 'core-bmath-mathstudies']);
+const SKIP_IDS = new Set(['core-bmath', 'core-bmath-mathstudies', 'core-bcs']);
 
 const missingOnly = process.argv.includes('--missing');
 

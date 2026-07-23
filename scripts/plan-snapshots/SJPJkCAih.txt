@@ -1,0 +1,305 @@
+# Computer Science (Bachelor of Computer Science - Honours) (SJPJkCAih)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+CS136L
+Tools and Techniques for Software Development
+CS341
+Algorithms
+CS350
+Operating Systems
+---
+Complete 1 of the following:
+  CS115
+  Introduction to Computer Science 1
+  CS135/CS145
+  Designing Functional Programs
+---
+CS136/CS146
+Elementary Algorithm Design and Data Abstraction
+---
+CS240/CS240E
+Data Structures and Data Management
+---
+CS241/CS241E
+Foundations of Sequential Programs
+---
+CS245/CS245E
+Logic and Computation
+---
+CS246/CS246E
+Object-Oriented Software Development
+---
+CS251/CS251E
+Computer Organization and Design
+---
+Complete 1 of the following:
+  MATH127
+  Calculus 1 for the Sciences
+  MATH137/MATH147
+  Calculus 1
+---
+Complete 1 of the following:
+  MATH128
+  Calculus 2 for the Sciences
+  MATH138/MATH148
+  Calculus 2
+---
+MATH135/MATH145
+Algebra
+---
+MATH136/MATH146
+Linear Algebra 1
+---
+MATH239/MATH249
+Introduction to Combinatorics
+---
+STAT230/STAT240
+Probability
+---
+STAT231/STAT241
+Statistics
+---
+3 additional CS courses
+---
+2 additional CS courses
+---
+Complete 1 of the following:
+  Complete 1 course from the following: CS440-CS498, any CS course at the 600- or 700-level (see Additional Constraints)
+  Complete 1 of the following:
+    CO487
+    Applied Cryptography
+    CS499T
+    Honours Thesis
+    STAT440
+    Computational Inference
+---
+Complete 1.0 unit of courses, in any combination, chosen from the Faculty of Arts, or from the following subject codes: BET, BUS, COMM, STV.
+  Complete 1.0 unit of courses, in any combination, chosen from the following Faculties: Environment, Health, Science.
+  Complete 2.0 additional units of courses, in any combination, chosen from the following options: courses offered by the Faculties of Arts, Environment, Health, Science; courses with subject codes BET, BUS, COMM, STV.
+
+## PLANNED (every course planned)
+
+✓
+CS136L
+Tools and Techniques for Software Development
+planned
+✓
+CS341
+Algorithms
+planned
+✓
+CS350
+Operating Systems
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  CS115
+  Introduction to Computer Science 1
+  planned
+  ✓
+  CS135/CS145
+  Designing Functional Programs
+  planned
+---
+✓
+CS136/CS146
+Elementary Algorithm Design and Data Abstraction
+planned
+---
+✓
+CS240/CS240E
+Data Structures and Data Management
+planned
+---
+✓
+CS241/CS241E
+Foundations of Sequential Programs
+planned
+---
+✓
+CS245/CS245E
+Logic and Computation
+planned
+---
+✓
+CS246/CS246E
+Object-Oriented Software Development
+planned
+---
+✓
+CS251/CS251E
+Computer Organization and Design
+planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH127
+  Calculus 1 for the Sciences
+  planned
+  ✓
+  MATH137/MATH147
+  Calculus 1
+  planned
+---
+✓
+Complete 1 of the following:
+  ✓
+  MATH128
+  Calculus 2 for the Sciences
+  planned
+  ✓
+  MATH138/MATH148
+  Calculus 2
+  planned
+---
+✓
+MATH135/MATH145
+Algebra
+planned
+---
+✓
+MATH136/MATH146
+Linear Algebra 1
+planned
+---
+✓
+MATH239/MATH249
+Introduction to Combinatorics
+planned
+---
+✓
+STAT230/STAT240
+Probability
+planned
+---
+✓
+STAT231/STAT241
+Statistics
+planned
+---
+3 additional CS courses
+✓
+CS136L
+✓
+CS341
+✓
+CS350
+---
+2 additional CS courses
+✓
+CS136L
+✓
+CS341
+---
+✓
+Complete 1 of the following:
+  ✓
+  CO487
+  Applied Cryptography
+  planned
+  ✓
+  CS499T
+  Honours Thesis
+  planned
+  ✓
+  STAT440
+  Computational Inference
+  planned
+---
+Complete 1.0 unit of courses, in any combination, chosen from the Faculty of Arts, or from the following subject codes: BET, BUS, COMM, STV.
+  Complete 1.0 unit of courses, in any combination, chosen from the following Faculties: Environment, Health, Science.
+  Complete 2.0 additional units of courses, in any combination, chosen from the following options: courses offered by the Faculties of Arts, Environment, Health, Science; courses with subject codes BET, BUS, COMM, STV.
+
+## DONE (every course completed)
+
+✓
+CS136L
+Tools and Techniques for Software Development
+✓
+CS341
+Algorithms
+✓
+CS350
+Operating Systems
+---
+✓
+CS115
+Introduction to Computer Science 1
+---
+✓
+CS136
+Elementary Algorithm Design and Data Abstraction
+---
+✓
+CS240
+Data Structures and Data Management
+---
+✓
+CS241
+Foundations of Sequential Programs
+---
+✓
+CS245
+Logic and Computation
+---
+✓
+CS246
+Object-Oriented Software Development
+---
+✓
+CS251
+Computer Organization and Design
+---
+✓
+MATH127
+Calculus 1 for the Sciences
+---
+✓
+MATH128
+Calculus 2 for the Sciences
+---
+✓
+MATH135
+Algebra for Honours Mathematics
+---
+✓
+MATH136
+Linear Algebra 1 for Honours Mathematics
+---
+✓
+MATH239
+Introduction to Combinatorics
+---
+✓
+STAT230
+Probability
+---
+✓
+STAT231
+Statistics
+---
+3 additional CS courses
+✓
+CS136L
+✓
+CS341
+✓
+CS350
+---
+2 additional CS courses
+✓
+CS136L
+✓
+CS341
+---
+✓
+CO487
+Applied Cryptography
+---
+Complete 1.0 unit of courses, in any combination, chosen from the Faculty of Arts, or from the following subject codes: BET, BUS, COMM, STV.
+  Complete 1.0 unit of courses, in any combination, chosen from the following Faculties: Environment, Health, Science.
+  Complete 2.0 additional units of courses, in any combination, chosen from the following options: courses offered by the Faculties of Arts, Environment, Health, Science; courses with subject codes BET, BUS, COMM, STV.

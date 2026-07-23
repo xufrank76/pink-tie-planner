@@ -1,0 +1,148 @@
+# Core BCS (core-bcs)
+
+## EMPTY (nothing completed or planned — must match the calendar)
+
+Complete 1 of the following:
+  COMMST100
+  Interpersonal Communication
+  COMMST223
+  Public Speaking
+  EMLS101
+  Oral Communications for Academic Purposes
+  EMLS102
+  Clear Communication in English Writing
+  EMLS129/ENGL129
+  Written Academic English
+  ENGL109
+  Introduction to Academic Writing
+Complete 1 of the following:
+  COMMST225
+  Interviewing
+  COMMST227
+  Leadership
+  COMMST228
+  Public Communication
+  EMLS103
+  Effective English Pronunciation
+  EMLS104
+  Reading and Listening for Academic Purposes
+  EMLS110
+  Communicating in Canadian Academic Contexts
+  ENGL101B
+  Introduction to Rhetorical Studies
+  ENGL108B
+  Global English Literatures
+  ENGL108D
+  Digital Lives
+  ENGL119
+  Communications in Mathematics and Computer Science
+  ENGL208B
+  Science Fiction
+  ENGL209
+  Advanced Academic Writing
+  ENGL210E
+  Genres of Technical Communication
+  ENGL210F
+  Genres of Business Communication
+  ENGL378
+  Professional Communications in Statistics and Actuarial Science
+
+## PLANNED (every course planned)
+
+✓
+Complete 1 of the following:
+  ✓
+  COMMST100
+  Interpersonal Communication
+  planned
+  ✓
+  COMMST223
+  Public Speaking
+  planned
+  ✓
+  EMLS101
+  Oral Communications for Academic Purposes
+  planned
+  ✓
+  EMLS102
+  Clear Communication in English Writing
+  planned
+  ✓
+  EMLS129/ENGL129
+  Written Academic English
+  planned
+  ✓
+  ENGL109
+  Introduction to Academic Writing
+  planned
+✓
+Complete 1 of the following:
+  ✓
+  COMMST225
+  Interviewing
+  planned
+  ✓
+  COMMST227
+  Leadership
+  planned
+  ✓
+  COMMST228
+  Public Communication
+  planned
+  ✓
+  EMLS103
+  Effective English Pronunciation
+  planned
+  ✓
+  EMLS104
+  Reading and Listening for Academic Purposes
+  planned
+  ✓
+  EMLS110
+  Communicating in Canadian Academic Contexts
+  planned
+  ✓
+  ENGL101B
+  Introduction to Rhetorical Studies
+  planned
+  ✓
+  ENGL108B
+  Global English Literatures
+  planned
+  ✓
+  ENGL108D
+  Digital Lives
+  planned
+  ✓
+  ENGL119
+  Communications in Mathematics and Computer Science
+  planned
+  ✓
+  ENGL208B
+  Science Fiction
+  planned
+  ✓
+  ENGL209
+  Advanced Academic Writing
+  planned
+  ✓
+  ENGL210E
+  Genres of Technical Communication
+  planned
+  ✓
+  ENGL210F
+  Genres of Business Communication
+  planned
+  ✓
+  ENGL378
+  Professional Communications in Statistics and Actuarial Science
+  planned
+
+## DONE (every course completed)
+
+✓
+COMMST100
+Interpersonal Communication
+✓
+COMMST225
+Interviewing
