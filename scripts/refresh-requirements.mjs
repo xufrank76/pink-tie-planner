@@ -83,9 +83,11 @@ for (let i = 0; i < programs.length; i++) {
 
     if (!html.trim()) {
       // No course requirements in Kuali — clear rawHtml so the display falls back
-      // to graduationRequirementsHtml.
+      // to graduationRequirementsHtml. Do NOT touch `requirements`: reparse owns
+      // that field and, for these no-course-req programs, rebuilds it from an
+      // overlay (see overlays.mjs). Blanking it here silently destroyed
+      // hand-authored minor requirements that overlays now supply.
       data[id].rawHtml = '';
-      data[id].requirements = [];
       console.log(`  ~ ${label} — no course req, stored grad req only`);
       updated++;
       continue;

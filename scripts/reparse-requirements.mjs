@@ -5,7 +5,7 @@ import { parse } from 'node-html-parser';
 import { readFileSync, writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import path from 'path';
-import { applyOverlay } from './overlays.mjs';
+import { applyOverlay, overlays } from './overlays.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.join(__dirname, '../src/data/requirements-filtered.json');
@@ -224,19 +224,26 @@ const data = JSON.parse(readFileSync(DATA, 'utf8'));
 let updated = 0;
 
 for (const [id, entry] of Object.entries(data)) {
-  if (!entry.rawHtml) continue;
+  // Some programs (e.g. minors whose count lives only in graduationRequirements
+  // prose) have empty rawHtml but still carry an overlay that supplies the whole
+  // requirement. Process those too — otherwise their requirements would only ever
+  // come from refresh, which resets them to [].
+  if (!entry.rawHtml && !overlays[id]) continue;
   try {
-    const requirements = parseProgram(entry.rawHtml);
-    if (requirements.length > 0) {
-      // Approved-course lists from the separate Kuali field: append as labeled groups
-      // (they render under their headings and provide pools for pointer rows).
-      if (entry.courseListsHtml?.trim()) {
-        const listNodes = parseProgram(entry.courseListsHtml);
-        for (const n of listNodes) if (!n.label) n.label = 'Approved Courses';
-        requirements.push(...listNodes);
-      }
-      wirePointerPools(requirements);
-      entry.requirements = applyOverlay(id, requirements);
+    const requirements = entry.rawHtml ? parseProgram(entry.rawHtml) : [];
+    // Approved-course lists from the separate Kuali field: append as labeled groups
+    // (they render under their headings and provide pools for pointer rows).
+    if (requirements.length > 0 && entry.courseListsHtml?.trim()) {
+      const listNodes = parseProgram(entry.courseListsHtml);
+      for (const n of listNodes) if (!n.label) n.label = 'Approved Courses';
+      requirements.push(...listNodes);
+    }
+    wirePointerPools(requirements);
+    const withOverlay = applyOverlay(id, requirements);
+    // Only overwrite when we actually produced something, so a transient parse
+    // failure on a program with rawHtml never blanks its committed requirements.
+    if (withOverlay.length > 0) {
+      entry.requirements = withOverlay;
       updated++;
     }
   } catch (e) {

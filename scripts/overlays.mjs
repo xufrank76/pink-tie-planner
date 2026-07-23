@@ -36,6 +36,61 @@ export const overlays = {
     append: [{ type: 'ADDITIONAL', text: 'Complete 7 additional PHIL courses', n: 7, code: '' }],
   },
 
+  // ── minors with NO Kuali course requirements (empty rawHtml) ────────────────
+  // Kuali returns no courseRequirementsNoUnits for these; the total count lives only
+  // in graduationRequirements prose (e.g. "Complete 4.0 units of CLAS/GRK/LAT courses").
+  // Because rawHtml is empty, reparse produces nothing, so the whole requirement is
+  // supplied by this overlay. (Previously these lived directly in the JSON and were
+  // wiped whenever refresh-data reset requirements to [] for no-course-req programs.)
+  'HyQzgyRRsn': { // Classical Studies Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 8 courses (subject codes: CLAS, GRK, LAT)', n: 8, code: '' }],
+  },
+  'B14Ay10Cs3': { // Parks Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 8 courses (subject codes: REC, GEOG)', n: 8, code: '' }],
+  },
+  'r1W01k0Rin': { // Medical Physiology Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 10 courses (subject codes: BIOL, KIN)', n: 10, code: '' }],
+  },
+  'Hyboyk0As2': { // International Development Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 8 courses (subject codes: INTDEV, GEOG, PSCI)', n: 8, code: '' }],
+  },
+  'rJb0yyRAs3': { // Physics Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 10 PHYS courses', n: 10, code: '' }],
+  },
+  'SJflekAAjh': { // Urban Studies Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 9 courses (subject codes: PLAN, GEOG, SOC)', n: 9, code: '' }],
+  },
+  'SkeByyRAon': { // Biophysics Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 10 courses (subject codes: BIOL, PHYS)', n: 10, code: '' }],
+  },
+  'H1ziJyC0j2': { // Ergonomics and Injury Prevention Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 10 KIN courses', n: 10, code: '' }],
+  },
+  'S1mSkJ00o3': { // Biochemistry Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 10 courses (subject codes: CHEM, BIOL)', n: 10, code: '' }],
+  },
+  'rJfiy10Cs3': { // Knowledge Integration Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 8 KI courses', n: 8, code: '' }],
+  },
+  'HJgokkACo3': { // Geography and Environmental Management Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 10 courses (subject codes: GEOG, ENVS)', n: 10, code: '' }],
+  },
+  'BJiykAAon': { // Event Management Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 8 REC courses', n: 8, code: '' }],
+  },
+  'B1hZAZNSel': { // Aviation Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 8 courses (subject codes: AVIA, EARTH, GEOG)', n: 8, code: '' }],
+  },
+  'BJNr1J0Cs2': { // Biology Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 10 BIOL courses', n: 10, code: '' }],
+  },
+  'H1rkJR0jn': { // Addictions, Mental Health, and Policy Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 10 courses (subject codes: PSYCH, HLTH)', n: 10, code: '' }],
+  },
+  'Hyev1yRAoh': { // Environment, Resources and Sustainability Minor
+    append: [{ type: 'ADDITIONAL', text: 'Complete 10 courses (subject codes: ERS, ENVS, GEOG)', n: 10, code: '' }],
+  },
+
   // ── Statistics: "Complete 2 STAT courses at the 400-level" has no parsed n ──
   'H1XegyCAin': { // Statistics (Bachelor of Mathematics - Honours)
     setN: [{ text: 'Complete 2 STAT courses at the 400-level', n: 2 }],
