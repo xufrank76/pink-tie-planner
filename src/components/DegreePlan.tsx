@@ -1844,6 +1844,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
                       if (issue?.retaking || issue?.duplicate) tooltipLines.push('already in plan');
                       const chipKey = `${term}:${code}`;
                       const isOverridden = courseOverrides.has(code);
+                      const courseName = courseInfoMap.get(code)?.name;
                       const showTooltip = hoveredChip === chipKey;
                       return (
                       <div
@@ -1851,7 +1852,7 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
                         draggable
                         onDragStart={e => { e.stopPropagation(); e.dataTransfer.effectAllowed = 'move'; setChipDragImage(e, code); setDragging({ code, fromTerm: term }); }}
                         onDragEnd={() => { setDragging(null); setDropTarget(null); }}
-                        onMouseEnter={() => (issue || isOverridden) && setHoveredChip(chipKey)}
+                        onMouseEnter={() => setHoveredChip(chipKey)}
                         onMouseLeave={() => setHoveredChip(null)}
                         style={{
                           position: 'relative',
@@ -1864,17 +1865,20 @@ export default function DegreePlan({ onNavigate: _onNavigate }: { onNavigate: (i
                       >
                         {code}
                         <span onClick={e => { e.stopPropagation(); removeCourseFromTerm(term, code); }} style={{ cursor: 'pointer', opacity: 0.5, fontSize: '16px', lineHeight: 1 }}>×</span>
-                        {showTooltip && (
+                        {showTooltip && (courseName || isOverridden || tooltipLines.length > 0) && (
                           <div style={{
                             position: 'absolute', top: '100%', left: 0, marginTop: '6px',
                             background: '#1a1a1a', color: '#fff', borderRadius: '10px',
                             padding: '8px 12px', zIndex: 50, pointerEvents: 'none',
-                            display: 'flex', flexDirection: 'column', gap: '3px', minWidth: 'max-content',
+                            display: 'flex', flexDirection: 'column', gap: '3px', minWidth: 'max-content', maxWidth: '260px',
                           }}>
+                            {courseName && (
+                              <span style={{ fontFamily: SANS, fontSize: '13px', fontWeight: 500 }}>{courseName}</span>
+                            )}
                             {isOverridden
-                              ? <span style={{ fontFamily: SANS, fontSize: '13px', fontWeight: 400 }}>override submitted</span>
+                              ? <span style={{ fontFamily: SANS, fontSize: '13px', fontWeight: 400, color: '#c9c9c9' }}>override submitted</span>
                               : tooltipLines.map((line, i) => (
-                                  <span key={i} style={{ fontFamily: SANS, fontSize: '13px', fontWeight: 400 }}>{line}</span>
+                                  <span key={i} style={{ fontFamily: SANS, fontSize: '13px', fontWeight: 400, color: '#c9c9c9' }}>{line}</span>
                                 ))
                             }
                           </div>
