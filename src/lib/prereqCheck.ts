@@ -148,6 +148,11 @@ function splitTopLevelSemicolons(str: string): string[] {
 // that introduce a new group — "(CS 245 or SE 212), (one of CS 241, 246, 247)" is two
 // AND groups, while the commas inside "one of CS 241, 246, 247" stay in their group.
 function splitAndGroups(str: string): string[] {
+  // When the string starts with "one of", its top-level commas separate OR alternatives,
+  // not AND groups — even when the alternatives carry parenthesized grade qualifiers, e.g.
+  // "One of (MATH 128 with at least 70%), (MATH 138 with at least 60%), MATH 148". We still
+  // split on a top-level "and" though, so "One of X, and one of Y" stays two AND groups.
+  const leadingOneOf = /^\s*one\s+of\b/i.test(str);
   const out: string[] = [];
   let depth = 0, start = 0;
   for (let i = 0; i < str.length; i++) {
@@ -159,7 +164,7 @@ function splitAndGroups(str: string): string[] {
       out.push(str.slice(start, i));
       start = i + 3;
       i += 2;
-    } else if (ch === ',' && /^\s*(\(|one\s+of\b)/i.test(str.slice(i + 1))) {
+    } else if (!leadingOneOf && ch === ',' && /^\s*(\(|one\s+of\b)/i.test(str.slice(i + 1))) {
       out.push(str.slice(start, i));
       start = i + 1;
     }

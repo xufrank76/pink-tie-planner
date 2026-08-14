@@ -343,6 +343,17 @@ BET360 :: groups=[] :: level=2A :: open :: Level at least 2A
 BET405 :: groups=[] :: level=3A :: open :: BET 210 or Level at least 3A
 BET412 :: groups=[] :: level=- :: open :: Enrolled in Entrepreneurship Minor
 BET580 :: groups=[] :: level=3A :: open :: Level at least 3A
+BET600 :: groups=[] :: level=- :: mathRestricted :: MBET students only
+BET601 :: groups=[] :: level=- :: mathRestricted :: MBET students only
+BET602 :: groups=[] :: level=- :: mathRestricted :: MBET students only
+BET603 :: groups=[] :: level=- :: mathRestricted :: MBET students only
+BET604 :: groups=[] :: level=- :: mathRestricted :: MBET students only
+BET605 :: groups=[] :: level=- :: mathRestricted :: MBET students only
+BET607 :: groups=[] :: level=- :: mathRestricted :: MBET students only
+BET608 :: groups=[] :: level=- :: mathRestricted :: MBET students only
+BET612 :: groups=[] :: level=- :: mathRestricted :: MBET students only
+BET615 :: groups=[] :: level=- :: mathRestricted :: MBET students only
+BET620 :: groups=[] :: level=- :: mathRestricted :: MBET students only
 BIOL110 :: groups=[] :: level=- :: open :: Not open to Faculty of Environment students
 BIOL201 :: groups=[[BIOL130]] :: level=- :: open :: BIOL 130.
 BIOL231 :: groups=[[BIOL130]] :: level=- :: open :: BIOL 130
@@ -846,7 +857,6 @@ CO255 :: groups=[[MATH235]] :: level=- :: open :: MATH 235 or 245, 237 or 247.
 CO327 :: groups=[[CO227|CO250|CO255|CO352]] :: level=- :: open :: One of CO 227, 250, 255, 352.
 CO330 :: groups=[[MATH239|MATH249]] :: level=- :: open :: MATH 239 or 249
 CO331 :: groups=[[MATH225|MATH235|MATH245]] :: level=- :: open :: MATH 225 or 235 or 245
-CO339 :: groups=[[CS234|CS240],[MATH239|MATH249]] :: level=- :: open :: (CS 234 or 240) and MATH 239 or 249; Not open to General Mathematics students.
 CO342 :: groups=[[MATH239|MATH249]] :: level=- :: open :: MATH 239 or 249
 CO351 :: groups=[[CO250|CO255|CO352]] :: level=- :: open :: One of CO 250 or 255 or 352
 CO353 :: groups=[[CO250|CO255|CO352]] :: level=- :: open :: One of CO 250 or 255 or 352
@@ -952,7 +962,6 @@ CS251E :: groups=[] :: level=- :: open :: A grade of 85% or higher in one of CS 
 CS330 :: groups=[] :: level=2B :: open :: One of CS 106, 116, 136, 138, 146, or (CS 114 with at least 60% and (one of CS 115, CS 135, CS 145); Level at least 2B; Not open to Computer Science students.
 CS335 :: groups=[[CS116|CS136|CS138|CS146|CS114|CS115|CS135],[MATH106|MATH136|MATH146],[MATH237|MATH247],[STAT206|STAT231|STAT241]] :: level=- :: open :: (One of CS 116, 136, 138, 146)or(CS 114 with at least 60%; CS 115 or CS 135);One of MATH 106 with at least 70%, MATH 136 or 146;MATH 237 or 247;One of STAT 206, 231, 241;Not open to Computer Science students.
 CS338 :: groups=[[CS230|CS231|CS234|CS246|CS246E|CS330],[AFM341|CS116|CS136|CS146]] :: level=- :: open :: One of CS 230, 231, 234, 246/246E, 330; or (AFM 341 and (CS 116 or CS 136 or CS 146));
-CS339 :: groups=[[CS234|CS240],[MATH239|MATH249]] :: level=- :: open :: (CS 234 or 240) and MATH 239 or 249; Not open to General Mathematics students.
 CS341 :: groups=[[CS240|CS240E],[CS245|CS245E|SE212],[MATH239|MATH249],[STAT206|STAT230|STAT240]] :: level=- :: open :: CS 240 or 240E; One of CS 245, 245E, SE 212; MATH 239 or MATH 249; One of STAT 206, STAT 230, STAT 240; Honours Computer Science, Honours Data Science (BCS, BMath), BCFM, BSE students only.
 CS343 :: groups=[[CS350|SE350]] :: level=- :: mathRestricted :: CS 350 or SE 350; Honours Computer Science, Honours Data Science (BCS), BCFM, BSE students only
 CS346 :: groups=[[CS246|CS246E|CS247]] :: level=- :: mathRestricted :: CS 246/246E or CS 247. Honours Computer Science, Honours Data Science (BCS), BCFM, BSE students only
@@ -2877,7 +2886,7 @@ PHYS391 :: groups=[[PHYS122|PHYS224|PHYS242]] :: level=- :: open :: One of PHYS 
 PHYS393 :: groups=[[PHYS256|ECE404],[PHYS225|PHYS364|AMATH353]] :: level=- :: open :: PHYS 256 or ECE 404; One of PHYS 225, 364, AMATH 353
 PHYS394 :: groups=[[PHYS256|ECE404],[PHYS364|AMATH353]] :: level=- :: open :: PHYS 256 or ECE 404; PHYS 364 or AMATH 353
 PHYS395 :: groups=[[PHYS112|PHYS122|PHYS125|ECE106],[BIOL130|BIOL239|CHEM123|CHEM125|PHARM141|PHYS280|BIOL280|PHYS380]] :: level=3A :: mathRestricted :: One of PHYS 112, 122, 125, ECE 106; One of BIOL 130, 239, CHEM 123, 125, PHARM 141, PHYS 280/BIOL 280, PHYS 380; Level at least 3A Science, Mathematics or Engineering students
-PHYS396 :: groups=[[PHYS112|PHYS122|PHYS125|ECE106],[MATH128|MATH138|MATH148],[SYDE111],[SYDE112],[PHYS224|PHYS233|PHYS234|PHYS242|PHYS256|PHYS280|PHYS380|ECE209|ECE370|ECE375|NE232|NE241|SYDE283|AMATH231|AMATH373|CS473|CHEM209|CHEM356]] :: level=3A :: open :: One of PHYS 112, 122, 125, ECE 106; One of MATH 128, 138, 148,(SYDE 111,112);One of PHYS 224, 233, 234, 242, 256, 280, 380, ECE 209, 370, 375, NE 232, 241, SYDE 283, AMATH 231, 373, CS 473, CHEM 209, 356; Level at least 3A SCI, MATH or ENG stdnts
+PHYS396 :: groups=[[PHYS112|PHYS122|PHYS125|ECE106],[MATH128|MATH138|MATH148|SYDE111|SYDE112],[PHYS224|PHYS233|PHYS234|PHYS242|PHYS256|PHYS280|PHYS380|ECE209|ECE370|ECE375|NE232|NE241|SYDE283|AMATH231|AMATH373|CS473|CHEM209|CHEM356]] :: level=3A :: open :: One of PHYS 112, 122, 125, ECE 106; One of MATH 128, 138, 148,(SYDE 111,112);One of PHYS 224, 233, 234, 242, 256, 280, 380, ECE 209, 370, 375, NE 232, 241, SYDE 283, AMATH 231, 373, CS 473, CHEM 209, 356; Level at least 3A SCI, MATH or ENG stdnts
 PHYS434 :: groups=[[PHYS334|AMATH373],[PHYS364]] :: level=- :: open :: PHYS 334 or AMATH 373; PHYS 364 or (AMATH 351 and 353)
 PHYS435 :: groups=[[PHYS335],[PHYS359],[PHYS334|AMATH373]] :: level=- :: open :: PHYS 335, 359; PHYS 334 or AMATH 373
 PHYS437A :: groups=[] :: level=4A :: open :: Cumulative overall average of at least 70%; Level at least 4A Honours Physics, Chemical Physics, BSc Mathematical Physics, Physics and Astronomy, Materials and Nanosciences, Life Physics or Biological and Medical Physics students only
@@ -2975,10 +2984,9 @@ PMATH321 :: groups=[[MATH106|MATH114|MATH115|MATH136|MATH146|MATH215|NE112],[MAT
 PMATH330 :: groups=[[MATH135|MATH145],[MATH225|MATH235|MATH245]] :: level=- :: open :: (MATH 135 or 145) and (MATH 225 or 235 or 245); Not open to Computer Science students.
 PMATH331 :: groups=[[MATH237|MATH247]] :: level=- :: open :: MATH 237 or 247
 PMATH332 :: groups=[[MATH237|MATH247]] :: level=- :: open :: MATH 237 or 247.
-PMATH333 :: groups=[[MATH128],[MATH138],[MATH148]] :: level=- :: open :: One of (MATH 128 with at least 70%), (MATH 138 with at least 60%), MATH 148.
+PMATH333 :: groups=[[MATH128|MATH138|MATH148]] :: level=- :: open :: One of (MATH 128 with at least 70%), (MATH 138 with at least 60%), MATH 148.
 PMATH334 :: groups=[[MATH235|MATH245]] :: level=- :: open :: MATH 235 or 245.
 PMATH336 :: groups=[[MATH235|MATH245]] :: level=- :: open :: MATH 235 or 245.
-PMATH339 :: groups=[[CS234|CS240],[MATH239|MATH249]] :: level=- :: open :: (CS 234 or 240) and MATH 239 or 249; Not open to General Mathematics students.
 PMATH340 :: groups=[[MATH225|MATH135|MATH145]] :: level=- :: open :: MATH 225 or 135 or 145
 PMATH343 :: groups=[[MATH235|MATH245],[STAT230|STAT240]] :: level=- :: open :: (MATH 235 or MATH 245) and (STAT 230 or STAT 240)
 PMATH347 :: groups=[[MATH235|MATH245]] :: level=- :: open :: MATH 235 or 245
@@ -3260,7 +3268,7 @@ REC313 :: groups=[] :: level=3A :: open :: Level at least 3A Recreation and Spor
 REC318 :: groups=[] :: level=3A :: open :: Level at least 3A Department of Recreation and Leisure Studies students
 REC319 :: groups=[[REC219]] :: level=- :: open :: REC 219.
 REC351 :: groups=[[REC251],[REC252]] :: level=3A :: mathRestricted :: REC 251, REC 252; Level at least 3A Therapeutic Recreation students only
-REC356 :: groups=[[REC256]] :: level=- :: open :: REC 256. Recreation and Leisure students
+REC356 :: groups=[[REC256]] :: level=- :: open :: REC 256; 4G/Hons/JH Recreation and Leisure Studies, Hons/JH Therapeutic Recreation, Hons/JH Recreation & Sport Business, Hons/JH Recreation Leadership & Health, Hons/JH Sport and Recreation Management
 REC357 :: groups=[[REC151],[REC251],[REC252]] :: level=- :: open :: REC 151, REC 251, REC 252; Therapeutic Recreation students
 REC361 :: groups=[] :: level=3A :: open :: Level at least 3A
 REC362 :: groups=[[SOC101|SOC101R|HEALTH107|GSJ101|GSJ102]] :: level=- :: open :: SOC 101/101R or AHS/HEALTH 107 or GSJ 101 or GSJ 102
